@@ -11,6 +11,17 @@ class TestRegistry:
         assert p is not None
         assert p.name == "nvidia"
 
+    def test_ollama_local_and_groq_profiles(self):
+        ollama = get_provider_profile("ollama-local")
+        assert ollama is not None
+        assert ollama.base_url == "http://localhost:11434/v1"
+        assert "OLLAMA_BASE_URL" in ollama.env_vars
+
+        groq = get_provider_profile("groq")
+        assert groq is not None
+        assert "groq.com" in groq.base_url
+        assert "GROQ_API_KEY" in groq.env_vars
+
     def test_alias_lookup(self):
         assert get_provider_profile("kimi").name == "kimi-coding"
         assert get_provider_profile("moonshot").name == "kimi-coding"

@@ -5,6 +5,8 @@ directory layout mirrors `plugins/platforms/`:
 
 ```
 plugins/model-providers/
+├── ollama-local/        # local Ollama at localhost:11434 (no API key)
+├── groq/                # Groq free-tier cloud models
 ├── openrouter/
 │   ├── __init__.py      # registers the ProviderProfile
 │   └── plugin.yaml      # manifest: name, kind, version, description
@@ -13,6 +15,8 @@ plugins/model-providers/
 │   └── plugin.yaml
 └── ...
 ```
+
+See also: [docs/API_ACCESS.md](../../docs/API_ACCESS.md) for end-user setup.
 
 ## How discovery works
 
