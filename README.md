@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.png" alt="Quill-Agent banner" width="100%" />
+<img src="assets/banner.png" alt="Quill-Agent — manga-style portrait banner" width="100%" />
 
 <br /><br />
 
