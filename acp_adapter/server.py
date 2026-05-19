@@ -1946,3 +1946,4 @@ class QuillACPAgent(acp.Agent):
         self.session_manager.save_session(session_id)
         logger.info("Session %s: config option %s updated", session_id, config_id)
         return SetSessionConfigOptionResponse(config_options=[])
+# quill: acp_adapter

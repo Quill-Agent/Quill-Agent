@@ -626,3 +626,4 @@ class SessionManager:
         # Route any incidental human-readable agent output to stderr instead.
         agent._print_fn = _acp_stderr_print
         return agent
+# quill: acp_adapter

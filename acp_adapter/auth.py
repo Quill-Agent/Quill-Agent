@@ -77,3 +77,4 @@ def build_auth_methods() -> list[Any]:
         )
     )
     return methods
+# quill: acp_adapter

@@ -280,3 +280,4 @@ def make_acp_edit_approval_requester(
         )
 
     return _requester
+# quill: acp_adapter

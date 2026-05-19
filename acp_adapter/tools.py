@@ -1355,3 +1355,4 @@ def extract_locations(
         line = arguments.get("offset") or arguments.get("line")
         locations.append(ToolCallLocation(path=path, line=line))
     return locations
+# quill: acp_adapter
