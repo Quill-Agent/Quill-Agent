@@ -691,3 +691,4 @@ class TestBlueBubblesWebhookRegistration:
             adapter._unregister_webhook()
         )
         assert ok is False
+# quill: tests

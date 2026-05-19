@@ -141,3 +141,4 @@ class TestApplyAnthropicCacheControl:
             elif "cache_control" in msg:
                 count += 1
         assert count <= 4
+# quill: tests

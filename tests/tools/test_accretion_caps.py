@@ -201,3 +201,4 @@ class TestCompletionConsumedPrune:
             reg._prune_if_needed()
 
         assert "dangling-never-tracked" not in reg._completion_consumed
+# quill: tests

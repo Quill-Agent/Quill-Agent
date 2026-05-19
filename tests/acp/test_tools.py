@@ -637,3 +637,4 @@ class TestExtractLocations:
         args = {"command": "echo hi"}
         locs = extract_locations(args)
         assert locs == []
+# quill: tests

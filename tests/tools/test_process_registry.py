@@ -1000,3 +1000,4 @@ def test_drain_notifications_empty_queue():
 
     results = process_registry.drain_notifications()
     assert results == []
+# quill: tests

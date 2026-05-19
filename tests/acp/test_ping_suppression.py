@@ -208,3 +208,4 @@ async def test_bare_ping_request_produces_proper_response_and_no_stderr_noise(
     finally:
         root.handlers = prior_handlers
         root.setLevel(prior_level)
+# quill: tests

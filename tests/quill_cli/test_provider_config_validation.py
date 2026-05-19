@@ -193,3 +193,4 @@ class TestNormalizeCustomProviderEntry:
         result = _normalize_custom_provider_entry(entry)
         assert result is not None
         assert "models" not in result
+# quill: tests

@@ -254,3 +254,4 @@ class TestDefaultPlatformWebSearchCoverage:
 
     def test_quill_api_server_toolset_includes_web_search(self):
         assert "web_search" in resolve_toolset("quill-api-server")
+# quill: tests

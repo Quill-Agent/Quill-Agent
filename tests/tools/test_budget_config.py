@@ -174,3 +174,4 @@ class TestResolveThreshold:
         """Canonical case: read_file must always return inf."""
         cfg = BudgetConfig()
         assert cfg.resolve_threshold("read_file") == float("inf")
+# quill: tests

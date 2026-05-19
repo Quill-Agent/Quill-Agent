@@ -102,3 +102,4 @@ class TestDiscordFreeResponseChannelsWildcard(unittest.TestCase):
 
     def test_empty_list_no_free_response(self):
         self.assertFalse(_channel_is_free_response("111", ""))
+# quill: tests

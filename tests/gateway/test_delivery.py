@@ -121,6 +121,4 @@ class TestPlatformNameCaseInsensitivity:
         target = DeliveryTarget.parse("TeleGram:12345")
         assert target.platform == Platform.TELEGRAM
         assert target.chat_id == "12345"
-
-
-
+# quill: tests

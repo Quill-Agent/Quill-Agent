@@ -184,3 +184,4 @@ class TestCrossLoopCacheIsolation:
             "Client from closed loop should not be reused"
         )
         loop2.close()
+# quill: tests

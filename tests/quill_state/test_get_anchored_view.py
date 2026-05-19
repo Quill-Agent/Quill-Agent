@@ -159,3 +159,4 @@ class TestSessionIsolation:
         # All bookend messages should have session_id = s1 (or session_id col)
         for m in view["bookend_start"] + view["bookend_end"]:
             assert m.get("session_id") == "s1"
+# quill: tests

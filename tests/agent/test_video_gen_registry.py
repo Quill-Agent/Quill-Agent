@@ -112,3 +112,4 @@ class TestGetActiveProvider:
         video_gen_registry.register_provider(_FakeProvider("only"))
         active = video_gen_registry.get_active_provider()
         assert active is not None and active.name == "only"
+# quill: tests

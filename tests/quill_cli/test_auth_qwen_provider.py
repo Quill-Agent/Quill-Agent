@@ -397,3 +397,4 @@ def test_get_qwen_auth_status_not_logged_in(qwen_env):
     status = get_qwen_auth_status()
     assert status["logged_in"] is False
     assert "error" in status
+# quill: tests

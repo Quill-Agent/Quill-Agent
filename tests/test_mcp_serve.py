@@ -1237,3 +1237,4 @@ class TestEventBridgePollE2E:
         """Verify the poll interval constant."""
         from mcp_serve import POLL_INTERVAL
         assert POLL_INTERVAL == 0.2
+# quill: tests

@@ -56,3 +56,4 @@ def test_metadata_missing_entirely():
         "fallback_for_tools": [],
         "requires_tools": [],
     }
+# quill: tests

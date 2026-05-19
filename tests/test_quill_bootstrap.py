@@ -312,3 +312,4 @@ class TestEntryPointsImportBootstrap:
             f"configured before anything else initializes.  Move the "
             f"'import quill_bootstrap' line to be the first import."
         )
+# quill: tests

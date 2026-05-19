@@ -301,3 +301,4 @@ class TestRoleAlternationInvariant:
         assert msgs[0]["role"] == "assistant"
         assert msgs[1]["role"] == "tool"
         assert msgs[1]["tool_call_id"] == msgs[0]["tool_calls"][0]["id"]
+# quill: tests

@@ -241,3 +241,4 @@ def test_background_review_fork_skips_external_memory_plugins(monkeypatch):
         "the fork leaks harness prompts into the user's real memory "
         "namespace via on_turn_start / prefetch_all / sync_all."
     )
+# quill: tests

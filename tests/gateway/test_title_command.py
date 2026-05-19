@@ -356,3 +356,4 @@ class TestNewInHelp:
         new_line = next((line for line in lines if line.startswith("`/new ")), None)
         assert new_line is not None
         assert "[name]" in new_line
+# quill: tests

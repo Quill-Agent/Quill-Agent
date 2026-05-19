@@ -56,3 +56,4 @@ def test_resolve_named_custom_runtime_honors_explicit_base_url(monkeypatch):
     assert result["provider"] == "custom"
     assert result["api_key"] == "test-api-key"
     assert result["source"] == "direct-alias"
+# quill: tests

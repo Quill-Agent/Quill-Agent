@@ -335,3 +335,4 @@ class TestSearXNGOnlyExtractCrawlErrors:
         result = json.loads(result_str)
         assert result["success"] is False
         assert "search-only" in result["error"].lower() or "SearXNG" in result["error"]
+# quill: tests

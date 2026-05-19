@@ -90,3 +90,4 @@ class TestSubmittedUserMessagePreview:
         assert "line3" in rendered
         assert "line4" in rendered
         assert "(+1 more line)" in rendered
+# quill: tests

@@ -3177,3 +3177,4 @@ class TestSlashEphemeralAck:
         # the normal single-user case; the ContextVar path is the precise one.
         # The key invariant is: when the ContextVar IS set, it matches exactly.
         assert ctx is not None  # fallback path finds the entry
+# quill: tests

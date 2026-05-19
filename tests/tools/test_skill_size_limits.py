@@ -213,3 +213,4 @@ class TestHandPlacedSkillsNoLimit:
         assert "content" in result
         # The full content is returned — no truncation at the storage layer
         assert len(result["content"]) > MAX_SKILL_CONTENT_CHARS
+# quill: tests

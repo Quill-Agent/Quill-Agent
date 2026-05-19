@@ -165,3 +165,4 @@ def test_dockerignore_excludes_nested_dependency_dirs():
 
     assert "**/node_modules" in text
     assert "**/.venv" in text
+# quill: tests

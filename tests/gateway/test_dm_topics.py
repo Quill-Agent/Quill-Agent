@@ -809,3 +809,4 @@ def test_build_message_event_dm_from_user_present_uses_user():
     # Normal case — from_user is used directly
     assert event.source.user_id == "99999"
     assert event.source.user_name == "Bob"
+# quill: tests

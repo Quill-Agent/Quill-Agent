@@ -1635,3 +1635,4 @@ class TestPreMigrationBackup:
             _t.sleep(1.05)
         # Update backup must still be there
         assert update_backup.exists(), "pre-migration rotation wrongly pruned the pre-update backup"
+# quill: tests

@@ -741,3 +741,4 @@ class TestRegister:
         ctx.register_memory_provider.assert_called_once()
         arg = ctx.register_memory_provider.call_args[0][0]
         assert isinstance(arg, RetainDBMemoryProvider)
+# quill: tests

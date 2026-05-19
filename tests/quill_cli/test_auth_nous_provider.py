@@ -1941,3 +1941,4 @@ def test_managed_gateway_access_token_uses_newer_shared_token(
     profile_state = auth_mod.get_provider_auth_state("nous")
     assert profile_state is not None
     assert profile_state["refresh_token"] == "shared-fresh-refresh"
+# quill: tests

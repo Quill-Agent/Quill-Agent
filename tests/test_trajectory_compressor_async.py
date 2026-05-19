@@ -200,3 +200,4 @@ async def test_generate_summary_async_public_moonshot_cn_kimi_k2_5_omits_tempera
 
     assert result.startswith("[CONTEXT SUMMARY]:")
     assert "temperature" not in async_client.chat.completions.create.call_args.kwargs
+# quill: tests

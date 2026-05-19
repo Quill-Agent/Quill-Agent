@@ -136,3 +136,4 @@ class TestFlushRecovery:
         assert not cli._in_reasoning_block
         full = "".join(cli._emitted)
         assert "Launch production" in full
+# quill: tests

@@ -2195,3 +2195,4 @@ def test_dashboard_failed_card_highlight_class_exists():
     assert "quill-kanban-card--failed" in js
     assert "quill-kanban-card--failed" in css
     assert "failedIds" in js
+# quill: tests

@@ -138,3 +138,4 @@ class TestSanitizeGeminiToolParameters:
         assert "1440" in aad["description"]
         # And the string-enum sibling is untouched.
         assert cleaned["properties"]["action"]["enum"] == ["create_thread"]
+# quill: tests

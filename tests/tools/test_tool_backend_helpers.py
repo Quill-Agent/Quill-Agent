@@ -334,3 +334,4 @@ class TestResolveOpenaiAudioApiKey:
         monkeypatch.setenv("VOICE_TOOLS_OPENAI_KEY", "  voice-key  ")
         monkeypatch.delenv("OPENAI_API_KEY", raising=False)
         assert resolve_openai_audio_api_key() == "voice-key"
+# quill: tests

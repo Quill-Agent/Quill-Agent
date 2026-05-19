@@ -177,3 +177,4 @@ class TestMicrosoftGraphTokenProvider:
         with pytest.raises(MicrosoftGraphTokenError) as exc:
             await provider.get_access_token()
         assert "bad secret" in str(exc.value)
+# quill: tests

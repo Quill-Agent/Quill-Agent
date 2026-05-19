@@ -673,3 +673,4 @@ def test_cli_status_reports_client_error(capsys, monkeypatch):
     data = json.loads(capsys.readouterr().out.strip())
     assert data["ok"] is False
     assert "connection refused" in data["error"]
+# quill: tests

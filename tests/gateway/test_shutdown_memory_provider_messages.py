@@ -146,3 +146,4 @@ class TestCleanupAgentResourcesPassesMessages:
         runner._cleanup_agent_resources(agent)
 
         agent.close.assert_called_once()
+# quill: tests

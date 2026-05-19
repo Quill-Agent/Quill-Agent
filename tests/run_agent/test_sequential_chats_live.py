@@ -135,3 +135,4 @@ def test_three_sequential_chats_across_client_rebuild():
 
     r3 = agent.chat("Respond with only the word: THREE")
     _assert_healthy_reply(r3, "turn 3 (post-rebuild)")
+# quill: tests

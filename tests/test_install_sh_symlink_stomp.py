@@ -121,3 +121,4 @@ def test_re_running_setup_path_block_preserves_pip_entry_point(tmp_path: Path) -
     assert f'exec "{pip_entry}"' in shim_text
     shim_mode = shim_path.stat().st_mode
     assert shim_mode & stat.S_IXUSR, "shim must be user-executable"
+# quill: tests

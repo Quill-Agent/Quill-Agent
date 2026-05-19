@@ -32,3 +32,4 @@ def _fast_retry_backoff(monkeypatch):
         return
 
     monkeypatch.setattr(run_agent, "jittered_backoff", lambda *a, **k: 0.0)
+# quill: tests

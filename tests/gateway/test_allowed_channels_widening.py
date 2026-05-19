@@ -362,3 +362,4 @@ class TestMatrixAllowedRooms:
 
         import os as _os
         assert _os.environ["MATRIX_ALLOWED_ROOMS"] == "!room1:srv,!room2:srv"
+# quill: tests

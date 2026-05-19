@@ -142,3 +142,4 @@ def test_empty_quote_text_falls_back_to_full_reply():
     event = adapter._build_message_event(msg, MessageType.TEXT)
 
     assert event.reply_to_text == "Prior message body"
+# quill: tests

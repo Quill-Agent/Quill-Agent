@@ -739,3 +739,4 @@ class TestCmdUpdateGatewayMode:
         from types import SimpleNamespace
         args = SimpleNamespace(gateway=True)
         assert args.gateway is True
+# quill: tests

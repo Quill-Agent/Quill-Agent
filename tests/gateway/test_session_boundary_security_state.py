@@ -311,3 +311,4 @@ def test_clear_session_boundary_security_state_wakes_blocked_approvals():
     assert other_entry.result is None
     assert session_key not in approval_mod._gateway_queues
     assert other_key in approval_mod._gateway_queues
+# quill: tests

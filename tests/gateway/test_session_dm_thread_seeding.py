@@ -190,3 +190,4 @@ class TestDMThreadIsolationCrossPlatform:
 
         thread_transcript = store.load_transcript(thread_entry.session_id)
         assert len(thread_transcript) == 0
+# quill: tests

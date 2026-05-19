@@ -150,3 +150,4 @@ def test_picker_path_falls_back_to_model_info_when_resolver_empty(monkeypatch):
     assert "1,050,000" in ctx_line, (
         f"resolver-empty path should fall back to ModelInfo, got: {ctx_line!r}"
     )
+# quill: tests

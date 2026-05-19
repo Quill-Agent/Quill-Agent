@@ -32,3 +32,4 @@ def test_reasoning_menu_orders_minimal_before_low(monkeypatch):
         "  medium  ← currently in use",
         "  high",
     ]
+# quill: tests

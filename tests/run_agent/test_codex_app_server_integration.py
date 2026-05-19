@@ -416,3 +416,4 @@ class TestSessionRetirementOnRunAgent:
         assert agent._codex_session is None
         assert result["completed"] is False
         assert "codex segfaulted" in result["error"]
+# quill: tests

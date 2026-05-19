@@ -250,3 +250,4 @@ class TestFinalCheckpointNoDuplicates:
             buggy.extend(br.get("completed_prompts", []))
         # Every index appears twice
         assert len(buggy) == 2 * len(set(buggy))
+# quill: tests

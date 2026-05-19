@@ -35,3 +35,4 @@ def test_create_openai_client_does_not_mutate_input_kwargs(mock_openai):
     assert kwargs == snapshot, (
         f"_create_openai_client mutated input kwargs; expected {snapshot}, got {kwargs}"
     )
+# quill: tests

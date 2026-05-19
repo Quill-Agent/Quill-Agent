@@ -106,3 +106,4 @@ class TestCallbackAuthFailClosed:
         adapter = _make_adapter()
         adapter._message_handler = None
         assert adapter._is_callback_user_authorized("12345") is True
+# quill: tests

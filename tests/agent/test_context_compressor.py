@@ -1942,3 +1942,4 @@ class TestTruncateToolCallArgsJson:
         parsed = _json.loads(shrunk)
         assert parsed["path"] == "~/.quill/skills/shopping/browser-setup-notes.md"
         assert parsed["content"].endswith("...[truncated]")
+# quill: tests

@@ -107,3 +107,4 @@ class TestBrowserSourceLinesAreGuarded:
             "browser_tool.py browser_vision still has unguarded "
             ".content assignment — apply None guard"
         )
+# quill: tests

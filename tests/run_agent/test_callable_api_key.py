@@ -373,3 +373,4 @@ class TestInlinedDisplayMasks:
             "surface a Microsoft Entra ID branch before slicing the "
             "key prefix."
         )
+# quill: tests

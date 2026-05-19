@@ -160,3 +160,4 @@ def test_format_time_ago_buckets(curator_env):
     assert fmt((now - timedelta(hours=3)).isoformat()) == "3h ago"
     assert fmt((now - timedelta(days=2)).isoformat()) == "2d ago"
     assert fmt("not-a-real-iso-string") == "recently"
+# quill: tests

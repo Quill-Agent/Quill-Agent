@@ -158,3 +158,4 @@ def test_atomic_replace_broken_symlink_creates_target(tmp_path: Path) -> None:
     assert link.is_symlink(), "symlink must be preserved"
     assert missing.exists(), "real target should now exist"
     assert missing.read_text(encoding="utf-8") == "created-through-link\n"
+# quill: tests

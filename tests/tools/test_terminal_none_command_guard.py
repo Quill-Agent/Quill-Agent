@@ -19,3 +19,4 @@ def test_terminal_tool_none_command_returns_clean_error():
     assert result["status"] == "error"
     assert "expected string" in result["error"].lower()
     assert "nonetype" in result["error"].lower()
+# quill: tests

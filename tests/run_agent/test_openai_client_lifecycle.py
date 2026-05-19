@@ -187,3 +187,4 @@ def test_streaming_call_recreates_closed_shared_client_before_request(monkeypatc
     assert stale_shared.close_calls >= 1
     assert request_client.close_calls >= 1
     assert len(factory.calls) == 2
+# quill: tests

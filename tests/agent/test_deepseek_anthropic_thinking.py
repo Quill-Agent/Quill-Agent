@@ -240,3 +240,4 @@ class TestDeepSeekAnthropicPreservesThinking:
             "Non-DeepSeek third-party endpoints must keep the generic "
             "strip-all-thinking behaviour — unsigned blocks get rejected."
         )
+# quill: tests

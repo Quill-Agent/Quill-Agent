@@ -186,3 +186,4 @@ def test_replace_primary_openai_client_survives_repeated_rebuilds():
         "Some _create_openai_client calls returned the same object across "
         "a teardown — rebuild is not producing fresh clients"
     )
+# quill: tests

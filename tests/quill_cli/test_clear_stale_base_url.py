@@ -73,3 +73,4 @@ class TestClearStaleOpenaiBaseUrl:
         result = get_env_value("OPENAI_BASE_URL")
         assert result == "http://localhost:11434/v1", \
             "Should not clear when provider is not configured"
+# quill: tests

@@ -84,3 +84,4 @@ class TestUserConfigMerge:
 
         cfg = cfg_mod.load_config()
         assert cfg["approvals"]["destructive_slash_confirm"] is False
+# quill: tests

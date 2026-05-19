@@ -200,3 +200,4 @@ class TestVerboseCommand:
         """The /verbose command is recognized by the gateway dispatch."""
         from quill_cli.commands import GATEWAY_KNOWN_COMMANDS
         assert "verbose" in GATEWAY_KNOWN_COMMANDS
+# quill: tests

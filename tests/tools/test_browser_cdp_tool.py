@@ -409,3 +409,4 @@ def test_check_fn_false_when_browser_requirements_fail(monkeypatch):
         bt, "_get_cdp_override", lambda: "ws://localhost:9222/devtools/browser/x"
     )
     assert browser_cdp_tool._browser_cdp_check() is False
+# quill: tests

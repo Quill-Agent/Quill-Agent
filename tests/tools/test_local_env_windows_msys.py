@@ -198,3 +198,4 @@ class TestExtractCwdFromOutputWindowsMsys:
             env._extract_cwd_from_output(result)
 
         assert env.cwd == str(new_dir)
+# quill: tests

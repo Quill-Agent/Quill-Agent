@@ -147,3 +147,4 @@ class TestSshUserAtHost:
         monkeypatch.setenv("USER", "dave")
         monkeypatch.setattr(socket, "gethostname", lambda: "")
         assert auth_mod._ssh_user_at_host() == "dave@<this-host>"
+# quill: tests

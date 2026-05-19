@@ -112,3 +112,4 @@ async def test_compress_no_focus_passes_none():
 
     # No focus line in response
     assert "Focus:" not in result
+# quill: tests

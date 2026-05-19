@@ -217,3 +217,4 @@ class TestProbeMcpServerTools:
         assert "github" in result
         assert "disabled_one" not in result
         assert "disabled_one" not in connect_calls
+# quill: tests

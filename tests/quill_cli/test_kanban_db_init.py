@@ -36,3 +36,4 @@ def test_connect_initialization_is_thread_safe(tmp_path, monkeypatch):
     with kb.connect(board="default") as conn:
         cols = {row["name"] for row in conn.execute("PRAGMA table_info(tasks)")}
     assert "max_retries" in cols
+# quill: tests

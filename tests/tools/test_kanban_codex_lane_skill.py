@@ -96,3 +96,4 @@ def test_kanban_codex_lane_documents_required_contracts():
     for phrase in required_safety_phrases:
         assert phrase in content
         assert phrase in template
+# quill: tests

@@ -61,3 +61,4 @@ async def test_handle_model_command_lists_saved_custom_provider(tmp_path, monkey
     assert "Local (127.0.0.1:4141)" in result
     assert "custom:local-(127.0.0.1:4141)" in result
     assert "rotator-openrouter-coding" in result
+# quill: tests

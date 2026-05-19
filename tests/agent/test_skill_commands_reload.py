@@ -158,3 +158,4 @@ class TestReloadSkillsHelper:
             "prompt cache snapshot should be preserved — skills don't live "
             "in the system prompt so there's no reason to invalidate it"
         )
+# quill: tests

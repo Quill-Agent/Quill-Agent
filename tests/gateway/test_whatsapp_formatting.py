@@ -341,3 +341,4 @@ class TestWhatsAppTier:
     def test_whatsapp_tool_progress_is_new(self):
         from gateway.display_config import resolve_display_setting
         assert resolve_display_setting({}, "whatsapp", "tool_progress") == "new"
+# quill: tests

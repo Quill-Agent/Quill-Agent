@@ -1366,3 +1366,4 @@ class TestStuckLoopEscalation:
                 {"indent": None},
             )
         ]
+# quill: tests

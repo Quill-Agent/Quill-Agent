@@ -247,3 +247,4 @@ class TestBuildMemoryContextBlockWarnsOnViolation:
 
         assert not any("pre-wrapped" in rec.message for rec in caplog.records)
         assert "plain fact about user" in out
+# quill: tests

@@ -69,3 +69,4 @@ class TestPostSetupGate:
         from quill_cli import tools_config
 
         assert "cua_driver" in tools_config._POST_SETUP_INSTALLED
+# quill: tests

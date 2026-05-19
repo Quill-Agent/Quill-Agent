@@ -255,3 +255,4 @@ class TestListNavigation:
         assert isinstance(allowlist, list)
         assert allowlist[0] == {"name": "alice", "role": "admin"}
         assert allowlist[1] == {"name": "bob", "role": "admin"}
+# quill: tests

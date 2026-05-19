@@ -157,3 +157,4 @@ async def test_reply_snippet_truncated_to_500_chars():
     assert result is not None
     assert result.startswith('[Replying to: "' + "x" * 500 + '"]')
     assert "x" * 501 not in result
+# quill: tests

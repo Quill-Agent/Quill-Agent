@@ -256,3 +256,4 @@ def test_two_concurrent_tool_batches_keep_session_keys_isolated():
     assert results.get("B") == "session-B", (
         f"Session B worker saw {results.get('B')!r}, expected 'session-B'"
     )
+# quill: tests

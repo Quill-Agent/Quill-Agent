@@ -317,3 +317,4 @@ class TestProfileCompletion:
         count = out.count("(__quill_profiles)")
         # At least the -p flag + the profile action completions
         assert count >= 2, f"Expected >=2 profile completion entries, got {count}"
+# quill: tests

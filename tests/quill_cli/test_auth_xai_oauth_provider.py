@@ -1894,3 +1894,4 @@ def test_pool_sync_back_preserves_active_provider(tmp_path, monkeypatch):
     state = raw_after["providers"]["xai-oauth"]["tokens"]
     assert state["access_token"] == new_access
     assert state["refresh_token"] == "rt-rotated"
+# quill: tests

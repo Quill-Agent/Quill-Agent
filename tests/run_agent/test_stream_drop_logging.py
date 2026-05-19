@@ -245,3 +245,4 @@ def test_quiet_mode_does_not_clobber_runagent_logger_level():
     for name in ("run_agent", "tools", "trajectory_compressor", "cron", "quill_cli"):
         logger = logging.getLogger(name)
         assert logger.getEffectiveLevel() <= logging.WARNING
+# quill: tests

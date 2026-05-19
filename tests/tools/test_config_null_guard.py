@@ -109,3 +109,4 @@ class TestTrajectoryCompressorNullGuard:
 
         config.base_url = data["summarization"].get("base_url") or config.base_url
         assert config.base_url == OPENROUTER_BASE_URL
+# quill: tests

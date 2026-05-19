@@ -393,4 +393,4 @@ class TestBaseUrlValidation:
 
         saved = get_env_value("GLM_BASE_URL") or ""
         assert saved == "", "Empty input should not save a base URL"
-
+# quill: tests

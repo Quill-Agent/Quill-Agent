@@ -510,3 +510,4 @@ class TestFeishuAdaptiveDelay:
         adapter._handle_message_with_guards.assert_called_once()
         text = adapter._handle_message_with_guards.call_args[0][0].text
         assert "continuation text" in text
+# quill: tests

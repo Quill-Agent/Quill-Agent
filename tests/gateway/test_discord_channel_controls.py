@@ -342,3 +342,4 @@ def test_config_env_var_takes_precedence(monkeypatch, tmp_path):
     import os
     # Env var should NOT be overwritten
     assert os.getenv("DISCORD_IGNORED_CHANNELS") == "999"
+# quill: tests

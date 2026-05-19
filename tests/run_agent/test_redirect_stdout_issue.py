@@ -52,3 +52,4 @@ class TestRedirectStdoutIsProcessWide(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+# quill: tests

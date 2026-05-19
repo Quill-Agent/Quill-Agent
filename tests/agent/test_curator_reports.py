@@ -434,3 +434,4 @@ def test_curator_report_has_no_cron_section_when_nothing_changes(curator_env_wit
     payload = json.loads((run_dir / "run.json").read_text())
     assert payload["cron_rewrites"]["jobs_updated"] == 0
     assert payload["counts"]["cron_jobs_rewritten"] == 0
+# quill: tests

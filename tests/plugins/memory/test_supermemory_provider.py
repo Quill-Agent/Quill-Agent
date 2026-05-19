@@ -409,3 +409,4 @@ def test_get_config_schema_minimal():
     assert len(schema) == 1
     assert schema[0]["key"] == "api_key"
     assert schema[0]["secret"] is True
+# quill: tests

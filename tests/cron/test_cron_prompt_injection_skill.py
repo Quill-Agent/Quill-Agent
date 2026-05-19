@@ -234,3 +234,4 @@ class TestBuildJobPromptScansSkillContent:
         prompt = scheduler._build_job_prompt(job)
         assert prompt is not None
         assert "could not be found" in prompt
+# quill: tests

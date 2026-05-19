@@ -332,3 +332,4 @@ class TestUnconfiguredErrorEnvelopeParity:
         assert "web_crawl requires Firecrawl" in result["error"]
         # Crucially: no per-page burying
         assert "results" not in result
+# quill: tests

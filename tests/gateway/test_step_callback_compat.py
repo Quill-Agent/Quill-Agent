@@ -131,3 +131,4 @@ class TestStepCallbackNormalization:
         # This must not raise — documented hook pattern
         result = ", ".join(_names)
         assert result == "terminal, web_search"
+# quill: tests

@@ -2866,3 +2866,4 @@ class TestGoogleChatStandaloneSend:
         assert "error" in result
         # The error names the expected resource shape so plugin authors can self-correct
         assert "spaces/" in result["error"] or "users/" in result["error"]
+# quill: tests

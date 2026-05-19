@@ -388,3 +388,4 @@ class TestUpdateContextFrom:
         reloaded = get_job(job_b["id"])
         assert reloaded["prompt"] == "Summarize v2"
         assert reloaded["context_from"] == [job_a["id"]]
+# quill: tests

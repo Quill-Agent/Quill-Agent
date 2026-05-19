@@ -62,3 +62,4 @@ class TestResolveChannelSkills:
             ]
         }
         assert adapter._resolve_channel_skills("100") == ["a", "b", "c"]
+# quill: tests

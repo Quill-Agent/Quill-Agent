@@ -208,3 +208,4 @@ class TestStaleOAuthGuardLogic:
 
         assert existing_is_stale_oauth is False
         assert has_creds is True
+# quill: tests

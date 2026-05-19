@@ -153,3 +153,4 @@ def test_main_setup_browser_propagates_browser_failure(monkeypatch):
     with pytest.raises(SystemExit) as excinfo:
         entry.main(["--setup-browser"])
     assert excinfo.value.code == 1
+# quill: tests

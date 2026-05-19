@@ -251,3 +251,4 @@ def test_tool_model_arg_with_image_url_routes_to_override_image_endpoint(matrix_
     # Kling 4K uses start_image_url
     assert fal_calls[0]["arguments"].get("start_image_url") == "https://example.com/i.png"
     assert "image_url" not in fal_calls[0]["arguments"]
+# quill: tests

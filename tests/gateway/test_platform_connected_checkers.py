@@ -102,3 +102,4 @@ def test_checker_returns_true_when_configured(platform, checker, monkeypatch):
 
     result = checker(mock_config)
     assert result is True, f"{platform.value} checker should return True with valid-looking config"
+# quill: tests

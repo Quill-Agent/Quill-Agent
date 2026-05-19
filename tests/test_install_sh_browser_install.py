@@ -58,3 +58,4 @@ def test_install_script_skips_with_deps_when_no_sudo() -> None:
     # service-user installs (systemd accounts, operator users, etc.).
     assert 'if [ "$(id -u)" -eq 0 ] || (command -v sudo >/dev/null 2>&1 && sudo -n true 2>/dev/null); then' in text
     assert "sudo npx playwright install-deps chromium" in text
+# quill: tests

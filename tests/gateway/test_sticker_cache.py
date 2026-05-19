@@ -125,3 +125,4 @@ class TestBuildAnimatedStickerInjection:
     def test_empty_emoji_same_as_no_emoji(self):
         result = build_animated_sticker_injection(emoji="")
         assert result == build_animated_sticker_injection()
+# quill: tests

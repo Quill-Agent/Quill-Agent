@@ -159,3 +159,4 @@ class TestNonInteractiveSetup:
         main_mod.main()
 
         assert received["section"] == "tts"
+# quill: tests

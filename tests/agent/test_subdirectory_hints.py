@@ -232,3 +232,4 @@ class TestPermissionErrorHandling:
             )
             # Result may be None (backend skipped) — the key point is no crash
             assert result is None or isinstance(result, str)
+# quill: tests

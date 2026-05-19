@@ -335,3 +335,4 @@ class TestAllowPrivateUrlsConfig:
         )
 
         assert browser_tool._allow_private_urls() is False
+# quill: tests

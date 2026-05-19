@@ -1518,3 +1518,4 @@ class TestPluginDebugLogging:
             plugins_mod._PLUGINS_DEBUG = original_debug
             plugins_mod.logger.setLevel(original_level)
             plugins_mod.logger.handlers = original_handlers
+# quill: tests

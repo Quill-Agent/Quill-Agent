@@ -606,3 +606,4 @@ class TestFinalizeOrphanedCompressionSessions:
 
         session = db.get_session("titled-ghost")
         assert session["end_reason"] == "orphaned_compression"
+# quill: tests

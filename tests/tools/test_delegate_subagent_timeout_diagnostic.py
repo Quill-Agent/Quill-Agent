@@ -284,3 +284,4 @@ class TestRunSingleChildTimeoutDump:
         if logs_dir.is_dir():
             dumps = list(logs_dir.glob("subagent-timeout-*.log"))
             assert dumps == []
+# quill: tests

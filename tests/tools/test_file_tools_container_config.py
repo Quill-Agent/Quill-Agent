@@ -63,3 +63,4 @@ class TestFileToolsContainerConfig:
         del cfg["docker_forward_env"]
         cc = self._run(cfg, "t4")
         assert cc.get("docker_forward_env") == []
+# quill: tests

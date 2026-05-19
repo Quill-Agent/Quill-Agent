@@ -102,3 +102,4 @@ class TestFindDocker:
         with patch("tools.environments.docker.shutil.which", side_effect=which_side_effect):
             result = docker_mod.find_docker()
         assert result == "/usr/bin/docker"
+# quill: tests

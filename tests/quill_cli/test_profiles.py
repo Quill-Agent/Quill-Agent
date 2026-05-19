@@ -1181,3 +1181,4 @@ class TestEdgeCases:
             delete_profile("coder", yes=True)
 
         assert get_active_profile() == "default"
+# quill: tests

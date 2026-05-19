@@ -229,3 +229,4 @@ class TestSessionDbCloseOnShutdown:
 
         flaky_db.close.assert_called_once()
         healthy_db.close.assert_called_once()
+# quill: tests

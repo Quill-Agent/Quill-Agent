@@ -171,3 +171,4 @@ async def test_compress_respects_plugin_has_content_to_compress_false():
 
     assert "Nothing to compress" in result
     agent_instance._compress_context.assert_not_called()
+# quill: tests

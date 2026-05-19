@@ -324,3 +324,4 @@ class TestTranscriptHistoryOffset:
         )
 
         assert merged["history_offset"] == 3
+# quill: tests

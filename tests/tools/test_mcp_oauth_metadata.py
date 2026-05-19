@@ -211,3 +211,4 @@ class TestManagerOAuthProviderMetadata:
         loaded = storage.load_oauth_metadata()
         assert loaded is not None
         assert str(loaded.token_endpoint) == "https://flow.example.com/token"
+# quill: tests

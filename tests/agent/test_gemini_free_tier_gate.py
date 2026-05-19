@@ -164,3 +164,4 @@ class TestGeminiHttpErrorFreeTierGuidance:
         body = '{"error":{"code":401,"message":"API key invalid","status":"UNAUTHENTICATED"}}'
         err = gemini_http_error(self._FakeResp(401, body))
         assert "aistudio.google.com/apikey" not in str(err)
+# quill: tests

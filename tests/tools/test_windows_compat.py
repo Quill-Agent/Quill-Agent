@@ -78,3 +78,4 @@ class TestKillpgGuarded:
                 assert "_IS_WINDOWS" in context or "else:" in context, (
                     f"{relpath}:{i + 1} has unguarded os.killpg/os.getpgid call"
                 )
+# quill: tests

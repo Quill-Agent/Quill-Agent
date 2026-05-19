@@ -390,3 +390,4 @@ class TestListAndClear:
             store.generate_code("discord", "user2")
             count = store.clear_pending()
         assert count == 2
+# quill: tests

@@ -112,3 +112,4 @@ class TestContinuationLogicBranching:
         # codex_responses has its own truncation path (not continuation-based)
         # and should NOT be routed through the shared block.
         assert "codex_responses" not in {"chat_completions", "bedrock_converse", "anthropic_messages"}
+# quill: tests

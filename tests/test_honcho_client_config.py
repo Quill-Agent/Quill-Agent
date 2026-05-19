@@ -103,3 +103,4 @@ class TestHonchoClientConfigAutoEnable:
 
         assert cfg.api_key == "fallback-key"
         assert cfg.enabled is True  # from_env() sets enabled=True
+# quill: tests

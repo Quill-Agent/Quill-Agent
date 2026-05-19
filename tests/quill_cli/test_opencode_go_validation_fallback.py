@@ -131,3 +131,4 @@ def test_provider_without_catalog_accepts_with_warning():
     assert result["persist"] is True
     assert result["recognized"] is False
     assert "Note:" in result["message"]
+# quill: tests

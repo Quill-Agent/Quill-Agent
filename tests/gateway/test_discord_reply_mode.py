@@ -460,3 +460,4 @@ class TestYamlConfigLoading:
         load_gateway_config()
 
         assert os.environ.get("DISCORD_REPLY_TO_MODE") == "all"
+# quill: tests

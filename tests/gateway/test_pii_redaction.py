@@ -145,3 +145,4 @@ class TestBuildSessionContextPromptRedaction:
         ctx = _make_context(user_id="U12345ABC", platform=Platform.SLACK)
         prompt = build_session_context_prompt(ctx, redact_pii=True)
         assert "U12345ABC" in prompt
+# quill: tests

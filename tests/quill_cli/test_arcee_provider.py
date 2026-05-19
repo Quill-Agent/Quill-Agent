@@ -199,3 +199,4 @@ class TestArceeAuxiliary:
         """Arcee uses main-model-first — no entry in _API_KEY_PROVIDER_AUX_MODELS."""
         from agent.auxiliary_client import _API_KEY_PROVIDER_AUX_MODELS
         assert "arcee" not in _API_KEY_PROVIDER_AUX_MODELS
+# quill: tests

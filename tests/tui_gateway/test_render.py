@@ -65,3 +65,4 @@ def test_stream_renderer_returns_instance():
 
     with _stub_rich(mod):
         assert make_stream_renderer(120) is renderer
+# quill: tests

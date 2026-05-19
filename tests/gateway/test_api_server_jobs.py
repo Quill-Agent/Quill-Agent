@@ -663,3 +663,4 @@ class TestCronUnavailable:
             with patch(f"{_MOD}._CRON_AVAILABLE", False):
                 resp = await cli.post(f"/api/jobs/{VALID_JOB_ID}/run")
                 assert resp.status == 501
+# quill: tests

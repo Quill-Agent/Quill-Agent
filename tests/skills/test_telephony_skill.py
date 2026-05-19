@@ -227,3 +227,4 @@ def test_diagnose_includes_decision_tree_and_saved_state(tmp_path: Path, monkeyp
     assert result["providers"]["bland"]["configured"] is True
     assert result["providers"]["vapi"]["phone_number_id"] == "vapi-abc"
     assert any(item["use"] == "Twilio" for item in result["decision_tree"])
+# quill: tests

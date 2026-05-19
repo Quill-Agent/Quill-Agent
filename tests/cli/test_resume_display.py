@@ -661,3 +661,4 @@ class TestResumeDisplayConfig:
 
         display = config.get("display", {})
         assert display.get("resume_display") == "full"
+# quill: tests

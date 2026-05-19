@@ -131,3 +131,4 @@ class TestSlackMessageEventAutoSkill:
             auto_skill=auto_skill,
         )
         assert event.auto_skill == ["german-flashcards"]
+# quill: tests

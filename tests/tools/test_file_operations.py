@@ -705,3 +705,4 @@ class TestGitBaselineCheck:
         result = ops.write_file("/repo/test.txt", "new content\n")
         d = result.to_dict()
         assert "warning" not in d or d["warning"] is None
+# quill: tests

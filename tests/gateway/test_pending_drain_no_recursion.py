@@ -349,3 +349,4 @@ async def test_late_arrival_drain_still_fires_when_no_in_band_drain():
         "late-arrival drain did not spawn a drain task — a message that "
         "landed during cleanup awaits was silently dropped"
     )
+# quill: tests

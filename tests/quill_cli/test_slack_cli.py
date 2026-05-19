@@ -28,3 +28,4 @@ class TestSlackFullManifest:
         assert "assistant:write" in manifest["oauth_config"]["scopes"]["bot"]
         bot_events = manifest["settings"]["event_subscriptions"]["bot_events"]
         assert "assistant_thread_started" in bot_events
+# quill: tests

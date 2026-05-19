@@ -119,3 +119,4 @@ class TestTextBatching:
 
         assert len(adapter._pending_text_batches) == 0
         assert len(adapter._pending_text_batch_tasks) == 0
+# quill: tests

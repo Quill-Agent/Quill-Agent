@@ -128,3 +128,4 @@ class TestToolsSlashEnableWithReset:
         cli_obj._handle_tools_command("/tools enable")
         out = capsys.readouterr().out
         assert "Usage" in out
+# quill: tests

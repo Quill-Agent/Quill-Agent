@@ -128,3 +128,4 @@ class TestWorktreeIncludeSecurity:
             assert (linked_dir / "lib" / "marker.txt").read_text() == "venv marker"
         finally:
             _force_remove_worktree(info)
+# quill: tests

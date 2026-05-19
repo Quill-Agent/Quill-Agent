@@ -102,3 +102,4 @@ def test_switch_within_same_provider_preserves_chain():
         )
 
     assert agent._fallback_chain == chain
+# quill: tests

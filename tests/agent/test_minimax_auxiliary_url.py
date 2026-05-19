@@ -40,3 +40,4 @@ class TestToOpenaiBaseUrl:
 
     def test_none(self):
         assert _to_openai_base_url(None) == ""
+# quill: tests

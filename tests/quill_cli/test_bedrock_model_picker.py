@@ -361,3 +361,4 @@ class TestBedrockOverlayRegistration:
         for alias in ("aws", "aws-bedrock", "amazon-bedrock", "amazon"):
             assert normalize_provider(alias) == "bedrock", \
                 f"alias {alias!r} should normalize to 'bedrock'"
+# quill: tests

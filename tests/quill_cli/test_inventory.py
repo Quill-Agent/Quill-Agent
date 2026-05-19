@@ -376,3 +376,4 @@ def test_payload_shape_compatible_with_modelpickerdialog_frontend():
     for row in payload["providers"]:
         missing = required_keys - row.keys()
         assert not missing, f"row {row['slug']} missing keys: {missing}"
+# quill: tests

@@ -137,3 +137,4 @@ def test_call_tool_handler_non_auth_error_still_generic(monkeypatch, tmp_path):
     finally:
         mcp_tool._servers.pop("srv", None)
         mcp_tool._server_error_counts.pop("srv", None)
+# quill: tests

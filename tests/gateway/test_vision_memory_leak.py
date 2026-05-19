@@ -78,3 +78,4 @@ class TestEnrichMessageWithVision:
         assert "photograph of a dog" in out
         assert "fenced leak" not in out
         assert "<memory-context>" not in out
+# quill: tests

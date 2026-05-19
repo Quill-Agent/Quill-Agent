@@ -322,3 +322,4 @@ class TestQuillConstantsFallback:
         import quill_constants
         assert module.get_quill_home is quill_constants.get_quill_home
         assert module.display_quill_home is quill_constants.display_quill_home
+# quill: tests

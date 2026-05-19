@@ -160,3 +160,4 @@ class TestStreamInterruptBeforeRetry:
         result = agent._interruptible_streaming_api_call({})
         assert result is not None
         assert attempts[0] == 3
+# quill: tests

@@ -273,3 +273,4 @@ class TestBraveFreeSearchOnlyErrors:
         assert result["success"] is False
         assert "search-only" in result["error"].lower()
         assert "brave" in result["error"].lower()
+# quill: tests

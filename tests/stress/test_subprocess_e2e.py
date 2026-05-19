@@ -227,3 +227,4 @@ exec {PY} -m quill_cli.main "$@"
 
 if __name__ == "__main__":
     main()
+# quill: tests

@@ -232,3 +232,4 @@ class TestPoolRotationCycle:
         )
         assert recovered is False
         assert has_retried is False
+# quill: tests

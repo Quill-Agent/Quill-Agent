@@ -151,3 +151,4 @@ class TestDynamicSchemaBuilder:
         assert entry.dynamic_schema_overrides is not None
         out = entry.dynamic_schema_overrides()
         assert "description" in out
+# quill: tests

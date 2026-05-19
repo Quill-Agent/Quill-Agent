@@ -264,3 +264,4 @@ def test_property_access_before_setup_raises():
         _ = br.device_name
     with pytest.raises(RuntimeError):
         _ = br.write_target
+# quill: tests

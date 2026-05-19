@@ -176,3 +176,4 @@ class TestShellFileOpsCwdTracking:
         assert target.read_text() == "new content\n", (
             "patch_replace claimed success but file wasn't written correctly"
         )
+# quill: tests

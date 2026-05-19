@@ -355,3 +355,4 @@ class TestRegisterImageGenProvider:
         assert image_gen_registry.get_provider("not a provider") is None
 
         image_gen_registry._reset_for_tests()
+# quill: tests

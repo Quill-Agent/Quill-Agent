@@ -237,3 +237,4 @@ class TestOpenclawResidueSeenFlag:
         assert mark_seen(cfg_path, OPENCLAW_RESIDUE_FLAG) is True
         loaded = yaml.safe_load(cfg_path.read_text())
         assert is_seen(loaded, OPENCLAW_RESIDUE_FLAG) is True
+# quill: tests

@@ -103,3 +103,4 @@ class TestBackgroundCommandTuiRefresh:
         # Clean up
         cli_obj._background_tasks.pop(task_id, None)
         assert task_id not in cli_obj._background_tasks
+# quill: tests

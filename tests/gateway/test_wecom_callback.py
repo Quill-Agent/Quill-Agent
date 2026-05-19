@@ -183,3 +183,4 @@ class TestWecomCallbackPollLoop:
         with pytest.raises(asyncio.CancelledError):
             await task
         assert calls == ["test"]
+# quill: tests

@@ -89,3 +89,4 @@ def test_compressor_not_present_does_not_crash(mock_ctx_len, mock_resolve):
 
     result = agent._try_activate_fallback()
     assert result is True
+# quill: tests

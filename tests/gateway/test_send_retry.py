@@ -282,3 +282,4 @@ class TestSendWithRetryFallback:
             result = await adapter._send_with_retry("chat1", "hello", max_retries=2)
         assert not result.success
         assert len(adapter._send_calls) == 2  # original + fallback only
+# quill: tests

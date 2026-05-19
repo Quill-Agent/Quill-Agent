@@ -75,3 +75,4 @@ class TestEnsureSingularityAvailable:
         with patch("shutil.which", return_value=None):
             with pytest.raises(RuntimeError, match="Neither.*apptainer.*nor.*singularity"):
                 _ensure_singularity_available()
+# quill: tests

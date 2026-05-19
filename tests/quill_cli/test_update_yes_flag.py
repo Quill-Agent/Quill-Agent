@@ -134,4 +134,4 @@ class TestUpdateYesConfigMigration:
 
 class TestUpdateYesStashRestore:
     """--yes auto-restores the pre-update autostash without prompting."""
-
+# quill: tests

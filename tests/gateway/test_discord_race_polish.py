@@ -77,3 +77,4 @@ async def test_concurrent_joins_do_not_double_connect():
     )
     assert r1 is True and r2 is True
     assert 42 in adapter._voice_clients
+# quill: tests

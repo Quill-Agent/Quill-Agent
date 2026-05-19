@@ -255,3 +255,4 @@ class TestWebCrawlTavily:
             payload = call_kwargs.kwargs.get("json") or call_kwargs[1].get("json")
             assert payload["instructions"] == "Find docs"
             assert payload["url"] == "https://example.com"
+# quill: tests

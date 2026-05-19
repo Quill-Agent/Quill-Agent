@@ -222,3 +222,4 @@ class TestToolsValidation:
         saved = mock_save.call_args[0][0]
         assert "web" not in saved["platform_toolsets"]["cli"]
         assert "memory" in saved["platform_toolsets"]["cli"]
+# quill: tests

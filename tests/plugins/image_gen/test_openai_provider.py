@@ -241,3 +241,4 @@ class TestGenerate:
 
         assert result["success"] is True
         assert result["image"] == "https://example.com/img.png"
+# quill: tests

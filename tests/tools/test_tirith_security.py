@@ -1341,3 +1341,4 @@ class TestIsAppTldFinding:
 
     def test_case_insensitive_match(self):
         assert self.fn({"rule_id": "lookalike_tld", "value": ".APP"})
+# quill: tests

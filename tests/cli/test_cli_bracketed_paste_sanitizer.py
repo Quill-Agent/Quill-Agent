@@ -47,3 +47,4 @@ class TestStripLeakedBracketedPasteWrappers:
     def test_preserves_multiline_content_while_stripping_degraded_bracket_only_wrappers(self):
         text = "[200~line 1\nline 2\nline 3[201~"
         assert _strip_leaked_bracketed_paste_wrappers(text) == "line 1\nline 2\nline 3"
+# quill: tests

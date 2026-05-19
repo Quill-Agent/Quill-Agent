@@ -278,3 +278,4 @@ class TestSSEAgentCancelOnDisconnect:
             assert agent_task.cancelled() or agent_task.done()
 
         asyncio.run(run())
+# quill: tests

@@ -100,3 +100,4 @@ def test_skill_pitfalls_section_present() -> None:
     # Pitfalls we discovered during the spike — keep them in sync with reality.
     assert "Initial organism must be viable" in src
     assert "generator" in src  # loop.run() pitfall
+# quill: tests

@@ -546,3 +546,4 @@ def test_terminal_tool_respects_direct_modal_mode_without_falling_back_to_manage
                     },
                     task_id="task-modal-direct-only",
                 )
+# quill: tests

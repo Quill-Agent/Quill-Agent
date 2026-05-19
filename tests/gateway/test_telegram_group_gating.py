@@ -518,3 +518,4 @@ def test_config_bridges_telegram_ignored_threads(monkeypatch, tmp_path):
 
     assert config is not None
     assert __import__("os").environ["TELEGRAM_IGNORED_THREADS"] == "31,42"
+# quill: tests

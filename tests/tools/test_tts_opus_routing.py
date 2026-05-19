@@ -68,3 +68,4 @@ def test_edge_telegram_converts_to_opus_voice(tmp_path, monkeypatch):
     assert result["voice_compatible"] is True
     assert result["media_tag"] == f"[[audio_as_voice]]\nMEDIA:{opus}"
     convert.assert_called_once_with(str(out))
+# quill: tests

@@ -201,3 +201,4 @@ def test_dotenv_redact_secrets_beats_config_yaml(tmp_path):
     # .env value wins
     assert "REDACT_ENABLED=True" in result.stdout
     assert "ENV_VAR=true" in result.stdout
+# quill: tests

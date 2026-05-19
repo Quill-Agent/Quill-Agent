@@ -88,3 +88,4 @@ def test_at_file_bare_without_colon_lists_files(tmp_path, monkeypatch):
 
     assert any(t == "@file:readme.md" for t in texts), texts
     assert not any(t == "@file:src/" for t in texts)
+# quill: tests

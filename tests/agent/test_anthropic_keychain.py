@@ -163,3 +163,4 @@ class TestReadClaudeCodeCredentialsPriority:
             creds = read_claude_code_credentials()
 
         assert creds is None
+# quill: tests

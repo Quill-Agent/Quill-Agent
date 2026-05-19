@@ -377,3 +377,4 @@ class TestGmiMainFlow:
         assert model_cfg["provider"] == "gmi"
         assert model_cfg["default"] == "openai/gpt-5.4-mini"
         assert model_cfg["base_url"] == "https://api.gmi-serving.com/v1"
+# quill: tests

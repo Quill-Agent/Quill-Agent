@@ -29,3 +29,4 @@ def test_memory_tool_imports_without_fcntl(monkeypatch, tmp_path):
     assert memory_tool.fcntl is None
     assert registry.get_entry("memory") is not None
     assert result["success"] is True
+# quill: tests

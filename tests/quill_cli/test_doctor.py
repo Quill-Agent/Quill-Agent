@@ -1307,3 +1307,4 @@ class TestDoctorCodexCliHintPlacement:
         minimax_idx = next(i for i, l in enumerate(lines) if "MiniMax OAuth" in l)
         assert self._hint_line() not in lines[minimax_idx - 1]
         assert minimax_idx + 1 >= len(lines) or self._hint_line() not in lines[minimax_idx + 1]
+# quill: tests

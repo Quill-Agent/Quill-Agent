@@ -293,3 +293,4 @@ class TestModalBulkUpload:
         with tarfile.open(fileobj=buf, mode="r:gz") as tar:
             names = tar.getnames()
             assert "root/.quill/large.bin" in names
+# quill: tests

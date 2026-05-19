@@ -154,3 +154,4 @@ class TestCmdStatus:
         out = capsys.readouterr().out
         assert "FAILED (Invalid API key)" in out
         assert "Connection... OK" not in out
+# quill: tests

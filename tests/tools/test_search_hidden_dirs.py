@@ -168,3 +168,4 @@ class TestIgnoreFileWritten:
         hub_mod._write_index_cache("test_key", {"data": "test"})
 
         assert ignore_file.read_text() == "# custom\ncustom-pattern\n"
+# quill: tests

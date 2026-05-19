@@ -435,3 +435,4 @@ class TestScreenshotCleanup:
         from tools.browser_tool import _cleanup_old_screenshots, _last_screenshot_cleanup_by_dir
         _last_screenshot_cleanup_by_dir.clear()
         _cleanup_old_screenshots(Path("/nonexistent/dir"), max_age_hours=24)  # Should not raise
+# quill: tests

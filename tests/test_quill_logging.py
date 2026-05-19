@@ -771,3 +771,4 @@ class TestReadLoggingConfig:
 
         level, max_size, backup = quill_logging._read_logging_config()
         assert level is None
+# quill: tests

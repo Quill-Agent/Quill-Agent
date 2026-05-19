@@ -252,3 +252,4 @@ class TestBuildReplayEntry:
         assert "timestamp" not in entry
         assert "internal_marker" not in entry
         assert "tool_call_id" not in entry
+# quill: tests

@@ -41,3 +41,4 @@ def test_cli_insights_keeps_days_flag_and_source(capsys):
     assert calls == [{"days": 14, "source": "discord"}]
     db.close.assert_called_once()
     assert "days=14 source=discord" in capsys.readouterr().out
+# quill: tests

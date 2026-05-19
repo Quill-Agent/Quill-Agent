@@ -326,3 +326,4 @@ def test_hindsight_preserves_parent_across_empty_parent_arg():
     provider._parent_session_id = "original-parent"
     provider.on_session_switch("new-sid")  # no parent passed
     assert provider._parent_session_id == "original-parent"
+# quill: tests

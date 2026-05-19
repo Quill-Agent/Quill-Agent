@@ -321,3 +321,4 @@ class TestAlreadySentInDraftMode:
 
         # After the regular sendMessage finalize, _already_sent is True.
         assert consumer._already_sent is True
+# quill: tests

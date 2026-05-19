@@ -128,3 +128,4 @@ class TestMiniMaxCatalogPathRequired:
             result = validate_requested_model("MiniMax-M2.7", "minimax")
             # The fix makes this True; without the fix it would be False
             assert result["accepted"] is True
+# quill: tests

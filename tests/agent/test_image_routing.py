@@ -284,3 +284,4 @@ class TestLargeImageHandling:
         assert len(parts) == 2
         assert parts[0]["type"] == "text"
         assert parts[1]["type"] == "image_url"
+# quill: tests

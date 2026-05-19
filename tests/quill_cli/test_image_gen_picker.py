@@ -276,3 +276,4 @@ class TestConfigWriting:
 
         assert config["image_gen"]["provider"] == "fal"
         assert config["image_gen"]["use_gateway"] is False
+# quill: tests

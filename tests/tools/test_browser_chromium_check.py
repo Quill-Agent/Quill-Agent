@@ -116,5 +116,4 @@ class TestRunBrowserCommandChromiumGuard:
     """Verify _run_browser_command fails fast (no timeout hang) when
     Chromium is missing in local mode.
     """
-
-
+# quill: tests

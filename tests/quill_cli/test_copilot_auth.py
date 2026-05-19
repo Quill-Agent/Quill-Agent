@@ -200,3 +200,4 @@ class TestEnvVarOrder:
         assert copilot.api_key_env_vars == (
             "COPILOT_GITHUB_TOKEN", "GH_TOKEN", "GITHUB_TOKEN"
         )
+# quill: tests

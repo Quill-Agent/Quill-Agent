@@ -157,3 +157,4 @@ def test_no_plugins_returns_empty_results(tmp_path, monkeypatch):
         platform="",
     )
     assert results == []
+# quill: tests

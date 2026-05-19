@@ -46,3 +46,4 @@ class TestMultiWordInjectionBypass:
         assert _scan_cron_prompt("Monitor disk usage and alert if above 90%") == ""
         assert _scan_cron_prompt("Ignore this file in the backup") == ""
         assert _scan_cron_prompt("Run all migrations") == ""
+# quill: tests

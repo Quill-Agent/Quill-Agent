@@ -187,3 +187,4 @@ class TestProviderCollectorCliNoop:
         )
         # Should not store anything — CLI is discovered via file convention
         assert not hasattr(collector, "_cli_commands")
+# quill: tests

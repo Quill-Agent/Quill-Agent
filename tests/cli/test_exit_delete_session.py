@@ -117,3 +117,4 @@ class TestCommandRegistry:
         assert cmd is not None
         assert cmd.name == "quit"
         assert cmd.args_hint == "[--delete]"
+# quill: tests

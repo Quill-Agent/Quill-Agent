@@ -114,3 +114,4 @@ class TestStreamingAssemblyRepair:
         parsed = json.loads(result)
         assert parsed["command"] == "ls -la /tmp"
         assert parsed["timeout"] == 30
+# quill: tests

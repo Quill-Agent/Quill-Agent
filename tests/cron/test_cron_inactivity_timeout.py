@@ -314,3 +314,4 @@ class TestSysPathOrdering:
         """quill_constants should be importable from cron context."""
         from quill_constants import get_quill_home
         assert callable(get_quill_home)
+# quill: tests

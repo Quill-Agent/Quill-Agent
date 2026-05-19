@@ -106,3 +106,4 @@ def test_snapshot_baseline_called_for_local_env(tmp_path, monkeypatch):
 
     fops._snapshot_lsp_baseline(str(tmp_path / "x.py"))
     assert snapshot_called == [str(tmp_path / "x.py")]
+# quill: tests

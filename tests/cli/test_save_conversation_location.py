@@ -100,3 +100,4 @@ def test_save_conversation_empty_history_does_nothing(quill_home, capsys):
     assert not saved_dir.exists() or not list(saved_dir.iterdir())
     out = capsys.readouterr().out
     assert "No conversation to save" in out
+# quill: tests

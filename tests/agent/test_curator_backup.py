@@ -592,3 +592,4 @@ def test_restore_cron_skill_links_standalone(backup_env):
     assert report["restored"][0]["to"]["skills"] == ["narrow-a", "narrow-b"]
     assert len(report["skipped_missing"]) == 1
     assert report["skipped_missing"][0]["job_id"] == "job-gone"
+# quill: tests

@@ -1107,3 +1107,4 @@ def test_migrate_model_config_no_catalog_leaves_value_alone(tmp_path: Path):
         {"agents": {"defaults": {"model": "some-model-id"}}},
     )
     assert _extract_model(parsed) == "some-model-id"
+# quill: tests

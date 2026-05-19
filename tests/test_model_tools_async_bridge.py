@@ -444,3 +444,4 @@ def _write_fake_image(dest):
     dest.parent.mkdir(parents=True, exist_ok=True)
     dest.write_bytes(b"\xff\xd8\xff" + b"\x00" * 16)
     return dest
+# quill: tests

@@ -182,3 +182,4 @@ def test_specify_second_call_noop_false(kanban_home):
         assert kb.specify_triage_task(conn, tid, body="spec") is True
     with kb.connect() as conn:
         assert kb.specify_triage_task(conn, tid, body="spec again") is False
+# quill: tests

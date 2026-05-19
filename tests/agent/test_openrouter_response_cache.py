@@ -282,3 +282,4 @@ class TestCheckOpenrouterCacheStatus:
         resp = SimpleNamespace(headers={"x-openrouter-cache-status": "hit"})
         agent._check_openrouter_cache_status(resp)
         assert agent._or_cache_hits == 1
+# quill: tests

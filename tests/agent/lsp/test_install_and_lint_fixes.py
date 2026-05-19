@@ -277,3 +277,4 @@ def test_check_lint_returns_error_for_real_ts_type_errors(tmp_path):
 
 if __name__ == "__main__":  # pragma: no cover
     pytest.main([__file__, "-v"])
+# quill: tests

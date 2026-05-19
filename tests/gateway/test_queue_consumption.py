@@ -361,3 +361,4 @@ class TestQueueConsumptionAfterCompletion:
             e.text for e in runner._queued_events[session_key]
         ]
         assert collected == texts
+# quill: tests

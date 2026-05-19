@@ -73,3 +73,4 @@ def test_compress_context_falls_back_when_engine_rejects_focus_topic():
     assert captured_kwargs == [{"current_tokens": 100}]
     # Silence unused-var warning on agent.
     assert agent.context_compressor is engine
+# quill: tests

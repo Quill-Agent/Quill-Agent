@@ -235,3 +235,4 @@ def test_lookup_context_length_swallows_exceptions():
     with patch("agent.model_metadata.get_model_context_length",
                side_effect=RuntimeError("boom")):
         assert azure_detect.lookup_context_length("m", "https://x/", "k") is None
+# quill: tests

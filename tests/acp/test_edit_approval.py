@@ -201,3 +201,4 @@ def test_workspace_auto_approval_allows_workspace_and_tmp_but_not_sensitive(tmp_
         "session",
         str(tmp_path),
     )
+# quill: tests

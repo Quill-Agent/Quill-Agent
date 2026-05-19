@@ -773,3 +773,4 @@ def test_qqbot_with_allowlist_ignores_unauthorized_dm(monkeypatch):
 
     behavior = runner._get_unauthorized_dm_behavior(Platform.QQBOT)
     assert behavior == "ignore"
+# quill: tests

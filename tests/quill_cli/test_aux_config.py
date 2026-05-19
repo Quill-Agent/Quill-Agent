@@ -299,3 +299,4 @@ def test_leave_unchanged_replaces_cancel_label(tmp_path, monkeypatch):
     assert "Leave unchanged" in labels
     assert "Cancel" not in labels, "Cancel label should be replaced"
     assert any("Configure auxiliary models" in label for label in labels)
+# quill: tests

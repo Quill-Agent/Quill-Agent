@@ -804,3 +804,4 @@ def test_dispatch_unknown_long_method_still_goes_inline(server):
     resp = server.dispatch({"id": "r4", "method": "some.method", "params": {}})
 
     assert resp["result"] == {"ok": True}
+# quill: tests

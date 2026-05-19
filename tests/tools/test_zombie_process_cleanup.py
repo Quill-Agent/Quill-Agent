@@ -291,3 +291,4 @@ class TestDelegationCleanup:
         child.close.assert_called_once()
         assert child not in parent._active_children
         assert result["status"] == "error"
+# quill: tests

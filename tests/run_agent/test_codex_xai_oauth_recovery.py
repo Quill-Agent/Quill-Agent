@@ -648,3 +648,4 @@ def test_grok_4_still_resolves_to_256k():
         # must be "grok-4" (or a more specific variant family if one is
         # ever added).  The 256k contract must hold.
         assert DEFAULT_CONTEXT_LENGTHS[matched_key] == 256_000
+# quill: tests

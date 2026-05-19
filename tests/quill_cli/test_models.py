@@ -880,3 +880,4 @@ class TestNousRecommendedModels:
             patch("quill_cli.models.check_nous_free_tier", side_effect=RuntimeError("boom")),
         ):
             assert get_nous_recommended_aux_model(vision=False) == "paid-model"
+# quill: tests

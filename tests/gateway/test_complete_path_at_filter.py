@@ -277,3 +277,4 @@ def test_fuzzy_paths_relative_to_cwd_inside_subdir(tmp_path, monkeypatch):
     readme_texts = [t for t, _, _ in _items("@README")]
 
     assert not any("README.md" in t for t in readme_texts), readme_texts
+# quill: tests

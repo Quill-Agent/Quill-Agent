@@ -70,3 +70,4 @@ class TestTipIntegrationInCLI:
         # Should not contain nested/broken Rich tags
         assert markup.count("[/]") == 1
         assert "[dim #B8860B]" in markup
+# quill: tests

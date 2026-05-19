@@ -195,3 +195,4 @@ class TestDispatcherBranch:
         assert result["success"] is False
         assert "kittentts" in result["error"].lower()
         assert "quill setup tts" in result["error"].lower()
+# quill: tests

@@ -150,3 +150,4 @@ class TestInterpretExitCode:
     def test_only_env_vars(self):
         """Command with only env var assignments, no actual command."""
         assert _interpret_exit_code("FOO=bar", 1) is None
+# quill: tests

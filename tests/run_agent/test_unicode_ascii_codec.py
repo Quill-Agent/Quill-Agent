@@ -370,3 +370,4 @@ class TestApiMessagesAndApiKwargsSanitized:
         assert _sanitize_messages_non_ascii(messages) is True
         assert "\xab" not in messages[1]["reasoning"]
         assert "\xbb" not in messages[1]["reasoning"]
+# quill: tests

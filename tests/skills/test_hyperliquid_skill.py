@@ -356,3 +356,4 @@ def test_main_export_json_skips_funding_for_spot(tmp_path, capsys):
     assert rendered["summary"]["funding_count"] == 0
     assert saved["source"]["market_type"] == "spot"
     assert saved["funding_history"] == []
+# quill: tests

@@ -256,3 +256,4 @@ def test_resolve_modal_image_uses_snapshot_ids_and_registry_images(tmp_path):
     assert state["from_id_calls"] == ["im-snapshot123"]
     assert state["registry_calls"][0][0] == "python:3.11"
     assert "ensurepip" in state["registry_calls"][0][1][0]
+# quill: tests

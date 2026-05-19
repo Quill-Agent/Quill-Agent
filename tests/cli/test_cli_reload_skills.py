@@ -97,3 +97,4 @@ class TestReloadSkillsCLI:
         assert "boom" in out
         assert cli.conversation_history == []
         assert getattr(cli, "_pending_skills_reload_note", None) is None
+# quill: tests

@@ -285,3 +285,4 @@ class TestGeminiInCheckRequirements:
 
         with patch("builtins.__import__", side_effect=fake_import):
             assert check_tts_requirements() is True
+# quill: tests

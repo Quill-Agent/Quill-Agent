@@ -297,3 +297,4 @@ def test_spotify_playback_recently_played_action(monkeypatch: pytest.MonkeyPatch
     payload = json.loads(spotify_tool._handle_spotify_playback({"action": "recently_played", "limit": 5}))
     assert seen and seen[0]["limit"] == 5
     assert isinstance(payload, dict)
+# quill: tests

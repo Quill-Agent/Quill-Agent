@@ -100,3 +100,4 @@ def test_commit_memory_session_tolerates_context_engine_failure():
     agent.commit_memory_session([{"role": "user", "content": "x"}])
 
     mm.on_session_end.assert_called_once()
+# quill: tests

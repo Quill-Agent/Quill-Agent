@@ -143,3 +143,4 @@ def test_general_plugin_manager_skips_model_provider_kind(tmp_path, monkeypatch)
     # No import means the module must NOT be in the plugins list as a loaded one.
     # We check that the general loader didn't crash and didn't raise from the
     # broken __init__.py.
+# quill: tests

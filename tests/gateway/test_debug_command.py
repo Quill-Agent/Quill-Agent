@@ -58,3 +58,4 @@ class TestHandleDebugCommand:
             result = await runner._handle_debug_command(event)
 
         assert "https://paste.rs/report" in result
+# quill: tests

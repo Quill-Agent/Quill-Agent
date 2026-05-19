@@ -364,3 +364,4 @@ class TestMinimaxSwitchModelCredentialGuard:
             # The key passed to build_anthropic_client should be the MiniMax key
             build_args = mock_build.call_args
             assert build_args[0][0] == "mm-key-123"
+# quill: tests

@@ -399,3 +399,4 @@ class TestShapePrecedence:
         _seed_modpack_sessions(db)
         result = json.loads(session_search(query=None, db=db))  # type: ignore
         assert result["mode"] == "browse"
+# quill: tests

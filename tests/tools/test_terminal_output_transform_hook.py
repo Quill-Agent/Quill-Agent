@@ -207,3 +207,4 @@ def test_terminal_output_transform_integration_with_real_plugin(monkeypatch, tmp
     assert "PLUGIN-HEAD" in result["output"]
     assert "PLUGIN-TAIL" in result["output"]
     assert "[OUTPUT TRUNCATED" in result["output"]
+# quill: tests

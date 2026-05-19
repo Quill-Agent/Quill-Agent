@@ -357,3 +357,4 @@ class TestSendDingtalk:
         assert result["success"] is True
         call_kwargs = client.post.await_args
         assert "access_token=env" in call_kwargs[0][0]
+# quill: tests

@@ -1716,3 +1716,4 @@ def test_board_param_in_all_schemas():
         assert "board" not in schema["parameters"].get("required", []), (
             f"{schema['name']} marks board as required; must be optional"
         )
+# quill: tests

@@ -114,3 +114,4 @@ def test_bundled_catalog_explains_missing_local_skills(gen_module):
     result = gen_module.build_catalog_md_bundled([])
     assert "respects local deletions and user edits" in result
     assert "quill skills reset <name> --restore" in result
+# quill: tests

@@ -871,3 +871,4 @@ class TestGatewayDetachedWatcherWindowsFlags:
         assert 'if sys.platform == "win32":' in source
         # Windows branch uses windows_detach_popen_kwargs
         assert "windows_detach_popen_kwargs" in source
+# quill: tests

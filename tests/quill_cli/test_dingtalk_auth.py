@@ -215,3 +215,4 @@ class TestConfigOverrides:
         import quill_cli.dingtalk_auth as mod
         importlib.reload(mod)
         assert mod.REGISTRATION_SOURCE == "openClaw"
+# quill: tests

@@ -39,3 +39,4 @@ Run manually:
 - **test_benchmarks.py** — latency at 100/1k/10k tasks for dispatch,
   recompute_ready, list_tasks, build_worker_context, etc. Results saved
   to JSON for regression diffing.
+<!-- quill: tests -->

@@ -172,3 +172,4 @@ word word word
         result = json.loads(raw)
         # Should succeed via line-trimmed or indentation-flexible matching
         assert result["success"] is True
+# quill: tests

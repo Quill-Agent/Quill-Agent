@@ -59,3 +59,4 @@ def test_nous_provider_profile_uses_helper():
     assert profile is not None
     body = profile.build_extra_body()
     assert body["tags"] == nous_portal_tags()
+# quill: tests

@@ -41,3 +41,4 @@ def test_session_col_names_are_safe_identifiers():
         assert safe_identifier.match(col), (
             f"Column name {col!r} is not a safe SQL identifier"
         )
+# quill: tests

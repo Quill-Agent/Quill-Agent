@@ -264,3 +264,4 @@ class TestCompressIntegration:
             assert not _content_has_images(m.get("content")), (
                 f"Stale image in {m.get('role')!r} message after compression"
             )
+# quill: tests

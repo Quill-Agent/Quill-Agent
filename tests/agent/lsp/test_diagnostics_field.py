@@ -144,3 +144,4 @@ def test_patch_replace_propagates_lsp_diagnostics(tmp_path):
 
     assert res.success is True
     assert res.lsp_diagnostics == block
+# quill: tests

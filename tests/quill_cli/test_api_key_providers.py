@@ -1310,3 +1310,4 @@ class TestMinimaxOAuthProvider:
         from agent.auxiliary_client import _API_KEY_PROVIDER_AUX_MODELS
         assert "minimax-oauth" in _API_KEY_PROVIDER_AUX_MODELS
         assert _API_KEY_PROVIDER_AUX_MODELS["minimax-oauth"]  # non-empty
+# quill: tests

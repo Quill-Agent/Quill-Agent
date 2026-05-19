@@ -222,3 +222,4 @@ def test_openrouter_headers_no_cache_when_disabled(mock_openai):
     assert headers["HTTP-Referer"] == "https://quill-agent.example.com"
     assert "X-OpenRouter-Cache" not in headers
     assert "X-OpenRouter-Cache-TTL" not in headers
+# quill: tests

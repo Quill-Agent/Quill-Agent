@@ -739,3 +739,4 @@ async def test_skill_handler_dispatches_for_authorized(
     interaction = _make_interaction("100200300")
     await handler(interaction, "alpha", "extra args")
     assert dispatched == ["/alpha extra args"]
+# quill: tests

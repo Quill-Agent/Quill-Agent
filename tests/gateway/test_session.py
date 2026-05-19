@@ -1382,3 +1382,4 @@ class TestRewriteTranscriptPreservesReasoning:
             "before user",
             "before assistant",
         ]
+# quill: tests

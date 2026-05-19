@@ -107,3 +107,4 @@ class TestSendSlashConfirm:
         )
 
         assert result.success is False
+# quill: tests

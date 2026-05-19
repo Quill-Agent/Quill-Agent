@@ -277,3 +277,4 @@ class TestSetupFeishuAdapterIntegration:
             from gateway.platforms.feishu import FeishuAdapter
             adapter = FeishuAdapter(PlatformConfig())
             assert adapter._group_policy == "open"
+# quill: tests

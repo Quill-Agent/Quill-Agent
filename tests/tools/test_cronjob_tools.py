@@ -365,3 +365,4 @@ class TestUnifiedCronjobTool:
         assert updated["success"] is True
         stored = get_job(created["job_id"])
         assert stored["deliver"] == "telegram"
+# quill: tests

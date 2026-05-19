@@ -111,3 +111,4 @@ class TestPostDeliveryCallbackChaining:
     def test_non_callable_is_noop(self, adapter):
         adapter.register_post_delivery_callback("s", "not-callable")  # type: ignore[arg-type]
         assert adapter._post_delivery_callbacks == {}
+# quill: tests

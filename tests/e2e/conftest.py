@@ -434,3 +434,4 @@ def discord_runner(discord_setup):
 @pytest.fixture()
 def bot_user():
     return make_fake_bot_user()
+# quill: tests

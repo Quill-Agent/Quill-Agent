@@ -219,3 +219,4 @@ class TestInterruptFlagLifecycle:
             "runs — otherwise a prior turn's interrupt state leaks into the "
             "next turn's goal hook decision."
         )
+# quill: tests

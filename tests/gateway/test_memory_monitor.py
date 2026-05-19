@@ -120,3 +120,4 @@ def test_unavailable_rss_warns_and_does_not_start(caplog, monkeypatch):
     assert started is False
     assert mm.is_running() is False
     assert any("Memory monitoring unavailable" in r.getMessage() for r in caplog.records)
+# quill: tests

@@ -592,3 +592,4 @@ class TestAuxiliaryClientBedrockResolution:
             _, model = resolve_provider_client("bedrock", None)
 
         assert "haiku" in model.lower()
+# quill: tests

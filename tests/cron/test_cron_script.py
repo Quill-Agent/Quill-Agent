@@ -542,3 +542,4 @@ class TestRunJobEnvVarCleanup:
         assert os.environ.get("QUILL_SESSION_PLATFORM") is None
         assert os.environ.get("QUILL_SESSION_CHAT_ID") is None
         assert os.environ.get("QUILL_SESSION_CHAT_NAME") is None
+# quill: tests

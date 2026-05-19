@@ -158,3 +158,4 @@ class TestOllamaUrlHostCheck:
         assert base_url_host_matches(
             "https://api.ollama.com/v1", "ollama.com"
         ) is True
+# quill: tests

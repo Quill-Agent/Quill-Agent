@@ -1965,3 +1965,4 @@ def test_preflight_codex_input_deduplicates_reasoning_ids(monkeypatch):
     # IDs must be stripped — with store=False the API 404s on id lookups.
     for it in reasoning_items:
         assert "id" not in it
+# quill: tests

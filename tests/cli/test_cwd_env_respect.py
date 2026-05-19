@@ -99,3 +99,4 @@ class TestGatewayLazyImport:
         d = {"terminal": {"cwd": "/home/user"}}
         result = _resolve_cwd(tc, d, env)
         assert result == "/fake/getcwd"
+# quill: tests

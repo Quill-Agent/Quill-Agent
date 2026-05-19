@@ -122,3 +122,4 @@ class TestOpenRouterAndNousUnchanged:
                 raise
             except Exception:
                 pass  # model_ids() may fail in the hermetic test env — that's fine.
+# quill: tests

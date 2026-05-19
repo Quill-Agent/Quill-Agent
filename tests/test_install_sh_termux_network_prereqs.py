@@ -20,3 +20,4 @@ def test_install_script_has_connectivity_probe_and_termux_guidance() -> None:
     assert "termux-change-repo" in text
     assert "pkg install -y ca-certificates curl && pkg update" in text
     assert "check_network_prerequisites" in text
+# quill: tests

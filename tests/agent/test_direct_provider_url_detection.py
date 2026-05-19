@@ -25,3 +25,4 @@ def test_direct_openai_url_accepts_native_host():
     agent = _agent_with_base_url("https://api.openai.com/v1")
 
     assert agent._is_direct_openai_url() is True
+# quill: tests

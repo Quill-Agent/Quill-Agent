@@ -81,3 +81,4 @@ class TestPathTraversalBlocked:
         assert result["success"] is False
         assert "sk-do-not-leak" not in result.get("content", "")
         assert "sk-do-not-leak" not in json.dumps(result)
+# quill: tests

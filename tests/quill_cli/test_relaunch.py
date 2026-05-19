@@ -284,3 +284,4 @@ class TestResolveQuillBinWindowsPyGuard:
         monkeypatch.setattr(relaunch_mod.shutil, "which", lambda name: None)
 
         assert relaunch_mod.resolve_quill_bin() is None
+# quill: tests

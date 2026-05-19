@@ -17,3 +17,4 @@ def all_assignees_spawnable(monkeypatch):
     """
     from quill_cli import profiles
     monkeypatch.setattr(profiles, "profile_exists", lambda name: True)
+# quill: tests

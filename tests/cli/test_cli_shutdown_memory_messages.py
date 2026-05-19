@@ -109,3 +109,4 @@ def test_cleanup_provider_exception_is_swallowed(mock_invoke_hook):
         cli_mod._cleanup_done = False
 
     agent.shutdown_memory_provider.assert_called_once()
+# quill: tests

@@ -267,3 +267,4 @@ class TestExtractContentOrReasoning:
         """When both content and reasoning exist, content wins."""
         response = _make_response("Actual answer", reasoning="Internal reasoning")
         assert extract_content_or_reasoning(response) == "Actual answer"
+# quill: tests

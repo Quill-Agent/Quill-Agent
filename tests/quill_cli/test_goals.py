@@ -738,3 +738,4 @@ class TestStatusLineSubgoalCount:
         mgr.add_subgoal("b")
         line = mgr.status_line()
         assert "2 subgoals" in line
+# quill: tests

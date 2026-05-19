@@ -891,3 +891,4 @@ class TestDialecticDepthParsing:
         }))
         config = HonchoClientConfig.from_global_config(config_path=config_file)
         assert config.dialectic_depth_levels == ["low", "high"]
+# quill: tests

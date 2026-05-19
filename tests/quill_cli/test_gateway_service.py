@@ -2551,3 +2551,4 @@ class TestGatewayCommandCatchesSystemScopeError:
         # Renders the message, NOT the ``('msg', 'action')`` tuple repr
         assert "System gateway start requires root. Re-run with sudo." in out
         assert "('" not in out  # no tuple repr leaking through
+# quill: tests

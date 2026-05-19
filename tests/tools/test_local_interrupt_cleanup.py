@@ -192,3 +192,4 @@ def test_wait_for_process_kills_subprocess_on_keyboardinterrupt():
             env.cleanup()
         except Exception:
             pass
+# quill: tests

@@ -411,3 +411,4 @@ class TestDMTopicFallbackReplyToMode:
 
         call = adapter._bot.send_message.call_args_list[0]
         assert call.kwargs.get("reply_to_message_id") == 12345
+# quill: tests

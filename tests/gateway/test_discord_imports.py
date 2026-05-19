@@ -21,3 +21,4 @@ class TestDiscordImportSafety:
 
         assert module.DISCORD_AVAILABLE is False
         assert module.discord is None
+# quill: tests

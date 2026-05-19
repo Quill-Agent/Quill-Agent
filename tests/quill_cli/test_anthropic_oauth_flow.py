@@ -50,3 +50,4 @@ def test_run_anthropic_oauth_flow_manual_token_still_persists(tmp_path, monkeypa
     assert env_vars["ANTHROPIC_TOKEN"] == "sk-ant-oat01-manual-token"
     output = capsys.readouterr().out
     assert "Setup-token saved" in output
+# quill: tests

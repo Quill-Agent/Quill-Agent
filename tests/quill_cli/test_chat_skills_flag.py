@@ -99,3 +99,4 @@ def test_continue_worktree_and_skills_flags_work_together(monkeypatch):
         "skills": ["quill-agent-dev"],
         "command": "chat",
     }
+# quill: tests

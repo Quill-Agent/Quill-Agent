@@ -94,3 +94,4 @@ def test_request_client_does_not_add_vision_header_after_non_vision_fallback():
 
     headers = built_kwargs[-1]["default_headers"]
     assert "Copilot-Vision-Request" not in headers
+# quill: tests

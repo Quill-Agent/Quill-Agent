@@ -193,3 +193,4 @@ class TestClarifySchema:
     def test_max_choices_is_four(self):
         """MAX_CHOICES constant should be 4."""
         assert MAX_CHOICES == 4
+# quill: tests

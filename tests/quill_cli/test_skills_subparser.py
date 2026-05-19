@@ -33,3 +33,4 @@ def test_no_duplicate_skills_subparser():
                 "See issue #898 for details."
             ) from e
         raise
+# quill: tests

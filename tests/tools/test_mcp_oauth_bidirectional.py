@@ -208,3 +208,4 @@ async def _noop_callback() -> tuple[str, str | None]:
     raise AssertionError(
         "callback handler should not be invoked in bidirectional-generator tests"
     )
+# quill: tests

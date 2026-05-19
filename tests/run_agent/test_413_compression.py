@@ -612,3 +612,4 @@ class TestToolResultPreflightCompression:
 
         mock_compress.assert_called_once()
         assert result["completed"] is True
+# quill: tests

@@ -44,3 +44,4 @@ class TestAllowlistStartupCheck:
     def test_gateway_allow_all_users_suppresses_warning(self):
         with patch.dict(os.environ, {"GATEWAY_ALLOW_ALL_USERS": "yes"}, clear=True):
             assert _would_warn() is False
+# quill: tests

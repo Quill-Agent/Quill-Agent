@@ -125,3 +125,4 @@ class TestSSHPerf:
 
         # Should be pure SSH overhead, no sync
         assert med < 1.5, f"within-interval median {med*1000:.0f}ms exceeds 1500ms"
+# quill: tests

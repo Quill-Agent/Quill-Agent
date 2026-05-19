@@ -316,3 +316,4 @@ class TestEmitCollect:
         await reg.emit_collect("agent:start")  # no context arg
 
         assert captured == [("agent:start", {})]
+# quill: tests

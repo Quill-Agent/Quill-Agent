@@ -769,3 +769,4 @@ class TestChatCompletionsCacheStats:
         r = SimpleNamespace(usage=SimpleNamespace(prompt_tokens_details=details))
         result = transport.extract_cache_stats(r)
         assert result == {"cached_tokens": 500, "creation_tokens": 100}
+# quill: tests

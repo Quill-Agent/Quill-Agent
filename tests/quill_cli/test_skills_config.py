@@ -317,3 +317,4 @@ class TestGetCategories:
         from quill_cli.skills_config import _get_categories
         skills = [{"name": "a", "category": None, "description": ""}]
         assert "uncategorized" in _get_categories(skills)
+# quill: tests

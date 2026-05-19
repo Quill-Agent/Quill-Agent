@@ -211,3 +211,4 @@ class TestHandleVisionAnalyzeFastPath:
 
         assert not (isinstance(result, dict) and result.get("_multimodal") is True), \
             "Fast path fired for unknown provider; should have fallen through"
+# quill: tests

@@ -141,3 +141,4 @@ def make_restart_runner(
     platform_adapter.set_busy_session_handler(runner._handle_active_session_busy_message)
     runner.adapters = {Platform.TELEGRAM: platform_adapter}
     return runner, platform_adapter
+# quill: tests

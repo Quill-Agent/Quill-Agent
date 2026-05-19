@@ -461,3 +461,4 @@ class TestEmailMultiImage:
         ) as mock_send:
             _run(adapter.send_multiple_images("user@example.com", []))
         mock_send.assert_not_called()
+# quill: tests

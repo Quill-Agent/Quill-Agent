@@ -797,3 +797,4 @@ class TestWarnIfOpenclawRunning:
         captured = capsys.readouterr()
         assert "OpenClaw appears to be running" in captured.out
         assert "Non-interactive session" in captured.out
+# quill: tests

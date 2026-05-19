@@ -101,3 +101,4 @@ class TestDistributionStructure:
     def test_descriptions_non_empty(self):
         for name, dist in DISTRIBUTIONS.items():
             assert len(dist["description"]) > 5, f"{name} has too short description"
+# quill: tests

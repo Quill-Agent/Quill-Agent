@@ -4823,3 +4823,4 @@ class TestFeishuMentionEndToEnd(unittest.TestCase):
         # Body: leading @Quill stripped, Alice preserved, trailing text intact.
         self.assertIn("@Alice review the spec with Alice", event.text)
         self.assertNotIn("@Quill @Alice", event.text)
+# quill: tests

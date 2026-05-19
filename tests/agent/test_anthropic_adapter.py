@@ -1987,3 +1987,4 @@ class TestConvertToolsToAnthropicDedup:
 
     def test_none_tools_returns_empty(self):
         assert convert_tools_to_anthropic(None) == []
+# quill: tests

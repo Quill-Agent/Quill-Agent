@@ -208,3 +208,4 @@ class TestRunningAgentsNotDoubleCleaned:
         # Called at least once — either from _finalize_shutdown_agents
         # or from the cache sweep (or both)
         assert shared.shutdown_memory_provider.call_count >= 1
+# quill: tests

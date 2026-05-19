@@ -195,3 +195,4 @@ def test_bind_gateway_runtime_installs_drop_scheduler_on_failure(monkeypatch):
     assert bound is False
     assert callable(gateway.adapters[Platform.MSGRAPH_WEBHOOK].scheduler)
     assert gateway._teams_pipeline_runtime_error == "boom"
+# quill: tests

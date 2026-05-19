@@ -335,3 +335,4 @@ class TestVideoToolsetRegistration:
         from toolsets import TOOLSETS
         assert "video" in TOOLSETS
         assert "video_analyze" in TOOLSETS["video"]["tools"]
+# quill: tests

@@ -10,3 +10,4 @@ def test_profiles_nav_label_uses_short_copy():
     # Nav label should be the clean short form, not the old verbose string
     assert 'profiles: "Profiles"' in content
     assert "profiles : multi agents" not in content
+# quill: tests

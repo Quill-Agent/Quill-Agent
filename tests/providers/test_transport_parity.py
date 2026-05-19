@@ -257,3 +257,4 @@ class TestCustomOllamaParity:
             reasoning_config={"enabled": False, "effort": "none"},
         )
         assert kw["extra_body"]["think"] is False
+# quill: tests

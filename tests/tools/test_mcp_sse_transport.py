@@ -207,3 +207,4 @@ class TestSSEOAuthForwarding:
             f"sse_client was called with auth= when no OAuth was configured: "
             f"{patch_sse_client!r}"
         )
+# quill: tests

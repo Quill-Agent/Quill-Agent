@@ -358,3 +358,4 @@ class TestHandleMessageUsesAuthenticatedRead:
         event = adapter.handle_message.call_args[0][0]
         assert event.media_urls == ["/tmp/img_from_read.png"]
         assert event.media_types == ["image/png"]
+# quill: tests

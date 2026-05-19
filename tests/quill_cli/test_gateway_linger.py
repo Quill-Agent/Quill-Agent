@@ -123,3 +123,4 @@ def test_systemd_install_calls_linger_helper(monkeypatch, tmp_path, capsys):
     ]
     assert helper_calls == [True]
     assert "User service installed and enabled" in out
+# quill: tests

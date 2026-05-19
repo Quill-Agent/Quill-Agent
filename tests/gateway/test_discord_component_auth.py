@@ -228,3 +228,4 @@ def test_model_picker_view_empty_allowlists_allow_everyone():
     )
     assert view.allowed_role_ids == set()
     assert view._check_auth(_interaction(99999)) is True
+# quill: tests

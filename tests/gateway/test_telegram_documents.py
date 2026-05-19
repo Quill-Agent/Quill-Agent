@@ -894,3 +894,4 @@ class TestSendVideo:
 
         call_kwargs = connected_adapter._bot.send_video.call_args[1]
         assert call_kwargs["message_thread_id"] == 789
+# quill: tests

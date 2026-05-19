@@ -233,3 +233,4 @@ def test_make_agent_tolerates_null_personalities_with_active_personality():
 
         assert mock_agent.called
         assert mock_agent.call_args.kwargs["ephemeral_system_prompt"] is None
+# quill: tests

@@ -100,3 +100,4 @@ class TestSourceLinesAreClamped:
         assert count >= 2, (
             f"memory_tool.py has only {count} clamped pct lines, expected >= 2"
         )
+# quill: tests

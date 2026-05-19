@@ -195,3 +195,4 @@ class TestClearIfStale:
     def test_returns_false_for_missing_entry(self):
         cleared = slash_confirm.clear_if_stale("nobody")
         assert cleared is False
+# quill: tests

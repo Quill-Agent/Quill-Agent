@@ -306,3 +306,4 @@ def test_clear_output_history_removes_replayable_lines():
     cli._clear_output_history()
 
     assert list(cli._OUTPUT_HISTORY) == []
+# quill: tests

@@ -514,3 +514,4 @@ class TestRegistration:
         monkeypatch.setenv("HASS_TOKEN", "test-token")
         defs = registry.get_definitions({"ha_list_entities", "ha_get_state", "ha_call_service"})
         assert len(defs) == 3
+# quill: tests

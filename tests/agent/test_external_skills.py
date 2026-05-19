@@ -155,3 +155,4 @@ class TestExternalSkillView:
             result = json.loads(skill_view("my-external-skill"))
         assert result["success"] is True
         assert "external things" in result["content"]
+# quill: tests

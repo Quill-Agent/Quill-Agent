@@ -335,3 +335,4 @@ def test_cli_specify_author_passed_through(kanban_home, capsys):
     with kb.connect() as conn:
         comments = kb.list_comments(conn, tid)
     assert comments and comments[0].author == "custom-agent"
+# quill: tests

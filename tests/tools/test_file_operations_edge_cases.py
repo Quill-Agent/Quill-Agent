@@ -382,3 +382,4 @@ class TestSearchContextParsing:
         assert result.matches[0].path == "dir/file-12-name.py"
         assert result.matches[0].line_number == 8
         assert result.matches[0].content == "context here"
+# quill: tests

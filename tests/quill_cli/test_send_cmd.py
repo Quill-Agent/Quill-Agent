@@ -398,3 +398,4 @@ def test_load_quill_env_handles_missing_files(tmp_path, monkeypatch):
 
     # Should not raise.
     send_cmd._load_quill_env()
+# quill: tests

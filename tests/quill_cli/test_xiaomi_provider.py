@@ -374,3 +374,4 @@ class TestXiaomiAgentInit:
         overlay = QUILL_OVERLAYS["xiaomi"]
         api_mode = TRANSPORT_TO_API_MODE[overlay.transport]
         assert api_mode == "chat_completions"
+# quill: tests

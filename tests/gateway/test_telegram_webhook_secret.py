@@ -98,3 +98,4 @@ class TestTelegramWebhookSecretRequired:
             polling_body = webhook_block.group(2)
             assert "TELEGRAM_WEBHOOK_SECRET" in webhook_body
             assert "TELEGRAM_WEBHOOK_SECRET" not in polling_body
+# quill: tests

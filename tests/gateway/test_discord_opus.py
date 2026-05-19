@@ -42,3 +42,4 @@ class TestOpusFindLibrary:
                 next_line = lines[i + 1].strip()
                 assert next_line != "return", \
                     f"_on_packet has bare 'except Exception: return' at line {i+1}"
+# quill: tests

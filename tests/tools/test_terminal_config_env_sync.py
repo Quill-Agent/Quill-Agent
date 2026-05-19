@@ -224,3 +224,4 @@ def test_docker_env_is_bridged_everywhere():
     assert "docker_env" in _gateway_env_map_keys()
     assert "docker_env" in _save_config_env_sync_keys()
     assert "TERMINAL_DOCKER_ENV" in _terminal_tool_env_var_names()
+# quill: tests

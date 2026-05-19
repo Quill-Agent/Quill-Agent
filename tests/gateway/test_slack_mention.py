@@ -687,3 +687,4 @@ def test_config_bridges_slack_allowed_channels_env_takes_precedence(monkeypatch,
     import os as _os
     # env var must not be overwritten by config.yaml
     assert _os.environ["SLACK_ALLOWED_CHANNELS"] == OTHER_CHANNEL_ID
+# quill: tests

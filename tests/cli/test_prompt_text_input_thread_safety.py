@@ -99,3 +99,4 @@ class TestPromptTextInputThreadSafety:
             result = cli._prompt_text_input("Choice: ")
 
         assert result is None
+# quill: tests

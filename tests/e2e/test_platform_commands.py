@@ -235,3 +235,4 @@ class TestSendFailureResilience:
         await asyncio.sleep(0.3)
 
         adapter.send.assert_called()
+# quill: tests

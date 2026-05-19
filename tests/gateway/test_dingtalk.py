@@ -1088,3 +1088,4 @@ class TestDingTalkAdapterAICards:
         mock_card_sdk.deliver_card_with_options_async.assert_called_once()
         mock_card_sdk.streaming_update_with_options_async.assert_called_once()
         assert result.success is True
+# quill: tests

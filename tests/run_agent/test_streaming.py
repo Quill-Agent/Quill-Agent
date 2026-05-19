@@ -1728,3 +1728,4 @@ class TestCodexFallbackErrorEvent:
             )
 
         assert "did not emit a terminal response" in str(excinfo.value)
+# quill: tests

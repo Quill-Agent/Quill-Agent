@@ -280,3 +280,4 @@ class TestRegistration:
         provider = mock_ctx.register_image_gen_provider.call_args[0][0]
         assert isinstance(provider, XAIImageGenProvider)
         assert provider.name == "xai"
+# quill: tests

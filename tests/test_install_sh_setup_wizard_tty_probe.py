@@ -89,3 +89,4 @@ def test_tty_gate_uses_open_based_probe(fn_name: str) -> None:
         "(an `if`/`if !`/`elif` whose test redirects stdin from /dev/tty), "
         "not a mere existence check. See #16746."
     )
+# quill: tests

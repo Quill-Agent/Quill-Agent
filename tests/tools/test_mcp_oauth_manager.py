@@ -138,4 +138,4 @@ def test_manager_builds_quill_provider_subclass(tmp_path, monkeypatch):
     assert _QUILL_PROVIDER_CLS is not None
     assert isinstance(provider, _QUILL_PROVIDER_CLS)
     assert provider._quill_server_name == "srv"
-
+# quill: tests

@@ -605,3 +605,4 @@ class TestThreadEngagement:
                 for t in to_remove:
                     adapter._mentioned_threads.discard(t)
         assert len(adapter._mentioned_threads) <= 10
+# quill: tests

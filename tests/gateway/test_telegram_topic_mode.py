@@ -1326,3 +1326,4 @@ def test_session_split_restores_source_thread_id_from_binding(tmp_path):
     meta = GatewayRunner._thread_metadata_for_source(runner, source)
     assert meta is not None
     assert meta["thread_id"] == "17585"
+# quill: tests

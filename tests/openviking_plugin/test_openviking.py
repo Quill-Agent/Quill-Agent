@@ -231,3 +231,4 @@ class TestOpenVikingBrowse:
             "/api/v1/fs/ls",
             {"uri": "viking://user/quill"},
         )]
+# quill: tests

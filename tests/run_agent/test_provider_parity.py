@@ -1180,3 +1180,4 @@ class TestReasoningEffortDefaults:
         agent.reasoning_config = {"enabled": True, "effort": "medium"}
         kwargs = agent._build_api_kwargs([{"role": "user", "content": "hi"}])
         assert kwargs["extra_body"]["reasoning"]["effort"] == "medium"
+# quill: tests

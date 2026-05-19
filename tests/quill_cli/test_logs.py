@@ -253,3 +253,4 @@ class TestLogFiles:
         assert "agent" in LOG_FILES
         assert "errors" in LOG_FILES
         assert "gateway" in LOG_FILES
+# quill: tests

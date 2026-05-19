@@ -135,3 +135,4 @@ class TestHandleFunctionCallIntegration:
         assert "<tool_call>" not in payload["error"]
         assert "</tool_call>" not in payload["error"]
         assert "boom" in payload["error"]
+# quill: tests

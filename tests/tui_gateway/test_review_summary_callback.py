@@ -115,3 +115,4 @@ def test_review_summary_callback_survives_agent_without_attribute(server, monkey
     # LockedAgent's __slots__ blocks background_review_callback assignment.
     server._init_session("sid-x", "key-x", LockedAgent(), [], cols=80)
     # If we got here, _init_session swallowed the AttributeError gracefully.
+# quill: tests

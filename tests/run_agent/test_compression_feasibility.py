@@ -456,3 +456,4 @@ def test_run_conversation_clears_warning_after_replay(mock_get_client, mock_ctx_
         agent._compression_warning = None
 
     assert len(callback_events) == 0
+# quill: tests

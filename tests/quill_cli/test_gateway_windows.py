@@ -61,3 +61,4 @@ def test_build_gateway_argv_uses_base_pythonw_for_uv_venv_launcher(monkeypatch, 
     assert env_overlay["VIRTUAL_ENV"] == str(project / "venv")
     assert str(project) in env_overlay["PYTHONPATH"].split(gateway_windows.os.pathsep)
     assert str(site_packages) in env_overlay["PYTHONPATH"].split(gateway_windows.os.pathsep)
+# quill: tests

@@ -811,3 +811,4 @@ class TestMatrixConfigBridge:
             )
 
         assert os.getenv("MATRIX_REQUIRE_MENTION") == "true"
+# quill: tests

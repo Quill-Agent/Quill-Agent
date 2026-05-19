@@ -193,3 +193,4 @@ def test_no_codex_when_no_credentials(tmp_path, monkeypatch):
     assert "openai-codex" not in slugs, (
         "openai-codex should not appear without any credentials"
     )
+# quill: tests

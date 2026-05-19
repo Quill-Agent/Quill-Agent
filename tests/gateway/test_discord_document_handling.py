@@ -528,4 +528,4 @@ class TestAllowAnyAttachment:
         """Garbage in max_attachment_bytes config falls back to 32 MiB."""
         adapter.config.extra["max_attachment_bytes"] = "not-a-number"
         assert adapter._discord_max_attachment_bytes() == 32 * 1024 * 1024
-
+# quill: tests

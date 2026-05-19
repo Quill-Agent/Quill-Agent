@@ -83,3 +83,4 @@ def test_root_lockfile_has_no_camofox_entries() -> None:
         "package-lock.json still references camoufox-js (transitive of "
         "@askjo/camofox-browser). Regenerate the lockfile."
     )
+# quill: tests

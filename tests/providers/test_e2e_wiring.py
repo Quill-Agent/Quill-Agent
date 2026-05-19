@@ -116,3 +116,4 @@ class TestDeepSeekProfileWiring:
             ollama_num_ctx=None,
         )
         assert kwargs["messages"] == msgs
+# quill: tests

@@ -235,3 +235,4 @@ class TestVideoPluginProviderActive:
         ]
 
         assert tools_config._detect_active_provider_index(providers, config) == 0
+# quill: tests

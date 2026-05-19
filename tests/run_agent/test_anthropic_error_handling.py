@@ -536,3 +536,4 @@ def test_prompt_too_long_triggers_compression(monkeypatch):
 
     assert result["final_response"] == "Compressed and recovered"
     assert _PromptTooLongThenSuccessAgent.compress_called >= 1
+# quill: tests

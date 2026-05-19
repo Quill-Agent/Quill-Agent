@@ -328,3 +328,4 @@ class TestSanePathIncludesHomebrew:
             result = _make_run_env({})
         # Should keep existing PATH unchanged
         assert result["PATH"] == "/usr/bin:/bin"
+# quill: tests

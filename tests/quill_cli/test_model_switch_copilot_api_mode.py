@@ -99,3 +99,4 @@ def test_copilot_gpt5_keeps_codex_responses():
     # gpt-5.4-mini is a GPT-5 variant — should use codex_responses
     # (gpt-5-mini is the special case that uses chat_completions)
     assert result.api_mode == "codex_responses"
+# quill: tests

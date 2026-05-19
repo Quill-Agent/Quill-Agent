@@ -284,3 +284,4 @@ class TestArgparse:
             pass
         assert captured["args"].reconfigure is False
         assert captured["args"].quick is False
+# quill: tests

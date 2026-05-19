@@ -181,3 +181,4 @@ def test_spotify_interactive_setup_empty_aborts(
     env_path = tmp_path / ".env"
     if env_path.exists():
         assert "QUILL_SPOTIFY_CLIENT_ID" not in env_path.read_text()
+# quill: tests

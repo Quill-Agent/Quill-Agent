@@ -89,3 +89,4 @@ def test_terminal_background_keeps_pty_for_regular_interactive_commands(monkeypa
 
     assert captured["use_pty"] is True
     assert "pty_note" not in result
+# quill: tests

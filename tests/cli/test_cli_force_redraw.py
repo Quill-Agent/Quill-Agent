@@ -191,3 +191,4 @@ class TestForceFullRedraw:
         bare_cli._app = app
 
         bare_cli._force_full_redraw()  # must not raise
+# quill: tests

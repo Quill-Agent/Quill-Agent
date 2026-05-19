@@ -383,3 +383,4 @@ class TestManifestMatchesInRepoLists:
             "Run: python scripts/build_model_catalog.py && "
             "git add website/static/api/model-catalog.json"
         )
+# quill: tests

@@ -251,3 +251,4 @@ class TestUsageAccountSection:
         assert calls["kwargs"]["base_url"] == "https://chatgpt.com/backend-api/codex"
         assert "📊 **Session Info**" in result
         assert "📈 **Account limits**" in result
+# quill: tests

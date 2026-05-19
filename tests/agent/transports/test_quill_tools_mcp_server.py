@@ -133,3 +133,4 @@ class TestMain:
         monkeypatch.setattr(m, "_build_server", lambda: CrashingServer())
         rc = m.main([])
         assert rc == 1
+# quill: tests

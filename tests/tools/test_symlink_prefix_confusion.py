@@ -170,3 +170,4 @@ class TestSymlinkEscapeWithActualSymlinks:
         skill_dir_resolved = skill_dir.resolve()
 
         assert _new_check_escapes(resolved, skill_dir_resolved) is True
+# quill: tests

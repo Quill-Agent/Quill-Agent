@@ -275,3 +275,4 @@ class TestRegressionGuard:
              patch.object(tts_tool, "_check_neutts_available", return_value=False), \
              patch.object(tts_tool, "_check_kittentts_available", return_value=False):
             assert tts_tool.check_tts_requirements() is True
+# quill: tests

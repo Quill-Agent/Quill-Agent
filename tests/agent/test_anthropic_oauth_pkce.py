@@ -168,3 +168,4 @@ def test_callback_state_mismatch_aborts(monkeypatch, tmp_path, caplog):
     assert "url" not in captured_token, (
         "token exchange must NOT happen when state mismatches"
     )
+# quill: tests

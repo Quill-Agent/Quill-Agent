@@ -195,3 +195,4 @@ class TestAuthCredentialPoolFallback:
         assert key == "sk-dotenv-priority-xyz"
         assert source == "DEEPSEEK_API_KEY"
         mp.assert_not_called()
+# quill: tests

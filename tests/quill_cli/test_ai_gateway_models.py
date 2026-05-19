@@ -159,3 +159,4 @@ def test_fetch_ai_gateway_models_falls_back_on_error():
     with patch("urllib.request.urlopen", side_effect=OSError("network")):
         result = fetch_ai_gateway_models(force_refresh=True)
     assert result == list(VERCEL_AI_GATEWAY_MODELS)
+# quill: tests

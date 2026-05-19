@@ -496,3 +496,4 @@ class TestManagedGatewayErrorTranslation:
 
         with pytest.raises(ConnectionError):
             image_tool._submit_fal_request("fal-ai/flux-2-pro", {"prompt": "x"})
+# quill: tests

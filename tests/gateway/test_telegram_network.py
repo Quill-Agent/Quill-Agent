@@ -674,3 +674,4 @@ class TestDiscoverFallbackIps:
 
         ips = await tnet.discover_fallback_ips()
         assert ips == ["149.154.167.220"]
+# quill: tests

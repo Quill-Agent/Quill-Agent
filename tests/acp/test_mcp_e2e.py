@@ -363,3 +363,4 @@ class TestSessionLifecycleMcpE2E:
 
         assert fork_resp.session_id != ""
         assert "api" in registered
+# quill: tests

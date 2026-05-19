@@ -708,3 +708,4 @@ class TestPluginPlatformSharedKeyBridge:
             assert extra.get("allow_from") == ["alice", "bob"]
         finally:
             _reg.unregister("mysharedplat")
+# quill: tests

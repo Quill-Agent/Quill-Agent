@@ -428,3 +428,4 @@ class TestMSGraphSourceIPAllowlist:
         """Env-var-style 'cidr1, cidr2' strings parse as a list."""
         adapter = _make_adapter(allowed_source_cidrs="10.0.0.0/8, 203.0.113.0/24")
         assert len(adapter._allowed_source_networks) == 2
+# quill: tests

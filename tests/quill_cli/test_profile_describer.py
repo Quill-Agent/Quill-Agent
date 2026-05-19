@@ -166,3 +166,4 @@ def test_describer_returns_false_when_profile_missing(profile_env, monkeypatch):
     outcome = describer.describe_profile("ghost")
     assert outcome.ok is False
     assert "not found" in outcome.reason
+# quill: tests

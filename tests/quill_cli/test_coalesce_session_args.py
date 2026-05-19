@@ -111,3 +111,4 @@ class TestCoalesceSessionNameArgs:
         assert _coalesce_session_name_args(
             ["-c", "my", "setup"]
         ) == ["-c", "my", "setup"]
+# quill: tests

@@ -492,3 +492,4 @@ class TestCustomProviderAliasCollision:
         assert isinstance(client, OpenAI)
         assert "override.example.com" in str(client.base_url)
         assert client.api_key == "override-key"
+# quill: tests

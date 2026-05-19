@@ -168,3 +168,4 @@ class TestLiveOsvQuery:
             assert len(result) == 0
         except Exception:
             pytest.skip("OSV API unreachable")
+# quill: tests

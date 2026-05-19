@@ -176,3 +176,4 @@ def test_service_status_includes_clients(mock_pyright):
         assert any(c["server_id"] == "pyright" for c in info["clients"])
     finally:
         svc.shutdown()
+# quill: tests

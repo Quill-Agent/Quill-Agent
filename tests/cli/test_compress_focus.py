@@ -116,3 +116,4 @@ def test_no_focus_prints_standard_banner(capsys):
     output = capsys.readouterr().out
     assert "focus:" not in output
     assert "Compressing" in output
+# quill: tests

@@ -54,3 +54,4 @@ def test_recent_view_activity_prevents_false_stale_transition(curator_modules, m
 
     assert counts["marked_stale"] == 0
     assert skill_usage.get_record("recently-viewed")["state"] == "active"
+# quill: tests

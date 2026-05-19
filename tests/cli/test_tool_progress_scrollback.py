@@ -187,3 +187,4 @@ class TestToolProgressScrollback:
         # First entry consumed, second remains
         assert len(cli._pending_tool_info.get("terminal", [])) == 1
         assert cli._pending_tool_info["terminal"][0] == {"command": "pwd"}
+# quill: tests

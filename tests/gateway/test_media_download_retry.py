@@ -979,3 +979,4 @@ class TestMattermostSendUrlAsFile:
         # No sleep — fell back on first attempt
         mock_sleep.assert_not_called()
         assert adapter._session.get.call_count == 1
+# quill: tests

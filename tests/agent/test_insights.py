@@ -731,3 +731,4 @@ class TestEdgeCases:
         # Depending on timing, might catch the session if created <1s ago
         # Just verify it doesn't crash
         assert "empty" in report
+# quill: tests

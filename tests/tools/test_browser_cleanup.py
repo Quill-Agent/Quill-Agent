@@ -138,3 +138,4 @@ class TestBrowserCleanup:
         assert browser_tool._session_last_activity == {}
         assert browser_tool._recording_sessions == set()
         assert browser_tool._cleanup_done is True
+# quill: tests

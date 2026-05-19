@@ -116,3 +116,4 @@ def test_swarm_verifier_and_synthesis_are_dependency_gated(tmp_path):
         assert kb.get_task(conn, created.synthesizer_id).status == "ready"
     finally:
         conn.close()
+# quill: tests

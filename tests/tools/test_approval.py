@@ -1305,3 +1305,4 @@ class TestEtcPatternsUnaffectedByRefactor:
     def test_grep_etc_passwd_is_safe(self):
         dangerous, _, _ = detect_dangerous_command("grep root /etc/passwd")
         assert dangerous is False
+# quill: tests

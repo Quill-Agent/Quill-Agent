@@ -67,3 +67,4 @@ def test_resume_rehydrates_previous_summary_from_handoff_message():
     assert "TURNS TO SUMMARIZE:" not in prompt
     assert prompt.count(old_summary) == 1
     assert f"[USER]: {SUMMARY_PREFIX}" not in prompt
+# quill: tests

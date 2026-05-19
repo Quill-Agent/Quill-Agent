@@ -386,3 +386,4 @@ class TestPatchSchemaShape:
         params = PATCH_SCHEMA["parameters"]
         assert params["required"] == ["mode"]
         assert "anyOf" not in params and "oneOf" not in params
+# quill: tests

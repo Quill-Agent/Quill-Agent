@@ -2339,3 +2339,4 @@ class TestPtyWebSocket:
             ):
                 pass
         assert exc.value.code == 4400
+# quill: tests

@@ -104,3 +104,4 @@ def test_named_custom_provider_model_picker_falls_back_on_terminalmenu_runtime_e
     assert reloaded["model"]["provider"] == "custom"
     assert reloaded["model"]["base_url"] == "http://localhost:8000/v1"
     assert reloaded["model"]["default"] == "model-b"
+# quill: tests

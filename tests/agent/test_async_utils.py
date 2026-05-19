@@ -155,3 +155,4 @@ class TestSafeScheduleThreadsafe:
         # Pass a non-coroutine sentinel
         result = safe_schedule_threadsafe("not-a-coroutine", loop)  # type: ignore[arg-type]
         assert result is None
+# quill: tests

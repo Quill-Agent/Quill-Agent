@@ -177,3 +177,4 @@ async def test_internal_events_bypass_hook(monkeypatch):
     # Even though the hook would say skip, internal events bypass it.
     await runner._handle_message(event)
     assert called["count"] == 0
+# quill: tests

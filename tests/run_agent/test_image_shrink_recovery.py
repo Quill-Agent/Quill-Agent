@@ -275,3 +275,4 @@ class TestShrinkImagePartsHelper:
         assert agent._try_shrink_image_parts_in_messages(msgs) is False
         # Original URL still in place, not replaced by the bigger one.
         assert msgs[0]["content"][0]["image_url"]["url"] == oversized_url
+# quill: tests

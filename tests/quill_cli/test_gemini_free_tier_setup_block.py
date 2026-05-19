@@ -139,3 +139,4 @@ class TestGeminiSetupFreeTierBlock:
             _model_flow_api_key_provider(load_config(), "deepseek", "old-model")
 
         mock_probe.assert_not_called()
+# quill: tests

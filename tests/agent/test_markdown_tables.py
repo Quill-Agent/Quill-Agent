@@ -310,3 +310,4 @@ def test_multiple_tables_in_one_text():
         assert all(o == offsets[0] for o in offsets), (
             f"block did not align:\n" + "\n".join(block)
         )
+# quill: tests

@@ -83,3 +83,4 @@ class TestResolvePath:
                     file_tools._file_ops_cache[task_id] = previous
 
         assert result == live_dir / "nested" / "file.txt"
+# quill: tests

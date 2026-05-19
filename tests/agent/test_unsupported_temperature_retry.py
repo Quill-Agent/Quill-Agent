@@ -235,3 +235,4 @@ class TestAsyncCallLlmUnsupportedTemperatureRetry:
                     max_tokens=500,
                 )
         assert client.chat.completions.create.await_count == 1
+# quill: tests

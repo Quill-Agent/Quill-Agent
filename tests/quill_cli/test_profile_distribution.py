@@ -581,4 +581,4 @@ class TestErrorSurfaces:
         staged = _make_staging_dir(profile_env, "bad", manifest=mf)
         with pytest.raises((ValueError, DistributionError)):
             plan_install(str(staged), tmp_path / "work")
-
+# quill: tests

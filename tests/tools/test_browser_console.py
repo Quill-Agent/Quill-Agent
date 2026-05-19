@@ -351,3 +351,4 @@ class TestDogfoodSkill:
         assert "Visual" in content
         assert "Accessibility" in content
         assert "Console" in content
+# quill: tests

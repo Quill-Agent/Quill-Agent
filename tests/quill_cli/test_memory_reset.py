@@ -155,3 +155,4 @@ class TestMemoryReset:
         # The memories dir won't exist; get_quill_home() / "memories" won't have files
         result = _run_memory_reset(target="all", yes=True)
         assert result == "nothing"
+# quill: tests

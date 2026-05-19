@@ -287,3 +287,4 @@ class TestRewriteSkillRefsPersistence:
         assert report["jobs_updated"] == 0
         # File untouched — no pointless disk write
         assert JOBS_FILE.stat().st_mtime_ns == mtime_before
+# quill: tests

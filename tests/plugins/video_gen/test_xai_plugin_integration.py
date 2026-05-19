@@ -189,3 +189,4 @@ class TestXAIClamping:
         provider, captured = xai_provider
         provider.generate("x", aspect_ratio="21:9")
         assert _last_post(captured)["json"]["aspect_ratio"] == "16:9"
+# quill: tests

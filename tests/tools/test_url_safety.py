@@ -549,3 +549,4 @@ class TestIPv4MappedIPv6SSRF:
             (10, 1, 6, "", ("::ffff:100.100.100.200", 0, 0, 0)),
         ]):
             assert is_safe_url("http://aliyun-metadata.internal/") is False
+# quill: tests

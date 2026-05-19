@@ -61,3 +61,4 @@ class TestBedrockContext1MBeta:
         # Other common betas still present — no regression.
         assert "interleaved-thinking-2025-05-14" in beta_header
         assert "fine-grained-tool-streaming-2025-05-14" in beta_header
+# quill: tests

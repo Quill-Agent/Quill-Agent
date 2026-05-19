@@ -603,3 +603,4 @@ def test_setup_slack_home_channel_empty_not_saved(monkeypatch):
     setup_mod._setup_slack()
 
     assert "SLACK_HOME_CHANNEL" not in saved
+# quill: tests

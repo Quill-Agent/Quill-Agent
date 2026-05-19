@@ -209,3 +209,4 @@ def test_slash_confirm_display_fragments_include_choice_mapping():
     assert "[2] Always Approve" in rendered
     assert "[3] Cancel" in rendered
     assert "Type 1/2/3" in rendered
+# quill: tests

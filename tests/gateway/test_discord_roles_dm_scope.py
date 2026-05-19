@@ -353,3 +353,4 @@ def test_slash_authorization_allows_in_scope_guild_role(monkeypatch):
     allowed, reason = adapter._evaluate_slash_authorization(interaction)
     assert allowed is True
     assert reason is None
+# quill: tests

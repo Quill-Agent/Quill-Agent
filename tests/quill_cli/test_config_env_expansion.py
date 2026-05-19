@@ -133,3 +133,4 @@ class TestLoadCliConfigExpansion:
         config = load_cli_config()
 
         assert config["auxiliary"]["vision"]["api_key"] == "${UNSET_CLI_VAR_ABC}"
+# quill: tests

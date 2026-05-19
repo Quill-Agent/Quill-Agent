@@ -296,3 +296,4 @@ def test_transcription_uses_model_specific_response_formats(monkeypatch, tmp_pat
     assert json_result["transcript"] == "hello from gpt-4o"
     assert json_capture["transcription_kwargs"]["response_format"] == "json"
     assert json_capture["close_calls"] == 1
+# quill: tests

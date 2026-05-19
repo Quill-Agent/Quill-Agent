@@ -244,3 +244,4 @@ class TestDDGSSearchOnlyErrors:
         assert result["success"] is False
         assert "search-only" in result["error"].lower()
         assert "duckduckgo" in result["error"].lower() or "ddgs" in result["error"].lower()
+# quill: tests

@@ -226,3 +226,4 @@ Manual Smoke Test Checklist:
    Type interrupt during the first tool call.
    Expected: only 1 tool executes, remaining are skipped.
 """
+# quill: tests

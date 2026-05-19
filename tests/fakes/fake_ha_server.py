@@ -299,3 +299,4 @@ class FakeHAServer:
                     break
 
         return web.json_response(affected)
+# quill: tests

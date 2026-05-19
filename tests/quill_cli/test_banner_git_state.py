@@ -61,3 +61,4 @@ def test_get_git_banner_state_reads_origin_and_head(tmp_path):
         state = banner.get_git_banner_state(repo_dir)
 
     assert state == {"upstream": "b2f477a3", "local": "af8aad31", "ahead": 3}
+# quill: tests

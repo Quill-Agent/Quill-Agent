@@ -233,3 +233,4 @@ class TestSignalHandlerLoggingRace:
         handler = _make_signal_handler(logger, {})
         with pytest.raises(SystemExit):
             handler(15, None)
+# quill: tests

@@ -93,3 +93,4 @@ class TestAutoDetection:
         note_end = result.index("]\n\n")
         user_msg_start = result.index("now do X")
         assert user_msg_start > note_end
+# quill: tests

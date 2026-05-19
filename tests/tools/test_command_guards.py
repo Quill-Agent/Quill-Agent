@@ -289,3 +289,4 @@ class TestProgrammingErrorsPropagateFromWrapper:
         os.environ["QUILL_INTERACTIVE"] = "1"
         with pytest.raises(AttributeError, match="bug in wrapper"):
             check_all_command_guards("echo hello", "local")
+# quill: tests

@@ -120,3 +120,4 @@ def test_no_install_prebuilt_bundle_mode(tmp_path: Path, main_mod) -> None:
     """dist/entry.js present and no package-lock.json → prebuilt bundle, skip npm install."""
     _touch_tui_entry(tmp_path)
     assert main_mod._tui_need_npm_install(tmp_path) is False
+# quill: tests

@@ -117,3 +117,4 @@ class TestTodoToolFunction:
     def test_no_store_returns_error(self):
         result = json.loads(todo_tool())
         assert "error" in result
+# quill: tests

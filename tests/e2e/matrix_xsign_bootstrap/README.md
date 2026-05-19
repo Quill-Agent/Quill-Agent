@@ -47,3 +47,4 @@ small price for not requiring the full quill-agent runtime in CI.
 - `mautrix` Python package is not installed
 - The homeserver isn't reachable at `$E2E_MATRIX_HS` (default
   `http://127.0.0.1:26167`)
+<!-- quill: tests -->

@@ -103,3 +103,4 @@ def test_install_ctrl_enter_alias_idempotent():
     install_ctrl_enter_alias()
     second = install_ctrl_enter_alias()
     assert second == 0  # no further changes after first install
+# quill: tests

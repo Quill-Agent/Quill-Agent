@@ -482,3 +482,4 @@ class TestBuildSlack:
             entries = asyncio.run(_build_slack(_make_slack_adapter({"T1": client})))
 
         assert entries == []
+# quill: tests

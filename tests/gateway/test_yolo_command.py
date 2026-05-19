@@ -60,3 +60,4 @@ async def test_yolo_command_toggles_only_current_session(monkeypatch):
     assert "OFF" in result_off
     assert is_session_yolo_enabled(session_a) is False
     assert os.environ.get("QUILL_YOLO_MODE") is None
+# quill: tests

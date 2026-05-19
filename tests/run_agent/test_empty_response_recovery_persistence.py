@@ -96,3 +96,4 @@ def test_persist_session_strips_marked_terminal_empty_sentinel():
     assert messages == [{"role": "user", "content": "continue"}]
     assert agent.saved_session_logs[-1] == messages
     assert all(not msg.get("_empty_terminal_sentinel") for msg in messages)
+# quill: tests

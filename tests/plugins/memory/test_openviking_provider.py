@@ -420,3 +420,4 @@ def test_viking_client_health_sends_auth_headers(monkeypatch):
     assert client.health() is True
     assert captured["url"] == "https://example.com/health"
     assert captured["headers"]["Authorization"] == "Bearer test-key"
+# quill: tests

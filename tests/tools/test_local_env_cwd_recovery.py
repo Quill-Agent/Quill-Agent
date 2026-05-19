@@ -185,3 +185,4 @@ class TestUpdateCwdRejectsMissingPaths:
         env._update_cwd({"output": "", "returncode": 0})
 
         assert env.cwd == str(new_dir)
+# quill: tests

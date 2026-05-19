@@ -407,3 +407,4 @@ def test_runner_warns_when_docker_gateway_lacks_explicit_output_mount(monkeypatc
         "host-visible output mount" in record.message
         for record in caplog.records
     )
+# quill: tests

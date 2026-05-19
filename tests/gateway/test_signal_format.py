@@ -450,3 +450,4 @@ class TestSignalStreamingPatch:
             content="Hello",
         )
         assert result.message_id is None
+# quill: tests

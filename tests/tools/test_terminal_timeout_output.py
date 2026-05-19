@@ -25,3 +25,4 @@ class TestTimeoutPreservesPartialOutput:
         assert result["returncode"] == 124
         assert "timed out" in result["output"].lower()
         assert not result["output"].startswith("\n")
+# quill: tests

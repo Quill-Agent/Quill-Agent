@@ -157,3 +157,4 @@ def test_kimi_k2_6_stays_on_opencode_go():
     result = _run_switch("kimi-k2.6", current_model="deepseek-v4-pro")
     assert result.target_provider == "opencode-go"
     assert result.new_model == "kimi-k2.6"
+# quill: tests

@@ -268,3 +268,4 @@ class TestSnapshotEndToEnd:
         assert str(fake_n_bin) in output
         # bashrc short-circuited on the interactive guard — its export never ran
         assert "FROM_BASHRC=bashrc-should-not-appear" not in output
+# quill: tests

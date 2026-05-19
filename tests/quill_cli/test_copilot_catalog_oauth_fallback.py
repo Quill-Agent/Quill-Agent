@@ -155,3 +155,4 @@ class TestCopilotCatalogApiKeyResolution:
             side_effect=RuntimeError("auth.json locked"),
         ):
             assert _resolve_copilot_catalog_api_key() == ""
+# quill: tests

@@ -101,3 +101,4 @@ class TestMCPConfigWatch:
             obj._check_config_mcp_changes()  # should not raise
 
         obj._reload_mcp.assert_not_called()
+# quill: tests

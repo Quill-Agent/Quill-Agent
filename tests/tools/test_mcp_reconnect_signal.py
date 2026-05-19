@@ -55,3 +55,4 @@ async def test_wait_for_lifecycle_event_shutdown_wins_when_both_set():
     task._reconnect_event.set()
     reason = await task._wait_for_lifecycle_event()
     assert reason == "shutdown"
+# quill: tests

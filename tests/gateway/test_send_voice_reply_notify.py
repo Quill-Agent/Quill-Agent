@@ -114,3 +114,4 @@ async def test_voice_reply_marks_existing_thread_metadata_without_mutation(monke
         event.source, runner._reply_anchor_for_event(event)
     )
     assert "notify" not in fresh
+# quill: tests

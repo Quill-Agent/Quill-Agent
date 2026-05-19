@@ -93,3 +93,4 @@ class TestWindowsPathParts:
         p = tmp_path / "skills" / "my-hub-skill" / "SKILL.md"
         # ".hub" should NOT match "my-hub-skill" as a part
         assert ".hub" not in p.parts
+# quill: tests

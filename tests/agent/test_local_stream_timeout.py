@@ -128,3 +128,4 @@ class TestIsLocalEndpoint:
     def test_near_but_not_cgnat_is_remote(self, url):
         """Hosts adjacent to but outside 100.64.0.0/10 must not match."""
         assert is_local_endpoint(url) is False
+# quill: tests

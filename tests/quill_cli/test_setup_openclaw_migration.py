@@ -663,3 +663,4 @@ class TestSetupWizardSkipsConfiguredSections:
         mock_gateway.assert_called_once()
         # Tools have no keys → section runs
         mock_tools.assert_called_once()
+# quill: tests

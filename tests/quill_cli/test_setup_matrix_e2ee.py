@@ -29,3 +29,4 @@ class TestSetupShutilImport:
             "This causes a NameError when the Matrix E2EE auto-install "
             "tries to call shutil.which('uv')."
         )
+# quill: tests

@@ -142,3 +142,4 @@ class TestStdoutPipe:
         output = handle.stdout.read()
         assert "世界" in output
         assert "🌍" in output
+# quill: tests

@@ -633,3 +633,4 @@ async def test_post_delivery_callback_generation_snapshot_happens_after_bind():
     assert fired == []
     assert session_key in adapter._post_delivery_callbacks
     assert adapter._post_delivery_callbacks[session_key][0] == 2
+# quill: tests

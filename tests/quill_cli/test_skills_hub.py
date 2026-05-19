@@ -524,3 +524,4 @@ def test_existing_categories_returns_empty_when_skills_dir_missing(monkeypatch, 
 
     from quill_cli.skills_hub import _existing_categories
     assert _existing_categories() == []
+# quill: tests

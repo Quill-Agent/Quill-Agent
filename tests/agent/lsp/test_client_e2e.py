@@ -141,3 +141,4 @@ async def test_client_diagnostics_are_deduped(tmp_path: Path):
         assert len(diags) == 1
     finally:
         await client.shutdown()
+# quill: tests

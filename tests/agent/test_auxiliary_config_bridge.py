@@ -301,3 +301,4 @@ class TestCLIDefaultsHaveAuxiliaryKeys:
         assert "auxiliary_config = defaults.get(\"auxiliary\"" in source
         assert "AUXILIARY_VISION_PROVIDER" in source
         assert "AUXILIARY_VISION_MODEL" in source
+# quill: tests

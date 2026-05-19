@@ -58,3 +58,4 @@ class TestMatrixExecApprovalReactions:
         mock_resolve.assert_called_once_with("sess-1", "once")
         assert "$target" not in adapter._approval_prompts_by_event
         assert "sess-1" not in adapter._approval_prompt_by_session
+# quill: tests

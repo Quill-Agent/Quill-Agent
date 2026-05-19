@@ -80,3 +80,4 @@ async def test_model_picker_clears_controls_before_running_switch_callback():
     interaction.response.edit_message.assert_awaited_once()
     interaction.response.defer.assert_not_called()
     interaction.edit_original_response.assert_awaited_once()
+# quill: tests

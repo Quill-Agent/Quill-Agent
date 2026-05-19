@@ -126,3 +126,4 @@ def test_cli_skills_install_no_flags(monkeypatch):
 
     assert captured["force"] is False
     assert captured["yes"] is False
+# quill: tests

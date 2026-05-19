@@ -517,3 +517,4 @@ class TestEnvVarRegistration:
         info = OPTIONAL_ENV_VARS["GATEWAY_PROXY_KEY"]
         assert info["category"] == "messaging"
         assert info["password"] is True
+# quill: tests

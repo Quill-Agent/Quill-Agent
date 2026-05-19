@@ -294,3 +294,4 @@ class TestGetToolCallNameStatic:
     def test_object_without_function_attr(self):
         tc = types.SimpleNamespace(id="call_1")
         assert AIAgent._get_tool_call_name_static(tc) == ""
+# quill: tests

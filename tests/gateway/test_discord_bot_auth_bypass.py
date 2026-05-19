@@ -224,3 +224,4 @@ def test_discord_role_bypass_does_not_leak_to_other_platforms(monkeypatch):
         user_id="999888777",
     )
     assert runner._is_user_authorized(telegram_user) is False
+# quill: tests

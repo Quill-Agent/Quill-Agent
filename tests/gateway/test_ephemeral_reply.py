@@ -334,3 +334,4 @@ async def test_process_message_plain_string_behaves_unchanged():
     adapter._send_with_retry.assert_called_once()
     assert adapter._send_with_retry.call_args.kwargs["content"] == "plain reply"
     assert adapter.deleted == []  # no auto-delete for plain replies
+# quill: tests

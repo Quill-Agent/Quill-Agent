@@ -131,3 +131,4 @@ class TestEnvLoaderSanitization:
         _sanitize_loaded_credentials()
         assert os.environ["ANTHROPIC_API_KEY"] == "sk-ant\x1bapi-key"
         assert capsys.readouterr().err == ""
+# quill: tests

@@ -59,3 +59,4 @@ class TestCompressionTriggerExcludesReasoning:
             threshold_tokens=100_000,
         )
         assert real_tokens == 0
+# quill: tests

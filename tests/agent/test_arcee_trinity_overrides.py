@@ -74,3 +74,4 @@ def test_compression_threshold_default_none_for_other_models() -> None:
     assert _compression_threshold_for_model("trinity-large-preview") is None
     assert _compression_threshold_for_model("claude-sonnet-4.6") is None
     assert _compression_threshold_for_model("kimi-k2") is None
+# quill: tests

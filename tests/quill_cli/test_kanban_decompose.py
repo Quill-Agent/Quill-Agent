@@ -347,3 +347,4 @@ def test_decompose_no_aux_client_configured(kanban_home):
 
     assert outcome.ok is False
     assert "no auxiliary client" in outcome.reason
+# quill: tests

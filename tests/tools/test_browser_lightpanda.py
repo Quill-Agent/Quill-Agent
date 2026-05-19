@@ -634,3 +634,4 @@ class TestEngineOverride:
         assert len(captured_cmds) == 1
         assert "--engine" in captured_cmds[0]
         assert captured_cmds[0][captured_cmds[0].index("--engine") + 1] == "lightpanda"
+# quill: tests

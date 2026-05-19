@@ -28,3 +28,4 @@ def test_quill_launcher_wrapper_clears_python_env_before_exec() -> None:
     assert 'unset PYTHONPATH' in text
     assert 'unset PYTHONHOME' in text
     assert 'exec "$QUILL_BIN" "\\$@"' in text
+# quill: tests

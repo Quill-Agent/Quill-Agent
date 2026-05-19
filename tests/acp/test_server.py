@@ -1692,3 +1692,4 @@ class TestRegisterSessionMcpServers:
         with patch("tools.mcp_tool.register_mcp_servers", side_effect=RuntimeError("boom")):
             # Should not raise
             await agent._register_session_mcp_servers(state, [server])
+# quill: tests

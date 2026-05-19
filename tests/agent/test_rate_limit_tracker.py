@@ -210,3 +210,4 @@ class TestAgentIntegration:
         # None should not crash
         result = parse_rate_limit_headers({})
         assert result is None
+# quill: tests

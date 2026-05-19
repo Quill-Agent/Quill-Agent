@@ -2597,3 +2597,4 @@ class TestCreateMatrixSession:
                     assert session.connector is fake_connector
                 finally:
                     await session.close()
+# quill: tests

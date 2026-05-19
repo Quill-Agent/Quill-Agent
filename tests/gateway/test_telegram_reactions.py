@@ -315,3 +315,4 @@ def test_config_reactions_env_takes_precedence(monkeypatch, tmp_path):
 
     import os
     assert os.getenv("TELEGRAM_REACTIONS") == "false"
+# quill: tests

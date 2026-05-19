@@ -358,3 +358,4 @@ def test_write_credential_pool_targets_profile_not_global(profile_env):
 
     # Subsequent read returns profile (shadows global).
     assert [e["id"] for e in read_credential_pool("openrouter")] == ["prof-new"]
+# quill: tests

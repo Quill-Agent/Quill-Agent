@@ -280,3 +280,4 @@ class TestSessionEntryAutoResetRoundtrip:
         assert reloaded.was_auto_reset is False
         assert reloaded.auto_reset_reason is None
         assert reloaded.reset_had_activity is False
+# quill: tests

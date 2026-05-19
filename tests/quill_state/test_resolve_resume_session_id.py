@@ -94,3 +94,4 @@ def test_prefers_most_recent_child_when_fork_exists(db):
     ])
     db.append_message("newer_fork", role="user", content="x")
     assert db.resolve_resume_session_id("parent") == "newer_fork"
+# quill: tests

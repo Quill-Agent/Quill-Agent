@@ -1344,3 +1344,4 @@ class TestCachedAgentInactivityReset:
             f"Watchdog would see {idle_secs:.0f}s idle, expected ~{STUCK_FOR}s. "
             "Inactivity timeout could not fire for a stuck interrupted turn."
         )
+# quill: tests

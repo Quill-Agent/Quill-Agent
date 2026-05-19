@@ -266,3 +266,4 @@ class TestEndToEndRegressionGuard:
 
         assert result["success"] is True
         assert captured["headers"]["Authorization"] == "Bearer dotenv-secret"
+# quill: tests

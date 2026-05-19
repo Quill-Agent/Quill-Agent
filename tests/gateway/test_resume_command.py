@@ -257,3 +257,4 @@ class TestHandleResumeCommand:
 
         assert real_key not in runner._agent_cache
         db.close()
+# quill: tests

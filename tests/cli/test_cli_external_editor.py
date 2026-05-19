@@ -103,3 +103,4 @@ def test_open_external_editor_sets_skip_collapse_flag_during_expansion(tmp_path)
     # Flag is consumed by _on_text_changed, but since no handler is attached
     # in tests it stays True until the handler resets it.
     assert cli_obj._skip_paste_collapse is True
+# quill: tests

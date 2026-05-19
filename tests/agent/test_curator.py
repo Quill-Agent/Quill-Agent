@@ -869,3 +869,4 @@ def test_curator_slot_is_canonical_aux_task():
 
     # 4. web/src/pages/ModelsPage.tsx is checked at build time; the tsx
     #    array and this tuple share a ``Must match _AUX_TASK_SLOTS`` comment.
+# quill: tests

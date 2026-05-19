@@ -83,3 +83,4 @@ class TestEmptyProfileHint:
         payload = json.loads(raw)
         assert payload["result"] == ["Fact 1", "Fact 2"]
         assert "hint" not in payload
+# quill: tests

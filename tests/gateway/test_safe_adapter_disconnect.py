@@ -77,3 +77,4 @@ async def test_safe_disconnect_times_out_and_continues(bare_runner, monkeypatch,
 
     adapter.disconnect.assert_awaited_once()
     assert "Timed out after 0.0s while disconnecting feishu adapter" in caplog.text
+# quill: tests

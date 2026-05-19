@@ -40,3 +40,4 @@ def test_home_thread_env_var_uses_home_target_name_plus_thread_id():
     assert _home_thread_env_var("discord") == "DISCORD_HOME_CHANNEL_THREAD_ID"
     assert _home_thread_env_var("matrix") == "MATRIX_HOME_ROOM_THREAD_ID"
     assert _home_thread_env_var("email") == "EMAIL_HOME_ADDRESS_THREAD_ID"
+# quill: tests

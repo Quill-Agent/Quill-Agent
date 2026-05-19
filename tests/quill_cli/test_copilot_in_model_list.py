@@ -39,3 +39,4 @@ def test_copilot_picker_uses_live_catalog_when_available():
     assert copilot is not None
     assert copilot["models"] == live_models
     assert copilot["total_models"] == len(live_models)
+# quill: tests

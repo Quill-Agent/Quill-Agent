@@ -452,3 +452,4 @@ class TestCustomProviderModelSwitch:
         # clobber it via _preserve_env_ref_templates).
         assert entry["api_key"] == "${QUILL_CRS_HENKEE_KEY}"
         assert "cr_live_secret_xyz" not in saved_text
+# quill: tests

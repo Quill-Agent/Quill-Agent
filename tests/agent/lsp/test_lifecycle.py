@@ -142,3 +142,4 @@ def test_get_service_returns_none_when_create_fails(monkeypatch):
     monkeypatch.setattr(atexit, "register", lambda fn: None)
 
     assert lsp_module.get_service() is None
+# quill: tests

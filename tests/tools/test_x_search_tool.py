@@ -436,3 +436,4 @@ def test_x_search_registered_in_registry_with_check_fn():
     assert entry.check_fn.__name__ == "check_x_search_requirements"
     assert "XAI_API_KEY" in entry.requires_env
     assert entry.emoji == "🐦"
+# quill: tests

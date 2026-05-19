@@ -77,3 +77,4 @@ async def test_native_image_buffer_not_cleared_by_other_sessions_without_images(
 
     assert runner._consume_pending_native_image_paths(build_session_key(source_a)) == ["/tmp/a.png"]
     assert runner._consume_pending_native_image_paths(build_session_key(source_b)) == []
+# quill: tests

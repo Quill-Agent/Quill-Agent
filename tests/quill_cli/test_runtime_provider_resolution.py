@@ -2321,3 +2321,4 @@ def test_minimax_oauth_pool_forces_anthropic_messages_despite_stale_config(monke
     assert resolved["provider"] == "minimax-oauth"
     assert resolved["api_mode"] == "anthropic_messages"
     assert resolved["base_url"] == "https://api.minimax.io/anthropic"
+# quill: tests

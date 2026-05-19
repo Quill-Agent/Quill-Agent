@@ -104,3 +104,4 @@ class TestAutoThreadingPreservesCommand:
         response = get_response_text(discord_adapter)
         assert response is not None
         assert "/new" in response
+# quill: tests

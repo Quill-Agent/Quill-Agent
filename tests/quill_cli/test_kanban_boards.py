@@ -557,3 +557,4 @@ class TestCLI:
         res = _cli(["boards", "list", "--json"], env_extra=env)
         slugs = [b["slug"] for b in json.loads(res.stdout)]
         assert "rmme" not in slugs
+# quill: tests

@@ -56,3 +56,4 @@ def test_manual_compress_does_not_pass_cached_system_prompt(monkeypatch):
     assert call["focus_topic"] == "database schema"
     assert cli.session_id == "new-session"
     assert cli._pending_title is None
+# quill: tests

@@ -111,3 +111,4 @@ def test_xai_no_operation_kwarg():
     assert result["success"] is False
     # auth_required, NOT some signature error
     assert result["error_type"] in {"auth_required", "api_error"}
+# quill: tests

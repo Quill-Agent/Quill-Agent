@@ -225,3 +225,4 @@ class TestMem0Defaults:
         provider.initialize("test")
 
         assert provider._agent_id == "quill"
+# quill: tests

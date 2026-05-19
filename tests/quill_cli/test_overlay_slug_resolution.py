@@ -100,3 +100,4 @@ def test_mapped_provider_credential_pool_visibility(monkeypatch):
     assert gemini is not None, "gemini should appear when auth-store credential_pool has creds"
     assert gemini["is_current"] is True
     assert gemini["total_models"] > 0
+# quill: tests

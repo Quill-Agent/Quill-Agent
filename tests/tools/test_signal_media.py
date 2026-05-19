@@ -206,3 +206,4 @@ class TestSendSignalConfigLoading:
         """Platform.SIGNAL should be a valid platform."""
         assert hasattr(Platform, "SIGNAL")
         assert Platform.SIGNAL.value == "signal"
+# quill: tests

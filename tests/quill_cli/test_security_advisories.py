@@ -328,3 +328,4 @@ class TestRealCatalog:
                 assert pkg, f"{advisory.id}: empty package name"
                 assert isinstance(versions, frozenset), \
                     f"{advisory.id}: versions must be frozenset"
+# quill: tests

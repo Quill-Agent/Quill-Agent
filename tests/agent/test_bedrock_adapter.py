@@ -1474,3 +1474,4 @@ class TestCallConverseInvalidatesOnStaleError:
         )
 
         assert _bedrock_runtime_client_cache.get("us-east-1") is live_client
+# quill: tests

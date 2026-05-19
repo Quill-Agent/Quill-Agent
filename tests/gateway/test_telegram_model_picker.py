@@ -177,3 +177,4 @@ class TestTelegramModelPicker:
         assert len(call_log) == 2
         assert call_log[0]["message_thread_id"] == 99999
         assert "message_thread_id" not in call_log[1] or call_log[1]["message_thread_id"] is None
+# quill: tests

@@ -141,3 +141,4 @@ class TestAnsiRichTextHelper:
     def test_strips_ansi_but_keeps_plain_text(self):
         text = _rich_text_from_ansi("\x1b[31mred\x1b[0m")
         assert text.plain == "red"
+# quill: tests

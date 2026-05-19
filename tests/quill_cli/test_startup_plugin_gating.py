@@ -178,3 +178,4 @@ def test_builtin_set_has_no_phantom_entries():
         f"_BUILTIN_SUBCOMMANDS has entries that are not registered as "
         f"top-level subparsers: {sorted(phantom)}"
     )
+# quill: tests

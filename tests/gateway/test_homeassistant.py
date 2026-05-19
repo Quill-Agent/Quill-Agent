@@ -587,3 +587,4 @@ class TestWsUrlConstruction:
         adapter = HomeAssistantAdapter(config)
         ws_url = adapter._hass_url.replace("http://", "ws://").replace("https://", "wss://")
         assert ws_url == "wss://ha.example.com"
+# quill: tests

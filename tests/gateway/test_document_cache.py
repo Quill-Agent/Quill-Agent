@@ -155,3 +155,4 @@ class TestSupportedDocumentTypes:
     )
     def test_expected_extensions_present(self, ext):
         assert ext in SUPPORTED_DOCUMENT_TYPES
+# quill: tests

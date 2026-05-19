@@ -596,3 +596,4 @@ class TestPersistence:
 
         assert stdout_buf.getvalue() == ""
         assert stderr_buf.getvalue() == "ACP noise\n"
+# quill: tests

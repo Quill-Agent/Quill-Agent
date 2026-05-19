@@ -489,3 +489,4 @@ class TestGlobalCircuitBreaker:
                 admitted = True
         assert released
         assert admitted
+# quill: tests

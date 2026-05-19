@@ -256,3 +256,4 @@ async def test_run_agent_appends_channel_prompt_to_ephemeral_system_prompt(monke
     assert _CapturingAgent.last_init["ephemeral_system_prompt"] == (
         "Context prompt\n\nChannel prompt\n\nGlobal prompt"
     )
+# quill: tests

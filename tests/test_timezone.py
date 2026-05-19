@@ -383,3 +383,4 @@ class TestCronTimezone:
 
         next_run = datetime.fromisoformat(job["next_run_at"])
         assert next_run.tzinfo is not None
+# quill: tests

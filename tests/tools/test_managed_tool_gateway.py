@@ -97,3 +97,4 @@ def test_read_nous_access_token_refreshes_expiring_cached_token(tmp_path, monkey
     )
 
     assert managed_tool_gateway.read_nous_access_token() == "fresh-token"
+# quill: tests

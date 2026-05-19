@@ -89,3 +89,4 @@ def test_plugin_engine_update_model_args():
     assert "provider" in kw
     # Should NOT pass api_mode — the ABC doesn't accept it
     assert "api_mode" not in kw
+# quill: tests

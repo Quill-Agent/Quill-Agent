@@ -113,3 +113,4 @@ class TestInstallCuaDriverUpgrade:
              patch.object(tools_config.shutil, "which", side_effect=_which), \
              patch.object(tools_config, "_print_warning"):
             assert tools_config.install_cua_driver(upgrade=True) is True
+# quill: tests

@@ -772,3 +772,4 @@ def test_handle_message_event_data_forwards_sender_when_admitted():
     assert captured.get("sender_id") is sender.sender_id
     assert captured.get("is_bot") is True
     assert captured.get("message_id") == "om_bot_ok"
+# quill: tests

@@ -166,3 +166,4 @@ def test_decompose_records_audit_comment_and_event(kanban_home):
 
     assert any("Decomposed into" in (c.body or "") for c in comments)
     assert any(ev.kind == "decomposed" for ev in events)
+# quill: tests

@@ -707,3 +707,4 @@ class TestContinuousLoopSimulation:
         # The in-flight transcript was suppressed because we stopped mid-flight
         assert transcripts == []
         assert voice.is_continuous_active() is False
+# quill: tests

@@ -304,3 +304,4 @@ def test_config_enabled_hard_stop_run_conversation_returns_controlled_guardrail_
         call_ids = [tc["id"] for tc in assistant_msg["tool_calls"]]
         following_results = [m for m in result["messages"] if m.get("role") == "tool" and m.get("tool_call_id") in call_ids]
         assert len(following_results) == len(call_ids)
+# quill: tests

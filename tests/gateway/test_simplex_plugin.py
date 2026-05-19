@@ -345,3 +345,4 @@ def test_register_calls_register_platform():
     assert callable(kwargs["setup_fn"])
     # SimpleX uses opaque IDs only — no PII to redact.
     assert kwargs["pii_safe"] is True
+# quill: tests

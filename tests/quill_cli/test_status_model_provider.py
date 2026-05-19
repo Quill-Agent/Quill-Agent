@@ -153,3 +153,4 @@ def test_show_status_reports_empty_lmstudio_listing_as_reachable(monkeypatch, ca
     out = capsys.readouterr().out
     assert "LM Studio" in out
     assert "reachable (0 model(s)) at http://127.0.0.1:1234/v1" in out
+# quill: tests

@@ -679,3 +679,4 @@ class TestUniversality:
         source = inspect.getsource(entry.check_fn)
         assert "anthropic" not in source.lower()
         assert "openai" not in source.lower()
+# quill: tests

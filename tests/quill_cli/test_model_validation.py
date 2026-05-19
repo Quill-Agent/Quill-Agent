@@ -830,3 +830,4 @@ class TestProbeApiModelsUserAgent:
         assert ua and ua.startswith("quill-cli/")
         # No Authorization was set, but UA must still be present.
         assert req.get_header("Authorization") is None
+# quill: tests

@@ -296,3 +296,4 @@ class TestAppendToSqlite:
             _append_to_sqlite("sess_1", {"role": "assistant", "content": "hello"})
 
         mock_db.close.assert_called_once()
+# quill: tests

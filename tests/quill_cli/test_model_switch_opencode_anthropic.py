@@ -373,3 +373,4 @@ class TestStaleConfigDefaultDoesNotWedgeResolver:
         assert result.success, f"switch failed: {result.error_message}"
         assert result.base_url == "https://opencode.ai/zen"
         assert result.api_mode == "anthropic_messages"
+# quill: tests

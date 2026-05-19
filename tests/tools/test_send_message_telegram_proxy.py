@@ -155,3 +155,4 @@ class TestSendTelegramStandaloneProxy:
         assert "get_updates_request" not in call_kwargs
         httpx_request_factory.assert_not_called()
         bot.send_message.assert_awaited_once()
+# quill: tests

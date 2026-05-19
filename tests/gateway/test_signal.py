@@ -1953,3 +1953,4 @@ class TestSignalGroupV2Routing:
 
         assert len(captured) == 1
         assert captured[0].source.chat_type == "dm"
+# quill: tests

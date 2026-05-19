@@ -88,3 +88,4 @@ def test_icon_svg_has_no_hardcoded_colors_or_gradients():
             value = element.attrib.get(attr)
             if value is not None:
                 assert value in {"currentColor", "none"}
+# quill: tests

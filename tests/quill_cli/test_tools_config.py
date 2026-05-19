@@ -1069,3 +1069,4 @@ def test_reconfigure_provider_runs_post_setup_for_env_var_providers(
     _reconfigure_provider(provider, {})
 
     assert called == [post_setup_key]
+# quill: tests

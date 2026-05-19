@@ -1256,3 +1256,4 @@ class TestRateLimitErrorWithoutStatusCode:
         e.status_code = None
         result = classify_api_error(e, provider="copilot", model="gpt-4o")
         assert result.reason != FailoverReason.rate_limit
+# quill: tests

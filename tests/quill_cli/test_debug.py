@@ -1225,3 +1225,4 @@ class TestShareIncludesAutoDelete:
 
         out = capsys.readouterr().out
         assert "public paste service" not in out
+# quill: tests

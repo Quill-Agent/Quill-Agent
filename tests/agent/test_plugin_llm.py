@@ -989,3 +989,4 @@ class TestHookMode:
         ctx.register_hook("post_tool_call", hook)
         manager.invoke_hook("post_tool_call", tool_name="x", args={}, result="y")
         assert called == ["ok"]
+# quill: tests

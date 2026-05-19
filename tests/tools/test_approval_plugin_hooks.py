@@ -141,5 +141,4 @@ class TestGatewayPathFiresHooks:
     gateway notify callback is registered. The agent thread blocks on the
     approval event until resolve_gateway_approval() is called from another
     thread."""
-
-
+# quill: tests

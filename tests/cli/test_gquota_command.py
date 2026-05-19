@@ -19,3 +19,4 @@ def test_gquota_uses_chat_console_when_tui_is_live():
 
     assert live_console.print.call_count == 2
     cli.console.print.assert_not_called()
+# quill: tests

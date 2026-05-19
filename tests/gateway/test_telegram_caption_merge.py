@@ -75,3 +75,4 @@ class TestMergeCaptionMultipleItems:
         text = merge(None, "Revenue and Profit")
         text = merge(text, "Revenue")
         assert text == "Revenue and Profit\n\nRevenue"
+# quill: tests

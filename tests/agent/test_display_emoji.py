@@ -121,3 +121,4 @@ class TestSkinConfigToolEmojis:
         data = {"name": "minimal"}
         skin = _build_skin_config(data)
         assert skin.tool_emojis == {}
+# quill: tests

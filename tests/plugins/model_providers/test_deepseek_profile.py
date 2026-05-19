@@ -205,3 +205,4 @@ class TestDeepSeekAuxModel:
     def test_consumer_api_returns_non_empty(self):
         from agent.auxiliary_client import _get_aux_model_for_provider
         assert _get_aux_model_for_provider("deepseek") != ""
+# quill: tests

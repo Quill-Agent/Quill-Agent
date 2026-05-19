@@ -47,3 +47,4 @@ def test_process_command_retry_requeues_original_message_not_retry_command():
 
     assert queued == ["retry me"]
     assert cli.conversation_history == []
+# quill: tests

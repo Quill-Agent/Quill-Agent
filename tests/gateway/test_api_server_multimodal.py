@@ -306,3 +306,4 @@ class TestResponsesMultimodalHTTP:
             assert resp.status == 400
             body = await resp.json()
         assert body["error"]["code"] == "unsupported_content_type"
+# quill: tests

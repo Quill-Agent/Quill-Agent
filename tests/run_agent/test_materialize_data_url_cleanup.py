@@ -52,3 +52,4 @@ def test_successful_decode_returns_path_to_existing_file(monkeypatch, tmp_path):
     # Caller is responsible for cleanup; mimic that here so the test leaves
     # no artifacts behind.
     path_obj.unlink()
+# quill: tests

@@ -18,3 +18,4 @@ def test_setup_quill_script_has_termux_path():
     assert ".[termux]" in content
     assert "constraints-termux.txt" in content
     assert "$PREFIX/bin" in content
+# quill: tests

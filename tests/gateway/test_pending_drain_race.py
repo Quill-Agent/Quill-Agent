@@ -210,3 +210,4 @@ async def test_no_pending_cleans_up_normally():
     assert sk not in adapter._pending_messages
 
     await adapter.cancel_background_tasks()
+# quill: tests

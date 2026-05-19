@@ -252,3 +252,4 @@ class TestAuxiliaryClientWiring:
             assert headers.get("originator") == "codex_cli_rs"
             assert headers.get("ChatGPT-Account-ID") == "acct-aux-raw-codex"
             assert headers.get("User-Agent", "").startswith("codex_cli_rs/")
+# quill: tests

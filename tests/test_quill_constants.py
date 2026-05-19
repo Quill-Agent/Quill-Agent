@@ -171,3 +171,4 @@ class TestParseReasoningEffort:
         """
         documented = {"minimal", "low", "medium", "high", "xhigh"}
         assert documented.issubset(set(VALID_REASONING_EFFORTS))
+# quill: tests

@@ -180,3 +180,4 @@ class TestApiKeyTokensAlwaysSafe:
         # already return False from _is_oauth_token; the guard adds a second
         # defense line in case future token formats accidentally look OAuth-y.
         assert _is_oauth_token("mxp-abcdef123") is False
+# quill: tests

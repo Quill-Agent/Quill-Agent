@@ -112,3 +112,4 @@ class TestWhatsappTypingLeakFix:
         )
         # The old bare-await form must be gone.
         assert "await self._http_session.post(" not in src
+# quill: tests

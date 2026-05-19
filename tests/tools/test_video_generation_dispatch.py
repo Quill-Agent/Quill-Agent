@@ -124,3 +124,4 @@ class TestUnifiedDispatch:
         from tools.video_generation_tool import VIDEO_GENERATE_SCHEMA
         assert "operation" not in VIDEO_GENERATE_SCHEMA["parameters"]["properties"]
         assert "video_url" not in VIDEO_GENERATE_SCHEMA["parameters"]["properties"]
+# quill: tests

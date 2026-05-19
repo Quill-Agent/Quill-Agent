@@ -195,3 +195,4 @@ class TestEdgeCases:
         result = _detect_file_drop(str(link))
         assert result is not None
         assert result["is_image"] is True
+# quill: tests

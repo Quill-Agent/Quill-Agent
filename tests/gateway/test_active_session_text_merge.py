@@ -150,3 +150,4 @@ async def test_single_followup_is_stored_as_is():
     assert pending is first
     assert pending.text == "only one"
     assert adapter._active_sessions[session_key].is_set()
+# quill: tests

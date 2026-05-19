@@ -62,3 +62,4 @@ def test_vision_base_url_override_keeps_explicit_provider():
     assert model == "glm-4v"
     assert mock_resolve.call_args.args[0] == "zai"
     assert mock_resolve.call_args.kwargs["explicit_base_url"] == "https://open.bigmodel.cn/api/paas/v4"
+# quill: tests

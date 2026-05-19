@@ -102,3 +102,4 @@ class TestChatContentToResponsesParts:
     def test_empty_url_image_skipped(self):
         content = [{"type": "image_url", "image_url": {"url": ""}}]
         assert _chat_content_to_responses_parts(content) == []
+# quill: tests

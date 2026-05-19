@@ -142,3 +142,4 @@ def test_compress_none_focus_by_default():
     compressor.compress(messages, current_tokens=100000)
 
     assert received_kwargs.get("focus_topic") is None
+# quill: tests

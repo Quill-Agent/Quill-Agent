@@ -198,3 +198,4 @@ async def test_underscored_alias_not_flagged_unknown(monkeypatch):
     result = await runner._handle_message(_make_event("/reload_skills"))
     if result is not None:
         assert "Unknown command" not in result
+# quill: tests

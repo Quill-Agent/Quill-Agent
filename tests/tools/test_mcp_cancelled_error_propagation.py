@@ -90,3 +90,4 @@ class TestCancelledErrorPropagation:
 
         done = asyncio.run(drive())
         assert done, "MCPServerTask did not finish after cancel — #9930 regression"
+# quill: tests

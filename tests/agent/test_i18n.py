@@ -167,3 +167,4 @@ def test_t_missing_key_in_non_english_falls_back_to_english(tmp_path, monkeypatc
 def test_t_unknown_language_uses_english():
     """Unknown lang codes normalize to English, not to a key-path fallback."""
     assert i18n.t("approval.denied", lang="klingon") == i18n.t("approval.denied", lang="en")
+# quill: tests

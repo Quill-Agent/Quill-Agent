@@ -86,3 +86,4 @@ class TestWriteAllowed:
     def test_quill_config_not_env(self):
         path = os.path.join(str(Path.home()), ".quill", "config.yaml")
         assert _is_write_denied(path) is False
+# quill: tests

@@ -113,3 +113,4 @@ class TestResolveVerifyIntegration:
         bundle.write_text("stub")
         monkeypatch.setenv("QUILL_CA_BUNDLE", str(bundle))
         assert _resolve_verify(insecure=True) is False
+# quill: tests

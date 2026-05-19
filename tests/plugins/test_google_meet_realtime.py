@@ -291,3 +291,4 @@ def test_speaker_drops_line_without_processed_path_when_none(tmp_path):
     speaker.run_until_stopped(_stop, poll_interval=0.01)
     assert stub.spoken == ["once"]
     assert queue.read_text().strip() == ""
+# quill: tests

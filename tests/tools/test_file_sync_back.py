@@ -472,3 +472,4 @@ class TestSyncBackSizeCap:
         # Default cap (2 GiB) is far above our tiny tar; extraction should proceed
         mgr.sync_back(quill_home=tmp_path / ".quill")
         assert Path(host_file).read_bytes() == b"remote_version"
+# quill: tests

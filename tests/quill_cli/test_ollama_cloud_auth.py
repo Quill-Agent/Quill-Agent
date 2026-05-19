@@ -655,3 +655,4 @@ class TestFallbackEdgeCases:
 
         assert fb_base_url_hint is None
         assert fb_api_key_hint is None
+# quill: tests

@@ -322,3 +322,4 @@ async def test_run_in_executor_with_context_propagates_exceptions():
 
     with pytest.raises(ValueError, match="boom"):
         await runner._run_in_executor_with_context(blow_up)
+# quill: tests

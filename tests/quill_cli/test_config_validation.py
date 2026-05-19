@@ -206,3 +206,4 @@ class TestConfigIssueDataclass:
         a = ConfigIssue("error", "msg", "hint")
         b = ConfigIssue("error", "msg", "hint")
         assert a == b
+# quill: tests

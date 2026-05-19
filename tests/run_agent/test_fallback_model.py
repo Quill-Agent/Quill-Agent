@@ -509,3 +509,4 @@ class TestFallbackKeyEnvResolution:
         assert captured["explicit_api_key"] is None, (
             "Unset api_key_env should yield None, not empty string"
         )
+# quill: tests

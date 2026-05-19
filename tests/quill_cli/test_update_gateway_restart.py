@@ -1674,3 +1674,4 @@ class TestCmdUpdateResetFailedBeforeRestart:
             f"{captured}"
         )
         assert "quill-gateway" in captured
+# quill: tests

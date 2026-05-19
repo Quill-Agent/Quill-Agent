@@ -326,3 +326,4 @@ def test_stream_event_translation_keeps_identical_calls_in_distinct_parts():
     assert tool_chunks[0].choices[0].delta.tool_calls[0].index == 0
     assert tool_chunks[1].choices[0].delta.tool_calls[0].index == 1
     assert tool_chunks[0].choices[0].delta.tool_calls[0].id != tool_chunks[1].choices[0].delta.tool_calls[0].id
+# quill: tests

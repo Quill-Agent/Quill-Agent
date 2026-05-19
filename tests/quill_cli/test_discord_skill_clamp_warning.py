@@ -244,3 +244,4 @@ def test_long_skill_name_preserves_cmd_key_through_by_category(
     short_entry = [e for e in entries if e[2] == "/short-skill"]
     assert len(short_entry) == 1
     assert short_entry[0][0] == "short-skill"
+# quill: tests

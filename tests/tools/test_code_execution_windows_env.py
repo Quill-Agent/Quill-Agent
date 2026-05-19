@@ -696,3 +696,4 @@ class TestChildStdioIsUtf8:
             )
         # Otherwise: crash OR garbled output — both count as proving the
         # bug is real on this system.
+# quill: tests

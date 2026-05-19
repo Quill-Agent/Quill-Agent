@@ -115,3 +115,4 @@ class TestDebugSessionEnabled:
         data = json.loads(files[0].read_text())
         assert data["total_calls"] == 0
         assert data["tool_calls"] == []
+# quill: tests

@@ -1060,3 +1060,4 @@ class TestHonchoCadenceTracking:
         p.on_turn_start(2, "second message")
         should_skip = p._injection_frequency == "first-turn" and p._turn_count > 1
         assert should_skip, "Second turn (turn 2) SHOULD be skipped"
+# quill: tests

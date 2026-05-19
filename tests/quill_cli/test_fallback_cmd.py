@@ -484,3 +484,4 @@ class TestArgparseWiring:
         assert "add" in out
         assert "remove" in out
         assert "clear" in out
+# quill: tests

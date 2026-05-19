@@ -248,3 +248,4 @@ class TestPluginContextEngineSlot:
             assert get_plugin_context_engine() is engine
         finally:
             plugins_mod._plugin_manager = old_mgr
+# quill: tests

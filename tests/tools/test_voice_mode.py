@@ -1206,3 +1206,4 @@ class TestSilenceCallbackLock:
         recorder.cancel()
         with recorder._lock:
             assert recorder._on_silence_stop is None
+# quill: tests

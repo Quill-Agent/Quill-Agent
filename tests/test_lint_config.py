@@ -113,3 +113,4 @@ class TestLintWorkflow:
             pytest.fail(f"lint.yml is not valid YAML: {exc}")
         assert isinstance(parsed, dict)
         assert "jobs" in parsed
+# quill: tests

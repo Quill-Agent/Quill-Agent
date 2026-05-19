@@ -87,3 +87,4 @@ def test_error_message_preserves_normal_exception_text():
     )
     assert "connection refused" in error_msg
     assert "_NormalError" in error_msg
+# quill: tests

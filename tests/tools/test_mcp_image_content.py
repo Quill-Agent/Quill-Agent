@@ -136,3 +136,4 @@ class TestCacheMcpImageBlock:
         tag = _cache_mcp_image_block(block)
         assert tag.startswith("MEDIA:")
         assert tag.endswith(".jpg"), f"expected .jpg extension, got {tag!r}"
+# quill: tests

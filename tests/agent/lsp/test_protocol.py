@@ -195,3 +195,4 @@ def test_lsp_request_error_carries_code_and_data():
     assert e.code == ERROR_METHOD_NOT_FOUND
     assert e.message == "no"
     assert e.data == {"x": 1}
+# quill: tests

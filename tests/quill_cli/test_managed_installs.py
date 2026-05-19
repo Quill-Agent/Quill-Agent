@@ -53,3 +53,4 @@ def test_optional_skill_source_honors_env_override(monkeypatch, tmp_path):
     source = OptionalSkillSource()
 
     assert source._optional_dir == optional_dir
+# quill: tests

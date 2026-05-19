@@ -27,3 +27,4 @@ def test_env_var_enabled_uses_shared_truthy_rules(monkeypatch):
 
     monkeypatch.setenv("QUILL_TEST_BOOL", "no")
     assert env_var_enabled("QUILL_TEST_BOOL") is False
+# quill: tests

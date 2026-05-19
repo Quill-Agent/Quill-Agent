@@ -246,3 +246,4 @@ class TestCleanupHybridSessions:
         assert reaped == ["default::local"]
         # Last-active pointer NOT dropped (primary task is still alive)
         assert browser_tool._last_active_session_key.get("default") == "default::local"
+# quill: tests

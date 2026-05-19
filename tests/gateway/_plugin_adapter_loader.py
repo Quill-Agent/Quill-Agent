@@ -70,3 +70,4 @@ def load_plugin_adapter(plugin_name: str) -> ModuleType:
         sys.modules.pop(module_name, None)
         raise
     return module
+# quill: tests

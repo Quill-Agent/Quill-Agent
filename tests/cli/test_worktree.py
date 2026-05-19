@@ -840,3 +840,4 @@ class TestSystemPromptInjection:
         assert info["repo_root"] in wt_note
         assert "isolated git worktree" in wt_note
         assert "commit and push" in wt_note
+# quill: tests

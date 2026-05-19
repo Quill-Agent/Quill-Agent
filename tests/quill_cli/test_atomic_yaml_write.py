@@ -42,3 +42,4 @@ class TestAtomicYamlWrite:
         text = target.read_text(encoding="utf-8")
         assert "key: value" in text
         assert "# comment" in text
+# quill: tests

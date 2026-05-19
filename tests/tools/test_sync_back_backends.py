@@ -493,3 +493,4 @@ class TestBulkDownloadWiring:
 
         assert "bulk_download_fn" in captured_kwargs
         assert callable(captured_kwargs["bulk_download_fn"])
+# quill: tests

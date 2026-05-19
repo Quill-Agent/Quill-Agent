@@ -67,3 +67,4 @@ class TestToolCallStripping:
 
     def test_plain_text_unchanged(self):
         assert _strip_reasoning_tags("just text") == "just text"
+# quill: tests

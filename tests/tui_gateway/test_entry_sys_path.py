@@ -99,3 +99,4 @@ def test_no_src_root_env_does_not_crash():
         # No exception raised
     finally:
         sys.path = original
+# quill: tests

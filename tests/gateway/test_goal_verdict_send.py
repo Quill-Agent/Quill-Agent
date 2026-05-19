@@ -219,3 +219,4 @@ async def test_goal_verdict_survives_adapter_without_send(quill_home):
             final_response="whatever",
         )
         await asyncio.sleep(0.05)
+# quill: tests

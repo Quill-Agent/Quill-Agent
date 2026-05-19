@@ -58,3 +58,4 @@ def test_run_task_public_moonshot_kimi_k2_5_omits_temperature():
 
     assert result["completed"] is True
     assert "temperature" not in client.chat.completions.create.call_args.kwargs
+# quill: tests

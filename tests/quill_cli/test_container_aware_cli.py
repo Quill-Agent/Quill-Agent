@@ -301,3 +301,4 @@ def test_exec_in_container_container_not_running_no_sudo(docker_container_info):
 
     mock_execvp.assert_not_called()
     assert exc_info.value.code == 1
+# quill: tests

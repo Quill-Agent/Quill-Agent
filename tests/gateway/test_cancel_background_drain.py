@@ -146,3 +146,4 @@ async def test_cancel_background_tasks_bounded_rounds():
     await adapter.cancel_background_tasks()
     assert task.done()
     assert adapter._background_tasks == set()
+# quill: tests

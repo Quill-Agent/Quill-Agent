@@ -170,3 +170,4 @@ async def test_cron_profile_validation_errors(isolated_profiles):
     with pytest.raises(HTTPException) as missing:
         await web_server.list_cron_jobs(profile="missing_profile")
     assert missing.value.status_code == 404
+# quill: tests

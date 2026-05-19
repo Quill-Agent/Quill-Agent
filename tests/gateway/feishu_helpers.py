@@ -63,3 +63,4 @@ def install_dedup_state(adapter: Any, seen: Optional[dict] = None) -> None:
 
 def stub_mention(adapter: Any, mentions_self: bool) -> None:
     adapter._mentions_self = lambda _message: mentions_self
+# quill: tests

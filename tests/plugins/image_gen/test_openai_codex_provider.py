@@ -297,3 +297,4 @@ class TestRegistration:
         codex_plugin.register(_Ctx())
         assert len(registered) == 1
         assert registered[0].name == "openai-codex"
+# quill: tests

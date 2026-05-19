@@ -114,3 +114,4 @@ class TestOldCheckWouldFail:
         assert self._old_path_escapes(resolved, skill_dir_resolved) is True
         # New check correctly allows it
         assert _path_escapes_skill_dir(resolved, skill_dir_resolved) is False
+# quill: tests

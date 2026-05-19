@@ -700,3 +700,4 @@ class TestResolveUpdatePrompt:
         await adapter._resolve_update_prompt(99, "n", "Nobody")
 
         assert not (tmp_path / ".quill" / ".update_response").exists()
+# quill: tests

@@ -126,3 +126,4 @@ def test_codex_no_cache_fields(monkeypatch):
     agent = _make_agent(monkeypatch, "codex_responses", "openai-codex", resp)
     agent.run_conversation("hi")
     assert agent.context_compressor.last_prompt_tokens == 3000
+# quill: tests

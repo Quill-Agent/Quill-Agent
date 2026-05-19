@@ -402,3 +402,4 @@ class TestAzureFoundryAuthStatus:
         monkeypatch.delenv("AZURE_FOUNDRY_API_KEY", raising=False)
         info = _auth._get_azure_foundry_auth_status()
         assert info["logged_in"] is False
+# quill: tests

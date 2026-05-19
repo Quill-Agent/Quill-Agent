@@ -422,3 +422,4 @@ class TestApprovalCallbackThreadLocalWiring:
         # would hold a stale reference to a disposed CLI instance.
         assert seen["approval_after"] is None
         assert seen["sudo_after"] is None
+# quill: tests

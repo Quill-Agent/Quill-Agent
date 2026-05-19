@@ -509,3 +509,4 @@ class TestParseErrorSignalling:
         ops, err = parse_v4a_patch(patch)
         assert err is None
         assert len(ops) == 1
+# quill: tests

@@ -76,3 +76,4 @@ def test_setup_agent_settings_prefers_config_over_stale_env(tmp_path, monkeypatc
     assert "Press Enter to keep 60." not in out
     # And the stale .env entry gets cleaned up
     assert "QUILL_MAX_ITERATIONS" in removed_keys
+# quill: tests

@@ -152,3 +152,4 @@ class TestSkinConfigHook:
         cli_mod._LIGHT_MODE_CACHE = False
         skin = SkinConfig(name="test", colors={"banner_text": "#FFF8DC"})
         assert skin.get_color("banner_text") == "#FFF8DC"
+# quill: tests

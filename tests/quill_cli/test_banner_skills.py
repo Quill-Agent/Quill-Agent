@@ -66,3 +66,4 @@ def test_get_available_skills_null_category_becomes_general():
 
     assert "general" in result
     assert result["general"] == ["orphan-skill"]
+# quill: tests

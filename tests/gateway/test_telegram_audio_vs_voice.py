@@ -182,3 +182,4 @@ def test_telegram_media_type_detection_audio_vs_voice():
     assert MessageType.VOICE.value == "voice"
     # Sanity: they are distinct
     assert MessageType.AUDIO != MessageType.VOICE
+# quill: tests

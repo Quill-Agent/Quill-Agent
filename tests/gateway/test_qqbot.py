@@ -1810,3 +1810,4 @@ class TestSendUpdatePrompt:
 
         adapter.send_with_keyboard = fake_swk  # type: ignore[assignment]
         await adapter.send_update_prompt(chat_id="u", prompt="ok?")
+# quill: tests

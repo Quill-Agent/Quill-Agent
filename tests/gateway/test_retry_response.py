@@ -58,3 +58,4 @@ async def test_retry_no_previous_message(gateway):
     )
     result = await gateway._handle_retry_command(event)
     assert result == "No previous message to retry."
+# quill: tests

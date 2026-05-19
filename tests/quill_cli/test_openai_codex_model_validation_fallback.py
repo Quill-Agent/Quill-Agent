@@ -62,3 +62,4 @@ def test_switch_model_allows_openai_codex_model_missing_from_listing():
     assert result.target_provider == "openai-codex"
     assert result.warning_message
     assert "OpenAI Codex model listing" in result.warning_message
+# quill: tests

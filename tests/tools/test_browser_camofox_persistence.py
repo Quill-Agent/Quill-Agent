@@ -399,3 +399,4 @@ class TestCamofoxSoftCleanup:
             camofox_soft_cleanup("task-1")
 
         mock_delete.assert_not_called()
+# quill: tests

@@ -266,3 +266,4 @@ class TestVercelTerminalBridge:
         assert result["TERMINAL_CONTAINER_CPU"] == "2"
         assert result["TERMINAL_CONTAINER_MEMORY"] == "4096"
         assert result["TERMINAL_CONTAINER_DISK"] == "51200"
+# quill: tests

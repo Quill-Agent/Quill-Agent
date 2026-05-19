@@ -267,3 +267,4 @@ def test_prune_defaults():
     assert args.days == 90
     assert args.yes is False
     assert args.dry_run is False
+# quill: tests

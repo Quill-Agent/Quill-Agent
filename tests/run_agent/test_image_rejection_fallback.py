@@ -265,3 +265,4 @@ class TestImageRejectionPhraseIsolation:
         ]
         for body in bodies:
             assert self._matches(body) is False, f"false positive on: {body}"
+# quill: tests

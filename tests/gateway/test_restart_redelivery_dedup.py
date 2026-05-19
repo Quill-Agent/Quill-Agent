@@ -245,3 +245,4 @@ async def test_different_platform_bypasses_dedup(tmp_path, monkeypatch):
 
     assert "Restarting gateway" in result
     runner.request_restart.assert_called_once()
+# quill: tests

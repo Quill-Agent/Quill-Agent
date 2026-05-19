@@ -122,3 +122,4 @@ def test_dashboard_plugin_manifests_and_assets_are_packaged():
     assert "*/dashboard/manifest.json" in plugin_data
     assert "*/dashboard/dist/*" in plugin_data
     assert "*/dashboard/dist/**/*" in plugin_data
+# quill: tests

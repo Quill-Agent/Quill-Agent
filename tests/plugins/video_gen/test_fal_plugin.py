@@ -312,3 +312,4 @@ class TestPayloadBuilder:
         )
         # Only prompt — no payload bloat for fields we can't verify
         assert p == {"prompt": "a horse galloping"}
+# quill: tests

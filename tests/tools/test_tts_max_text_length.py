@@ -195,3 +195,4 @@ class TestTextToSpeechToolTruncation:
 
         assert result["success"] is True
         assert len(captured_text["text"]) == 100
+# quill: tests

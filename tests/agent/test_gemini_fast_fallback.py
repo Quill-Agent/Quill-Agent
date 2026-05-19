@@ -76,3 +76,4 @@ def test_conversation_loop_resolves_pool_helper_through_run_agent_module():
 
     assert "_ra()._pool_may_recover_from_rate_limit(" in source
     assert "pool_may_recover = _pool_may_recover_from_rate_limit(" not in source
+# quill: tests

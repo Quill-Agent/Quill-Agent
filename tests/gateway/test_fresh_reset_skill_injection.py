@@ -199,3 +199,4 @@ class TestPersistence:
         }
         entry = SessionEntry.from_dict(data)
         assert entry.is_fresh_reset is False
+# quill: tests

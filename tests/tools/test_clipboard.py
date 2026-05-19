@@ -1144,3 +1144,4 @@ class TestQueueRouting:
         is_command = isinstance(user_input, str) and user_input.startswith("/")
         assert is_command is False
         assert len(submit_images) == 1
+# quill: tests

@@ -136,3 +136,4 @@ class TestExtensionHookSubclass:
         cli._register_extra_tui_keybindings = _custom_hook
         cli._register_extra_tui_keybindings(kb, input_area=None)
         assert len(kb.bindings) == 1
+# quill: tests

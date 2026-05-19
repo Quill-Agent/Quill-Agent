@@ -436,3 +436,4 @@ class TestTickProfilePartition:
         main_thread_name = threading.current_thread().name
         profile_thread_name = next(thread for job_id, thread in calls if job_id == "a")
         assert profile_thread_name == main_thread_name
+# quill: tests

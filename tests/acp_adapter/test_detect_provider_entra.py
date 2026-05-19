@@ -85,3 +85,4 @@ class TestDetectProviderEntra:
             side_effect=RuntimeError("simulated"),
         ):
             assert _acp_auth.detect_provider() is None
+# quill: tests

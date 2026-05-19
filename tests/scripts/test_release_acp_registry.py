@@ -111,3 +111,4 @@ def test_update_version_files_bumps_manifest_alongside_pyproject(
     )
     assert manifest["version"] == "0.14.0"
     assert manifest["distribution"]["uvx"]["package"] == "quill-agent[acp]==0.14.0"
+# quill: tests

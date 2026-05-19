@@ -82,3 +82,4 @@ def test_none_like_inputs_are_safe() -> None:
     assert is_nous_quill_non_agentic("") is False
     # Defensive: the helper shouldn't crash on None-ish falsy input either.
     assert _check_quill_model_warning("") == ""
+# quill: tests

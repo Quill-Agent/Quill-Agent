@@ -785,3 +785,4 @@ def test_cmd_proxy_start_refuses_when_unauthenticated(capsys, tmp_path, monkeypa
     assert rc == 2
     err = capsys.readouterr().err
     assert "quill login nous" in err
+# quill: tests

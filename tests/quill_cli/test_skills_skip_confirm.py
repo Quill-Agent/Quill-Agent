@@ -172,3 +172,4 @@ class TestDoUninstallSkipConfirm:
              patch("builtins.input", return_value="n"):
             do_uninstall("test-skill", skip_confirm=False)
             mock_uninstall.assert_not_called()
+# quill: tests

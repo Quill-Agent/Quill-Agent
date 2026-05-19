@@ -654,3 +654,4 @@ class TestStatusBarWidthSource:
         mock_get_app.assert_not_called()
         mock_shutil.assert_not_called()
         assert len(text) > 0
+# quill: tests

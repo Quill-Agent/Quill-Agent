@@ -183,3 +183,4 @@ class TestCaseInsensitivity:
         text = "hi @Quill_Bot"
         msg = _message(text=text, entities=[_mention_entity(text, mention="@Quill_Bot")])
         assert adapter._message_mentions_bot(msg) is True
+# quill: tests

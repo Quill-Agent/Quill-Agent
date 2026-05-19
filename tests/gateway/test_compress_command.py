@@ -247,3 +247,4 @@ async def test_compress_command_surfaces_aux_model_failure_even_when_recovered()
     assert "intact" in result
     agent_instance.shutdown_memory_provider.assert_called_once()
     agent_instance.close.assert_called_once()
+# quill: tests

@@ -180,3 +180,4 @@ class TestBedrockNormalize:
         assert nr.finish_reason == "stop"
         assert nr.usage is not None
         assert nr.usage.prompt_tokens == 10
+# quill: tests

@@ -309,3 +309,4 @@ class TestBulkUpload:
         mgr.sync(force=True)
         bulk_upload.assert_called_once()
         assert len(bulk_upload.call_args[0][0]) == 3
+# quill: tests

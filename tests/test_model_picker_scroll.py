@@ -116,3 +116,4 @@ class TestScrollOffsetLogic:
             rendered = list(range(scroll_offset, min(scroll_offset + visible, self.N)))
             assert cursor in rendered, f"cursor={cursor} not in rendered={rendered}"
             cursor = (cursor - 1) % self.N
+# quill: tests

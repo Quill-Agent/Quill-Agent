@@ -119,3 +119,4 @@ class TestResetSessionState:
         agent.reset_session_state()
 
         assert agent._user_turn_count == 0
+# quill: tests

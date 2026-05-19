@@ -305,3 +305,4 @@ class TestFallbackChainDedup:
 
         assert ok is False
         mock_resolve.assert_not_called()
+# quill: tests

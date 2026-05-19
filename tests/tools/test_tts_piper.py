@@ -304,3 +304,4 @@ class TestCheckTtsRequirementsPiper:
 
         monkeypatch.setattr(tts_tool, "_check_piper_available", lambda: True)
         assert check_tts_requirements() is True
+# quill: tests

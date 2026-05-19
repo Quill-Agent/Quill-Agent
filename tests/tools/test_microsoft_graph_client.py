@@ -255,3 +255,4 @@ class TestMicrosoftGraphClient:
 
         with pytest.raises(MicrosoftGraphClientError):
             await client.get_json("/me")
+# quill: tests

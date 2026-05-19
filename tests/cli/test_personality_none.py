@@ -222,3 +222,4 @@ class TestPersonalityDictFormat:
         from cli import QuillCLI
         result = QuillCLI._resolve_personality_prompt("You are helpful.")
         assert result == "You are helpful."
+# quill: tests

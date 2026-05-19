@@ -197,3 +197,4 @@ class TestCompressionToolResultPreservation:
             if msg.get("role") == "tool":
                 assert msg["content"] != "[Result from earlier conversation — see context summary above]", \
                     f"Stub result found for {msg.get('tool_call_id')} — real result was lost"
+# quill: tests

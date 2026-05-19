@@ -2792,3 +2792,4 @@ def test_detect_stale_skips_blocked_tasks(kanban_home, monkeypatch):
         )
         assert stale == [], "Blocked task should not be reclaimed by stale detection"
         assert kb.get_task(conn, t).status == "blocked"
+# quill: tests

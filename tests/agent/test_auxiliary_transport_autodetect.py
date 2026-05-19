@@ -235,3 +235,4 @@ def test_resolve_provider_client_kimi_coding_wraps_anthropic(monkeypatch, tmp_pa
         f"{type(client).__name__}"
     )
     assert "kimi.com/coding" in str(client.base_url)
+# quill: tests

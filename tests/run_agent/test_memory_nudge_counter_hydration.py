@@ -139,3 +139,4 @@ def test_production_code_contains_hydration_block():
         "agent._turns_since_memory = prior_user_turns % agent._memory_nudge_interval"
         in src_cl
     ), f"Hydration modulo assignment missing from {cl_path}"
+# quill: tests

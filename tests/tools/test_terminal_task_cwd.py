@@ -72,3 +72,4 @@ def test_explicit_workdir_still_wins_over_registered_task_cwd(monkeypatch):
 
     assert result["exit_code"] == 0
     assert calls == [{"timeout": 60, "cwd": "/explicit/workdir"}]
+# quill: tests

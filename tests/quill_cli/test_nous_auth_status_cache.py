@@ -142,3 +142,4 @@ def test_get_nous_auth_status_caches_failure_path(tmp_path, monkeypatch):
     )
 
     auth_mod.invalidate_nous_auth_status_cache()
+# quill: tests

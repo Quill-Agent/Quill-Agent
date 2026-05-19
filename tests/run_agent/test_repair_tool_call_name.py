@@ -115,3 +115,4 @@ class TestEdgeCases:
     def test_very_long_name_does_not_match_by_accident(self, repair):
         # Fuzzy match should not claim a tool for something obviously unrelated.
         assert repair("ThisIsNotRemotelyARealToolName_tool") is None
+# quill: tests

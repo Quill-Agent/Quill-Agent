@@ -105,3 +105,4 @@ def test_custom_endpoint_chat_completions_still_uses_openai_wire():
     assert client is not None
     assert model == "my-model"
     assert not isinstance(client, AnthropicAuxiliaryClient)
+# quill: tests

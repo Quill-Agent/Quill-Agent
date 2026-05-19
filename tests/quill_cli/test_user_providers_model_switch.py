@@ -984,3 +984,4 @@ def test_user_provider_override_rejects_mangled_private_models(
 
     assert result.success is False
     assert result.error_message == "not found"
+# quill: tests

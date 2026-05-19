@@ -99,3 +99,4 @@ class TestChromeDebugLaunch:
         with patch("quill_cli.browser_connect.shutil.which", return_value=None), \
              patch("quill_cli.browser_connect.os.path.isfile", return_value=False):
             assert manual_chrome_debug_command(9222, "Linux") is None
+# quill: tests

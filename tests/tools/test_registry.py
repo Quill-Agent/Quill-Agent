@@ -544,3 +544,4 @@ class TestThreadSafety:
         toolsets = result_holder["value"]
         assert "gated" in toolsets
         assert toolsets["gated"]["available"] is True
+# quill: tests

@@ -760,3 +760,4 @@ class TestEchoPreventionFlow:
         completed = receiver.check_silence()
         assert len(completed) == 1
         assert completed[0][0] == 42
+# quill: tests

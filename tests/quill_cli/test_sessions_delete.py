@@ -115,3 +115,4 @@ def test_sessions_prune_handles_eoferror_on_confirm(monkeypatch, capsys):
 
     output = capsys.readouterr().out
     assert "Cancelled" in output
+# quill: tests

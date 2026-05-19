@@ -243,3 +243,4 @@ def test_deepseek_v4_thinking_tool_call_replay_round_trip(live_model: str):
     assert final_content.strip() or final_reasoning.strip(), (
         "DeepSeek returned neither visible content nor reasoning_content"
     )
+# quill: tests

@@ -506,4 +506,4 @@ class TestTencentTokenhubKnownProviderNames:
     def test_alias_known(self, alias):
         from quill_cli.models import _KNOWN_PROVIDER_NAMES
         assert alias in _KNOWN_PROVIDER_NAMES
-
+# quill: tests

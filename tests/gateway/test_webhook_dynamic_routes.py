@@ -85,3 +85,4 @@ class TestDynamicRouteLoading:
         adapter._reload_dynamic_routes()
         assert "static" in adapter._routes
         assert len(adapter._dynamic_routes) == 0
+# quill: tests

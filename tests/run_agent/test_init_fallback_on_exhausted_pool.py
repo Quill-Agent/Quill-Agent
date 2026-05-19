@@ -67,3 +67,4 @@ def test_init_raises_when_no_fallback_configured():
                 skip_memory=True,
                 fallback_model=None,
             )
+# quill: tests

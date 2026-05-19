@@ -155,3 +155,4 @@ def test_lmstudio_replace_empty_does_not_overwrite_with_placeholder(profile_env)
     assert key == "my-real-lmstudio-key"
     assert abort is False
     assert get_env_value("LM_API_KEY") == "my-real-lmstudio-key"
+# quill: tests

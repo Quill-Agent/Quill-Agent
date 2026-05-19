@@ -642,3 +642,4 @@ class TestAdapterInit:
         assert asyncio.run(ad.get_chat_info("U123"))["type"] == "dm"
         assert asyncio.run(ad.get_chat_info("C123"))["type"] == "group"
         assert asyncio.run(ad.get_chat_info("R123"))["type"] == "channel"
+# quill: tests

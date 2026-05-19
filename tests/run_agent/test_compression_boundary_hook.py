@@ -160,3 +160,4 @@ class TestCompressionBoundaryHook:
             )
             assert compressed
             assert agent.session_id != original_sid
+# quill: tests

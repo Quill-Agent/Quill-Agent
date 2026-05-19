@@ -200,3 +200,4 @@ class TestHandoffCommandRegistration:
         assert cmd is not None
         assert cmd.cli_only is True
         assert "handoff" not in GATEWAY_KNOWN_COMMANDS
+# quill: tests

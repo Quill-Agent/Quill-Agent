@@ -66,3 +66,4 @@ def test_base_url_accepts_valid(url):
 def test_base_url_rejects_malformed_port():
     with pytest.raises(RuntimeError, match="Malformed custom endpoint URL"):
         _validate_base_url("http://127.0.0.1:6153export")
+# quill: tests

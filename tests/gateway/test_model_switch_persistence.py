@@ -243,3 +243,4 @@ class TestIsIntentionalModelSwitch:
         }
 
         assert runner._is_intentional_model_switch(sk, "gpt-5.4") is False
+# quill: tests

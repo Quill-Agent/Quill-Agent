@@ -216,3 +216,4 @@ class TestYoloMode:
         approval_module.clear_session("session-a")
 
         assert is_session_yolo_enabled("session-a") is False
+# quill: tests

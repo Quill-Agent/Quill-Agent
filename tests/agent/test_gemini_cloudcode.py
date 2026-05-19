@@ -1225,3 +1225,4 @@ class TestRunGeminiOauthLoginPure:
         assert result["email"] == "u@e.com"
         assert result["project_id"] == "p"
         assert isinstance(result["expires_at_ms"], int)
+# quill: tests

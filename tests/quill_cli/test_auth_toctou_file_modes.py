@@ -200,3 +200,4 @@ def test_save_auth_store_uses_os_open_with_0o600_mode(tmp_path, monkeypatch):
             f"auth.json temp open mode 0o{mode:o} != 0o{expected:o} — "
             f"umask would apply and potentially expose tokens"
         )
+# quill: tests

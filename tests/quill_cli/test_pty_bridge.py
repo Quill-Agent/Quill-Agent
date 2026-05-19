@@ -177,3 +177,4 @@ class TestPtyBridgeUnavailable:
     def test_error_carries_user_message(self):
         err = PtyUnavailableError("platform not supported")
         assert "platform" in str(err)
+# quill: tests

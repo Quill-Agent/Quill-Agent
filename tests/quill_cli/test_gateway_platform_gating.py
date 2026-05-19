@@ -59,3 +59,4 @@ class TestMatrixHiddenOnWindows:
                 f"{must_have} disappeared from Windows picker — gate is "
                 "over-filtering"
             )
+# quill: tests

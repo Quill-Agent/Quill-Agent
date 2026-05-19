@@ -88,3 +88,4 @@ class TestResolveRequestsVerify:
         clean_env.setenv("QUILL_CA_BUNDLE", "")
         clean_env.setenv("REQUESTS_CA_BUNDLE", bundle_file)
         assert _resolve_requests_verify() == bundle_file
+# quill: tests

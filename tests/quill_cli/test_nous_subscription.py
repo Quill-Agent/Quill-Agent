@@ -192,3 +192,4 @@ def test_get_gateway_eligible_tools_ignores_quoted_false_opt_in(monkeypatch):
     assert "web" in has_direct
     assert "web" not in already_managed
     assert set(unconfigured) == {"image_gen", "tts", "browser"}
+# quill: tests

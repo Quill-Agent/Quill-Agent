@@ -82,3 +82,4 @@ class TestUpdateConfigForProviderClearsStaleCustomFields:
         _seed_custom_provider_config(api_mode="codex_responses")
         _update_config_for_provider("openrouter", "https://openrouter.ai/api/v1")
         assert "api_mode" not in _read_model_cfg()
+# quill: tests

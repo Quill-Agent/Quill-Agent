@@ -85,3 +85,4 @@ class TestNormalizeChatContent:
 
     def test_empty_list_returns_empty(self):
         assert _normalize_chat_content([]) == ""
+# quill: tests

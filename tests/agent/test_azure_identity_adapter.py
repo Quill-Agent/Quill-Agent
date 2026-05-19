@@ -660,3 +660,4 @@ class TestDescribeActiveCredential:
         info = _adapter.describe_active_credential(scope="https://x/.default", timeout_seconds=0.5)
         assert info["ok"] is False
         assert "auth failed" in info.get("error", "")
+# quill: tests

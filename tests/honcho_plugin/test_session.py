@@ -1791,3 +1791,4 @@ class TestGetSessionContextFallback:
         peer_id, target = fetch_calls[0]
         assert peer_id == "ai-peer", f"expected ai-peer, got {peer_id}"
         assert target == "ai-peer"
+# quill: tests

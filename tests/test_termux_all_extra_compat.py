@@ -21,3 +21,4 @@ def test_install_script_prefers_termux_all_then_fallbacks() -> None:
     assert "pip install -e '.[termux-all]' -c constraints-termux.txt" in text
     assert "Termux broad profile (.[termux-all]) failed, trying baseline Termux profile..." in text
     assert "Termux baseline profile (.[termux]) failed, trying base install..." in text
+# quill: tests

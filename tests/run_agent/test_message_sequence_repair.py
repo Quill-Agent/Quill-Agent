@@ -199,3 +199,4 @@ def test_repair_preserves_system_messages():
     AIAgent._repair_message_sequence(agent, messages)
 
     assert messages == original
+# quill: tests

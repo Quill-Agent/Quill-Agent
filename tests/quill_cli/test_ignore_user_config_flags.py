@@ -242,3 +242,4 @@ class TestArgparseFlagsRegistered:
         src = inspect.getsource(hm)
         assert "QUILL_IGNORE_USER_CONFIG" in src
         assert "QUILL_IGNORE_RULES" in src
+# quill: tests

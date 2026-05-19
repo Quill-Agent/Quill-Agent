@@ -188,3 +188,4 @@ async def test_btw_dispatches_mid_run():
     runner._handle_background_command.assert_awaited_once()
     assert result is not None
     assert "can't run mid-turn" not in result
+# quill: tests

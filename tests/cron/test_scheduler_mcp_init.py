@@ -52,3 +52,4 @@ def test_no_agent_cron_job_does_not_initialize_mcp():
         "discover_mcp_tools was called for a no_agent job — wasted MCP init "
         "for a script-only cron tick"
     )
+# quill: tests

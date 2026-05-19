@@ -1548,4 +1548,4 @@ class TestShutdown:
         embedded.close.assert_called_once()
         assert embedded._client is None
         assert provider._client is None
-
+# quill: tests

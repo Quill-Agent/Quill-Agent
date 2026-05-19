@@ -356,3 +356,4 @@ def test_file_mutating_tools_set_shape():
     track it.  This test fails loudly on unilateral additions.
     """
     assert _FILE_MUTATING_TOOLS == frozenset({"write_file", "patch"})
+# quill: tests

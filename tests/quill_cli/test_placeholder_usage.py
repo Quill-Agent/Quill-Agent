@@ -46,3 +46,4 @@ def test_setup_summary_marks_placeholders(tmp_path, capsys):
 
     out = capsys.readouterr().out
     assert "quill config set <key> <value>" in out
+# quill: tests

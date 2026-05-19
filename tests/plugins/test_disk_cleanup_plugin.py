@@ -425,3 +425,4 @@ class TestBundledDiscovery:
         mgr.discover_and_load()
         assert "memory" not in mgr._plugins
         assert "context_engine" not in mgr._plugins
+# quill: tests

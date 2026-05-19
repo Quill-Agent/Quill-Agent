@@ -33,3 +33,4 @@ class TestHeartbeatStaleThresholds:
         """Heartbeat interval should remain 30s."""
         from tools.delegate_tool import _HEARTBEAT_INTERVAL
         assert _HEARTBEAT_INTERVAL == 30
+# quill: tests

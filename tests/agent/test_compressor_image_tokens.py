@@ -139,3 +139,4 @@ class TestTokenBudgetWithImages:
             f"Expected image-heavy tail to be trimmed; compressor placed cut at "
             f"{cut} out of {len(messages)} (image tokens were likely ignored)."
         )
+# quill: tests

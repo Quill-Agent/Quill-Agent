@@ -68,3 +68,4 @@ class TestVariantTagPreservation:
         """Standard vendor/model slugs without tags pass through unchanged."""
         result = _run_switch("anthropic/claude-sonnet-4.6")
         assert result == "anthropic/claude-sonnet-4.6"
+# quill: tests

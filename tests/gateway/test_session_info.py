@@ -108,3 +108,4 @@ class TestFormatSessionInfo:
             info = runner._format_session_info()
         assert "4K" in info
         assert "config" in info
+# quill: tests

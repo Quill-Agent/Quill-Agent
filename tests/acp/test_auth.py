@@ -100,3 +100,4 @@ class TestBuildAuthMethods:
                 "type": "terminal",
             }
         ]
+# quill: tests

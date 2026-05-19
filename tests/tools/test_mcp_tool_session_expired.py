@@ -375,3 +375,4 @@ def test_non_tool_handlers_also_reconnect_on_session_expired(
     finally:
         mcp_tool._servers.pop(f"srv-{op_label}", None)
         mcp_tool._server_error_counts.pop(f"srv-{op_label}", None)
+# quill: tests

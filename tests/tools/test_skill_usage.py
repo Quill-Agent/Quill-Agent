@@ -637,3 +637,4 @@ def test_end_to_end_no_code_path_mutates_bundled_skill(skills_home):
     # The agent-created skill can still be mutated normally
     bump_view("mine")
     assert load_usage()["mine"]["view_count"] == 1
+# quill: tests

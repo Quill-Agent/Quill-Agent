@@ -231,3 +231,4 @@ class TestSingleton:
         _reset_scheduler()
         s2 = get_scheduler()
         assert s1 is not s2
+# quill: tests

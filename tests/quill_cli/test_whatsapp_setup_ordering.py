@@ -138,3 +138,4 @@ def test_existing_pairing_skip_branch_enables_whatsapp(isolated_home, monkeypatc
 
     # The skip-rebar branch should have set the env var on its way out.
     assert _env_value(isolated_home, "WHATSAPP_ENABLED") == "true"
+# quill: tests

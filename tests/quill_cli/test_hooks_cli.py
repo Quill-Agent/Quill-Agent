@@ -266,3 +266,4 @@ class TestHooksDoctor:
         )
         assert "not allowlisted" in out.lower()
         assert "skipped JSON smoke test" in out
+# quill: tests

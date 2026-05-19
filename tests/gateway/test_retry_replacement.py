@@ -95,3 +95,4 @@ async def test_gateway_retry_replays_original_text_not_retry_command(tmp_path):
     )
 
     assert captured["text"] == "real message"
+# quill: tests

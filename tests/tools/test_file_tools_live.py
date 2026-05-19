@@ -455,3 +455,4 @@ class TestTerminalOutputCleanliness:
         result = env.execute("command -v cat >/dev/null 2>&1 && echo 'yes'")
         assert result["output"].strip() == "yes"
         _assert_clean(result["output"])
+# quill: tests

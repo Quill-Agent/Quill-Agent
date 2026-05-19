@@ -918,3 +918,4 @@ class TestIsImageSizeError:
 
     def test_empty_message(self):
         assert not _is_image_size_error(Exception(""))
+# quill: tests

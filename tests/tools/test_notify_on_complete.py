@@ -348,3 +348,4 @@ class TestCompletionConsumed:
         result = registry.poll("proc_running")
         assert result["status"] == "running"
         assert not registry.is_completion_consumed("proc_running")
+# quill: tests

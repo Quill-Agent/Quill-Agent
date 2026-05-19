@@ -498,3 +498,4 @@ class TestCheckTtsRequirements:
         cfg = {"providers": {"x": {"type": "command", "command": "echo x"}}}
         with patch("tools.tts_tool._load_tts_config", return_value=cfg):
             assert check_tts_requirements() is True
+# quill: tests

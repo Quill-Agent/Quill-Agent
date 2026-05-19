@@ -116,3 +116,4 @@ class TestGetCdpOverride:
 
         assert resolved == WS_URL
         mock_get.assert_called_once_with(VERSION_URL, timeout=10)
+# quill: tests

@@ -389,3 +389,4 @@ class TestNormalizeModelForProvider:
             changed = cli._normalize_model_for_provider("openai-codex")
         assert changed is True
         assert cli.model == "gpt-5.3-codex"
+# quill: tests

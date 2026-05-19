@@ -71,3 +71,4 @@ class TestResolveRuntimeAgentKwargsAuthFallback:
             from gateway.run import _resolve_runtime_agent_kwargs
             with pytest.raises(RuntimeError):
                 _resolve_runtime_agent_kwargs()
+# quill: tests

@@ -273,3 +273,4 @@ class TestDoctorCommandInstallation:
 
         out = _run_doctor(fix=False)
         assert "Command Installation" not in out
+# quill: tests

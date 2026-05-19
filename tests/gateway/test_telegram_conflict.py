@@ -309,3 +309,4 @@ async def test_disconnect_skips_inactive_updater_and_app(monkeypatch):
     app.stop.assert_not_awaited()
     app.shutdown.assert_awaited_once()
     warning.assert_not_called()
+# quill: tests

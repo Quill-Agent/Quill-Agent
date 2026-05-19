@@ -42,3 +42,4 @@ class TestFallbackEvictionGating:
         result = {"completed": True, "final_response": "Hello!"}
         _run_failed = result.get("failed") if result else False
         assert not _run_failed, "Missing 'failed' key should be falsy"
+# quill: tests

@@ -216,3 +216,4 @@ def _make_runner() -> GatewayRunner:
         runner._voice_mode = {}
         runner.adapters = {}
     return runner
+# quill: tests

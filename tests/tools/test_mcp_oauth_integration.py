@@ -191,3 +191,4 @@ async def test_provider_is_reused_across_reconnects(tmp_path, monkeypatch):
     p2 = mgr.get_or_build_provider("srv", "https://example.com/mcp", None)
 
     assert p1 is p2, "manager must cache the provider across reconnects"
+# quill: tests

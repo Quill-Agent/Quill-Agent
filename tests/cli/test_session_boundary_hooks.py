@@ -64,3 +64,4 @@ def test_hook_errors_are_caught(mock_invoke_hook):
     # This should not raise
     results = mgr.invoke_hook("on_session_finalize", session_id="test", platform="cli")
     assert results == []
+# quill: tests

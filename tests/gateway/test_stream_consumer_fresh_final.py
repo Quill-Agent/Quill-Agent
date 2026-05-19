@@ -234,3 +234,4 @@ class TestTelegramAdapterDeleteMessage:
         import inspect
         sig = inspect.signature(BasePlatformAdapter.delete_message)
         assert list(sig.parameters)[:3] == ["self", "chat_id", "message_id"]
+# quill: tests

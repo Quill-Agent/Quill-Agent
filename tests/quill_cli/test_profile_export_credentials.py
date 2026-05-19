@@ -50,3 +50,4 @@ class TestCredentialExclusion:
         assert any("SOUL.md" in n for n in names), "SOUL.md should be in export"
         assert not any("auth.json" in n for n in names), "auth.json must NOT be in export"
         assert not any(".env" in n for n in names), ".env must NOT be in export"
+# quill: tests

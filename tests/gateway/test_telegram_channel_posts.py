@@ -179,3 +179,4 @@ async def test_command_handler_uses_effective_message_for_channel_post(telegram_
     assert event.message_type == MessageType.COMMAND
     assert event.source.chat_type == "channel"
     assert event.source.chat_id == "-1003950368353"
+# quill: tests

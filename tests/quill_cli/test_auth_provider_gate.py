@@ -83,3 +83,4 @@ def test_claude_code_oauth_token_does_not_count_as_explicit(tmp_path, monkeypatc
 
     from quill_cli.auth import is_provider_explicitly_configured
     assert is_provider_explicitly_configured("anthropic") is False
+# quill: tests

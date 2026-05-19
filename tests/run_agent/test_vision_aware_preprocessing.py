@@ -168,3 +168,4 @@ class TestModelSupportsVision:
         agent = _make_agent()
         with patch("agent.models_dev.get_model_capabilities", side_effect=RuntimeError("boom")):
             assert agent._model_supports_vision() is False
+# quill: tests

@@ -133,3 +133,4 @@ class TestSkillViewRegistersPassthrough:
         assert result["success"] is True
         from tools.env_passthrough import get_all_passthrough
         assert len(get_all_passthrough()) == 0
+# quill: tests

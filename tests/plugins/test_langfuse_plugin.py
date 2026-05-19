@@ -703,4 +703,4 @@ class TestToolObservationKeying:
         assert ended["obs"] is obs
         assert ended["output"] == {"status": "done"}
         assert not state.tools
-
+# quill: tests

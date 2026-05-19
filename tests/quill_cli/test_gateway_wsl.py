@@ -277,3 +277,4 @@ class TestGatewayCommandWSLMessages:
         out = capsys.readouterr().out
         assert "quill gateway run" in out
         assert "tmux" in out
+# quill: tests

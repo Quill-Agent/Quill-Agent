@@ -139,3 +139,4 @@ class TestAPIServerPlaceholderKeyGuard:
         )
         # On loopback the placeholder guard doesn't fire
         assert is_network_accessible(adapter._host) is False
+# quill: tests

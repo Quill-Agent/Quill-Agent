@@ -119,3 +119,4 @@ class TestConfigVersionCoverage:
         """_config_version must be >= the highest ENV_VARS_BY_VERSION key."""
         from quill_cli.config import DEFAULT_CONFIG, ENV_VARS_BY_VERSION
         assert DEFAULT_CONFIG["_config_version"] >= max(ENV_VARS_BY_VERSION)
+# quill: tests

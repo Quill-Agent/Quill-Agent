@@ -297,3 +297,4 @@ class TestGatewayWatcherCallsPrune:
 
         should_prune = (now - last_ts) > prune_interval
         assert should_prune is False
+# quill: tests

@@ -34,3 +34,4 @@ def test_delegation_default_toolsets_removed_from_cli_config():
         "use tools/delegate_tool.py's DEFAULT_TOOLSETS module constant or "
         "wire a new config key through _load_config()."
     )
+# quill: tests

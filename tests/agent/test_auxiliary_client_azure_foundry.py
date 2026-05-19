@@ -348,3 +348,4 @@ class TestResolveProviderClientAzureFoundry:
             "azure-foundry" in rec.message and "quill doctor" in rec.message
             for rec in caplog.records
         )
+# quill: tests

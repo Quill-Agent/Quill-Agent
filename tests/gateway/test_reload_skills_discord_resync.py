@@ -242,3 +242,4 @@ class TestHandleReloadSkillsCallsRefreshSkillGroup:
         assert "Skills Reloaded" in result
         assert sync_refresh.called, "sync adapter refresh must be invoked"
         assert async_called["flag"], "async adapter refresh must be awaited"
+# quill: tests

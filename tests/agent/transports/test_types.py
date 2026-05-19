@@ -282,3 +282,4 @@ class TestNormalizedResponseBackwardCompat:
     def test_codex_message_items_none_when_absent(self):
         nr = NormalizedResponse(content="hi", tool_calls=None, finish_reason="stop")
         assert nr.codex_message_items is None
+# quill: tests

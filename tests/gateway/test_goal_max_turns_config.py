@@ -60,3 +60,4 @@ async def test_gateway_goal_uses_goals_max_turns_from_full_config(tmp_path, monk
         assert state.max_turns == 7
     finally:
         goals._DB_CACHE.clear()
+# quill: tests

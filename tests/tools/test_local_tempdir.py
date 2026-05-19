@@ -49,3 +49,4 @@ class TestLocalTempDir:
             assert env.get_temp_dir() == "/cache/tmp"
             assert env._snapshot_path == f"/cache/tmp/quill-snap-{env._session_id}.sh"
             assert env._cwd_file == f"/cache/tmp/quill-cwd-{env._session_id}.txt"
+# quill: tests

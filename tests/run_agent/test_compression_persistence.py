@@ -202,3 +202,4 @@ class TestGatewayHistoryOffsetAfterSplit:
         assert len(new_messages) == 0, (
             "Expected 0 messages with stale offset=200 (demonstrates the bug)"
         )
+# quill: tests

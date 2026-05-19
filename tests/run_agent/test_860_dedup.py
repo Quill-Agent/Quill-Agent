@@ -300,3 +300,4 @@ class TestFlushIdxInit:
         agent._flush_messages_to_session_db(messages, [])
         # Should not crash, idx should remain 0
         assert agent._last_flushed_db_idx == 0
+# quill: tests

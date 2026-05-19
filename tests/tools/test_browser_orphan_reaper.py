@@ -408,3 +408,4 @@ class TestEmergencyCleanupRunsReaper:
         assert reaper_called, (
             "Reaper must run on exit even with no active sessions"
         )
+# quill: tests

@@ -79,3 +79,4 @@ class TestStripLeakedTerminalResponses:
     def test_does_not_strip_regular_angle_bracket_text(self):
         text = "render <div class='hero'> literal"
         assert _strip_leaked_terminal_responses(text) == text
+# quill: tests

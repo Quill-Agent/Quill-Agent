@@ -722,3 +722,4 @@ class TestIRCStandaloneSend:
         assert join_idx is not None, "JOIN must be sent for channel targets"
         assert privmsg_idx is not None
         assert join_idx < privmsg_idx, "JOIN must precede PRIVMSG"
+# quill: tests

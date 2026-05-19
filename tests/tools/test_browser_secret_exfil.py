@@ -184,3 +184,4 @@ class TestCamofoxAnnotationRedaction:
         assert "ANTHROPICFAKEKEY123456789" not in result
         assert "OPENAIFAKEKEY99887766" not in result
         assert "PATH=/usr/local/bin" in result
+# quill: tests

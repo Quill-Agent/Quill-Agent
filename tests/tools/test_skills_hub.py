@@ -1674,3 +1674,4 @@ class TestDownloadDirectoryRecursive:
 
         assert "SKILL.md" in files
         assert "scripts/run.py" not in files  # lost due to rate limit
+# quill: tests

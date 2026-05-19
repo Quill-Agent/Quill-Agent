@@ -280,3 +280,4 @@ class TestPythonProcessUnchanged:
         assert sub_home is not None
         assert os.environ.get("HOME") == original_home
         assert str(Path.home()) == original_path_home
+# quill: tests

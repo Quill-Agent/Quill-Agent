@@ -114,3 +114,4 @@ class TestStuckLoopDetection:
         assert runner._suspend_stuck_loop_sessions() == 0
         # Clear on nonexistent file — should not crash
         runner._clear_restart_failure_count("nonexistent")
+# quill: tests

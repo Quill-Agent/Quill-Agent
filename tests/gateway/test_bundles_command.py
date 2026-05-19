@@ -113,3 +113,4 @@ class TestBundleResolutionPriority:
         _make_bundle(bundles_dir, "my-bundle", ["alpha"])
         from agent.skill_bundles import resolve_bundle_command_key
         assert resolve_bundle_command_key("my_bundle") == "/my-bundle"
+# quill: tests

@@ -100,3 +100,4 @@ class TestMessageDeduplicatorTTL:
         # the check is `now - ts < ttl` which is `0 < 0` = False
         # This means TTL=0 effectively disables dedup
         assert dedup.is_duplicate("msg-1") is False
+# quill: tests

@@ -115,3 +115,4 @@ def test_backoff_uses_locked_tick_for_seed(monkeypatch):
 
     assert len(recorded_seeds) == 2
     assert len(set(recorded_seeds)) == 2, f"Expected unique seeds, got {recorded_seeds}"
+# quill: tests

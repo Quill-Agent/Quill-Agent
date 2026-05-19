@@ -505,3 +505,4 @@ class TestOllamaCloudAuxiliary:
         from agent.auxiliary_client import _API_KEY_PROVIDER_AUX_MODELS
         assert "ollama-cloud" in _API_KEY_PROVIDER_AUX_MODELS
         assert _API_KEY_PROVIDER_AUX_MODELS["ollama-cloud"] == "nemotron-3-nano:30b"
+# quill: tests

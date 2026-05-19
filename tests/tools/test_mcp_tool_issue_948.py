@@ -95,3 +95,4 @@ def test_run_stdio_uses_resolved_command_and_prepended_path(tmp_path):
             await server.shutdown()
 
     asyncio.run(_test())
+# quill: tests

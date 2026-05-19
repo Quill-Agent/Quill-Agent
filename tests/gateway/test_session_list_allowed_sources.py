@@ -102,3 +102,4 @@ def test_session_list_preserves_ordering_after_filter(monkeypatch):
     ids = [s["id"] for s in resp["result"]["sessions"]]
 
     assert ids == ["newest", "middle", "also-visible", "oldest"]
+# quill: tests

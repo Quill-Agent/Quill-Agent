@@ -182,3 +182,4 @@ def test_manual_compress_no_sync_when_session_id_unchanged():
 
     # No split → pending title untouched.
     assert shell._pending_title == "keep me"
+# quill: tests

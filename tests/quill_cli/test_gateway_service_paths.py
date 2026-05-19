@@ -29,3 +29,4 @@ def test_service_path_includes_quill_home_node_modules(tmp_path):
     with patch("quill_cli.gateway.get_quill_home", return_value=tmp_path / ".quill"):
         dirs = _build_service_path_dirs(project_root=tmp_path)
     assert str(quill_nm) in dirs
+# quill: tests

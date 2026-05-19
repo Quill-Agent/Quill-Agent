@@ -90,3 +90,4 @@ class TestAgentLoopSourceStillHasCarveOut:
             "agent/conversation_loop.py must carve out json.JSONDecodeError "
             "from the is_local_validation_error classification — see #14782."
         )
+# quill: tests

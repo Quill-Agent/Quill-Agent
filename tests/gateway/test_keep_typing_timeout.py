@@ -198,3 +198,4 @@ class TestKeepTypingTimeoutPerTick:
         assert calls == [], (
             f"send_typing was called on a paused chat: {calls}"
         )
+# quill: tests

@@ -238,3 +238,4 @@ class TestMinimaxTtsLegacyTextToSpeech:
         _, output = self._run({}, tmp_path, monkeypatch)
         with open(output, "rb") as f:
             assert f.read() == b"\x00\x01\x02\x03"
+# quill: tests

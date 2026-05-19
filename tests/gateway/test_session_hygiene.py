@@ -852,3 +852,4 @@ async def test_session_hygiene_default_hard_message_limit_does_not_fire_at_12_me
     assert FakeCompressAgent.last_instance is None, (
         "Compression should NOT fire at 12 messages with default hard_limit=400"
     )
+# quill: tests

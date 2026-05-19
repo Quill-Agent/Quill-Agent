@@ -208,3 +208,4 @@ class TestBuildWebUIRetryAndStaleFallback:
         assert "Web UI build failed" in out
         assert "vite ENOMEM" in out
         assert "Run manually" in out
+# quill: tests

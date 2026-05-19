@@ -313,3 +313,4 @@ def test_unknown_pkce_provider_rejected_cleanly():
     # 4xx — what we MUST NOT see is a 200 with claude.ai in the body.
     assert resp.status_code >= 400, resp.text
     assert "claude.ai" not in resp.text.lower()
+# quill: tests

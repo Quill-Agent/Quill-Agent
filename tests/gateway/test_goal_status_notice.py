@@ -145,3 +145,4 @@ def test_clear_goal_pending_continuations_removes_slot_and_overflow_only():
     assert removed == 2
     assert adapter._pending_messages.get(session_key) is None
     assert runner._queued_events[session_key] == [normal_event]
+# quill: tests

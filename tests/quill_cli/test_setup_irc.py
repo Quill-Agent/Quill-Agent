@@ -243,3 +243,4 @@ class TestIRCGatewaySetupFreshInstall:
             assert "Messaging platforms configured!" in out
         finally:
             _unregister_irc_platform()
+# quill: tests

@@ -221,3 +221,4 @@ class TestBusySessionAuthBypass:
         running_agent.steer.assert_not_called()
         # Nothing queued
         assert sk not in adapter._pending_messages
+# quill: tests

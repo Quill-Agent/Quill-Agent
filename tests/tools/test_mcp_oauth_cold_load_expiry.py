@@ -544,3 +544,4 @@ async def test_initialize_skips_prefetch_when_no_tokens(tmp_path, monkeypatch):
     assert calls == [], (
         f"Pre-flight must not fire when no tokens are stored, but got {calls}"
     )
+# quill: tests

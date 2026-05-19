@@ -458,3 +458,4 @@ class TestBaseAdapterClarifyFallback:
         assert "Free form?" in adapter.sent[0]
         # No numbered list — choices were empty
         assert "1." not in adapter.sent[0]
+# quill: tests

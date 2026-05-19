@@ -114,3 +114,4 @@ class TestGetQuillHomeProfileWarning:
 
         assert result == tmp_path / ".quill"
         assert "QUILL_HOME fallback" not in capsys.readouterr().err
+# quill: tests

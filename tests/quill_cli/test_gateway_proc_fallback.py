@@ -136,3 +136,4 @@ class TestProcFallback:
         # PermissionError swallowed — empty result, no crash
         assert 12345 not in pids
         mock_ps.assert_not_called()  # /proc dir existed, so ps not called
+# quill: tests

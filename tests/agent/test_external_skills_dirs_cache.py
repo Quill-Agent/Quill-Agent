@@ -147,3 +147,4 @@ def test_cache_key_is_per_config_path(tmp_path, monkeypatch):
     # And switching back still works — both entries coexist in the cache.
     monkeypatch.setenv("QUILL_HOME", str(home_a))
     assert get_external_skills_dirs() == [ext_a.resolve()]
+# quill: tests

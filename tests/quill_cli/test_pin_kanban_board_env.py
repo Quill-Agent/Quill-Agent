@@ -73,3 +73,4 @@ def test_pin_swallows_resolution_failures(monkeypatch):
     main_mod._pin_kanban_board_env()
 
     assert "QUILL_KANBAN_BOARD" not in main_mod.os.environ
+# quill: tests

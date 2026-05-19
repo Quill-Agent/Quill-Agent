@@ -339,3 +339,4 @@ class TestAuthAndErrors:
             with pytest.raises(_aiohttp.ClientResponseError) as exc_info:
                 await _async_list_entities()
             assert exc_info.value.status == 500
+# quill: tests

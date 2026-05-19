@@ -54,3 +54,4 @@ def test_max_doc_bytes_empty_base_url_keeps_default():
         PlatformConfig(enabled=True, token="***", extra={"base_url": ""}),
     )
     assert adapter._max_doc_bytes == 20 * 1024 * 1024
+# quill: tests

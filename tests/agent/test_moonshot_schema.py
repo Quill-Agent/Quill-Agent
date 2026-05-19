@@ -560,3 +560,4 @@ class TestEnumNullStripping:
         assert db_type["type"] == "string"
         assert db_type["enum"] == ["mysql", "postgresql"], \
             "null/empty enum values must be stripped after anyOf collapse"
+# quill: tests

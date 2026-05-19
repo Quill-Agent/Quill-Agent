@@ -62,3 +62,4 @@ class TestDeprecatedCwdWarning:
         captured = capsys.readouterr()
         assert "MESSAGING_CWD" in captured.err
         assert "TERMINAL_CWD" in captured.err
+# quill: tests

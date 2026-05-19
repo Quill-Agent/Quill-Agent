@@ -234,3 +234,4 @@ def test_notifier_redelivers_same_kind_on_dispatch_cycle(tmp_path, monkeypatch):
         f"deliveries (texts: {[d['text'] for d in adapter.sent]})"
     )
     assert "crashed" in adapter.sent[1]["text"].lower()
+# quill: tests

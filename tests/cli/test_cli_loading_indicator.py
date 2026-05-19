@@ -70,3 +70,4 @@ class TestCLILoadingIndicator:
         assert cli_obj._command_running is False
         assert cli_obj._command_status == ""
         assert invalidate_mock.call_count == 2
+# quill: tests

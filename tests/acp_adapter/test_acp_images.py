@@ -157,3 +157,4 @@ def test_acp_embedded_blob_image_is_inlined_as_image_url():
         "type": "image_url",
         "image_url": {"url": f"data:image/png;base64,{b64}"},
     }
+# quill: tests

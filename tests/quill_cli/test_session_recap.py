@@ -178,3 +178,4 @@ def test_ignores_non_mapping_entries_gracefully():
     # Should not raise.
     out = build_recap(msgs)
     assert "Session recap" in out
+# quill: tests

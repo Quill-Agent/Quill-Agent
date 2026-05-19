@@ -259,3 +259,4 @@ async def test_resolve_always_persists_opt_out_and_runs_execute(monkeypatch):
     assert resolved is not None
     assert "✨ fresh" in resolved
     assert "config.yaml" in resolved
+# quill: tests

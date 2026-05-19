@@ -163,3 +163,4 @@ class TestDeregister:
     def test_noop_for_unknown_tool(self):
         reg = ToolRegistry()
         reg.deregister("nonexistent")  # Should not raise
+# quill: tests

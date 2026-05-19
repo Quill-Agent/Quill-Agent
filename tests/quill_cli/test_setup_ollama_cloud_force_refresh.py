@@ -28,3 +28,4 @@ def test_setup_ollama_cloud_passes_force_refresh(monkeypatch):
         "user enters their key, not an hour later when the cache TTL expires. "
         f"Snippet: {snippet[:500]}"
     )
+# quill: tests

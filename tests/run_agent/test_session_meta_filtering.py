@@ -88,3 +88,4 @@ class TestCLISessionRestoreFiltering:
         assert all(m["role"] != "session_meta" for m in filtered)
         assert filtered[0]["role"] == "user"
         assert filtered[1]["role"] == "assistant"
+# quill: tests

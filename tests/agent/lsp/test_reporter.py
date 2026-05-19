@@ -92,3 +92,4 @@ def test_truncate_above_limit_appends_marker():
     out = truncate(s, limit=200)
     assert out.endswith("[truncated]")
     assert len(out) <= 200
+# quill: tests

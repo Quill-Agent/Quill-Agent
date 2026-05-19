@@ -156,3 +156,4 @@ def test_non_assistant_messages_ignored():
 
     assert repaired == 0
     assert messages == original
+# quill: tests

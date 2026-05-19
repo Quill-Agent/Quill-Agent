@@ -97,3 +97,4 @@ class TestDiscordThreadPersistence:
             # ThreadParticipationTracker should return empty set, not crash
             tracker = ThreadParticipationTracker("discord")
             assert "$test" not in tracker
+# quill: tests

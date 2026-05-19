@@ -35,3 +35,4 @@ collect_ignore_glob = [
     # meant to run as `python tests/stress/<name>.py`, not as pytest modules.
     "*.py",
 ]
+# quill: tests

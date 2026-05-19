@@ -642,3 +642,4 @@ def test_generic_auth_status_dispatches_minimax_oauth():
     assert status["logged_in"] is True
     assert status["provider"] == "minimax-oauth"
     assert status["region"] == "global"
+# quill: tests

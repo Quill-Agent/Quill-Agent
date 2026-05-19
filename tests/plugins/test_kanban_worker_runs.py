@@ -299,3 +299,4 @@ def test_inspect_run_live_pid(client, monkeypatch):
     assert body["memory_rss_bytes"] == fake_mem.rss
     assert body["num_threads"] == 4
     assert body["status"] == "sleeping"
+# quill: tests

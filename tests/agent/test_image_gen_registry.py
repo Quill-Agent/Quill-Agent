@@ -109,3 +109,4 @@ class TestGetActiveProvider:
     def test_none_when_empty(self, tmp_path, monkeypatch):
         monkeypatch.setenv("QUILL_HOME", str(tmp_path))
         assert image_gen_registry.get_active_provider() is None
+# quill: tests

@@ -191,3 +191,4 @@ def test_transform_tool_result_integration_with_real_plugin(monkeypatch, tmp_pat
         dispatch_result='{"payload": 42}',
     )
     assert out == 'CANON[some_tool]{"payload": 42}'
+# quill: tests

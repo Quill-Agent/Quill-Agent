@@ -114,3 +114,4 @@ class TestTerminalRequirements:
 
         assert "terminal" not in names
         assert "execute_code" not in names
+# quill: tests

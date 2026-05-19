@@ -19,3 +19,4 @@ def test_tui_returns_none_when_no_bundle(tmp_path):
     from quill_cli.main import _find_bundled_tui
     result = _find_bundled_tui(quill_cli_dir=tmp_path / "quill_cli")
     assert result is None
+# quill: tests

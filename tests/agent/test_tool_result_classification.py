@@ -28,3 +28,4 @@ def test_top_level_file_mutation_error_does_not_count_as_landed():
     result = json.dumps({"success": True, "error": "post-write verification failed"})
 
     assert file_mutation_result_landed("patch", result) is False
+# quill: tests

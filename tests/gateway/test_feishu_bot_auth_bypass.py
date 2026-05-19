@@ -111,3 +111,4 @@ def test_feishu_bot_bypass_does_not_leak_to_other_platforms(monkeypatch):
         is_bot=True,
     )
     assert runner._is_user_authorized(telegram_bot) is False
+# quill: tests

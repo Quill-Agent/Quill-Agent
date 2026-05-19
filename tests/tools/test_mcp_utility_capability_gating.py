@@ -173,3 +173,4 @@ class TestLegacyFallback:
         server.session = MagicMock(spec=["list_resources"])
         selected = _select_utility_schemas("legacy-partial", server, {})
         assert _handler_keys(selected) == {"list_resources"}
+# quill: tests

@@ -85,3 +85,4 @@ class TestMcpAddCommandDest:
         assert args.command == "mcp"
         assert args.mcp_command is None
         assert args.url is None
+# quill: tests

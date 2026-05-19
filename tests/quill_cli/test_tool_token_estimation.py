@@ -281,3 +281,4 @@ def test_registry_get_schema_returns_none_for_unknown():
     from tools.registry import registry
 
     assert registry.get_schema("nonexistent_tool_xyz") is None
+# quill: tests

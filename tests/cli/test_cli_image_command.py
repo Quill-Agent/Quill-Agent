@@ -107,3 +107,4 @@ class TestImageBadgeFormatting:
         badges = _format_image_attachment_badges([img1, img2], image_counter=2, width=45)
 
         assert badges == "[📎 2 images attached]"
+# quill: tests

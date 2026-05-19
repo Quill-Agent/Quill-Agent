@@ -556,3 +556,4 @@ def test_parse_session_key_too_short():
 def test_parse_session_key_wrong_prefix():
     assert _parse_session_key("cron:main:telegram:dm:123") is None
     assert _parse_session_key("agent:cron:telegram:dm:123") is None
+# quill: tests

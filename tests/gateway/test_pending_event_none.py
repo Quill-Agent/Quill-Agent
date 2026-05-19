@@ -70,3 +70,4 @@ class TestControlInterruptMessages:
     def test_real_user_interrupt_message_still_requeues(self):
         result = _extract_pending_text(True, None, "actually use postgres instead")
         assert result == "actually use postgres instead"
+# quill: tests

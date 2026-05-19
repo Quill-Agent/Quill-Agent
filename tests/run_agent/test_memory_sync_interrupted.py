@@ -193,3 +193,4 @@ class TestSyncExternalMemoryForTurn:
         else:
             agent._memory_manager.sync_all.assert_not_called()
             agent._memory_manager.queue_prefetch_all.assert_not_called()
+# quill: tests

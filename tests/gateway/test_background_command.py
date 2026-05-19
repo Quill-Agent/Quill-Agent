@@ -439,3 +439,4 @@ class TestBackgroundInCLICommands:
         completions = list(completer.get_completions(doc, None))
         cmd_displays = [str(c.display) for c in completions]
         assert any("/background" in d for d in cmd_displays)
+# quill: tests

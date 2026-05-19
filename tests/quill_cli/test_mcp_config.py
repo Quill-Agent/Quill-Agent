@@ -599,4 +599,4 @@ class TestMcpLogin:
         cmd_mcp_login(_make_args(name="srv"))
         out = capsys.readouterr().out
         assert "no URL" in out or "not an OAuth" in out
-
+# quill: tests

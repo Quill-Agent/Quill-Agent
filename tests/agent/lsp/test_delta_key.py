@@ -260,3 +260,4 @@ def test_pipeline_preserves_new_instance_at_different_line():
     # Two genuinely new instances must be surfaced.
     assert len(new_diags) == 2
     assert {d["range"]["start"]["line"] for d in new_diags} == {1, 3}
+# quill: tests

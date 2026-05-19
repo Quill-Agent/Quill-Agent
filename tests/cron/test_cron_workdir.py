@@ -382,3 +382,4 @@ class TestRunJobTerminalCwd:
         # And after run_job completes, it's still the sentinel (nothing
         # overwrote or cleared it).
         assert os.environ["TERMINAL_CWD"] == before
+# quill: tests

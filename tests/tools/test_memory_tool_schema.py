@@ -47,3 +47,4 @@ def test_memory_schema_is_well_formed():
 
 def test_memory_schema_is_json_serializable():
     json.dumps(MEMORY_SCHEMA)
+# quill: tests

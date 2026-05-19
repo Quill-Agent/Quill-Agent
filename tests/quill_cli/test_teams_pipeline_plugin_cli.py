@@ -212,3 +212,4 @@ def test_validate_accepts_msgraph_credentials_for_graph_delivery(monkeypatch, ca
     payload = json.loads(capsys.readouterr().out)
     assert payload["ok"] is True
     assert payload["issues"] == []
+# quill: tests

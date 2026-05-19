@@ -157,3 +157,4 @@ class TestCallerIntegration:
         assert token == "exchanged_jwt"
         assert source == "GH_TOKEN"
         mock_exchange.assert_called_once_with("gho_raw")
+# quill: tests

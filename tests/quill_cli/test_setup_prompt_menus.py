@@ -49,3 +49,4 @@ def test_prompt_checklist_uses_shared_curses_checklist(monkeypatch):
     selected = setup_mod.prompt_checklist("Pick tools", ["one", "two", "three"], pre_selected=[1])
 
     assert selected == [0, 2]
+# quill: tests

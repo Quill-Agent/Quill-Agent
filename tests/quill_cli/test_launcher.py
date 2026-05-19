@@ -40,3 +40,4 @@ def test_launcher_delegates_to_argparse_entrypoint(monkeypatch):
     runpy.run_path(str(launcher_path), run_name="__main__")
 
     assert called == ["quill_cli.main"]
+# quill: tests

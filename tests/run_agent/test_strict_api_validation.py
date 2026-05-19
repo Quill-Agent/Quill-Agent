@@ -142,3 +142,4 @@ class TestStrictApiValidation:
 
         # Should NOT sanitize for Codex
         assert agent._should_sanitize_tool_calls() is False
+# quill: tests

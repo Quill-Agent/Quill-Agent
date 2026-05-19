@@ -102,3 +102,4 @@ def test_fragments_omit_bg_segment_when_idle():
     frags = cli_obj._get_status_bar_fragments()
     rendered = "".join(text for _style, text in frags)
     assert "▶" not in rendered
+# quill: tests

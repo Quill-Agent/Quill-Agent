@@ -148,3 +148,4 @@ class TestInterruptKeyConsistency:
         assert queued is event
         assert queued.media_urls == ["/tmp/photo-a.jpg"]
         assert interrupt_event.is_set() is False
+# quill: tests

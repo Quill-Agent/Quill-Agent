@@ -481,3 +481,4 @@ class TestNeedsKimiToolReasoning:
         )
         # model name contains 'moonshot' but host is openrouter — should be False
         assert agent._needs_kimi_tool_reasoning() is False
+# quill: tests

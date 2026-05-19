@@ -93,3 +93,4 @@ def test_session_search_lazily_opens_db_when_entrypoint_did_not_pass_one(monkeyp
     assert captured["db"] is sentinel_db
     assert captured["query"] == "Quill"
     assert agent._session_db is sentinel_db
+# quill: tests

@@ -334,3 +334,4 @@ class TestRunConversationSurrogateSanitization:
             if msg.get("role") == "user":
                 assert "\udce2" not in msg["content"], "Surrogate leaked into stored message"
                 assert "\ufffd" in msg["content"], "Replacement char not in stored message"
+# quill: tests

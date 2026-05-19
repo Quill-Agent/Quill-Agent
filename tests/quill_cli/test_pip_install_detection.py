@@ -60,3 +60,4 @@ def test_docker_detected_via_dockerenv(tmp_path):
 def test_recommended_update_command_docker():
     from quill_cli.config import recommended_update_command_for_method
     assert "docker pull" in recommended_update_command_for_method("docker")
+# quill: tests

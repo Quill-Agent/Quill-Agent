@@ -89,3 +89,4 @@ class TestCronJobCleanup:
 
         mock_db.end_session.assert_called_once()
         mock_db.close.assert_called_once()
+# quill: tests

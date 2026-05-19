@@ -453,3 +453,4 @@ class TestCodexNormalizeResponse:
         tc = nr.tool_calls[0]
         assert tc.name == "terminal"
         assert '"command"' in tc.arguments
+# quill: tests

@@ -100,3 +100,4 @@ class TestGoogleWorkspaceCredentialFiles:
             assert "/root/.quill/google_token.json" not in container_paths
         finally:
             clear_credential_files()
+# quill: tests

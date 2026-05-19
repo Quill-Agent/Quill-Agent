@@ -703,3 +703,4 @@ class TestUpdateInHelp:
         import inspect
         source = inspect.getsource(GatewayRunner._handle_message)
         assert '"update"' in source
+# quill: tests

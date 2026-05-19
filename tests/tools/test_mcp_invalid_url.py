@@ -123,3 +123,4 @@ class TestErrorIsValueError:
             pass  # expected
         else:
             pytest.fail("expected ValueError")
+# quill: tests

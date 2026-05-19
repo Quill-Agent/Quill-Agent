@@ -392,3 +392,4 @@ class TestWindowsWmicEncoding:
             )
             # Must not raise.
             assert _find_stale_dashboard_pids() == []
+# quill: tests

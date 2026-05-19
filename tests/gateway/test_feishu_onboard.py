@@ -455,3 +455,4 @@ class TestQrRegister:
         assert result["app_id"] == "cli_app"
         assert result["bot_name"] is None
         assert result["bot_open_id"] is None
+# quill: tests

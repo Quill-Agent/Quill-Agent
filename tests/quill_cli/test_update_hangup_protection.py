@@ -323,3 +323,4 @@ class TestFinalizeUpdateOutput:
 
         assert sys.stdout is before_out
         assert sys.stderr is before_err
+# quill: tests

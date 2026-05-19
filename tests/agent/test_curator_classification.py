@@ -1123,3 +1123,4 @@ def test_rename_summary_pin_hint_picks_one_umbrella_when_multiple_absorbed(curat
     # Exactly one hint line, not one per umbrella.
     pin_lines = [ln for ln in result.splitlines() if "quill curator pin" in ln]
     assert len(pin_lines) == 1
+# quill: tests

@@ -327,3 +327,4 @@ async def test_shutdown_notification_uses_persisted_origin_for_colon_ids():
 
     assert adapter.send.await_count == 1
     assert adapter.send.await_args.args[0] == "!room123:example.org"
+# quill: tests

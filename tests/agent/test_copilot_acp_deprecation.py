@@ -75,3 +75,4 @@ class TestGitHubModelsAzureUrl:
         from quill_cli.models import _is_github_models_base_url
 
         assert _is_github_models_base_url("https://models.github.ai/inference")
+# quill: tests

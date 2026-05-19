@@ -303,3 +303,4 @@ class TestSessionDbUsesWalFallback:
             assert get_last_init_error() is None
         finally:
             db.close()
+# quill: tests

@@ -377,3 +377,4 @@ class TestPickerIntegration:
 
         for row in _plugin_browser_providers():
             assert row.get("browser_plugin_name") == row.get("browser_provider")
+# quill: tests

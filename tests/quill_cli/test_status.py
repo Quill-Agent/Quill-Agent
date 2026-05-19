@@ -332,3 +332,4 @@ class TestShowStatusXaiOAuth:
 
         assert "xAI OAuth" in out
         assert "not logged in (run: quill auth add xai-oauth)" in out
+# quill: tests

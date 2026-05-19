@@ -1027,3 +1027,4 @@ class TestPipelineOOPRegistration:
         pipeline = InboundPipeline().use(MwA()).use(MwC())
         pipeline.use_after("a", MwB())
         assert pipeline.middleware_names == ["a", "b", "c"]
+# quill: tests

@@ -682,3 +682,4 @@ def test_print_tui_exit_summary_prefers_actual_active_session_file(
     assert seen == ["actual_session"]
     assert "quill --tui --resume actual_session" in out
     assert "startup_resume" not in out
+# quill: tests

@@ -236,3 +236,4 @@ class TestApply:
                           return_value=(True, "0.130.0")) as bin_check:
             crs.apply(cfg, None)
         assert bin_check.call_count == 1
+# quill: tests

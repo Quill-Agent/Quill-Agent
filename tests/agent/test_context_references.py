@@ -334,3 +334,4 @@ async def test_blocks_sensitive_home_and_quill_paths(tmp_path: Path, monkeypatch
     assert "API_KEY=super-secret" not in result.message
     assert "PRIVATE-KEY" not in result.message
     assert any("sensitive credential" in warning for warning in result.warnings)
+# quill: tests

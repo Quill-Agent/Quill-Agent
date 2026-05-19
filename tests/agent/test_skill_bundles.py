@@ -335,3 +335,4 @@ class TestListBundles:
         info_list = list_bundles()
         slugs = [b["slug"] for b in info_list]
         assert slugs == sorted(slugs)
+# quill: tests

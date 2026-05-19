@@ -65,3 +65,4 @@ async def test_deliver_platform_notice_uses_public_delivery_by_default():
 
     adapter.send.assert_awaited_once_with("C123", "hello", metadata={"thread_id": "111.222"})
     adapter.send_private_notice.assert_not_awaited()
+# quill: tests

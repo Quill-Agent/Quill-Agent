@@ -131,3 +131,4 @@ class TestAdaptiveTextBatchTiers:
         delay = adapter._text_batch_split_delay_seconds
         assert delay == 1.0
         assert delay > adapter._text_batch_delay_seconds
+# quill: tests

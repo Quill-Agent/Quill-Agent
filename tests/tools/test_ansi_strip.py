@@ -166,3 +166,4 @@ class TestStripAnsiPassthrough:
         """Array indexing must not be confused with CSI."""
         code = "arr[0] = arr[31]"
         assert strip_ansi(code) == code
+# quill: tests

@@ -261,3 +261,4 @@ class TestDeepseekCanonicalAndReasonerMapping:
     ])
     def test_unknown_names_fall_back_to_chat(self, model):
         assert _normalize_for_deepseek(model) == "deepseek-chat"
+# quill: tests

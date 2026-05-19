@@ -183,3 +183,4 @@ def test_optional_skill_uses_frontmatter_slug(
     )
     assert "not installed" in msg.lower()
     assert "official/mlops/stable-diffusion" in msg
+# quill: tests

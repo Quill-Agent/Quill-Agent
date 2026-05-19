@@ -132,3 +132,4 @@ class TestModelMetadataCopilotIntegration:
         ctx = get_model_context_length("gpt-4.1", provider="copilot")
         assert isinstance(ctx, int)
         assert ctx > 0
+# quill: tests

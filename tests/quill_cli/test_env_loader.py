@@ -87,3 +87,4 @@ def test_main_import_applies_user_env_over_shell_values(tmp_path, monkeypatch):
 
     assert os.getenv("OPENAI_BASE_URL") == "https://new.example/v1"
     assert os.getenv("QUILL_INFERENCE_PROVIDER") == "custom"
+# quill: tests

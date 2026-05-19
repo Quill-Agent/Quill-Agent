@@ -118,3 +118,4 @@ class TestResolveGatewayModel:
     def test_string_model_config(self):
         from gateway.run import _resolve_gateway_model
         assert _resolve_gateway_model({"model": "my-model"}) == "my-model"
+# quill: tests

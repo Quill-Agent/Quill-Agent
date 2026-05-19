@@ -493,3 +493,4 @@ class TestBypassWithBotnameSuffix:
 
         assert sk not in adapter._pending_messages
         assert any("handled:new" in r for r in adapter.sent_responses)
+# quill: tests

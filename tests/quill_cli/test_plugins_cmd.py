@@ -786,3 +786,4 @@ class TestNoAutoActivation:
         # The old code had: "Even with default config, check if a plugin registered one"
         # The fix removes this. Verify it's gone.
         assert "Even with default config, check if a plugin registered one" not in source
+# quill: tests

@@ -36,4 +36,4 @@ def test_blank_memory_provider_does_not_auto_enable_honcho():
     from_global_config.assert_not_called()
     load_memory_provider.assert_not_called()
     save_config.assert_not_called()
-
+# quill: tests

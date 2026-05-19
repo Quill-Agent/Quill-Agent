@@ -211,3 +211,4 @@ def test_snapshot_failure_marks_broken_via_outer_timeout(tmp_path, monkeypatch):
         assert svc.enabled_for(str(src)) is False
     finally:
         svc.shutdown()
+# quill: tests

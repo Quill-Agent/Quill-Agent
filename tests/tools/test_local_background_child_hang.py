@@ -152,3 +152,4 @@ class TestBackgroundChildDoesNotHang:
         assert "before" in result["output"]
         assert "after" in result["output"]
         assert "binary output detected" not in result["output"]
+# quill: tests

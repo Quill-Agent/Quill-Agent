@@ -1022,3 +1022,4 @@ class TestClassifyOAuthFailure:
             "[stderr] token has expired, run codex login",
         )
         assert hint is not None
+# quill: tests

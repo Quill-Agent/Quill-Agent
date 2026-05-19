@@ -2881,3 +2881,4 @@ class TestShouldAutoTtsForChat:
         fn, adapter = self._make_adapter(default=False, enabled={"chat1"})
         assert fn(adapter, "chat1") is True
         assert fn(adapter, "chat2") is False
+# quill: tests

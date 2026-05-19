@@ -812,3 +812,4 @@ def test_cmd_install_realtime_skips_when_deps_present(capsys):
     assert sudo_calls == [], f"unexpected sudo invocation: {sudo_calls}"
     out = capsys.readouterr().out
     assert "already installed" in out
+# quill: tests

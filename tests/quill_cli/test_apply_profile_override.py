@@ -139,3 +139,4 @@ class TestApplyProfileOverrideQuillHomeGuard:
         _apply_profile_override()
 
         assert os.environ.get("QUILL_HOME") is None
+# quill: tests

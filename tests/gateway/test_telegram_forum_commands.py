@@ -116,3 +116,4 @@ async def test_ensure_forum_commands_race_safety():
 
     # The lock should make this exactly 1 call, not 2.
     assert adapter._bot.set_my_commands.await_count == 1
+# quill: tests

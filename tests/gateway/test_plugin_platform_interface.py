@@ -228,3 +228,4 @@ def test_is_connected_if_present(platform_name: str, clean_registry):
     mock_config.extra = {}
     result = entry.is_connected(mock_config)
     assert isinstance(result, bool)
+# quill: tests

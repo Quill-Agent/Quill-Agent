@@ -130,3 +130,4 @@ class TestConnectBindGuard:
         assert adapter._api_key == "sk-test"
         assert is_network_accessible("0.0.0.0") is True
         # Combined: the guard condition is False (key is set), so it passes
+# quill: tests

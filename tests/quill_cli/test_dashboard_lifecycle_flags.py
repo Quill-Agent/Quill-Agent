@@ -179,3 +179,4 @@ class TestArgparseWiring:
              pytest.raises(SystemExit) as exc:
             mod.cmd_dashboard(_ns(status=True))
         assert exc.value.code == 0
+# quill: tests

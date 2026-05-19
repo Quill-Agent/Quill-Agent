@@ -228,3 +228,4 @@ class TestCheckTtsRequirementsMistral:
              patch("tools.tts_tool._check_piper_available", return_value=False), \
              patch("tools.tts_tool._has_any_command_tts_provider", return_value=False):
             assert check_tts_requirements() is False
+# quill: tests

@@ -200,3 +200,4 @@ def test_status_marks_missing_last_report_path(monkeypatch, capsys, tmp_path):
 
     out = capsys.readouterr().out
     assert f"last report:    {missing_report} (missing)" in out
+# quill: tests

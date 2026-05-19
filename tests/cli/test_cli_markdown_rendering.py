@@ -191,3 +191,4 @@ def test_strip_mode_still_strips_boundary_underscore_emphasis():
 
     output = _render_to_text(renderable)
     assert "say hi and bold now" in output
+# quill: tests

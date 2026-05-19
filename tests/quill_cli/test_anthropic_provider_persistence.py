@@ -44,3 +44,4 @@ def test_save_anthropic_api_key_uses_api_key_slot_and_clears_token(tmp_path, mon
     env_vars = load_env()
     assert env_vars["ANTHROPIC_API_KEY"] == "sk-ant-api03-key"
     assert env_vars["ANTHROPIC_TOKEN"] == ""
+# quill: tests

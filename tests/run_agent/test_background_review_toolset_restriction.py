@@ -156,3 +156,4 @@ def test_background_review_agent_tools_are_limited():
     assert "delegate_task" not in expected_tools
     assert "web_search" not in expected_tools
     assert "execute_code" not in expected_tools
+# quill: tests

@@ -79,3 +79,4 @@ class TestEnsureSslCerts:
              patch.dict("sys.modules", {"certifi": None}):
             fn()
             assert "SSL_CERT_FILE" not in os.environ
+# quill: tests

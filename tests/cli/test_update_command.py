@@ -148,3 +148,4 @@ def test_unrecognized_or_cancel_input_cancels(answer, capsys):
 
     assert self_._pending_relaunch is None
     assert not result
+# quill: tests

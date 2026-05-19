@@ -44,3 +44,4 @@ class TestStreamingConfigNested:
         })
         assert cfg.streaming.enabled is True
         assert cfg.streaming.transport == "edit"
+# quill: tests

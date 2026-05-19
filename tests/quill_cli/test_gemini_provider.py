@@ -354,3 +354,4 @@ class TestGeminiModelsDev:
         assert "gemma-3-27b-it" not in result
         assert "gemini-1.5-pro" not in result
         assert "gemini-2.0-flash" not in result
+# quill: tests

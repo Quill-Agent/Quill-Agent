@@ -158,3 +158,4 @@ class TestSlashCommandPrefixMatching:
         mock_help.assert_called_once()
         printed = " ".join(str(c) for c in cli_obj.console.print.call_args_list)
         assert "Ambiguous" not in printed
+# quill: tests

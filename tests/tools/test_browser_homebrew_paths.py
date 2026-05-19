@@ -512,3 +512,4 @@ class TestRunBrowserCommandPathConstruction:
         result_path = captured_env.get("PATH", "")
         assert "/data/data/com.termux/files/usr/bin" in result_path
         assert "/data/data/com.termux/files/usr/sbin" in result_path
+# quill: tests

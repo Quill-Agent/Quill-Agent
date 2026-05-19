@@ -146,3 +146,4 @@ class TestInitSessionCwdRespect:
         assert "'/my project/with spaces'" in bootstrap, (
             "bootstrap cd must properly quote paths with spaces"
         )
+# quill: tests

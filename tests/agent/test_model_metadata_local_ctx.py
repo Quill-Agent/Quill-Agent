@@ -597,3 +597,4 @@ class TestGetModelContextLengthLocalFallback:
             result = get_model_context_length("unknown-xyz-model", "")
 
         mock_query.assert_not_called()
+# quill: tests

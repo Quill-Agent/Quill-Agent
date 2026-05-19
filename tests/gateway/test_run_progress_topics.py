@@ -1208,3 +1208,4 @@ async def test_verbose_mode_respects_explicit_tool_preview_length(monkeypatch, t
     assert VerboseAgent.LONG_CODE not in all_content
     # But should still contain the truncated portion with "..."
     assert "..." in all_content
+# quill: tests

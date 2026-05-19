@@ -85,3 +85,4 @@ class TestCronComputeNextRunUsesLastRunAt:
         interval_dt = datetime.fromisoformat(interval_result)
         assert cron_dt > last_run, f"Cron next {cron_dt} should be after last_run {last_run}"
         assert interval_dt > last_run, f"Interval next {interval_dt} should be after last_run {last_run}"
+# quill: tests

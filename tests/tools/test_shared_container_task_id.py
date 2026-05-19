@@ -105,3 +105,4 @@ def test_get_active_env_honours_rl_override():
         terminal_tool.clear_task_env_overrides("rl-42")
         terminal_tool._active_environments.pop("default", None)
         terminal_tool._active_environments.pop("rl-42", None)
+# quill: tests

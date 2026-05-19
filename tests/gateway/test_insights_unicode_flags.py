@@ -52,3 +52,4 @@ class TestInsightsUnicodeDashFlags:
         """Input with no flags passes through as-is."""
         assert _normalize_insights_args("") == ""
         assert _normalize_insights_args("30") == "30"
+# quill: tests

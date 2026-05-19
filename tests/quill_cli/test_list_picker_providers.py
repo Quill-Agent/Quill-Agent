@@ -259,3 +259,4 @@ def test_current_custom_endpoint_passthrough_marks_current_row(monkeypatch):
     assert row["slug"] == "custom:ollama"
     assert row["is_current"] is True
     assert row["models"] == ["glm-5.1", "qwen3"]
+# quill: tests

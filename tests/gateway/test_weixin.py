@@ -883,3 +883,4 @@ class TestWeixinContentDedup:
         assert adapter.handle_message.await_count == 0
         # is_duplicate should only be called for message_id, never for content
         assert all("content:" not in str(call) for call in adapter._dedup.is_duplicate.call_args_list)
+# quill: tests

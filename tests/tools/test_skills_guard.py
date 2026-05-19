@@ -518,3 +518,4 @@ class TestSymlinkPrefixConfusionRegression:
         new_escapes = not resolved.is_relative_to(skill_dir_resolved)
         assert old_escapes is False
         assert new_escapes is False
+# quill: tests

@@ -85,3 +85,4 @@ class TestPyprojectDeclaresYoutubeExtra:
             data = tomllib.load(f)
         all_deps = " ".join(data["project"]["optional-dependencies"].get("all", []))
         assert "youtube" in all_deps, "[all] extra does not include quill-agent[youtube]"
+# quill: tests

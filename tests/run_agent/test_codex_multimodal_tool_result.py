@@ -171,3 +171,4 @@ class TestPreflightAcceptsArrayOutput:
         normalized = _preflight_codex_input_items(raw)
         out = [it for it in normalized if it.get("type") == "function_call_output"][0]
         assert out["output"] == "plain text output"
+# quill: tests

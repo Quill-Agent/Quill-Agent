@@ -105,3 +105,4 @@ def test_empty_string_reasoning_treated_as_missing():
         {"role": "assistant", "content": "hello", "reasoning": ""},
     ]
     assert _extract_last_reasoning(messages) is None
+# quill: tests

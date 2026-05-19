@@ -247,3 +247,4 @@ class TestDropThinkingOnlyAndMergeUsers:
         assert out[0]["role"] == "system"
         assert out[1]["role"] == "user"
         assert out[1]["content"] == "u1\n\nu2"
+# quill: tests

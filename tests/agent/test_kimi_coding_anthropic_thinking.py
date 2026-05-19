@@ -210,3 +210,4 @@ class TestKimiCodingSkipsAnthropicThinking:
         ]
         assert len(thinking_blocks) == 1
         assert thinking_blocks[0]["thinking"] == "planning the tool call"
+# quill: tests

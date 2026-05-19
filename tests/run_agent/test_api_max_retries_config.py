@@ -63,3 +63,4 @@ def test_api_max_retries_falls_back_on_invalid_value():
     # None with dict.get default fires → default(3), then int(None) raises
     # TypeError → except branch sets to 3.
     assert agent2._api_max_retries == 3
+# quill: tests
