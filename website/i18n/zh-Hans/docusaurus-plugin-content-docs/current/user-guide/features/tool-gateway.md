@@ -185,3 +185,4 @@ FIRECRAWL_GATEWAY_URL=https://...         # 单独覆盖 Firecrawl 端点
 ### Modal 算在 Tool Gateway 里吗？
 
 Modal（无服务器终端后端）可作为 Nous 订阅的可选附加能力，但**不会**由 Tool Gateway 安装向导一并打开——请单独通过 `quill setup terminal` 或在 `config.yaml` 中配置。
+<!-- quill: website -->

@@ -231,3 +231,4 @@ curl -X POST -H "Content-Type: application/json" -H "X-Quill-Session-Token: $TOK
 ```
 
 The session token is injected into the dashboard HTML at startup and rotates on every server restart. Grab it from the browser devtools (`window.__QUILL_SESSION_TOKEN__`) if you're scripting against a running dashboard.
+<!-- quill: website -->

@@ -266,3 +266,4 @@ You've built a working daily briefing bot. Here are some directions to explore n
 :::tip What else can you schedule?
 The briefing bot pattern works for anything: competitor monitoring, GitHub repo summaries, weather forecasts, portfolio tracking, server health checks, or even a daily joke. If you can describe it in a prompt, you can schedule it.
 :::
+<!-- quill: website -->

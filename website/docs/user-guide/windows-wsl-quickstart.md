@@ -330,3 +330,4 @@ WSL2 stores its VM disk as a sparse VHDX under `%LOCALAPPDATA%\Packages\...`. It
 - **[Integrations → Providers → WSL2 Networking](/docs/integrations/providers#wsl2-networking-windows-users)** — the canonical networking deep-dive for local model servers.
 - **[MCP guide → WSL → Windows Chrome](/docs/guides/use-mcp-with-quill#wsl2-bridge-quill-in-wsl-to-windows-chrome)** — controlling your signed-in Windows Chrome from Quill in WSL.
 - **[Tool Gateway](/docs/user-guide/features/tool-gateway)** and **[Web Dashboard](/docs/user-guide/features/web-dashboard)** — the long-lived services you'll most often want to expose from WSL to the rest of your network.
+<!-- quill: website -->

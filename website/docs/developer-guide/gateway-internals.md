@@ -260,3 +260,4 @@ The gateway runs as a long-lived process, managed via:
 - [ACP Internals](./acp-internals.md)
 - [Agent Loop Internals](./agent-loop.md)
 - [Messaging Gateway (User Guide)](/docs/user-guide/messaging)
+<!-- quill: website -->

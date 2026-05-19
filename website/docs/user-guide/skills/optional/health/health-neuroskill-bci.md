@@ -468,3 +468,4 @@ npx neuroskill label "breakthrough"
 - [NeuroSkill Desktop App](https://github.com/NeuroSkill-com/skill) (GPLv3)
 - [NeuroLoop CLI Companion](https://github.com/NeuroSkill-com/neuroloop) (GPLv3)
 - [MIT Media Lab Project](https://www.media.mit.edu/projects/neuroskill/overview/)
+<!-- quill: website -->

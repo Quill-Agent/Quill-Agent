@@ -846,3 +846,4 @@ Kanban is deliberately single-host. `~/.quill/kanban.db` is a local SQLite file 
 ## Design spec
 
 The complete design — architecture, concurrency correctness, comparison with other systems, implementation plan, risks, open questions — lives in `docs/quill-kanban-v1-spec.pdf`. Read that before filing any behavior-change PR.
+<!-- quill: website -->

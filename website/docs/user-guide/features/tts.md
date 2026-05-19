@@ -375,3 +375,4 @@ If your configured provider isn't available, Quill automatically falls back:
 - **OpenAI key not set** → Falls back to local transcription, then Groq
 - **Mistral key/SDK not set** → Skipped in auto-detect; falls through to next available provider
 - **Nothing available** → Voice messages pass through with an accurate note to the user
+<!-- quill: website -->

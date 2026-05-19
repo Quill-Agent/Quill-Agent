@@ -269,3 +269,4 @@ Conversational personality and CLI appearance are separate:
 - `display.skin` and `/skin` affect how Quill looks in the terminal
 
 For terminal appearance, see [Skins & Themes](./skins.md).
+<!-- quill: website -->

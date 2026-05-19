@@ -98,3 +98,4 @@ See the [Messaging Gateway overview](/docs/user-guide/messaging) for the platfor
 ## Training & Evaluation
 
 - **[Batch Processing](/docs/user-guide/features/batch-processing)** — Run the agent across hundreds of prompts in parallel, generating structured ShareGPT-format trajectory data for training data generation or evaluation.
+<!-- quill: website -->

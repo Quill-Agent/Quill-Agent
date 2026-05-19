@@ -394,3 +394,4 @@ This adds a skill that teaches the agent how to:
 - Filter by category (`general`, `news`, `science`, etc.)
 - Handle pagination and error cases
 - Fall back gracefully when SearXNG is unreachable
+<!-- quill: website -->

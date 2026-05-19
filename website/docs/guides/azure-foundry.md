@@ -332,3 +332,4 @@ Verify the same `Azure AI User` (or `Foundry User`) role is assigned on the Foun
 - [Configuration](/docs/user-guide/configuration)
 - [AWS Bedrock](/docs/guides/aws-bedrock) — the other major cloud provider integration
 - [Microsoft: Configure Entra ID for Foundry](https://learn.microsoft.com/azure/ai-foundry/foundry-models/how-to/configure-entra-id) — upstream documentation for the keyless path
+<!-- quill: website -->

@@ -112,3 +112,4 @@ So lane authors don't have to reimplement these:
 - [Kanban tutorial](./kanban-tutorial) — walkthrough with the dashboard open.
 - [`kanban-worker`](https://github.com/YOUR_USERNAME/quill-agent/blob/main/skills/devops/kanban-worker/SKILL.md) — the skill the worker process loads.
 - [`kanban-orchestrator`](https://github.com/YOUR_USERNAME/quill-agent/blob/main/skills/devops/kanban-orchestrator/SKILL.md) — the orchestrator side.
+<!-- quill: website -->

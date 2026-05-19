@@ -368,3 +368,4 @@ The auth code is single-use and short-lived (typically a few minutes). Send
   `~/.quill/google_chat_user_tokens/<sanitized_email>.json` (filesystem
   permissions are the protection — same model as the SA key file). Each
   token is owned by exactly one user; revoke is scoped to that user.
+<!-- quill: website -->

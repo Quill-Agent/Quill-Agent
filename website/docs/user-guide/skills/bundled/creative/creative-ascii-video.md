@@ -259,3 +259,4 @@ If the user asks for creative, experimental, surprising, or unconventional outpu
 1. Draw one: "Honor thy error as a hidden intention" / "Use an old idea" / "What would your closest friend do?" / "Emphasize the flaws" / "Turn it upside down" / "Only a part, not the whole" / "Reverse"
 2. Interpret the directive against the current ASCII animation challenge
 3. Apply the lateral insight to the visual design before writing code
+<!-- quill: website -->

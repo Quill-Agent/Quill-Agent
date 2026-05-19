@@ -97,3 +97,4 @@ send_message(target="simplex:<contact-id>", message="Done!")
 **"websockets not installed"** — Run `pip install websockets`.
 
 **Messages not received** — Check that the contact's ID is in `SIMPLEX_ALLOWED_USERS` or approve them via DM pairing.
+<!-- quill: website -->

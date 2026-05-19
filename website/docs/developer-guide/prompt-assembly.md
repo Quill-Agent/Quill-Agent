@@ -268,3 +268,4 @@ The architecture is intentionally optimized to:
 - [Context Compression & Prompt Caching](./context-compression-and-caching.md)
 - [Session Storage](./session-storage.md)
 - [Gateway Internals](./gateway-internals.md)
+<!-- quill: website -->

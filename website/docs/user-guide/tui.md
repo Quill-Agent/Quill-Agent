@@ -263,3 +263,4 @@ If the TUI fails to launch (no Node, missing bundle, TTY issue), Quill prints a 
 - [Skins & Themes](features/skins.md) — theme the banner, status bar, and overlays
 - [Voice Mode](features/voice-mode.md) — works in both interfaces
 - [Configuration](configuration.md) — all config keys
+<!-- quill: website -->

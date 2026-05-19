@@ -283,3 +283,4 @@ When `base_url` points at an Anthropic-compatible endpoint — for example a pat
 :::tip
 The agent handles delegation automatically based on the task complexity. You don't need to explicitly ask it to delegate — it will do so when it makes sense.
 :::
+<!-- quill: website -->

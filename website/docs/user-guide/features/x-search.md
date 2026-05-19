@@ -115,3 +115,4 @@ Two possible causes:
 - [xAI Grok OAuth (SuperGrok Subscription)](../../guides/xai-grok-oauth.md) — the OAuth setup guide
 - [Web Search & Extract](web-search.md) — for general (non-X) web search
 - [Tools Reference](../../reference/tools-reference.md) — full tool catalog
+<!-- quill: website -->

@@ -229,3 +229,4 @@ If your backend returns base64, use `save_b64_video()` to write under `$QUILL_HO
 ## Testing
 
 Drop a smoke test under `tests/plugins/video_gen/test_<name>_plugin.py`. The xAI and FAL tests show the pattern — register, verify catalog, exercise routing both with and without `image_url`, assert clean error responses on missing auth.
+<!-- quill: website -->

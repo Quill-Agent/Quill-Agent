@@ -350,3 +350,4 @@ This enables plugins like remote control viewers, messaging bridges, or webhook 
 :::
 
 See the **[full guide](/docs/guides/build-a-quill-plugin)** for handler contracts, schema format, hook behavior, error handling, and common mistakes.
+<!-- quill: website -->

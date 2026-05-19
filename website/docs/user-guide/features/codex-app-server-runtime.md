@@ -439,3 +439,4 @@ If you find a bug, [open an issue](https://github.com/YOUR_USERNAME/quill-agent/
 ```
 
 For implementation details, see [PR #24182](https://github.com/YOUR_USERNAME/quill-agent/pull/24182) and the [Codex app-server protocol README](https://github.com/openai/codex/blob/main/codex-rs/app-server/README.md).
+<!-- quill: website -->

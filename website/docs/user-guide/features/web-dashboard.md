@@ -353,3 +353,4 @@ To build your own theme, add a plugin tab, inject into shell slots, or expose pl
 - Plugin manifest, SDK, shell slots, page-scoped slots (inject widgets into built-in pages without overriding them), backend FastAPI routes
 - A full combined theme-plus-plugin walkthrough (Strike Freedom cockpit demo)
 - Discovery, reload, and troubleshooting
+<!-- quill: website -->

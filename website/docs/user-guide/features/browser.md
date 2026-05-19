@@ -626,3 +626,4 @@ If paid features aren't available on your plan, Quill automatically falls back �
 - **Session timeout** — cloud sessions expire based on your provider's plan settings
 - **Cost** — cloud sessions consume provider credits; sessions are automatically cleaned up when the conversation ends or after inactivity. Use `/browser connect` for free local browsing.
 - **No file downloads** — cannot download files from the browser
+<!-- quill: website -->

@@ -231,3 +231,4 @@ The batch runner always saves trajectories (that's its primary purpose).
 
 Samples with zero reasoning across all turns are automatically discarded by the
 batch runner to avoid polluting training data with non-reasoning examples.
+<!-- quill: website -->

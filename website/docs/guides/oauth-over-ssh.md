@@ -152,3 +152,4 @@ The tokens are written under the Linux user that ran `quill auth add ...`. If yo
 - [xAI Grok OAuth](./xai-grok-oauth.md)
 - [Spotify (`Running over SSH`)](../user-guide/features/spotify.md#running-over-ssh--in-a-headless-environment)
 - [SSH `-J` / ProxyJump (man page)](https://man.openbsd.org/ssh#J)
+<!-- quill: website -->

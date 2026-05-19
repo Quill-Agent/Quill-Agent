@@ -194,3 +194,4 @@ reconsider.
 - [Universal skill: `macos-computer-use`](https://github.com/YOUR_USERNAME/quill-agent/blob/main/skills/apple/macos-computer-use/SKILL.md)
 - [cua-driver source (trycua/cua)](https://github.com/trycua/cua)
 - [Browser automation](./browser.md) for cross-platform web tasks.
+<!-- quill: website -->

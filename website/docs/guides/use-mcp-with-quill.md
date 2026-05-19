@@ -488,3 +488,4 @@ Not-great first servers:
 - [MCP (Model Context Protocol)](/docs/user-guide/features/mcp)
 - [FAQ](/docs/reference/faq)
 - [Slash Commands](/docs/reference/slash-commands)
+<!-- quill: website -->

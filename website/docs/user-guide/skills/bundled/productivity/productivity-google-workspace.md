@@ -345,3 +345,4 @@ All commands return JSON. Parse with `jq` or read directly. Key fields:
 ```bash
 $GSETUP --revoke
 ```
+<!-- quill: website -->

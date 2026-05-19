@@ -571,3 +571,4 @@ The short version:
 - [Using SOUL with Quill](../guides/use-soul-with-quill.md) — authoring personalities
 - [Personality & SOUL](./features/personality.md) — how SOUL fits into the agent
 - [Skills catalog](../reference/skills-catalog.md) — skills you can bundle
+<!-- quill: website -->

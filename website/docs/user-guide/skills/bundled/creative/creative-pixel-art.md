@@ -231,3 +231,4 @@ Quantizing before would waste error-diffusion on detail that disappears.
 Named hardware palettes and the procedural animation loops in `pixel_art_video.py`
 are ported from [pixel-art-studio](https://github.com/Synero/pixel-art-studio)
 (MIT). See `ATTRIBUTION.md` in this skill directory for details.
+<!-- quill: website -->

@@ -238,3 +238,4 @@ QUILL_STREAM_READ_TIMEOUT=1800
 | API call (non-streaming) | 1800s | No change needed | `QUILL_API_TIMEOUT` |
 
 The stream read timeout is the one most likely to cause issues — it's the socket-level deadline for receiving the next chunk of data. During prefill on large contexts, local models may produce no output for minutes while processing the prompt. The auto-detection handles this transparently.
+<!-- quill: website -->

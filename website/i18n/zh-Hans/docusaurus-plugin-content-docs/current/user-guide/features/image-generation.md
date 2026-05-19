@@ -150,4 +150,5 @@ export IMAGE_TOOLS_DEBUG=true
 - **需要 FAL 凭据**（直连 `FAL_KEY` 或 Nous 订阅网关）  
 - **仅文生图** — 不支持局部重绘、图生图或编辑类工作流  
 - **临时 URL** — FAL 托管链接会在数小时至数天后过期；请自行落盘保存  
-- **按模型能力裁剪** — 部分模型不支持 `seed`、`num_inference_steps` 等；`supports` 会静默丢弃不支持的参数，属预期行为  
+- **按模型能力裁剪** — 部分模型不支持 `seed`、`num_inference_steps` 等；`supports` 会静默丢弃不支持的参数，属预期行为
+<!-- quill: website -->

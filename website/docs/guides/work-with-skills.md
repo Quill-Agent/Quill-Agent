@@ -288,3 +288,4 @@ Both are persistent across sessions, but they serve different purposes:
 ---
 
 *For the complete skills reference — frontmatter fields, conditional activation, external directories, and more — see [Skills System](/docs/user-guide/features/skills).*
+<!-- quill: website -->

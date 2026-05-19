@@ -1711,3 +1711,4 @@ Override the working directory:
 MESSAGING_CWD=/home/myuser/projects    # Gateway sessions
 TERMINAL_CWD=/workspace                # All terminal sessions
 ```
+<!-- quill: website -->

@@ -209,3 +209,4 @@ OPTIONAL_ENV_VARS = {
 - [ ] Optional: API key added to `OPTIONAL_ENV_VARS` in `quill_cli/config.py`
 - [ ] Optional: Added to `toolset_distributions.py` for batch processing
 - [ ] Tested with `quill chat -q "Use the weather tool for London"`
+<!-- quill: website -->

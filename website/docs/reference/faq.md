@@ -858,3 +858,4 @@ If your issue isn't covered here:
 1. **Search existing issues:** [GitHub Issues](https://github.com/YOUR_USERNAME/quill-agent/issues)
 2. **Ask the community:** [Quill Agent Discord](https://github.com/Quill-Agent/Quill-Agent/discussions)
 3. **File a bug report:** Include your OS, Python version (`python3 --version`), Quill version (`quill --version`), and the full error message
+<!-- quill: website -->

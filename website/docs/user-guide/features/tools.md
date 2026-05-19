@@ -205,3 +205,4 @@ If a command needs sudo, you'll be prompted for your password (cached for the se
 :::warning
 On messaging platforms, if sudo fails, the output includes a tip to add `SUDO_PASSWORD` to `~/.quill/.env`.
 :::
+<!-- quill: website -->

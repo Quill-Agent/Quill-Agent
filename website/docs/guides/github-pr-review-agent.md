@@ -301,3 +301,4 @@ GitHub allows 5,000 API requests/hour for authenticated users. Each PR review us
 - **[Build a Plugin](/docs/guides/build-a-quill-plugin)** — wrap the review logic into a shareable plugin
 - **[Profiles](/docs/user-guide/profiles)** — run a dedicated reviewer profile with its own memory and config
 - **[Fallback Providers](/docs/user-guide/features/fallback-providers)** — ensure reviews run even when one provider is down
+<!-- quill: website -->

@@ -125,3 +125,4 @@ Point the user to these when they need more depth than this skill covers:
 - Full pipeline setup: `/docs/user-guide/messaging/teams-meetings`
 - Operator runbook (renewal automation, troubleshooting, go-live checklist): `/docs/guides/operate-teams-meeting-pipeline`
 - Webhook listener setup: `/docs/user-guide/messaging/msgraph-webhook`
+<!-- quill: website -->

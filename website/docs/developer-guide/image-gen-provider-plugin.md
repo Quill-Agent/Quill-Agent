@@ -286,3 +286,4 @@ my-backend-imggen = "my_backend_imggen_package"
 - [Image Generation](/docs/user-guide/features/image-generation) — user-facing feature documentation
 - [Plugins overview](/docs/user-guide/features/plugins) — all plugin types at a glance
 - [Build a Quill Plugin](/docs/guides/build-a-quill-plugin) — general tools/hooks/slash commands guide
+<!-- quill: website -->

@@ -292,3 +292,4 @@ publication, OFAC public data). However:
 - Some redact registrant info (GDPR on WHOIS, sealed filings).
 - Cross-referencing public records to identify private individuals can have
   ethical implications. The skill produces evidence chains, not accusations.
+<!-- quill: website -->

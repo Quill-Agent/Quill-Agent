@@ -68,3 +68,4 @@ if (!existsSync(extractScript)) {
 
 // 2) llms.txt + llms-full.txt — agent-friendly docs entrypoints. Non-fatal.
 runPython(llmsScript, "generate-llms-txt.py");
+# quill: website

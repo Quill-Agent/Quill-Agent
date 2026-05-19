@@ -393,3 +393,4 @@ This is derived from `quill_constants.get_quill_home()` which resolves to
 
 The database file, WAL file (`state.db-wal`), and shared-memory file
 (`state.db-shm`) are all created in the same directory.
+<!-- quill: website -->

@@ -238,3 +238,4 @@ Quill always writes the script and the auto-generated `quill_tools.py` RPC stub 
 ## Platform Support
 
 Code execution requires Unix domain sockets and is available on **Linux and macOS only**. It is automatically disabled on Windows — the agent falls back to regular sequential tool calls.
+<!-- quill: website -->

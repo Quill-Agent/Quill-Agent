@@ -189,3 +189,4 @@ For more diagnostics, run `quill doctor` — it will tell you exactly what's mis
 ## Install method auto-detection
 
 Quill auto-detects whether it was installed via `pip`, the git installer, Homebrew, or NixOS, and `quill update` prints the matching update command for that path. There's no env var to set — the detection is based on the install layout (Python site-packages, `~/.quill/quill-agent/`, Homebrew prefix, or Nix store path). `quill doctor` also surfaces the detected method under its environment summary.
+<!-- quill: website -->

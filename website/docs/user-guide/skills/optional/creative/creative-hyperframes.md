@@ -203,3 +203,4 @@ If `hyperframes render` fails, run `npx hyperframes doctor` and attach its outpu
 - [features.md](https://github.com/YOUR_USERNAME/quill-agent/blob/main/optional-skills/creative/hyperframes/references/features.md) — captions, TTS, audio-reactive, marker highlighting, transitions (load on demand)
 - [website-to-video.md](https://github.com/YOUR_USERNAME/quill-agent/blob/main/optional-skills/creative/hyperframes/references/website-to-video.md) — 7-step capture-to-video workflow
 - [troubleshooting.md](https://github.com/YOUR_USERNAME/quill-agent/blob/main/optional-skills/creative/hyperframes/references/troubleshooting.md) — OpenClaw fix, env vars, common render errors
+<!-- quill: website -->

@@ -246,3 +246,4 @@ The curator also refuses to run if `min_idle_hours` hasn't elapsed, so on an act
 - [Memory](/docs/user-guide/features/memory) — a parallel background review that maintains long-term memory
 - [Bundled Skills Catalog](/docs/reference/skills-catalog)
 - [Issue #7816](https://github.com/YOUR_USERNAME/quill-agent/issues/7816) — original proposal and design discussion
+<!-- quill: website -->

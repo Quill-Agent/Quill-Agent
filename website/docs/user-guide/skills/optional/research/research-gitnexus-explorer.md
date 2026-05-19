@@ -230,3 +230,4 @@ rm -rf .claude/
 
 - **Multiple repos.** `gitnexus serve` serves ALL indexed repos. Index several
   repos, start serve once, and the web UI lets you switch between them.
+<!-- quill: website -->

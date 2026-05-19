@@ -123,3 +123,4 @@ yb_query_group_info({ "group_code": "328306697" })
 - `group_code` comes from chat_id: `group:328306697` → `328306697`
 - Groups are called "派 (Pai)" in the Yuanbao app
 - Member roles: `user`, `yuanbao_ai`, `bot`
+<!-- quill: website -->

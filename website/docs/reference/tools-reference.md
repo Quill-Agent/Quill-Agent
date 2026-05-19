@@ -266,5 +266,4 @@ Registered only on the `quill-yuanbao` platform toolset. Yuanbao is Tencent's ch
 | `yb_send_dm` | Send a private/direct message to a user in a group, with optional media files. | Yuanbao credentials |
 | `yb_search_sticker` | Search the built-in Yuanbao sticker (TIM face) catalogue by keyword. | Yuanbao credentials |
 | `yb_send_sticker` | Send a built-in sticker to the current Yuanbao chat. | Yuanbao credentials |
-
-
+<!-- quill: website -->

@@ -438,3 +438,4 @@ For debug output:
 ```bash
 quill chat --verbose
 ```
+<!-- quill: website -->

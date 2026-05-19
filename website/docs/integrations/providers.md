@@ -1478,3 +1478,4 @@ Fallback is configured exclusively through `config.yaml` — or interactively vi
 
 - [Configuration](/docs/user-guide/configuration) — General configuration (directory structure, config precedence, terminal backends, memory, compression, and more)
 - [Environment Variables](/docs/reference/environment-variables) — Complete reference of all environment variables
+<!-- quill: website -->

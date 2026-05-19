@@ -174,3 +174,4 @@ Modal is available as an **optional add-on** through the Nous subscription, not 
 ### Do I need to delete my existing API keys when I enable the gateway?
 
 No — keep them in `.env`. When `use_gateway: true`, Quill skips direct keys and uses the gateway. Flip the flag back to `false` and your keys become the source again. The gateway isn't a lock-in.
+<!-- quill: website -->

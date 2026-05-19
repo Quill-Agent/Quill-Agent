@@ -168,3 +168,4 @@ You've hit the Bedrock per-model rate limit. Quill automatically retries with ba
 For a fully automated deployment on EC2 with CloudFormation:
 
 **[sample-quill-agent-on-aws-with-bedrock](https://github.com/JiaDe-Wu/sample-quill-agent-on-aws-with-bedrock)** — creates VPC, IAM role, EC2 instance, and configures Bedrock automatically. Deploy in any region with one click.
+<!-- quill: website -->

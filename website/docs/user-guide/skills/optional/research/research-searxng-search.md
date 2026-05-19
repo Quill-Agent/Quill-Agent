@@ -227,3 +227,4 @@ If `SEARXNG_URL` is not set and the user asks about SearXNG, help them either:
 2. Set up their own with Docker or pip
 
 Public instances are listed at: https://searxng.org/
+<!-- quill: website -->

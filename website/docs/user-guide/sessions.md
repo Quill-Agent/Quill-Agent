@@ -540,3 +540,4 @@ quill sessions prune --older-than 30 --yes
 :::tip
 The database grows slowly (typical: 10-15 MB for hundreds of sessions) and session history powers `session_search` recall across past conversations, so auto-prune ships disabled. Enable it if you're running a heavy gateway/cron workload where `state.db` is meaningfully affecting performance (observed failure mode: 384 MB state.db with ~1000 sessions slowing down FTS5 inserts and `/resume` listing). Use `quill sessions prune` for one-off cleanup without turning on the automatic sweep.
 :::
+<!-- quill: website -->

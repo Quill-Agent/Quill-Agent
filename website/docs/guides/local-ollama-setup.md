@@ -315,3 +315,4 @@ Your only cost is electricity — roughly $0.01–0.05 per session depending on 
 - **Speed on large responses** — cloud inference is faster than CPU-only local for long generations
 
 The sweet spot: use local for everyday tasks, set up a cloud fallback for the hard stuff.
+<!-- quill: website -->

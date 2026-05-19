@@ -308,3 +308,4 @@ bulk-close guard가 존재하는 이유도 이것이 **run별 데이터**이기 
 - `quill kanban --help` — 모든 subcommand와 flag
 - `quill kanban watch --kinds completed,gave_up,timed_out` — 보드 전체 terminal event 실시간 스트림
 - `quill kanban notify-subscribe <task> --platform telegram --chat-id <id>` — 특정 task가 끝날 때 gateway 알림 받기
+<!-- quill: website -->

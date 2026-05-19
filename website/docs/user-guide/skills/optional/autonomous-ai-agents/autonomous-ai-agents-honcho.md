@@ -444,3 +444,4 @@ Session summary requires at least one prior turn in the current Honcho session. 
 | `quill memory setup` | Generic memory provider picker (selecting "honcho" runs the same wizard) |
 | `quill memory status` | Show active memory provider and config |
 | `quill memory off` | Disable external memory provider |
+<!-- quill: website -->

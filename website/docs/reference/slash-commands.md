@@ -253,3 +253,4 @@ The CLI prompts before running slash commands that throw away unsaved session st
 For each of these the CLI opens a three-choice modal: **Approve Once** (proceed this time), **Always Approve** (proceed and persist `approvals.destructive_slash_confirm: false` so future destructive commands run without prompting), or **Cancel**.
 
 Set `approvals.destructive_slash_confirm: false` in `~/.quill/config.yaml` to disable the prompts globally; set it back to `true` to re-enable. See [Security — Destructive slash command confirmation](../user-guide/security.md#dangerous-command-approval) for context.
+<!-- quill: website -->

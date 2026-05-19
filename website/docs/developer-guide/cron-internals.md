@@ -226,3 +226,4 @@ quill cron remove <job_id>         # Delete a job
 - [Cron Feature Guide](/docs/user-guide/features/cron)
 - [Gateway Internals](./gateway-internals.md)
 - [Agent Loop Internals](./agent-loop.md)
+<!-- quill: website -->

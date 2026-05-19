@@ -216,3 +216,4 @@ For monorepos, put subdirectory-specific instructions in nested AGENTS.md files:
 - All endpoints need OpenAPI docstrings
 - Database models are in `models/`, schemas in `schemas/`
 ```
+<!-- quill: website -->

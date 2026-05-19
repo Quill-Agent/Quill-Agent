@@ -690,3 +690,4 @@ async def disconnect(self):
 | `weixin.py` | Long-poll + CDN | High | Media handling, encryption |
 | `wecom_callback.py` | Callback/webhook | Medium | HTTP server, AES crypto, multi-app |
 | `telegram.py` | Long-poll + Bot API | High | Full-featured adapter with groups, threads |
+<!-- quill: website -->

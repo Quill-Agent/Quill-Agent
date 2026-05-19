@@ -154,3 +154,4 @@ Debug logs go to `./logs/image_tools_debug_<session_id>.json` with per-call deta
 - **Text-to-image only** — no inpainting, img2img, or editing via this tool
 - **Temporary URLs** — FAL returns hosted URLs that expire after hours/days; save locally if needed
 - **Per-model constraints** — some models don't support `seed`, `num_inference_steps`, etc. The `supports` filter silently drops unsupported params; this is expected behavior
+<!-- quill: website -->

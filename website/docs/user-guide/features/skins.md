@@ -269,3 +269,4 @@ Quill Mod respects the `QUILL_HOME` environment variable, so it works with [prof
 - User skins in `~/.quill/skins/` take precedence over built-in skins with the same name.
 - Skin changes via `/skin` are session-only. To make a skin your permanent default, set it in `config.yaml`.
 - The `banner_logo` and `banner_hero` fields support Rich console markup (e.g., `[bold #FF0000]text[/]`) for colored ASCII art.
+<!-- quill: website -->

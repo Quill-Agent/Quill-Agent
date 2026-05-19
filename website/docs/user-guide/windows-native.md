@@ -323,3 +323,4 @@ If you edited Quill config or a skill on Windows using a non-UTF-8 editor (Notep
 - **[CLI Reference](../reference/cli-commands.md)** — every `quill` subcommand.
 - **[FAQ](../reference/faq.md)** — common non-Windows-specific questions.
 - **[Messaging Gateway](./messaging/index.md)** — running Telegram/Discord/Slack on Windows.
+<!-- quill: website -->

@@ -124,3 +124,4 @@ Provider-aware resolution (the same model name picks the right format for whatev
 ## A note on `--mode rpc`
 
 Quill does not have a `--mode rpc` flag. The three protocols above already cover the use cases — ACP for IDE-protocol clients, the TUI gateway for stdio JSON-RPC hosts, and the API server for HTTP. If you find a real gap that none of them fill, open an issue with the concrete consumer you're building.
+<!-- quill: website -->

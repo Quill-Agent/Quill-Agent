@@ -226,3 +226,4 @@ python3 ~/.quill/skills/blockchain/hyperliquid/scripts/hyperliquid_client.py \
 ```
 
 Should print the top Hyperliquid perp markets by 24h notional volume.
+<!-- quill: website -->

@@ -236,3 +236,4 @@ Repeat for each variant, then present the comparison table.
 ## Attribution
 
 Adapted from the GSD (Get Shit Done) project's `/gsd-sketch` workflow — MIT © 2025 Lex Christopherson ([gsd-build/get-shit-done](https://github.com/gsd-build/get-shit-done)). The full GSD system ships persistent sketch state, theme/variant pattern references, and consistency-audit workflows; install with `npx get-shit-done-cc --quill --global`.
+<!-- quill: website -->

@@ -463,3 +463,4 @@ own model call — for any reason, structured or not — `ctx.llm`.
   * [`plugin-llm-async-example`](https://github.com/YOUR_USERNAME/quill-example-plugins/tree/main/plugin-llm-async-example) — async with `asyncio.gather()`
 * Auxiliary client (the engine under the hood): see
   [Provider Runtime](/docs/developer-guide/provider-runtime).
+<!-- quill: website -->

@@ -482,3 +482,4 @@ docker logs --tail 50 quill          # Recent logs
 docker run -it --rm quill-agent/quill-agent:latest version     # Verify version
 docker stats quill                    # Resource usage
 ```
+<!-- quill: website -->

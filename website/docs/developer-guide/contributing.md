@@ -241,3 +241,4 @@ fix(security): prevent shell injection in sudo password piping
 ## License
 
 By contributing, you agree that your contributions will be licensed under the [MIT License](https://github.com/YOUR_USERNAME/quill-agent/blob/main/LICENSE).
+<!-- quill: website -->

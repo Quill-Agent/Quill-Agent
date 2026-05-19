@@ -973,3 +973,4 @@ nix-store --query --roots $(docker exec quill-agent readlink /data/current-packa
 | `no container with name or ID "quill-agent"` (Podman) | Podman rootful container not visible to regular user | Add passwordless sudo for podman (see [Container Mode](#container-mode) section) |
 | `unable to find user quill` | Container still starting (entrypoint hasn't created user yet) | Wait a few seconds and retry — the CLI retries automatically |
 | Tool added via `extraPackages` not found in terminal | Requires `nixos-rebuild switch` to update the per-user profile | Rebuild and restart: `nixos-rebuild switch && systemctl restart quill-agent` |
+<!-- quill: website -->

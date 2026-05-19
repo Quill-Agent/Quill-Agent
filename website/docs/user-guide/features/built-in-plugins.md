@@ -267,3 +267,4 @@ A plugin is a good candidate for bundling when:
 - It complements a core capability without expanding the model-visible tool surface
 
 Counter-examples — things that should stay as user-installable plugins, not bundled: third-party integrations with API keys, niche workflows, large dependency trees, anything that would meaningfully change agent behaviour by default.
+<!-- quill: website -->

@@ -262,3 +262,4 @@ my-backend-web = "my_backend_web_package"
 - [Web Search](/docs/user-guide/features/web-search) — user-facing feature documentation and per-backend configuration
 - [Plugins overview](/docs/user-guide/features/plugins) — all plugin types at a glance
 - [Build a Quill Plugin](/docs/guides/build-a-quill-plugin) — general tools/hooks/slash commands guide
+<!-- quill: website -->

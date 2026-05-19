@@ -308,3 +308,4 @@ Status is `Running`. The active run appears in the Run History section with outc
 - `quill kanban --help` — every subcommand, every flag.
 - `quill kanban watch --kinds completed,gave_up,timed_out` — live stream terminal events across the whole board.
 - `quill kanban notify-subscribe <task> --platform telegram --chat-id <id>` — get a gateway ping when a specific task finishes.
+<!-- quill: website -->

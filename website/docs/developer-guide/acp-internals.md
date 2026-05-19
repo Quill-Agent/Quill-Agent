@@ -182,3 +182,4 @@ ACP temporarily installs an approval callback on the terminal tool during prompt
 - `toolsets.py` — `quill-acp` toolset definition
 - `quill_cli/main.py` — `quill acp` CLI subcommand
 - `pyproject.toml` — `[acp]` optional dependency + `quill-acp` script
+<!-- quill: website -->

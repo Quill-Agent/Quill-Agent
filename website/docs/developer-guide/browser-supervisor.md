@@ -220,3 +220,4 @@ dialog dismiss, frame attach/detach, child target attach, session teardown.
 Real-backend E2E (Browserbase + local Chrome) is manual — exercise via
 `/browser connect` to a live Chrome and run the dialog/frame test cases
 described above.
+<!-- quill: website -->

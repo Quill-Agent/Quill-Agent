@@ -363,3 +363,4 @@ trainer = L.Trainer(accelerator='gpu', devices=1)
 - Examples: https://github.com/Lightning-AI/pytorch-lightning/tree/master/examples
 - Discord: https://discord.gg/lightning-ai
 - Used by: Kaggle winners, research labs, production teams
+<!-- quill: website -->

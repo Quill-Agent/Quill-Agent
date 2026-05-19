@@ -247,3 +247,4 @@ Behavior:
 - Tokens are persisted to `~/.quill/mcp-tokens/<server>.json` and reused across sessions
 - Token refresh is automatic; re-authorization only happens when refresh fails
 - Only applies to HTTP/StreamableHTTP transport (`url`-based servers)
+<!-- quill: website -->

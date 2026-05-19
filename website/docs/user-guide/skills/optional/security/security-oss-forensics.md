@@ -423,3 +423,4 @@ If rate-limited mid-investigation, record the partial results in the evidence st
 - [investigation-templates.md](https://github.com/YOUR_USERNAME/quill-agent/blob/main/optional-skills/security/oss-forensics/references/investigation-templates.md) — Pre-built hypothesis templates per attack type
 - [evidence-store.py](https://github.com/YOUR_USERNAME/quill-agent/blob/main/optional-skills/security/oss-forensics/scripts/evidence-store.py) — CLI tool for managing the evidence JSON store
 - [forensic-report.md](https://github.com/YOUR_USERNAME/quill-agent/blob/main/optional-skills/security/oss-forensics/templates/forensic-report.md) — Structured report template
+<!-- quill: website -->

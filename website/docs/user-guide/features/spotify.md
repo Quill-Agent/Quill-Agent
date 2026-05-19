@@ -277,3 +277,4 @@ The redirect URI must be allow-listed in your Spotify app's settings. The defaul
 | `~/.quill/auth.json` → `providers.spotify` | access token, refresh token, expiry, scope, redirect URI |
 | `~/.quill/.env` | `QUILL_SPOTIFY_CLIENT_ID`, optional `QUILL_SPOTIFY_REDIRECT_URI` |
 | Spotify app | owned by you at [developer.spotify.com/dashboard](https://developer.spotify.com/dashboard); contains the Client ID and the redirect URI allow-list |
+<!-- quill: website -->

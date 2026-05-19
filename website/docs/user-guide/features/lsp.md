@@ -252,3 +252,4 @@ the next edit re-spawns.
 By design, LSP only runs inside a git repository. If the project isn't
 yet initialized, run `git init` to enable LSP diagnostics. Otherwise the
 in-process syntax-only fallback applies.
+<!-- quill: website -->

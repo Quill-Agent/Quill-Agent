@@ -290,3 +290,4 @@ Inbound messages are deduplicated using message IDs with a 5-minute window and a
 | Images sent as files | Images > 10 MB exceed the native image limit and are auto-downgraded to file attachments. |
 | `Timeout sending message to WeCom` | The WebSocket may have disconnected. Check logs for reconnection messages. |
 | `WeCom websocket closed during authentication` | Network issue or incorrect credentials. Verify bot_id and secret. |
+<!-- quill: website -->

@@ -43,3 +43,4 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 ## Diagram Linting
 
 CI runs `ascii-guard` to lint docs for ASCII box diagrams. Use Mermaid (````mermaid`) or plain lists/tables instead of ASCII boxes to avoid CI failures.
+<!-- quill: website -->

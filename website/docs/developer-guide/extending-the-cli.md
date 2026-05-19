@@ -190,3 +190,4 @@ The default layout from top to bottom:
 - **Custom styles**: Override `_build_tui_style_dict()` and add entries for your custom style classes.
 - **Slash commands**: Override `process_command()`, handle your commands, and call `super().process_command(cmd)` for everything else.
 - **Don't override `run()`** unless absolutely necessary — the extension hooks exist specifically to avoid that coupling.
+<!-- quill: website -->

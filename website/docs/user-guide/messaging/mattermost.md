@@ -338,3 +338,4 @@ For more information on securing your Quill Agent deployment, see the [Security 
 - **Self-hosted friendly**: Works with any self-hosted Mattermost instance. No Mattermost Cloud account or subscription required.
 - **No extra dependencies**: The adapter uses `aiohttp` for HTTP and WebSocket, which is already included with Quill Agent.
 - **Team Edition compatible**: Works with both Mattermost Team Edition (free) and Enterprise Edition.
+<!-- quill: website -->

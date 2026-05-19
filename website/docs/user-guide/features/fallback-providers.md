@@ -412,3 +412,4 @@ See [Scheduled Tasks (Cron)](/docs/user-guide/features/cron) for full configurat
 | Triage specifier | Layered (see above) | `auxiliary.triage_specifier` |
 | Delegation | Provider override only (no automatic fallback) | `delegation.provider` / `delegation.model` |
 | Cron jobs | Per-job provider override only (no automatic fallback) | Per-job `provider` / `model` |
+<!-- quill: website -->

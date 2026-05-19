@@ -231,3 +231,4 @@ No re-login or re-setup needed. Run `quill memory setup` and select "honcho" —
 ## Full Documentation
 
 See [Memory Providers — Honcho](./memory-providers.md#honcho) for the complete reference.
+<!-- quill: website -->

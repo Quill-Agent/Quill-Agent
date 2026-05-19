@@ -208,3 +208,4 @@ python3 ~/.quill/skills/maps/scripts/maps_client.py search "Statue of Liberty"
 python3 ~/.quill/skills/maps/scripts/maps_client.py nearby --near "Times Square" --category restaurant --limit 3
 # Should return a list of restaurants within ~500m of Times Square
 ```
+<!-- quill: website -->

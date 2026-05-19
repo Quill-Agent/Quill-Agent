@@ -247,3 +247,4 @@ to reclaim the space. Legacy archives are also swept by `auto_prune` after `rete
 - **Combine with Git worktrees** for maximum safety — keep each Quill session in its own worktree/branch, with checkpoints as an extra layer.
 
 For running multiple agents in parallel on the same repo, see the guide on [Git worktrees](./git-worktrees.md).
+<!-- quill: website -->

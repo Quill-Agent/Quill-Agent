@@ -278,3 +278,4 @@ Upgrade Quill and rerun `quill model`. The native Gemini adapter sanitizes tool 
 - [Configuration](/docs/user-guide/configuration)
 - [Fallback Providers](/docs/user-guide/features/fallback-providers)
 - [AWS Bedrock](/docs/guides/aws-bedrock) — native cloud-provider integration using AWS credentials
+<!-- quill: website -->

@@ -409,3 +409,4 @@ parallel-cli config auto-update-check off
 - For large result sets, save JSON to `/tmp/*.json` instead of stuffing everything into context.
 - Do not silently choose Parallel when Quill native tools are already sufficient.
 - Remember this is a vendor workflow that usually requires account auth and paid usage beyond the free tier.
+<!-- quill: website -->

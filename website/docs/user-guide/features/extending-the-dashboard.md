@@ -905,3 +905,4 @@ The `customCSS` block is capped at 32 KiB per theme. Split large stylesheets acr
 
 **I want to ship a plugin on PyPI.**
 Dashboard plugins are installed by directory layout, not by pip entry point. The cleanest distribution path today is a git repo the user clones into `~/.quill/plugins/`. A pip-based installer for dashboard plugins is not currently wired up.
+<!-- quill: website -->

@@ -1330,3 +1330,4 @@ Shell hooks run with **your full user credentials** — same trust boundary as a
 ### Ordering and precedence
 
 Both Python plugin hooks and shell hooks flow through the same `invoke_hook()` dispatcher. Python plugins are registered first (`discover_and_load()`), shell hooks second (`register_from_config()`), so Python `pre_tool_call` block decisions take precedence in tie cases. The first valid block wins — the aggregator returns as soon as any callback produces `{"action": "block", "message": str}` with a non-empty message.
+<!-- quill: website -->
