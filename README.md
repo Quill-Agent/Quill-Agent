@@ -4,7 +4,7 @@
 
 <br /><br />
 
-# Quill-Agent ✒️
+# Quill-Agent 
 
 ### *The self-improving AI agent that writes its own future*
 
