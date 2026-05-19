@@ -117,3 +117,4 @@ jobs:
             echo "::error title=uv.lock out of sync::Run \`uv lock\` locally and commit the result. If on a PR, sync with main first."
             exit 1
           fi
+# quill: .github

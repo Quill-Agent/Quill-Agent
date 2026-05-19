@@ -110,3 +110,4 @@ body:
         - Ran `quill update`
         - Tried reinstalling with `pip install -e ".[all]"`
         - Checked that OPENROUTER_API_KEY is set in ~/.quill/.env
+# quill: .github

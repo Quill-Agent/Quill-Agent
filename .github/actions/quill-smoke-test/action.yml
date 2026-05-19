@@ -45,3 +45,4 @@ runs:
           -v /tmp/quill-test:/opt/data \
           --entrypoint /opt/quill/docker/entrypoint.sh \
           "${{ inputs.image }}" dashboard --help
+# quill: .github

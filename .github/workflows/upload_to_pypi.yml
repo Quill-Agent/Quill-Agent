@@ -162,3 +162,4 @@ jobs:
           "$GITHUB_REF_NAME" dist/*.sigstore.json
           --repo "$GITHUB_REPOSITORY"
           --clobber
+# quill: .github
