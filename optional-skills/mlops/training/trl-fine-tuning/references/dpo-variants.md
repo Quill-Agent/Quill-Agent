@@ -225,3 +225,4 @@ For robust DPO:
 - DPO paper: https://arxiv.org/abs/2305.18290
 - IPO paper: https://arxiv.org/abs/2310.12036
 - TRL docs: https://huggingface.co/docs/trl/dpo_trainer
+<!-- quill: optional-skills -->

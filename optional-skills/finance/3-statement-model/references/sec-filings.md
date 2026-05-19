@@ -123,3 +123,4 @@ Extract 3 years of historical data minimum:
 | Restatements | Use restated figures, note in assumptions |
 | Fiscal year ≠ calendar year | Label with fiscal year end (e.g., FYE Jan 2025) |
 | Non-USD reporting currency | Adapt model currency to match filing |
+<!-- quill: optional-skills -->

@@ -164,3 +164,4 @@ State the assumption explicitly: *"Assuming 30fps and AAC audio unless you say o
 - **Asking for things the brief already implies.** If the user said "music video for my track," do not ask "is there a track?"
 - **Failing to classify before drilling in.** Tier-1 questions depend on classification; mixing them up wastes turns.
 - **Treating "make a video" as enough to proceed.** Always confirm the three baseline questions.
+<!-- quill: optional-skills -->

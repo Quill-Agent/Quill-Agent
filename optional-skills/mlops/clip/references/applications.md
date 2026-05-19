@@ -205,3 +205,4 @@ for img1, img2 in image_pairs:
 - **Paper**: https://arxiv.org/abs/2103.00020
 - **GitHub**: https://github.com/openai/CLIP
 - **Colab**: https://colab.research.google.com/github/openai/clip/
+<!-- quill: optional-skills -->

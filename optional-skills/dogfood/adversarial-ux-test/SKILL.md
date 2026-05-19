@@ -189,3 +189,4 @@ These are starting points — customize for your specific product:
 - Max 10 tickets per session
 - Test on staging/deployed app, not local dev
 - One persona, one session, one report
+<!-- quill: optional-skills -->

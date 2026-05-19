@@ -360,3 +360,4 @@ skill_view(name="concept-diagrams", file_path="examples/<filename>")
 | "CPU / pipeline" | Hardware pipeline | vertical stages, fan-out to execution ports |
 | "floor plan / apartment" | Floor plan | walls, doors, proposed changes in dotted red |
 | "reaction mechanism" | Chemistry | atoms, bonds, curved arrows, transition state, energy profile |
+<!-- quill: optional-skills -->

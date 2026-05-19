@@ -495,3 +495,4 @@ client = QdrantClient(
 - **Cloud**: https://cloud.qdrant.io
 - **Version**: 1.12.0+
 - **License**: Apache 2.0
+<!-- quill: optional-skills -->

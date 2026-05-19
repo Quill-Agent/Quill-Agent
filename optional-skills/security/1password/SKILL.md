@@ -161,3 +161,4 @@ Service accounts require CLI v2.18.0+.
 - `references/cli-examples.md`
 - https://developer.1password.com/docs/cli/
 - https://developer.1password.com/docs/service-accounts/
+<!-- quill: optional-skills -->

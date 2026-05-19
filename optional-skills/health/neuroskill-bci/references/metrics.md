@@ -218,3 +218,4 @@ NeuroSkill uses the **ZUNA Neural Encoder** to convert 5-second EEG epochs into
 - **Search**: Sub-millisecond approximate nearest-neighbor queries
 - **UMAP**: GPU-accelerated 3D projection for visual comparison
 - **Storage**: Local SQLite + HNSW index in `~/.skill/YYYYMMDD/`
+<!-- quill: optional-skills -->

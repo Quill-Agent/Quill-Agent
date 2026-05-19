@@ -142,3 +142,4 @@ Control token usage via `.blackboxcli/settings.json`:
 5. **Report results** — after completion, check what changed and summarize for the user
 6. **Credits cost money** — Blackbox uses a credit-based system; multi-model mode consumes credits faster
 7. **Check prerequisites** — verify `blackbox` CLI is installed before attempting delegation
+<!-- quill: optional-skills -->

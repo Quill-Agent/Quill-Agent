@@ -331,3 +331,4 @@ upload_saes_to_huggingface(
 # URL format: neuronpedia.org/{model}/{layer}-{sae_type}/{feature_id}
 # Example: neuronpedia.org/gpt2-small/8-res-jb/1234
 ```
+<!-- quill: optional-skills -->

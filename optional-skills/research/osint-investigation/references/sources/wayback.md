@@ -91,3 +91,4 @@ python3 SKILL_DIR/scripts/fetch_wayback.py --url "example.com" \
 - CDX server docs: https://github.com/internetarchive/wayback/blob/master/wayback-cdx-server/README.md
 - Wayback API: https://archive.org/help/wayback_api.php
 - Internet Archive: https://archive.org/
+<!-- quill: optional-skills -->

@@ -465,4 +465,4 @@ class CustomRewardModel:
 - **GitHub**: https://github.com/THUDM/slime
 - **Blog**: https://lmsys.org/blog/2025-07-09-slime/
 - **Examples**: See `examples/` directory for 14+ worked examples
-
+<!-- quill: optional-skills -->

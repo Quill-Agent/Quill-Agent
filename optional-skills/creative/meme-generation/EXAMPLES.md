@@ -44,3 +44,4 @@ python generate_meme.py expanding-brain /tmp/meme.png "Reading the docs" "Stack 
 ```bash
 python generate_meme.py change-my-mind /tmp/meme.png "Tabs are just thicc spaces"
 ```
+<!-- quill: optional-skills -->

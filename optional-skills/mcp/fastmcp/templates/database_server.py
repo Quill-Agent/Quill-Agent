@@ -75,3 +75,4 @@ def query(sql: str, limit: int = 50) -> dict[str, Any]:
 
 if __name__ == "__main__":
     mcp.run()
+# quill: optional-skills

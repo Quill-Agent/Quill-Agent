@@ -287,3 +287,4 @@ These rules only apply to shader transition compositions. CSS-only compositions 
 - Use exit animations on any scene except the final scene — the transition IS the exit.
 - Introduce a new transition type every scene — pick one primary + 1-2 accents.
 - Use transitions that create visible geometric repetition (grids, hex cells, uniform dots) — they look artificial regardless of the math behind them. Prefer organic noise (FBM, domain warping).
+<!-- quill: optional-skills -->

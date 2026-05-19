@@ -406,5 +406,4 @@ collection = client.get_or_create_collection("my_docs")
 - **Discord**: https://discord.gg/MMeYNTmh3x
 - **Version**: 1.3.3+
 - **License**: Apache 2.0
-
-
+<!-- quill: optional-skills -->

@@ -120,3 +120,4 @@ print(f"Accuracy: {accuracy:.2%}")  # Target: >80%
 
 - InstructGPT paper: https://arxiv.org/abs/2203.02155
 - TRL docs: https://huggingface.co/docs/trl/reward_trainer
+<!-- quill: optional-skills -->

@@ -384,3 +384,4 @@ Example: `32 × 8 = 256 × 1`
 - GitHub Issues: https://github.com/THUDM/slime/issues
 - Documentation: https://thudm.github.io/slime/
 - Examples: `examples/` directory
+<!-- quill: optional-skills -->

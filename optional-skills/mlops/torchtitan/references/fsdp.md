@@ -124,3 +124,4 @@ These FSDP1 arguments are no longer needed:
 - `sync_module_states`: Not needed with DTensor
 - `limit_all_gathers`: New memory management doesn't need it
 - `use_orig_params`: Always true (no FlatParameter)
+<!-- quill: optional-skills -->

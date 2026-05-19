@@ -93,3 +93,4 @@ python3 ~/.quill/skills/finance/stocks/scripts/stocks_client.py quote AAPL
 ```
 
 Returns a JSON object with `symbol: "AAPL"` and a numeric `price` field.
+<!-- quill: optional-skills -->

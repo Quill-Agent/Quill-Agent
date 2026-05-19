@@ -102,3 +102,4 @@ See https://blog.gdeltproject.org/gdelt-doc-2-0-api-debuts/ for syntax.
 - DOC 2.0 API: https://blog.gdeltproject.org/gdelt-doc-2-0-api-debuts/
 - Themes & query syntax: https://blog.gdeltproject.org/gkg-2-0-our-global-knowledge-graph-2-0-amazing-data-at-your-fingertips/
 - Project home: https://www.gdeltproject.org/
+<!-- quill: optional-skills -->

@@ -38,3 +38,4 @@
 - Check INDEX/OFFSET formulas reference correct row range and selector cell
 - Ensure absolute references ($B$6) are used for selector
 - Test by manually changing the selector cell and verifying projection values update
+<!-- quill: optional-skills -->

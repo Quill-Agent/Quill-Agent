@@ -213,3 +213,4 @@
 - Flash Attention reduces per-request memory
 - Allows higher concurrent batch sizes
 - Can serve 2-3x more users on same hardware
+<!-- quill: optional-skills -->

@@ -36,3 +36,4 @@ vector_store = ChromaVectorStore(chroma_collection=collection)
 ## Resources
 
 - **Docs**: https://docs.trychroma.com
+<!-- quill: optional-skills -->

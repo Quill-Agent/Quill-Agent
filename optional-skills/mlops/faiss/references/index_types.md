@@ -278,3 +278,4 @@ index.add(vectors)
 
 - **Wiki**: https://github.com/facebookresearch/faiss/wiki
 - **Paper**: https://arxiv.org/abs/1702.08734
+<!-- quill: optional-skills -->

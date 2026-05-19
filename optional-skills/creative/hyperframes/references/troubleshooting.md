@@ -135,3 +135,4 @@ The headless browser needs namespace permissions for sandboxing.
 ## Bug reports
 
 Include `npx hyperframes info` output + the full error log. File at [github.com/heygen-com/hyperframes](https://github.com/heygen-com/hyperframes/issues).
+<!-- quill: optional-skills -->

@@ -105,3 +105,4 @@ for partial in client.messages.create_partial(
     print(f"Progress: {partial.title}")
     # Update UI in real-time
 ```
+<!-- quill: optional-skills -->

@@ -90,3 +90,4 @@ python3 SKILL_DIR/scripts/fetch_ofac_sdn.py --entity-type entity --out data/sdn_
 - SDN list: https://ofac.treasury.gov/specially-designated-nationals-and-blocked-persons-list-sdn-human-readable-lists
 - Data formats: https://ofac.treasury.gov/sdn-list/sanctions-list-search-tool
 - Compliance guidance: https://ofac.treasury.gov/recent-actions
+<!-- quill: optional-skills -->

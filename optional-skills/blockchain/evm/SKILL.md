@@ -209,3 +209,4 @@ python3 ~/.quill/skills/blockchain/evm/scripts/evm_client.py stats
 # Should resolve vitalik.eth to 0xd8dA...
 python3 ~/.quill/skills/blockchain/evm/scripts/evm_client.py ens vitalik.eth
 ```
+<!-- quill: optional-skills -->

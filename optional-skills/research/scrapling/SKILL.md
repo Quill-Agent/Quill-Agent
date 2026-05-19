@@ -334,3 +334,4 @@ spider.start()  # Ctrl+C to pause, re-run to resume from checkpoint
 - **Resource usage**: StealthyFetcher runs a real browser -- limit concurrent usage
 - **Legal**: always check robots.txt and website ToS before scraping. This library is for educational and research purposes
 - **Python version**: requires Python 3.10+
+<!-- quill: optional-skills -->

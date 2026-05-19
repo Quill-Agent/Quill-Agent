@@ -512,3 +512,4 @@ Missing required field `email`. Server validation rejects before processing.
 
 - `systematic-debugging` — once the failing API layer is isolated, root-cause your code
 - `test-driven-development` — write the regression test before shipping the fix
+<!-- quill: optional-skills -->

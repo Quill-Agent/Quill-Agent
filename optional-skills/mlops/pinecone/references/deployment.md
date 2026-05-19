@@ -179,3 +179,4 @@ results = index.query(
 
 - **Docs**: https://docs.pinecone.io
 - **Console**: https://app.pinecone.io
+<!-- quill: optional-skills -->

@@ -331,6 +331,4 @@ set_seed(42)
 - Tutorial: "Accelerate your scripts"
 - Examples: https://github.com/huggingface/accelerate/tree/main/examples
 - Used by: HuggingFace Transformers, TRL, PEFT, all HF libraries
-
-
-
+<!-- quill: optional-skills -->

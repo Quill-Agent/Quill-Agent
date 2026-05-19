@@ -221,5 +221,4 @@ vector_store = FaissVectorStore(faiss_index=faiss_index)
 - **GitHub**: https://github.com/facebookresearch/faiss ⭐ 31,700+
 - **Wiki**: https://github.com/facebookresearch/faiss/wiki
 - **License**: MIT
-
-
+<!-- quill: optional-skills -->

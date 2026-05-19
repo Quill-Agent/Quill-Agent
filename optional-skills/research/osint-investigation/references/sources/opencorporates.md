@@ -101,3 +101,4 @@ The fallback is brittle and only fills in `name`, `jurisdiction_code`,
 - API docs: https://api.opencorporates.com/documentation/API-Reference
 - Jurisdiction codes: https://api.opencorporates.com/v0.4/jurisdictions.json
 - Schema: https://opencorporates.com/info/our_data
+<!-- quill: optional-skills -->

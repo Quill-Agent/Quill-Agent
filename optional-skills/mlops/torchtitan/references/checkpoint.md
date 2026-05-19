@@ -179,3 +179,4 @@ create_seed_checkpoint = false
 3. **Pipeline parallelism**: Always create seed checkpoint first
 4. **Debugging**: Save frequent checkpoints during development, reduce for production
 5. **HF interop**: Use conversion scripts for offline conversion, direct save/load for training workflows
+<!-- quill: optional-skills -->

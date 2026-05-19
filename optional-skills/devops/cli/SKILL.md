@@ -154,3 +154,4 @@ infsh app list --search twitter
 - `references/app-discovery.md` — Searching and browsing the app catalog
 - `references/running-apps.md` — Running apps, input formats, output handling
 - `references/cli-reference.md` — Complete CLI command reference
+<!-- quill: optional-skills -->

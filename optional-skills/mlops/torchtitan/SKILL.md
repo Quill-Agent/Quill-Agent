@@ -359,4 +359,4 @@ Create seed checkpoint first (see Workflow 4, Step 1).
 - Paper: https://arxiv.org/abs/2410.06511
 - ICLR 2025: https://iclr.cc/virtual/2025/poster/29620
 - PyTorch Forum: https://discuss.pytorch.org/c/distributed/torchtitan/44
-
+<!-- quill: optional-skills -->

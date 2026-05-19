@@ -469,3 +469,4 @@ if __name__ == "__main__":
 
     result = generate_meme(template_id, texts, output_path)
     print(f"Meme saved to: {result}")
+# quill: optional-skills

@@ -218,6 +218,4 @@ gradient_checkpointing: true
 - GitHub: https://github.com/princeton-nlp/SimPO
 - Models: https://huggingface.co/princeton-nlp
 - Alignment Handbook: https://github.com/huggingface/alignment-handbook
-
-
-
+<!-- quill: optional-skills -->

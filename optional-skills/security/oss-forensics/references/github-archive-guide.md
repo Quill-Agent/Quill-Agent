@@ -182,3 +182,4 @@ for row in results:
 
 **Option C: No GCP credentials available**
 If BigQuery is unavailable, document this limitation in the report. Use the other 4 investigators (Git, GitHub API, Wayback Machine, IOC Enrichment) — they cover most investigation needs without BigQuery.
+<!-- quill: optional-skills -->

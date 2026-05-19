@@ -171,3 +171,4 @@ A typical banking pitch deck follows this structure. Not prescriptive, but usefu
 ## Attribution
 
 Conventions adapted from Anthropic's Claude for Financial Services plugin suite, Apache-2.0 licensed. Original: https://github.com/anthropics/financial-services/tree/main/plugins/agent-plugins/pitch-agent/skills/pptx-author
+<!-- quill: optional-skills -->

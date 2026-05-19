@@ -468,3 +468,4 @@ proxy_send_timeout 600s;
 8. **Use persistent volumes** - Cache compiled models
 9. **Implement retries** - Handle transient failures
 10. **Monitor costs** - Track cost per token
+<!-- quill: optional-skills -->

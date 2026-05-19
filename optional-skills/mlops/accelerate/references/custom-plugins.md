@@ -451,3 +451,4 @@ class CustomPlugin:
 - DeepSpeed Config: https://www.deepspeed.ai/docs/config-json/
 - FSDP Guide: https://pytorch.org/docs/stable/fsdp.html
 - Custom Training Loops: https://huggingface.co/docs/accelerate/usage_guides/training_tpu
+<!-- quill: optional-skills -->

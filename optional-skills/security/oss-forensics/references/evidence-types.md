@@ -87,3 +87,4 @@ Only `multi_source_verified` evidence may be cited as fact in validated hypothes
 | `ActorAnomalyObservation` | Behavioral anomaly for a specific GitHub actor |
 | `WorkflowAnomalyObservation` | Suspicious CI/CD workflow change or unexpected run |
 | `CrossSourceDiscrepancy` | Item present in one source but absent in another (strong deletion indicator) |
+<!-- quill: optional-skills -->

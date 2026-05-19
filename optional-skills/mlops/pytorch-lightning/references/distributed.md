@@ -488,3 +488,4 @@ strategy = DeepSpeedStrategy(
 - FSDP guide: https://lightning.ai/docs/pytorch/stable/advanced/model_parallel/fsdp.html
 - DeepSpeed: https://lightning.ai/docs/pytorch/stable/advanced/model_parallel/deepspeed.html
 - Multi-node: https://lightning.ai/docs/pytorch/stable/clouds/cluster.html
+<!-- quill: optional-skills -->

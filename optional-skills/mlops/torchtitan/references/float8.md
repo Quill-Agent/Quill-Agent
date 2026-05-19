@@ -131,3 +131,4 @@ Rule of thumb: GEMMs with K,N > 4096 typically benefit from Float8.
 ## MXFP8 Training (Blackwell)
 
 For NVIDIA Blackwell GPUs, TorchTitan supports MXFP8 (Microscaling FP8) for both dense and MoE models. See [docs/mxfp8.md](https://github.com/pytorch/torchtitan/blob/main/docs/mxfp8.md) for details.
+<!-- quill: optional-skills -->

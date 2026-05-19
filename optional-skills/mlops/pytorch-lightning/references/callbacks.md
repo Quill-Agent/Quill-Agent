@@ -434,3 +434,4 @@ class DistributedCallback(Callback):
 - Callback API: https://lightning.ai/docs/pytorch/stable/extensions/callbacks.html
 - Built-in callbacks: https://lightning.ai/docs/pytorch/stable/api_references.html#callbacks
 - Examples: https://github.com/Lightning-AI/pytorch-lightning/tree/master/examples/callbacks
+<!-- quill: optional-skills -->

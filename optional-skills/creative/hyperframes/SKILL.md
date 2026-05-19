@@ -189,3 +189,4 @@ If `hyperframes render` fails, run `npx hyperframes doctor` and attach its outpu
 - [features.md](references/features.md) — captions, TTS, audio-reactive, marker highlighting, transitions (load on demand)
 - [website-to-video.md](references/website-to-video.md) — 7-step capture-to-video workflow
 - [troubleshooting.md](references/troubleshooting.md) — OpenClaw fix, env vars, common render errors
+<!-- quill: optional-skills -->

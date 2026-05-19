@@ -646,3 +646,4 @@ telemetry = client.get_telemetry()
 print(f"Collections: {telemetry.collections}")
 print(f"Operations: {telemetry.operations}")
 ```
+<!-- quill: optional-skills -->

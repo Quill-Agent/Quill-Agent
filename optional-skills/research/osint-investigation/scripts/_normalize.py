@@ -65,3 +65,4 @@ def token_overlap_ratio(left: str | None, right: str | None) -> tuple[float, int
         return 0.0, 0
     union = a | b
     return len(shared) / len(union), len(shared)
+# quill: optional-skills

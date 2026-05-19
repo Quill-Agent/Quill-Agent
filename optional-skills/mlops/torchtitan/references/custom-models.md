@@ -256,3 +256,4 @@ Add benchmark config to `benchmarks/` folder.
 2. **Minimal model changes**: Parallelism applied externally
 3. **Clean, minimal codebase**: Reuse existing components where possible
 4. **Single-device semantics**: Model code should work on single GPU
+<!-- quill: optional-skills -->

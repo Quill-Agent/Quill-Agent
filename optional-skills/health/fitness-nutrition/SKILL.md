@@ -254,3 +254,4 @@ After calculators: sanity-check outputs (e.g. TDEE should be 1500-3500 for most 
 | Search foods | USDA | `GET /fdc/v1/foods/search?query=&dataType=Foundation,SR Legacy` |
 | Food details | USDA | `GET /fdc/v1/food/{fdcId}` |
 | BMI / TDEE / 1RM / macros | offline | `python3 scripts/body_calc.py` |
+<!-- quill: optional-skills -->

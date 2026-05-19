@@ -41,3 +41,4 @@ A "screen" is a rounded dark rect inside a lighter "frame" rect, with chart/gaug
 - Keep on-screen text small (`font-size:8px` or `10px`) and high-contrast (near-white fill on dark).
 - Use the status triad green/amber/red consistently — OK / warning / alert.
 - A single dashboard usually sits on top of an infrastructure hub diagram as a unified view (see `examples/smart-city-infrastructure.md`).
+<!-- quill: optional-skills -->

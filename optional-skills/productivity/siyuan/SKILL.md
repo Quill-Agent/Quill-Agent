@@ -296,3 +296,4 @@ mcp_servers:
       SIYUAN_TOKEN: "your_token"
       SIYUAN_URL: "http://127.0.0.1:6806"
 ```
+<!-- quill: optional-skills -->

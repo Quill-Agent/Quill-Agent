@@ -115,3 +115,4 @@ Use this inside execute_code tool calls:
 - Break complex scenes into multiple smaller execute_code calls to avoid timeouts
 - Render output path must be absolute (/tmp/...) not relative
 - shade_smooth() requires object to be selected and in object mode
+<!-- quill: optional-skills -->

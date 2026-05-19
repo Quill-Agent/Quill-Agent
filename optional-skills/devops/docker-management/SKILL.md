@@ -279,3 +279,4 @@ When reviewing or creating a Dockerfile, suggest these improvements:
 5. **Pin base image versions** — `node:20-alpine` not `node:latest`
 6. **Run as non-root** — add `USER` instruction for security
 7. **Use slim/alpine bases** — `python:3.12-slim` not `python:3.12`
+<!-- quill: optional-skills -->

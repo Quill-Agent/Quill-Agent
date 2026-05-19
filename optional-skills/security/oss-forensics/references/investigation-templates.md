@@ -129,3 +129,4 @@ Apply to every investigation regardless of template:
 - [ ] Check if the repository changed ownership or transferred orgs near the incident
 - [ ] Look for "cleanup" commits immediately after the malicious commit (cover-up pattern)
 - [ ] Check related packages/repos by the same author for similar patterns
+<!-- quill: optional-skills -->

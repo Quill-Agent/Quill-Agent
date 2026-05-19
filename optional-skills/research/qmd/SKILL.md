@@ -439,3 +439,4 @@ export QMD_EMBED_MODEL="your-multilingual-model"
 
 - [GitHub: tobi/qmd](https://github.com/tobi/qmd)
 - [QMD Changelog](https://github.com/tobi/qmd/blob/main/CHANGELOG.md)
+<!-- quill: optional-skills -->

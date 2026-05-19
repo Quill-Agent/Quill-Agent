@@ -20,3 +20,4 @@ ENCODED_QUERY=$(echo "$QUERY" | sed 's/ /+/g')
 
 curl -s --max-time 10 \
     "${SEARXNG_URL}/search?q=${ENCODED_QUERY}&format=json&limit=${MAX}&engines=${ENGINES}"
+# quill: optional-skills

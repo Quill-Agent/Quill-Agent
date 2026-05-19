@@ -358,5 +358,4 @@ index.delete(delete_all=True)
 - **Docs**: https://docs.pinecone.io
 - **Console**: https://app.pinecone.io
 - **Pricing**: https://www.pinecone.io/pricing
-
-
+<!-- quill: optional-skills -->

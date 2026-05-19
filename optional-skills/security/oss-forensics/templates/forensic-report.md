@@ -149,3 +149,4 @@ _Summarize enrichment results: WHOIS data for domains, recovered commit content,
 - Evidence store: `evidence.json` (SHA-256 integrity: run `python3 SKILL_DIR/scripts/evidence-store.py --store evidence.json verify`)
 - Related issues: <!-- Link to GitHub issues, CVEs, security advisories -->
 - RAPTOR framework: https://github.com/gadievron/raptor
+<!-- quill: optional-skills -->

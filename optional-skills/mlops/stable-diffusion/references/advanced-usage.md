@@ -714,3 +714,4 @@ device_map = infer_auto_device_map(
 # Dispatch model
 pipe.unet = dispatch_model(pipe.unet, device_map=device_map)
 ```
+<!-- quill: optional-skills -->

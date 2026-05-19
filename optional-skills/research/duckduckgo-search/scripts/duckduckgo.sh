@@ -26,3 +26,4 @@ if ! command -v ddgs &> /dev/null; then
 fi
 
 ddgs text -q "$QUERY" -m "$MAX_RESULTS"
+# quill: optional-skills

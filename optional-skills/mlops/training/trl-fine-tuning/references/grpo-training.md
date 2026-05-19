@@ -502,3 +502,4 @@ A production-ready training script lives at **`../templates/basic_grpo_training.
 - **Test rewards before training** — debug each function independently
 - **Monitor `reward_std`** — should stay > 0.1 (avoid mode collapse)
 - **Start with `num_generations=4–8`** — scale up if GPU allows
+<!-- quill: optional-skills -->

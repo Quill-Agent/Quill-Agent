@@ -206,3 +206,4 @@ PYTH, HNT, RNDR, WEN, W, TNSR, DRIFT, bSOL, JLP, WIF, MEW, BOME, PENGU.
 # Should print current Solana slot, TPS, and SOL price
 python3 ~/.quill/skills/blockchain/solana/scripts/solana_client.py stats
 ```
+<!-- quill: optional-skills -->

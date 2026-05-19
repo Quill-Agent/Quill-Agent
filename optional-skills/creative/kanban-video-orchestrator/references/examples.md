@@ -225,3 +225,4 @@ When the user describes a video, look for these signals to map to an example:
 
 The actual team should be derived from the specific brief — these examples are
 starting points, not endpoints.
+<!-- quill: optional-skills -->

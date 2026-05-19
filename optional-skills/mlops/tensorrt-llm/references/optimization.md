@@ -240,3 +240,4 @@ python benchmarks/python/benchmark.py \
 - Try speculative decoding
 - Reduce `max_batch_size` (less queueing)
 - Use FP8 instead of FP16
+<!-- quill: optional-skills -->

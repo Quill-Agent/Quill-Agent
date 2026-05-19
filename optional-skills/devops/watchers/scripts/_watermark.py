@@ -146,3 +146,4 @@ def format_items_as_markdown(
                 lines.append(body)
         lines.append("")
     return "\n".join(lines).rstrip() + "\n"
+# quill: optional-skills

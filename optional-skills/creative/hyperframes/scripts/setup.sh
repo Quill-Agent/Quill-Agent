@@ -133,3 +133,4 @@ else
   yellow "  See references/troubleshooting.md or re-run 'hyperframes doctor'."
   exit 1
 fi
+# quill: optional-skills

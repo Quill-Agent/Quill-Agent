@@ -98,3 +98,4 @@ Reference: Hodgdon & Beckett, Naval Health Research Center (1984).
 
 - wger: https://wger.de/api/v2/ — AGPL-3.0, exercise data is CC-BY-SA 3.0
 - USDA FoodData Central: https://api.nal.usda.gov/fdc/v1/ — public domain (CC0 1.0)
+<!-- quill: optional-skills -->

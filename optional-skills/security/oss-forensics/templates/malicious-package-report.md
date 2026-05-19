@@ -41,3 +41,4 @@
 2. [ ] Audit `package-lock.json` or `requirements.txt` across all projects.
 3. [ ] Rotate secrets exfiltrated via environment variables.
 4. [ ] Pin specific hashes (SHASUM) for mission-critical dependencies.
+<!-- quill: optional-skills -->

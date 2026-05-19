@@ -42,3 +42,4 @@ def main():
     print(f"\nSummary: {passed}/{len(compounds)} passed Ro5 + Veber.\n")
 
 if __name__ == "__main__": main()
+# quill: optional-skills

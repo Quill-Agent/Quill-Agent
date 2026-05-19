@@ -51,3 +51,4 @@ def main():
     print(f"\nTotal: {len(seen)} unique molecules")
 
 if __name__ == "__main__": main()
+# quill: optional-skills

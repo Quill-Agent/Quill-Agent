@@ -191,3 +191,4 @@ After running sherlock, verify:
 2. Username + NSFW flag both provided
 3. Run: `sherlock --print-found --no-color --nsfw "alice" --timeout 90`
 4. Present results
+<!-- quill: optional-skills -->

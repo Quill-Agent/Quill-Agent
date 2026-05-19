@@ -128,3 +128,4 @@ The output is correct if:
 - Text is legible (white with black outline) on the template
 - The joke lands — caption matches the template's intended structure
 - File can be delivered via MEDIA: path
+<!-- quill: optional-skills -->

@@ -102,3 +102,4 @@ First call downloads the ~70 MB ZIP under `~/.cache/quill-osint/icij/`
 - About the data: https://offshoreleaks.icij.org/pages/about
 - Methodology: https://www.icij.org/investigations/panama-papers/
 - API hints: Open Refine reconciliation endpoint at `https://offshoreleaks.icij.org/reconcile`
+<!-- quill: optional-skills -->

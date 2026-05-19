@@ -116,3 +116,4 @@ The Balance Sheet check row (below Total Liabilities and Equity) uses conditiona
 - EBITDA Margin > 50% → WARNING: Unusually high
 - Net Margin < 0% → FLAG: Net losses (may be acceptable in growth phase)
 - Net Margin > Gross Margin → ERROR: Formula issue
+<!-- quill: optional-skills -->

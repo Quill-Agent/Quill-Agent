@@ -721,3 +721,4 @@ tokenizer.decoder = MetaspaceDecoder(replacement="▁")
    - Save complete tokenizer config
    - Document special tokens
    - Note any custom components
+<!-- quill: optional-skills -->

@@ -143,3 +143,4 @@ npx hyperframes render --quality high --output final.mp4
 - **Skipped STORYBOARD.md** → scenes overlap or hero frames collide with transitions.
 - **Exit animations** before transitions → empty frames when the transition fires.
 - **Narration longer than `data-duration`** → audio clips mid-sentence. Update the composition's `data-duration` to match the TTS output length + 0.5s buffer.
+<!-- quill: optional-skills -->

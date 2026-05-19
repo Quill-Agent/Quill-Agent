@@ -233,3 +233,4 @@ conda install -c bioconda samtools bcftools blast minimap2 bedtools fastp kraken
 - Both repos assume bioinformatics tools are installed. Check prerequisites before running pipelines.
 - For ClawBio, run `pip install -r requirements.txt` in the cloned repo first.
 - Genomic data files can be very large. Be mindful of disk space when downloading reference genomes, SRA datasets, or building indices.
+<!-- quill: optional-skills -->

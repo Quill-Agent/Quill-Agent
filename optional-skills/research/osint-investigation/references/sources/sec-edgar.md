@@ -81,3 +81,4 @@ Example: `SEC_USER_AGENT="Research example@example.com"`.
 - Developer docs: https://www.sec.gov/edgar/sec-api-documentation
 - EDGAR full-text search: https://efts.sec.gov/LATEST/search-index
 - Fair access policy: https://www.sec.gov/os/accessing-edgar-data
+<!-- quill: optional-skills -->

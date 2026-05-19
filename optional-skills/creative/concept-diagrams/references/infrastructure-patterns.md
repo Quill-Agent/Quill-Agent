@@ -142,3 +142,4 @@ Use a dedicated CSS class per subsystem so every diagram reads the same way:
 - `examples/smart-city-infrastructure.md` — hub-spoke with multiple subsystems
 - `examples/electricity-grid-flow.md` — voltage hierarchy, flow markers
 - `examples/wind-turbine-structure.md` — cross-section with legend
+<!-- quill: optional-skills -->

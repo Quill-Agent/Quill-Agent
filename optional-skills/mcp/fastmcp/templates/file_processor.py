@@ -53,3 +53,4 @@ def read_file_resource(path: str) -> str:
 
 if __name__ == "__main__":
     mcp.run()
+# quill: optional-skills

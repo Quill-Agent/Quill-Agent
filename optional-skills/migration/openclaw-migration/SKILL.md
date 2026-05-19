@@ -296,3 +296,4 @@ After a successful run, the user should have:
 - Quill memory files populated with converted OpenClaw knowledge
 - OpenClaw skills available under `~/.quill/skills/openclaw-imports/`
 - a migration report showing any conflicts, omissions, or unsupported data
+<!-- quill: optional-skills -->

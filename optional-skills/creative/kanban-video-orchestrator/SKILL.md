@@ -205,3 +205,4 @@ scripts/
   bootstrap_pipeline.py             ← generate setup.sh from brief + team JSON
   monitor.py                        ← polling + intervention helpers
 ```
+<!-- quill: optional-skills -->

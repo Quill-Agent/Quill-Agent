@@ -298,3 +298,4 @@ The server-building part may be correct while the Quill config is not. Load the 
 ## References
 
 For CLI details, install targets, and deployment checks, read `references/fastmcp-cli.md`.
+<!-- quill: optional-skills -->

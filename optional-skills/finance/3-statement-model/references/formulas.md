@@ -290,3 +290,4 @@ NOL Non-Negative:       = Ending NOL Balance ≥ 0         (must be TRUE)
 NOL Starting Balance:   = Beginning NOL (Year 1) = 0     (must be TRUE for new business)
 NOL Accumulation:       = NOL increases only when EBT < 0 (losses generate NOL)
 ```
+<!-- quill: optional-skills -->

@@ -253,5 +253,4 @@ results = collection.query(
 - **Paper**: https://arxiv.org/abs/2103.00020
 - **Colab**: https://colab.research.google.com/github/openai/clip/
 - **License**: MIT
-
-
+<!-- quill: optional-skills -->

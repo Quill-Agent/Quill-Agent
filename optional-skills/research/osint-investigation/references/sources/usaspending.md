@@ -95,3 +95,4 @@ python3 SKILL_DIR/scripts/fetch_usaspending.py --recipient "EXAMPLE CORP" \
 - API docs: https://api.usaspending.gov/
 - Data dictionary: https://www.usaspending.gov/data-dictionary
 - Award schema: https://files.usaspending.gov/docs/Data_Dictionary_Crosswalk.xlsx
+<!-- quill: optional-skills -->

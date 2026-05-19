@@ -40,3 +40,4 @@ Look at these example files for working physical-diagram patterns:
 - `examples/wind-turbine-structure.md` — underground foundation, tubular tower, nacelle cutaway
 - `examples/smartphone-layer-anatomy.md` — exploded-view stack with alternating labels
 - `examples/apartment-floor-plan-conversion.md` — walls, doors, windows, proposed changes
+<!-- quill: optional-skills -->

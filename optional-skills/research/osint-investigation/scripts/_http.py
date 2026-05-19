@@ -80,3 +80,4 @@ def get(
 
 def get_json(url: str, **kwargs) -> dict | list:
     return json.loads(get(url, **kwargs).decode("utf-8"))
+# quill: optional-skills

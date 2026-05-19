@@ -274,3 +274,4 @@ firing a kanban that will hit credential errors mid-execution.
 7. **`brief.md` is read-only after setup.** If the brief changes during
    execution, that's a significant pivot — re-fire the kanban rather than edit
    live.
+<!-- quill: optional-skills -->

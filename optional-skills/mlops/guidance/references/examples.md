@@ -765,3 +765,4 @@ def batch_process(texts, batch_size=10):
 - **Guidance Notebooks**: https://github.com/guidance-ai/guidance/tree/main/notebooks
 - **Guidance Docs**: https://guidance.readthedocs.io
 - **Community Examples**: https://github.com/guidance-ai/guidance/discussions
+<!-- quill: optional-skills -->

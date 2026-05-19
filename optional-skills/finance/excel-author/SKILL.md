@@ -242,3 +242,4 @@ Checkpoint pattern:
 ## Attribution
 
 Conventions (blue/black/green, formulas-over-hardcodes, named ranges, sensitivity rules) adapted from Anthropic's Claude for Financial Services plugin suite, Apache-2.0 licensed. Original: https://github.com/anthropics/financial-services/tree/main/plugins/vertical-plugins/financial-analysis/skills/xlsx-author
+<!-- quill: optional-skills -->

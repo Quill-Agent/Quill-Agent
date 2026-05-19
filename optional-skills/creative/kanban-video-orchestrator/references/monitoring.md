@@ -178,3 +178,4 @@ scene without re-running the whole pipeline.
 - **Audio/visual sync.** The editor's clip stitching must match the
   renderer's actual output durations. Don't hardcode scene durations in
   the editor — read from the renderer's handoff metadata.
+<!-- quill: optional-skills -->

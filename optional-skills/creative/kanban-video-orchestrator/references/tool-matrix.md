@@ -315,3 +315,4 @@ When a new Quill-public video skill ships:
 1. Add a row to the relevant table at the top of this file
 2. If it warrants a specialized renderer variant, add to `role-archetypes.md`
 3. Update relevant per-style examples in `examples.md`
+<!-- quill: optional-skills -->

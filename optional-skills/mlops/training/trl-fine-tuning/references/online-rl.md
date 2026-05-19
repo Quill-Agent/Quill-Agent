@@ -80,3 +80,4 @@ trainer.train()
 - PPO paper: https://arxiv.org/abs/1707.06347
 - GRPO paper: https://arxiv.org/abs/2402.03300
 - TRL docs: https://huggingface.co/docs/trl/
+<!-- quill: optional-skills -->

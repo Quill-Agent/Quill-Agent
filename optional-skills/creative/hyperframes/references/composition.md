@@ -127,3 +127,4 @@ Multi-scene compositions MUST follow all of these:
 9. Build timelines asynchronously.
 10. Use `gsap.set()` on elements from later scenes — they don't exist in the DOM at page load. Use `tl.set(selector, vars, timePosition)` inside the timeline at or after the clip's `data-start`.
 11. Use `<br>` in content text — causes unwanted extra breaks when the text wraps naturally. Use `max-width` instead. Exception: short display titles (e.g., "THE\nIMMORTAL\nGAME") where each word is deliberately on its own line.
+<!-- quill: optional-skills -->

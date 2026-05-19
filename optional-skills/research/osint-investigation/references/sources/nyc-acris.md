@@ -88,3 +88,4 @@ amount. Pass `--no-enrich` to skip the join (faster, fewer columns).
 - NYC Open Data: https://data.cityofnewyork.us/
 - Parties dataset: https://data.cityofnewyork.us/City-Government/ACRIS-Real-Property-Parties/636b-3b5g
 - Document type codes: https://www1.nyc.gov/site/finance/taxes/acris.page
+<!-- quill: optional-skills -->

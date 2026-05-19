@@ -296,3 +296,4 @@ violations.
   The kanban routing breaks down if every task fits every profile.
 - **No reviewer for important deliverables.** Saves an hour of pipeline time
   but ships flaws.
+<!-- quill: optional-skills -->

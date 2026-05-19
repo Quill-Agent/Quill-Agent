@@ -52,3 +52,4 @@ def search_resources(query: str, limit: int = 10) -> dict[str, Any]:
 
 if __name__ == "__main__":
     mcp.run()
+# quill: optional-skills

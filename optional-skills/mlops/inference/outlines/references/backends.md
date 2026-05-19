@@ -613,3 +613,4 @@ def extract(text: str):
 - **llama.cpp**: https://github.com/ggerganov/llama.cpp
 - **vLLM**: https://docs.vllm.ai
 - **Outlines**: https://github.com/outlines-dev/outlines
+<!-- quill: optional-skills -->

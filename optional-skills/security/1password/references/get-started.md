@@ -19,3 +19,4 @@ Official docs: https://developer.1password.com/docs/cli/get-started/
 
 - Use service accounts and `OP_SERVICE_ACCOUNT_TOKEN`
 - Prefer `op run` and `op inject` for runtime secret handling
+<!-- quill: optional-skills -->

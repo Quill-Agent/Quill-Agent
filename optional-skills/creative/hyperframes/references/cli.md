@@ -183,3 +183,4 @@ npx hyperframes add --list      # browse the catalog
 ```
 
 Popular catalog blocks: `flash-through-white` (shader transition), `instagram-follow` (social overlay), `data-chart` (animated chart), `lower-third` (talking-head overlay). See [hyperframes.heygen.com/catalog](https://hyperframes.heygen.com/catalog).
+<!-- quill: optional-skills -->
