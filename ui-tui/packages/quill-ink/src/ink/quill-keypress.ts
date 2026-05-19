@@ -1,8 +1,6 @@
 /**
- * Keyboard input parser - converts terminal input to key events
- *
- * Uses the termio tokenizer for escape sequence boundary detection,
- * then interprets sequences as keypresses.
+ * @quill/ink — Quill-Agent terminal keypress parser.
+ * Converts raw TTY input to structured key events via the termio tokenizer.
  */
 import { Buffer } from 'buffer'
 

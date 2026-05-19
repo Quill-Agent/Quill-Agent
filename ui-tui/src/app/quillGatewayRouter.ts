@@ -15,8 +15,13 @@ import { formatToolCall, stripAnsi } from '../lib/text.js'
 import { fromSkin } from '../theme.js'
 import type { Msg, SubagentProgress, SubagentStatus } from '../types.js'
 
+/**
+ * Quill TUI — gateway WebSocket/event stream → UI state router.
+ * Maps Quill gateway payloads to composer, overlays, and turn lifecycle.
+ */
 import { applyDelegationStatus, getDelegationState } from './delegationStore.js'
 import type { GatewayEventHandlerContext } from './interfaces.js'
+import { coerceSubagentStatus } from './subagent/status.js'
 import { patchOverlayState } from './overlayStore.js'
 import { turnController } from './turnController.js'
 import { getUiState, patchUiState } from './uiStore.js'
@@ -54,27 +59,7 @@ const pushThinking = pushUnique(6)
 const pushNote = pushUnique(6)
 const pushTool = pushUnique(8)
 
-const KNOWN_SUBAGENT_STATUSES = new Set<SubagentStatus>([
-  'completed',
-  'error',
-  'failed',
-  'interrupted',
-  'queued',
-  'running',
-  'timeout'
-])
-
-const normalizeSubagentStatus = (status: unknown, fallback: SubagentStatus): SubagentStatus => {
-  if (typeof status !== 'string') {
-    return fallback
-  }
-
-  const normalized = status.toLowerCase() as SubagentStatus
-
-  return KNOWN_SUBAGENT_STATUSES.has(normalized) ? normalized : fallback
-}
-
-export function createGatewayEventHandler(ctx: GatewayEventHandlerContext): (ev: GatewayEvent) => void {
+export function buildQuillGatewayRouter(ctx: GatewayEventHandlerContext): (ev: GatewayEvent) => void {
   const { rpc } = ctx.gateway
   const { STARTUP_RESUME_ID, newSession, resumeById, setCatalog } = ctx.session
   const { bellOnComplete, stdout, sys } = ctx.system
@@ -678,7 +663,7 @@ export function createGatewayEventHandler(ctx: GatewayEventHandlerContext): (ev:
           ev.payload,
           c => ({
             durationSeconds: ev.payload.duration_seconds ?? c.durationSeconds,
-            status: normalizeSubagentStatus(ev.payload.status, 'completed'),
+            status: coerceSubagentStatus(ev.payload.status, 'completed'),
             summary: ev.payload.summary || ev.payload.text || c.summary
           }),
           { createIfMissing: false }

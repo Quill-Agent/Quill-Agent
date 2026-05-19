@@ -141,7 +141,7 @@ export class GatewayClient extends EventEmitter {
 
   constructor() {
     super()
-    // useInput / createGatewayEventHandler can legitimately attach many
+    // useInput / buildQuillGatewayRouter can legitimately attach many
     // listeners. Default 10-cap triggers spurious warnings.
     this.setMaxListeners(0)
   }

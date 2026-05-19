@@ -1,6 +1,6 @@
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 
-import { createGatewayEventHandler } from '../app/createGatewayEventHandler.js'
+import { buildQuillGatewayRouter } from '../app/quillGatewayRouter.js'
 import { getOverlayState, resetOverlayState } from '../app/overlayStore.js'
 import { turnController } from '../app/turnController.js'
 import { getTurnState, resetTurnState } from '../app/turnStore.js'
@@ -50,7 +50,7 @@ const buildCtx = (appended: Msg[]) =>
     }
   }) as any
 
-describe('createGatewayEventHandler', () => {
+describe('buildQuillGatewayRouter', () => {
   beforeEach(() => {
     resetOverlayState()
     resetUiState()
@@ -68,7 +68,7 @@ describe('createGatewayEventHandler', () => {
       { content: 'Make sauce', id: 'sauce', status: 'pending' }
     ]
 
-    const onEvent = createGatewayEventHandler(buildCtx(appended))
+    const onEvent = buildQuillGatewayRouter(buildCtx(appended))
 
     onEvent({ payload: {}, type: 'message.start' } as any)
     onEvent({ payload: { name: 'todo', todos, tool_id: 'todo-1' }, type: 'tool.start' } as any)
@@ -90,7 +90,7 @@ describe('createGatewayEventHandler', () => {
   it('archives completed todos into transcript flow at end of turn', () => {
     const appended: Msg[] = []
     const todos = [{ content: 'Serve tiny latte', id: 'serve', status: 'completed' }]
-    const onEvent = createGatewayEventHandler(buildCtx(appended))
+    const onEvent = buildQuillGatewayRouter(buildCtx(appended))
 
     onEvent({ payload: { name: 'todo', todos, tool_id: 'todo-1' }, type: 'tool.start' } as any)
     onEvent({ payload: { text: 'done' }, type: 'message.complete' } as any)
@@ -109,7 +109,7 @@ describe('createGatewayEventHandler', () => {
     const appended: Msg[] = []
     const todos = [{ content: 'Boil water', id: 'boil', status: 'in_progress' }]
 
-    const onEvent = createGatewayEventHandler(buildCtx(appended))
+    const onEvent = buildQuillGatewayRouter(buildCtx(appended))
 
     onEvent({ payload: { name: 'todo', todos, tool_id: 'todo-1' }, type: 'tool.start' } as any)
     expect(getTurnState().todos).toEqual(todos)
@@ -122,7 +122,7 @@ describe('createGatewayEventHandler', () => {
   it('prints compaction progress status into the transcript', () => {
     const appended: Msg[] = []
     const ctx = buildCtx(appended)
-    const onEvent = createGatewayEventHandler(ctx)
+    const onEvent = buildQuillGatewayRouter(ctx)
 
     onEvent({
       payload: { kind: 'compressing', text: 'compressing 968 messages (~123,400 tok)…' },
@@ -135,7 +135,7 @@ describe('createGatewayEventHandler', () => {
   it('keeps goal verdict text in transcript but shows a brief idle status (#goal statusbar)', () => {
     const appended: Msg[] = []
     const ctx = buildCtx(appended)
-    const onEvent = createGatewayEventHandler(ctx)
+    const onEvent = buildQuillGatewayRouter(ctx)
     const verdict = '✓ Goal achieved: long judge reason goes only in transcript, not merged with cwd label.'
 
     vi.useFakeTimers()
@@ -157,7 +157,7 @@ describe('createGatewayEventHandler', () => {
 
   it('maps goal status.update prefixes to short status strings', () => {
     const ctx = buildCtx([])
-    const onEvent = createGatewayEventHandler(ctx)
+    const onEvent = buildQuillGatewayRouter(ctx)
 
     onEvent({
       payload: { kind: 'goal', text: '↻ Continuing toward goal (1/10): reason' },
@@ -175,7 +175,7 @@ describe('createGatewayEventHandler', () => {
   it('surfaces self-improvement review summaries as a persistent system line', () => {
     const appended: Msg[] = []
     const ctx = buildCtx(appended)
-    const onEvent = createGatewayEventHandler(ctx)
+    const onEvent = buildQuillGatewayRouter(ctx)
 
     onEvent({
       payload: { text: "💾 Self-improvement review: Skill 'quill-release' patched" },
@@ -190,7 +190,7 @@ describe('createGatewayEventHandler', () => {
   it('ignores review.summary events with empty or missing text', () => {
     const appended: Msg[] = []
     const ctx = buildCtx(appended)
-    const onEvent = createGatewayEventHandler(ctx)
+    const onEvent = buildQuillGatewayRouter(ctx)
 
     onEvent({ payload: { text: '' }, type: 'review.summary' } as any)
     onEvent({ payload: { text: '   ' }, type: 'review.summary' } as any)
@@ -202,7 +202,7 @@ describe('createGatewayEventHandler', () => {
   it('clears the visible todo list when the todo tool returns an empty list', () => {
     const appended: Msg[] = []
     const todos = [{ content: 'Boil water', id: 'boil', status: 'in_progress' }]
-    const onEvent = createGatewayEventHandler(buildCtx(appended))
+    const onEvent = buildQuillGatewayRouter(buildCtx(appended))
 
     onEvent({ payload: { name: 'todo', todos, tool_id: 'todo-1' }, type: 'tool.start' } as any)
     expect(getTurnState().todos).toEqual(todos)
@@ -216,7 +216,7 @@ describe('createGatewayEventHandler', () => {
     const appended: Msg[] = []
 
     turnController.reasoningText = 'mapped the page'
-    const onEvent = createGatewayEventHandler(buildCtx(appended))
+    const onEvent = buildQuillGatewayRouter(buildCtx(appended))
 
     onEvent({
       payload: { context: 'home page', name: 'search', tool_id: 'tool-1' },
@@ -245,7 +245,7 @@ describe('createGatewayEventHandler', () => {
 
   it('groups sequential completed tools into one trail when the turn completes', () => {
     const appended: Msg[] = []
-    const onEvent = createGatewayEventHandler(buildCtx(appended))
+    const onEvent = buildQuillGatewayRouter(buildCtx(appended))
 
     onEvent({ payload: { context: 'alpha', name: 'search_files', tool_id: 'tool-1' }, type: 'tool.start' } as any)
     onEvent({
@@ -273,12 +273,12 @@ describe('createGatewayEventHandler', () => {
 
     turnController.reasoningText = 'mapped the page'
 
-    createGatewayEventHandler(buildCtx(appended))({
+    buildQuillGatewayRouter(buildCtx(appended))({
       payload: { context: 'home page', name: 'search', tool_id: 'tool-1' },
       type: 'tool.start'
     } as any)
 
-    const onEvent = createGatewayEventHandler(buildCtx(appended))
+    const onEvent = buildQuillGatewayRouter(buildCtx(appended))
 
     onEvent({
       payload: { name: 'search', preview: 'hero cards' },
@@ -304,7 +304,7 @@ describe('createGatewayEventHandler', () => {
     const appended: Msg[] = []
     const streamed = 'short streamed reasoning'
 
-    createGatewayEventHandler(buildCtx(appended))({ payload: { text: streamed }, type: 'thinking.delta' } as any)
+    buildQuillGatewayRouter(buildCtx(appended))({ payload: { text: streamed }, type: 'thinking.delta' } as any)
     vi.runOnlyPendingTimers()
 
     expect(getTurnState().reasoning).toBe(streamed)
@@ -317,7 +317,7 @@ describe('createGatewayEventHandler', () => {
     const appended: Msg[] = []
     const streamed = 'first reasoning chunk\nsecond reasoning chunk'
 
-    const onEvent = createGatewayEventHandler(buildCtx(appended))
+    const onEvent = buildQuillGatewayRouter(buildCtx(appended))
 
     onEvent({ payload: { text: streamed }, type: 'reasoning.delta' } as any)
     onEvent({ payload: { text: 'Before edit.' }, type: 'message.delta' } as any)
@@ -332,7 +332,7 @@ describe('createGatewayEventHandler', () => {
     const appended: Msg[] = []
     const streamed = '(¬_¬) synthesizing...\nactual plan\n( ͡° ͜ʖ ͡°) pondering...\nnext step'
 
-    const onEvent = createGatewayEventHandler(buildCtx(appended))
+    const onEvent = buildQuillGatewayRouter(buildCtx(appended))
 
     onEvent({ payload: { text: streamed }, type: 'reasoning.delta' } as any)
     onEvent({ payload: { text: 'final answer' }, type: 'message.complete' } as any)
@@ -347,7 +347,7 @@ describe('createGatewayEventHandler', () => {
     const streamed = 'short streamed reasoning'
     const fallback = 'x'.repeat(400)
 
-    const onEvent = createGatewayEventHandler(buildCtx(appended))
+    const onEvent = buildQuillGatewayRouter(buildCtx(appended))
 
     onEvent({ payload: { text: streamed }, type: 'reasoning.delta' } as any)
     onEvent({ payload: { text: fallback }, type: 'reasoning.available' } as any)
@@ -363,7 +363,7 @@ describe('createGatewayEventHandler', () => {
     const appended: Msg[] = []
     const fromServer = 'recovered from last_reasoning'
 
-    const onEvent = createGatewayEventHandler(buildCtx(appended))
+    const onEvent = buildQuillGatewayRouter(buildCtx(appended))
 
     onEvent({ payload: { reasoning: fromServer, text: 'final answer' }, type: 'message.complete' } as any)
 
@@ -376,7 +376,7 @@ describe('createGatewayEventHandler', () => {
   it('renders browser.progress events as system transcript lines as they stream in', () => {
     const appended: Msg[] = []
     const ctx = buildCtx(appended)
-    const handler = createGatewayEventHandler(ctx)
+    const handler = buildQuillGatewayRouter(ctx)
 
     handler({
       payload: { message: 'Chrome launched and listening on port 9222' },
@@ -388,7 +388,7 @@ describe('createGatewayEventHandler', () => {
 
   it('annotates gateway.start_timeout with stderr tail lines so users can diagnose without /logs', () => {
     const appended: Msg[] = []
-    const onEvent = createGatewayEventHandler(buildCtx(appended))
+    const onEvent = buildQuillGatewayRouter(buildCtx(appended))
 
     onEvent({
       payload: {
@@ -409,7 +409,7 @@ describe('createGatewayEventHandler', () => {
 
   it('prefers raw text over Rich-rendered ANSI on message.complete (#16391)', () => {
     const appended: Msg[] = []
-    const onEvent = createGatewayEventHandler(buildCtx(appended))
+    const onEvent = buildQuillGatewayRouter(buildCtx(appended))
     const raw = 'Quill here.\n\nLine two.'
     // Rich-rendered ANSI (`final_response_markdown: render`) used to win,
     // which left visible escape codes in Ink output. Raw text must win.
@@ -424,7 +424,7 @@ describe('createGatewayEventHandler', () => {
 
   it('falls back to payload.rendered when text is missing on message.complete', () => {
     const appended: Msg[] = []
-    const onEvent = createGatewayEventHandler(buildCtx(appended))
+    const onEvent = buildQuillGatewayRouter(buildCtx(appended))
     const rendered = 'fallback when gateway omitted text'
 
     onEvent({ payload: { rendered }, type: 'message.complete' } as any)
@@ -435,7 +435,7 @@ describe('createGatewayEventHandler', () => {
 
   it('always accumulates raw text in message.delta and ignores `rendered` (#16391)', () => {
     const appended: Msg[] = []
-    const onEvent = createGatewayEventHandler(buildCtx(appended))
+    const onEvent = buildQuillGatewayRouter(buildCtx(appended))
 
     // Stream of partial text deltas; each delta carries an incremental
     // Rich-ANSI fragment.  Pre-fix code would replace the whole bufRef
@@ -451,7 +451,7 @@ describe('createGatewayEventHandler', () => {
 
   it('anchors inline_diff as its own segment where the edit happened', () => {
     const appended: Msg[] = []
-    const onEvent = createGatewayEventHandler(buildCtx(appended))
+    const onEvent = buildQuillGatewayRouter(buildCtx(appended))
     const diff = '\u001b[31m--- a/foo.ts\u001b[0m\n\u001b[32m+++ b/foo.ts\u001b[0m\n@@\n-old\n+new'
     const cleaned = '--- a/foo.ts\n+++ b/foo.ts\n@@\n-old\n+new'
     const block = `\`\`\`diff\n${cleaned}\n\`\`\``
@@ -487,7 +487,7 @@ describe('createGatewayEventHandler', () => {
 
   it('keeps full final responses from duplicating flushed pre-diff narration', () => {
     const appended: Msg[] = []
-    const onEvent = createGatewayEventHandler(buildCtx(appended))
+    const onEvent = buildQuillGatewayRouter(buildCtx(appended))
     const diff = '--- a/foo.ts\n+++ b/foo.ts\n@@\n-old\n+new'
     const block = `\`\`\`diff\n${diff}\n\`\`\``
 
@@ -503,7 +503,7 @@ describe('createGatewayEventHandler', () => {
 
   it('drops the diff segment when the final assistant text narrates the same diff', () => {
     const appended: Msg[] = []
-    const onEvent = createGatewayEventHandler(buildCtx(appended))
+    const onEvent = buildQuillGatewayRouter(buildCtx(appended))
     const cleaned = '--- a/foo.ts\n+++ b/foo.ts\n@@\n-old\n+new'
     const assistantText = `Done. Here's the inline diff:\n\n\`\`\`diff\n${cleaned}\n\`\`\``
 
@@ -519,7 +519,7 @@ describe('createGatewayEventHandler', () => {
 
   it('strips the CLI "┊ review diff" header from inline diff segments', () => {
     const appended: Msg[] = []
-    const onEvent = createGatewayEventHandler(buildCtx(appended))
+    const onEvent = buildQuillGatewayRouter(buildCtx(appended))
     const raw = '  \u001b[33m┊ review diff\u001b[0m\n--- a/foo.ts\n+++ b/foo.ts\n@@\n-old\n+new'
 
     onEvent({ payload: { inline_diff: raw, summary: 'patched', tool_id: 'tool-1' }, type: 'tool.complete' } as any)
@@ -536,7 +536,7 @@ describe('createGatewayEventHandler', () => {
 
   it('drops the diff segment when assistant writes its own ```diff fence', () => {
     const appended: Msg[] = []
-    const onEvent = createGatewayEventHandler(buildCtx(appended))
+    const onEvent = buildQuillGatewayRouter(buildCtx(appended))
     const inlineDiff = '--- a/foo.ts\n+++ b/foo.ts\n@@\n-old\n+new'
     const assistantText = 'Done. Clean swap:\n\n```diff\n-old\n+new\n```'
 
@@ -553,7 +553,7 @@ describe('createGatewayEventHandler', () => {
 
   it('keeps tool trail terse when inline_diff is present', () => {
     const appended: Msg[] = []
-    const onEvent = createGatewayEventHandler(buildCtx(appended))
+    const onEvent = buildQuillGatewayRouter(buildCtx(appended))
     const diff = '--- a/foo.ts\n+++ b/foo.ts\n@@\n-old\n+new'
 
     onEvent({
@@ -575,7 +575,7 @@ describe('createGatewayEventHandler', () => {
 
   it('shows setup panel for missing provider startup error', () => {
     const appended: Msg[] = []
-    const onEvent = createGatewayEventHandler(buildCtx(appended))
+    const onEvent = buildQuillGatewayRouter(buildCtx(appended))
 
     onEvent({
       payload: {
@@ -610,7 +610,7 @@ describe('createGatewayEventHandler', () => {
       return null
     })
 
-    createGatewayEventHandler(ctx)({ payload: {}, type: 'gateway.ready' } as any)
+    buildQuillGatewayRouter(ctx)({ payload: {}, type: 'gateway.ready' } as any)
 
     await vi.waitFor(() => expect(newSession).toHaveBeenCalled())
     expect(resumeById).not.toHaveBeenCalled()
@@ -637,7 +637,7 @@ describe('createGatewayEventHandler', () => {
       return null
     })
 
-    createGatewayEventHandler(ctx)({ payload: {}, type: 'gateway.ready' } as any)
+    buildQuillGatewayRouter(ctx)({ payload: {}, type: 'gateway.ready' } as any)
 
     await vi.waitFor(() => expect(resumeById).toHaveBeenCalledWith('sess-most-recent'))
     expect(newSession).not.toHaveBeenCalled()
@@ -664,7 +664,7 @@ describe('createGatewayEventHandler', () => {
       return null
     })
 
-    createGatewayEventHandler(ctx)({ payload: {}, type: 'gateway.ready' } as any)
+    buildQuillGatewayRouter(ctx)({ payload: {}, type: 'gateway.ready' } as any)
 
     await vi.waitFor(() => expect(newSession).toHaveBeenCalled())
     expect(resumeById).not.toHaveBeenCalled()
@@ -687,7 +687,7 @@ describe('createGatewayEventHandler', () => {
       return null
     })
 
-    createGatewayEventHandler(ctx)({ payload: {}, type: 'gateway.ready' } as any)
+    buildQuillGatewayRouter(ctx)({ payload: {}, type: 'gateway.ready' } as any)
 
     await vi.waitFor(() => expect(newSession).toHaveBeenCalled())
     expect(resumeById).not.toHaveBeenCalled()
@@ -714,7 +714,7 @@ describe('createGatewayEventHandler', () => {
       return null
     })
 
-    createGatewayEventHandler(ctx)({ payload: {}, type: 'gateway.ready' } as any)
+    buildQuillGatewayRouter(ctx)({ payload: {}, type: 'gateway.ready' } as any)
 
     await vi.waitFor(() => expect(newSession).toHaveBeenCalled())
     expect(resumeById).not.toHaveBeenCalled()
@@ -733,7 +733,7 @@ describe('createGatewayEventHandler', () => {
       config: { display: { tui_auto_resume_recent: true } }
     }))
 
-    createGatewayEventHandler(ctx)({ payload: {}, type: 'gateway.ready' } as any)
+    buildQuillGatewayRouter(ctx)({ payload: {}, type: 'gateway.ready' } as any)
 
     await vi.waitFor(() => expect(resumeById).toHaveBeenCalledWith('env-explicit'))
     expect(newSession).not.toHaveBeenCalled()
@@ -746,7 +746,7 @@ describe('createGatewayEventHandler', () => {
       throw new Error('cold start')
     })
 
-    const onEvent = createGatewayEventHandler(ctx)
+    const onEvent = buildQuillGatewayRouter(ctx)
 
     onEvent({ payload: { line: 'Traceback: noisy but non-fatal' }, type: 'gateway.stderr' } as any)
     onEvent({ payload: { preview: 'bad framing' }, type: 'gateway.protocol_error' } as any)
@@ -770,7 +770,7 @@ describe('createGatewayEventHandler', () => {
 
   it('still surfaces terminal turn failures as errors', () => {
     const appended: Msg[] = []
-    const onEvent = createGatewayEventHandler(buildCtx(appended))
+    const onEvent = buildQuillGatewayRouter(buildCtx(appended))
 
     onEvent({ payload: { message: 'boom' }, type: 'error' } as any)
 
@@ -779,7 +779,7 @@ describe('createGatewayEventHandler', () => {
 
   it('accepts timeout/error subagent terminal statuses and ignores stale live events', () => {
     const appended: Msg[] = []
-    const onEvent = createGatewayEventHandler(buildCtx(appended))
+    const onEvent = buildQuillGatewayRouter(buildCtx(appended))
 
     onEvent({
       payload: { goal: 'timeout child', subagent_id: 'sa-timeout', task_index: 0 },
@@ -818,7 +818,7 @@ describe('createGatewayEventHandler', () => {
 
   it('normalizes unknown subagent.complete statuses to completed', () => {
     const appended: Msg[] = []
-    const onEvent = createGatewayEventHandler(buildCtx(appended))
+    const onEvent = buildQuillGatewayRouter(buildCtx(appended))
 
     onEvent({
       payload: { goal: 'weird child', subagent_id: 'sa-weird', task_index: 2 },
@@ -847,7 +847,7 @@ describe('createGatewayEventHandler', () => {
       const appended: Msg[] = []
       const ctx = buildCtx(appended)
       ctx.gateway.gw.request = vi.fn(async () => ({ status: 'interrupted' }))
-      const onEvent = createGatewayEventHandler(ctx)
+      const onEvent = buildQuillGatewayRouter(ctx)
 
       patchUiState({ sid: 'sess-1' })
       onEvent({ payload: {}, type: 'message.start' } as any)

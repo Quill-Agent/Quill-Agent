@@ -1,3 +1,4 @@
+/** @quill/ink — Quill-Agent border and box drawing for terminal UI. */
 import chalk from 'chalk'
 import cliBoxes, { type Boxes, type BoxStyle } from 'cli-boxes'
 

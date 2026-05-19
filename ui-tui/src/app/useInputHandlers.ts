@@ -220,7 +220,7 @@ export function useInputHandlers(ctx: InputHandlerContext): InputHandlerResult {
   // (gateway -> start_continuous(auto_restart=false), VAD auto-stop ->
   // transcribe -> idle), a subsequent press stops and transcribes it.
   // The gateway publishes voice.status + voice.transcript events that
-  // createGatewayEventHandler turns into UI badges and composer injection.
+  // buildQuillGatewayRouter turns into UI badges and composer injection.
   const voiceRecordToggle = () => {
     if (!voice.enabled) {
       return actions.sys('voice: mode is off — enable with /voice on')

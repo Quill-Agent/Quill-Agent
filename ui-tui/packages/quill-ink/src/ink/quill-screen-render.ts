@@ -1,3 +1,4 @@
+/** @quill/ink — Quill-Agent React tree → terminal frame renderer. */
 import noop from 'lodash-es/noop.js'
 import type { ReactElement } from 'react'
 import { LegacyRoot } from 'react-reconciler/constants.js'

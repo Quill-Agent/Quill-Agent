@@ -15,7 +15,7 @@ import {
   type ParsedKey,
   type ParsedMouse,
   parseMultipleKeypresses
-} from '../parse-keypress.js'
+} from '../quill-keypress.js'
 import reconciler from '../reconciler.js'
 import { finishSelection, hasSelection, type SelectionState, startSelection } from '../selection.js'
 import { getTerminalFocused, setTerminalFocused } from '../terminal-focus-state.js'

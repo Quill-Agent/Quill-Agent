@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 
-import { INITIAL_STATE, parseMultipleKeypresses } from './parse-keypress.js'
+import { INITIAL_STATE, parseMultipleKeypresses } from './quill-keypress.js'
 import { PASTE_END, PASTE_START } from './termio/csi.js'
 
 describe('parseMultipleKeypresses bracketed paste recovery', () => {

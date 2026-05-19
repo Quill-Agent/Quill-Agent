@@ -3,7 +3,7 @@ import { useContext, useMemo } from 'react'
 import StdinContext from '../components/StdinContext.js'
 import type { DOMElement } from '../dom.js'
 import instances from '../instances.js'
-import type { MatchPosition } from '../render-to-screen.js'
+import type { MatchPosition } from '../quill-screen-render.js'
 
 /**
  * Set the search highlight query on the Ink instance. Non-empty → all

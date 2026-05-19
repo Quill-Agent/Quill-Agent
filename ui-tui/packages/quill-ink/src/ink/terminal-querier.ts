@@ -20,7 +20,7 @@
  *   // sync and grapheme are DECRPM responses or undefined if unsupported
  */
 
-import type { TerminalResponse } from './parse-keypress.js'
+import type { TerminalResponse } from './quill-keypress.js'
 import { csi } from './termio/csi.js'
 import { osc } from './termio/osc.js'
 

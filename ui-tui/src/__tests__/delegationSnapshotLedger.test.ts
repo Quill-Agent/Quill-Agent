@@ -1,8 +1,8 @@
 import { beforeEach, describe, expect, it } from 'vitest'
 
-import { clearSpawnHistory, getSpawnHistory, pushDiskSnapshot } from '../app/spawnHistoryStore.js'
+import { clearSpawnHistory, getSpawnHistory, pushDiskSnapshot } from '../app/delegationSnapshotLedger.js'
 
-describe('spawnHistoryStore status normalization', () => {
+describe('delegationSnapshotLedger status normalization', () => {
   beforeEach(() => {
     clearSpawnHistory()
   })

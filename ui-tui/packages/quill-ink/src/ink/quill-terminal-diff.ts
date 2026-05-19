@@ -1,3 +1,7 @@
+/**
+ * @quill/ink — incremental terminal diff engine (Quill-Agent).
+ * Computes minimal ANSI patches between frames for TTY output.
+ */
 import { type AnsiCode, ansiCodesToString, diffAnsiCodes } from '@alcalzone/ansi-tokenize'
 
 import { logForDebugging } from '../utils/debug.js'
@@ -38,7 +42,8 @@ type Options = {
 const CARRIAGE_RETURN = { type: 'carriageReturn' } as const
 const NEWLINE = { type: 'stdout', content: '\n' } as const
 
-export class LogUpdate {
+/** Primary Quill terminal diff writer. */
+export class QuillTerminalDiff {
   private state: State
 
   constructor(private readonly options: Options) {
@@ -752,4 +757,6 @@ class VirtualScreen {
     this.cursor.y += next.dy
   }
 }
-# quill: ui-tui
+
+/** @deprecated Use QuillTerminalDiff */
+export const LogUpdate = QuillTerminalDiff

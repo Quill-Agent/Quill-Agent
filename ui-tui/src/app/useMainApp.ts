@@ -25,7 +25,7 @@ import { buildToolTrailLine, sameToolTrailGroup, toolTrailLabel } from '../lib/t
 import { estimatedMsgHeight, messageHeightKey } from '../lib/virtualHeights.js'
 import type { Msg, PanelSection, SlashCatalog } from '../types.js'
 
-import { createGatewayEventHandler } from './createGatewayEventHandler.js'
+import { buildQuillGatewayRouter } from './quillGatewayRouter.js'
 import { createSlashHandler } from './createSlashHandler.js'
 import { getInputSelection } from './inputSelectionStore.js'
 import { type GatewayRpc, type TranscriptRow } from './interfaces.js'
@@ -34,8 +34,8 @@ import { scrollWithSelectionBy } from './scroll.js'
 import { turnController } from './turnController.js'
 import { patchTurnState, useTurnSelector } from './turnStore.js'
 import { $uiState, getUiState, patchUiState } from './uiStore.js'
-import { useComposerState } from './useComposerState.js'
-import { useConfigSync } from './useConfigSync.js'
+import { useQuillComposer } from './useQuillComposer.js'
+import { useQuillRuntimeSync } from './useQuillRuntimeSync.js'
 import { useInputHandlers } from './useInputHandlers.js'
 import { useLongRunToolCharms } from './useLongRunToolCharms.js'
 import { useSessionLifecycle } from './useSessionLifecycle.js'
@@ -192,7 +192,7 @@ export function useMainApp(gw: GatewayClient) {
     getInputSelection()?.collapseToEnd()
   }, [selection])
 
-  const composer = useComposerState({
+  const composer = useQuillComposer({
     gw,
     onClipboardPaste: quiet => clipboardPasteRef.current(quiet),
     onImageAttached: info => {
@@ -407,7 +407,7 @@ export function useMainApp(gw: GatewayClient) {
     }
   }, [ui.busy])
 
-  useConfigSync({ gw, setBellOnComplete, setVoiceEnabled, setVoiceRecordKey, sid: ui.sid })
+  useQuillRuntimeSync({ gw, setBellOnComplete, setVoiceEnabled, setVoiceRecordKey, sid: ui.sid })
 
   // Tab title: `⚠` waiting on approval/sudo/secret/clarify, `⏳` busy, `✓` idle.
   const model = ui.info?.model?.replace(/^.*\//, '') ?? ''
@@ -563,7 +563,7 @@ export function useMainApp(gw: GatewayClient) {
 
   const onEvent = useMemo(
     () =>
-      createGatewayEventHandler({
+      buildQuillGatewayRouter({
         composer: { setInput: composerActions.setInput },
         gateway,
         session: {

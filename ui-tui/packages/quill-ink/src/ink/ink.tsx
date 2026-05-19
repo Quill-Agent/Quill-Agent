@@ -27,11 +27,11 @@ import { emptyFrame, type Frame, type FrameEvent } from './frame.js'
 import { dispatchClick, dispatchHover, dispatchMouse } from './hit-test.js'
 import { applyHyperlinkHoverHighlight } from './hyperlinkHover.js'
 import instances from './instances.js'
-import { LogUpdate } from './log-update.js'
+import { QuillTerminalDiff } from './quill-terminal-diff.js'
 import { nodeCache } from './node-cache.js'
 import { optimize } from './optimizer.js'
 import Output from './output.js'
-import type { ParsedKey } from './parse-keypress.js'
+import type { ParsedKey } from './quill-keypress.js'
 import reconciler, {
   dispatcher,
   getLastCommitMs,
@@ -40,7 +40,7 @@ import reconciler, {
   resetProfileCounters
 } from './reconciler.js'
 import renderNodeToOutput, { consumeFollowScroll, didLayoutShift } from './render-node-to-output.js'
-import { applyPositionedHighlight, type MatchPosition, scanPositions } from './render-to-screen.js'
+import { applyPositionedHighlight, type MatchPosition, scanPositions } from './quill-screen-render.js'
 import createRenderer, { type Renderer } from './renderer.js'
 import {
   cellAt,
@@ -169,7 +169,7 @@ export type Options = {
   onHyperlinkClick?: (url: string) => void
 }
 export default class Ink {
-  private readonly log: LogUpdate
+  private readonly log: QuillTerminalDiff
   private readonly terminal: Terminal
   private scheduleRender: (() => void) & {
     cancel?: () => void
@@ -349,7 +349,7 @@ export default class Ink {
       this.charPool,
       this.hyperlinkPool
     )
-    this.log = new LogUpdate({
+    this.log = new QuillTerminalDiff({
       isTTY: (options.stdout.isTTY as boolean | undefined) || false,
       stylePool: this.stylePool
     })

@@ -1,3 +1,6 @@
+/**
+ * Quill TUI — sync gateway config (display, voice, busy-input mode) into UI state.
+ */
 import { useEffect, useRef } from 'react'
 
 import { resolveDetailsMode, resolveSections } from '../domain/details.js'
@@ -106,7 +109,7 @@ const _voiceRecordKeyFromConfig = (cfg: ConfigFullResponse | null): ParsedVoiceR
  * suite without a React runtime (Copilot round-12 review on #19835).
  * Both the initial hydration and the mtime poller use this shared
  * helper, so a regression in the fetch/apply plumbing now fails the
- * useConfigSync tests instead of only being visible at runtime. */
+ * useQuillRuntimeSync tests instead of only being visible at runtime. */
 export async function hydrateFullConfig(
   gw: GatewayClient,
   setBell: (v: boolean) => void,
@@ -151,7 +154,7 @@ export const applyDisplay = (
   })
 }
 
-export function useConfigSync({
+export function useQuillRuntimeSync({
   gw,
   setBellOnComplete,
   setVoiceEnabled,

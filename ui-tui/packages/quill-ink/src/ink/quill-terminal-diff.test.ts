@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
 
 import type { Frame } from './frame.js'
-import { LogUpdate } from './log-update.js'
+import { LogUpdate } from './quill-terminal-diff.js'
 import { CellWidth, CharPool, createScreen, HyperlinkPool, type Screen, setCellAt, StylePool } from './screen.js'
 
 /**

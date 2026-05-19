@@ -1,3 +1,6 @@
+/**
+ * Quill TUI — composer draft, paste handling, queue editing, and external editor launch.
+ */
 import { spawnSync } from 'node:child_process'
 import { mkdtempSync, readFileSync, rmSync, writeFileSync } from 'node:fs'
 import { tmpdir } from 'node:os'
@@ -98,7 +101,7 @@ export function looksLikeDroppedPath(text: string): boolean {
   return false
 }
 
-export function useComposerState({
+export function useQuillComposer({
   gw,
   onClipboardPaste,
   onImageAttached,

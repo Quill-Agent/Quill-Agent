@@ -19,7 +19,7 @@ import {
 import type { ActiveTool, ActivityItem, Msg, SubagentProgress, TodoItem } from '../types.js'
 
 import { resetFlowOverlays } from './overlayStore.js'
-import { pushSnapshot } from './spawnHistoryStore.js'
+import { pushSnapshot } from './delegationSnapshotLedger.js'
 import { archiveDoneTodos, getTurnState, patchTurnState, resetTurnState } from './turnStore.js'
 import { getUiState, patchUiState } from './uiStore.js'
 
@@ -506,7 +506,7 @@ class TurnController {
     if (finishedSubagents.length > 0) {
       pushSnapshot(finishedSubagents, { sessionId, startedAt: null })
       // Fire-and-forget disk persistence so /replay survives process restarts.
-      // The same snapshot lives in memory via spawnHistoryStore for immediate
+      // The same snapshot lives in memory via delegationSnapshotLedger for immediate
       // recall — disk is the long-term archive.
       void this.persistSpawnTree?.(finishedSubagents, sessionId)
     }

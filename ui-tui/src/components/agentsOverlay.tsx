@@ -9,7 +9,7 @@ import {
   toggleOverlaySection
 } from '../app/delegationStore.js'
 import { patchOverlayState } from '../app/overlayStore.js'
-import { $spawnDiff, $spawnHistory, clearDiffPair, type SpawnSnapshot } from '../app/spawnHistoryStore.js'
+import { $spawnDiff, $spawnHistory, clearDiffPair, type SpawnSnapshot } from '../app/delegationSnapshotLedger.js'
 import { useTurnSelector } from '../app/turnStore.js'
 import type { GatewayClient } from '../gatewayClient.js'
 import type { DelegationPauseResponse, DelegationStatusResponse, SubagentInterruptResponse } from '../gatewayTypes.js'

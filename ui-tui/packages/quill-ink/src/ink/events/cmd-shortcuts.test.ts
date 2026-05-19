@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 
-import { parseMultipleKeypresses } from '../parse-keypress.js'
+import { parseMultipleKeypresses } from '../quill-keypress.js'
 
 import { InputEvent } from './input-event.js'
 

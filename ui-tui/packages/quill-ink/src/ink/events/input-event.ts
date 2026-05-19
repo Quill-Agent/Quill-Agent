@@ -1,4 +1,4 @@
-import { nonAlphanumericKeys, type ParsedKey } from '../parse-keypress.js'
+import { nonAlphanumericKeys, type ParsedKey } from '../quill-keypress.js'
 
 import { Event } from './event.js'
 

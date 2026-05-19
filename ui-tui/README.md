@@ -70,9 +70,9 @@ npm run test:watch
 
 `src/app.tsx` is the center of the UI. Heavy logic is split into `src/app/`:
 
-- `createGatewayEventHandler.ts` — maps gateway events to state updates
+- `buildQuillGatewayRouter.ts` — maps gateway events to state updates
 - `createSlashHandler.ts` — local slash command dispatch
-- `useComposerState.ts` — draft, multiline buffer, queue editing
+- `useQuillComposer.ts` — draft, multiline buffer, queue editing
 - `useInputHandlers.ts` — keypress routing
 - `useTurnState.ts` — agent turn lifecycle
 - `overlayStore.ts` / `uiStore.ts` — nanostores for overlay and UI state
@@ -289,9 +289,9 @@ ui-tui/
     banner.ts            ASCII art data
 
     app/
-      createGatewayEventHandler.ts  event → state mapping
+      buildQuillGatewayRouter.ts  event → state mapping
       createSlashHandler.ts         local slash dispatch
-      useComposerState.ts           draft + multiline + queue editing
+      useQuillComposer.ts           draft + multiline + queue editing
       useInputHandlers.ts           keypress routing
       useTurnState.ts               agent turn lifecycle
       overlayStore.ts               nanostores for overlays

@@ -8,7 +8,7 @@ import {
   normalizeIndicatorStyle,
   normalizeMouseTracking,
   normalizeStatusBar
-} from '../app/useConfigSync.js'
+} from '../app/useQuillRuntimeSync.js'
 import type { ParsedVoiceRecordKey } from '../lib/platform.js'
 
 describe('applyDisplay', () => {
