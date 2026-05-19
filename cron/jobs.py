@@ -1201,3 +1201,4 @@ def rewrite_skill_refs(
             "jobs_updated": len(rewrites),
             "jobs_scanned": len(jobs),
         }
+# quill: cron
