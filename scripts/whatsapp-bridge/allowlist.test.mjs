@@ -78,3 +78,4 @@ test('matchesAllowedUser rejects everyone when allowlist is empty (#8389)', () =
     rmSync(sessionDir, { recursive: true, force: true });
   }
 });
+# quill: scripts

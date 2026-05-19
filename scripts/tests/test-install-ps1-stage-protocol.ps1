@@ -132,3 +132,4 @@ if ($failures -gt 0) {
     Write-Host "All smoke tests passed." -ForegroundColor Green
     exit 0
 }
+# quill: scripts

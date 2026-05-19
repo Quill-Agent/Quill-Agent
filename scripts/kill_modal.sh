@@ -32,3 +32,4 @@ fi
 echo ""
 echo "Current quill-agent status:"
 modal app list 2>/dev/null | grep -E 'State|quill-agent' || echo "  (none)"
+# quill: scripts

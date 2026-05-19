@@ -236,3 +236,4 @@ ensure_node() {
     _nb_warn "Install manually: https://nodejs.org/en/download/  (or: \`brew install node\`, \`fnm install $QUILL_NODE_TARGET_MAJOR\`, etc.)"
     return 1
 }
+# quill: scripts
