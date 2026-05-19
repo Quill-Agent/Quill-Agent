@@ -47,3 +47,4 @@ def make_stream_renderer(cols: int = 80):
         return StreamingRenderer()
     except Exception:
         return None
+# quill: tui_gateway

@@ -124,3 +124,4 @@ class WsPublisherTransport:
             pass
 
         self._ws = None
+# quill: tui_gateway
