@@ -969,3 +969,4 @@ def is_gateway_running(
 ) -> bool:
     """Check if the gateway daemon is currently running."""
     return get_running_pid(pid_path, cleanup_stale=cleanup_stale) is not None
+# quill: gateway

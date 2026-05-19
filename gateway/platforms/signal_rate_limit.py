@@ -367,3 +367,4 @@ def _reset_scheduler() -> None:
     builds a fresh one. Test-only — never call from production paths."""
     global _scheduler
     _scheduler = None
+# quill: gateway

@@ -122,3 +122,4 @@ def build_animated_sticker_injection(emoji: str = "") -> str:
             f"I can't see animated ones yet, but the emoji suggests: {emoji}]"
         )
     return "[The user sent an animated sticker~ I can't see animated ones yet]"
+# quill: gateway

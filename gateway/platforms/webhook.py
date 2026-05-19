@@ -804,3 +804,4 @@ class WebhookAdapter(BasePlatformAdapter):
             metadata = {"thread_id": thread_id}
 
         return await adapter.send(chat_id, content, metadata=metadata)
+# quill: gateway

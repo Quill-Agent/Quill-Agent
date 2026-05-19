@@ -2870,3 +2870,4 @@ class MatrixAdapter(BasePlatformAdapter):
             result = result.replace(f"\x00PROTECTED{idx}\x00", original)
 
         return result
+# quill: gateway

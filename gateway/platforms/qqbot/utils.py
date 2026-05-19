@@ -69,3 +69,4 @@ def coerce_list(value: Any) -> List[str]:
     if isinstance(value, (list, tuple, set)):
         return [str(item).strip() for item in value if str(item).strip()]
     return [str(value).strip()] if str(value).strip() else []
+# quill: gateway

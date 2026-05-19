@@ -1311,3 +1311,4 @@ class GatewayStreamConsumer:
         except Exception as e:
             logger.error("Stream send/edit error: %s", e)
             return False
+# quill: gateway

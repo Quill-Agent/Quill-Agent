@@ -1551,3 +1551,4 @@ class SignalAdapter(BasePlatformAdapter):
             "type": "dm",
             "chat_id": chat_id,
         }
+# quill: gateway

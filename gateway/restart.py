@@ -18,3 +18,4 @@ def parse_restart_drain_timeout(raw: object) -> float:
     except (TypeError, ValueError):
         return DEFAULT_GATEWAY_RESTART_DRAIN_TIMEOUT
     return max(0.0, value)
+# quill: gateway

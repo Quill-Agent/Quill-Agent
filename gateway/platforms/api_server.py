@@ -3522,3 +3522,4 @@ class APIServerAdapter(BasePlatformAdapter):
             "host": self._host,
             "port": self._port,
         }
+# quill: gateway

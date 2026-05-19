@@ -258,3 +258,4 @@ class PlatformRegistry:
 
 # Module-level singleton
 platform_registry = PlatformRegistry()
+# quill: gateway

@@ -471,3 +471,4 @@ def parse_interaction_event(raw: Dict[str, Any]) -> InteractionEvent:
         button_id=str(resolved.get("button_id", "")),
         resolver_user_id=str(resolved.get("user_id", "")),
     )
+# quill: gateway

@@ -460,3 +460,4 @@ def _parse_systemd_duration_to_us(raw: str) -> Optional[int]:
                 return None
             digits = ""
     return total_us if total_us > 0 else None
+# quill: gateway

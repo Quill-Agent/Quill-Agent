@@ -252,7 +252,4 @@ class DeliveryRouter:
         if target.thread_id and "thread_id" not in send_metadata:
             send_metadata["thread_id"] = target.thread_id
         return await adapter.send(target.chat_id, content, metadata=send_metadata or None)
-
-
-
-
+# quill: gateway

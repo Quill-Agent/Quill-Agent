@@ -82,3 +82,4 @@ def platform_httpx_limits() -> "httpx.Limits | None":
         # Leave max_connections at httpx default (100) — plenty of headroom.
         keepalive_expiry=keepalive_expiry,
     )
+# quill: gateway

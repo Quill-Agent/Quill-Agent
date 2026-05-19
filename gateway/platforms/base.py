@@ -3810,3 +3810,4 @@ class BasePlatformAdapter(ABC):
             ]
 
         return chunks
+# quill: gateway

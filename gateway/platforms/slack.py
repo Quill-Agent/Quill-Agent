@@ -3025,3 +3025,4 @@ class SlackAdapter(BasePlatformAdapter):
         if isinstance(raw, str) and raw.strip():
             return {part.strip() for part in raw.split(",") if part.strip()}
         return set()
+# quill: gateway

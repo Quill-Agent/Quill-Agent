@@ -4870,3 +4870,4 @@ async def send_yuanbao_direct(
 ) -> Dict[str, Any]:
     """Delegate to ``OutboundManager.send_direct``."""
     return await adapter._outbound.send_direct(chat_id, message, media_files)
+# quill: gateway

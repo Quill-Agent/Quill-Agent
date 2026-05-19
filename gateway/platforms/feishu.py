@@ -5056,3 +5056,4 @@ def _qr_register_inner(
         result["bot_open_id"] = None
 
     return result
+# quill: gateway

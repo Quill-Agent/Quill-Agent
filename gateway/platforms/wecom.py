@@ -1608,3 +1608,4 @@ def qr_scan_for_bot_info(
     print()  # newline after dots
     print(f"  QR scan timed out ({timeout_seconds // 60} minutes). Please try again.")
     return None
+# quill: gateway

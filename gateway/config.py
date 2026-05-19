@@ -1915,3 +1915,4 @@ def _apply_env_overrides(config: GatewayConfig) -> None:
                         )
     except Exception as e:
         logger.debug("Plugin platform enable pass failed: %s", e)
+# quill: gateway

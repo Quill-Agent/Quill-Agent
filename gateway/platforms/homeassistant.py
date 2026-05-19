@@ -447,3 +447,4 @@ class HomeAssistantAdapter(BasePlatformAdapter):
             "type": "channel",
             "url": self._hass_url,
         }
+# quill: gateway

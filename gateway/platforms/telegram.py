@@ -5437,3 +5437,4 @@ class TelegramAdapter(BasePlatformAdapter):
                 message_id,
                 "\U0001f44d" if outcome == ProcessingOutcome.SUCCESS else "\U0001f44e",
             )
+# quill: gateway

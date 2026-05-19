@@ -319,3 +319,4 @@ class PairingStore:
                 if not platform.startswith("_"):
                     platforms.append(platform)
         return platforms
+# quill: gateway

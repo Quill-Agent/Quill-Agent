@@ -276,3 +276,4 @@ def redact_phone(phone: str) -> str:
     if len(phone) <= 8:
         return phone[:2] + "****" + phone[-2:] if len(phone) > 4 else "****"
     return phone[:4] + "****" + phone[-4:]
+# quill: gateway

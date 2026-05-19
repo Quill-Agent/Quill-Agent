@@ -153,3 +153,4 @@ def canonical_whatsapp_identifier(identifier: str) -> str:
     # when no lid-mapping files are present.
     aliases = expand_whatsapp_aliases(normalized)
     return min(aliases, key=lambda candidate: (len(candidate), candidate))
+# quill: gateway

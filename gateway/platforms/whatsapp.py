@@ -1280,3 +1280,4 @@ class WhatsAppAdapter(BasePlatformAdapter):
         except Exception as e:
             print(f"[{self.name}] Error building event: {e}")
             return None
+# quill: gateway

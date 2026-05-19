@@ -148,3 +148,4 @@ def build_footer_line(
         cwd=cwd,
         fields=cfg.get("fields") or _DEFAULT_FIELDS,
     )
+# quill: gateway

@@ -401,3 +401,4 @@ class WecomCallbackAdapter(BasePlatformAdapter):
             expires_in,
         )
         return token
+# quill: gateway

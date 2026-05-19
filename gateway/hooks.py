@@ -208,3 +208,4 @@ class HookRegistry:
             except Exception as e:
                 print(f"[hooks] Error in handler for '{event_type}': {e}", flush=True)
         return results
+# quill: gateway

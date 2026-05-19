@@ -228,3 +228,4 @@ def is_running() -> bool:
     """True if the background monitor thread is alive."""
     with _lock:
         return _monitor_thread is not None and _monitor_thread.is_alive()
+# quill: gateway

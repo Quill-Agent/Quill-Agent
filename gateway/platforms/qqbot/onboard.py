@@ -218,3 +218,4 @@ def qr_register(timeout_seconds: int = 600) -> Optional[dict]:
             return None
 
     return None
+# quill: gateway

@@ -3069,3 +3069,4 @@ class QQAdapter(BasePlatformAdapter):
             return True
         self._seen_messages[msg_id] = now
         return False
+# quill: gateway

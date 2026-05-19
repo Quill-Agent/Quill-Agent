@@ -1207,3 +1207,4 @@ def decode_get_group_member_list_rsp(data: bytes) -> Optional[dict]:
         }
     except Exception:
         return None
+# quill: gateway

@@ -395,3 +395,4 @@ class MSGraphWebhookAdapter(BasePlatformAdapter):
         task = asyncio.create_task(self.handle_message(event))
         self._background_tasks.add(task)
         task.add_done_callback(self._background_tasks.discard)
+# quill: gateway

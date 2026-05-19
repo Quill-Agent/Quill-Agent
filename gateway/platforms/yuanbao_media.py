@@ -643,3 +643,4 @@ def _basename_from_url(url: str) -> str:
         return os.path.basename(parsed.path)
     except Exception:
         return ""
+# quill: gateway

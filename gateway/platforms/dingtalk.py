@@ -1481,3 +1481,4 @@ class _IncomingHandler(
             logger.exception(
                 "[%s] Error processing incoming message", self._adapter.name
             )
+# quill: gateway

@@ -372,3 +372,4 @@ grep -r "telegram\|discord\|whatsapp\|slack" gateway/ tools/ agent/ cron/ quill_
   --include="*.py" -l | sort -u
 # Check each file in the output — if it mentions other platforms but not yours, you missed it
 ```
+<!-- quill: gateway -->

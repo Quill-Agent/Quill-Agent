@@ -140,3 +140,4 @@ class WXBizMsgCrypt:
     def _random_nonce(length: int = 10) -> str:
         alphabet = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
         return "".join(secrets.choice(alphabet) for _ in range(length))
+# quill: gateway

@@ -2167,3 +2167,4 @@ async def send_weixin_direct(
             "message_id": last_result.message_id if last_result else None,
             "context_token_used": bool(context_token),
         }
+# quill: gateway

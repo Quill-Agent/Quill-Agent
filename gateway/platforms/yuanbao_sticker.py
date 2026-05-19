@@ -556,3 +556,4 @@ def build_sticker_msg_body(sticker: dict) -> list:
         separators=(",", ":"),
     )
     return build_face_msg_body(face_index=0, data=data_payload)
+# quill: gateway

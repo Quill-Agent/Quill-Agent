@@ -355,3 +355,4 @@ def format_directory_for_display() -> str:
     lines.append('Bare platform name (e.g. "telegram") sends to home channel.')
 
     return "\n".join(lines)
+# quill: gateway

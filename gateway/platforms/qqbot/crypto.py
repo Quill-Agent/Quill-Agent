@@ -43,3 +43,4 @@ def decrypt_secret(encrypted_base64: str, key_base64: str) -> str:
     aesgcm = AESGCM(key)
     plaintext = aesgcm.decrypt(iv, ciphertext_with_tag, None)
     return plaintext.decode("utf-8")
+# quill: gateway

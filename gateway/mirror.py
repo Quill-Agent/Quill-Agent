@@ -176,3 +176,4 @@ def _append_to_sqlite(session_id: str, message: dict) -> None:
     finally:
         if db is not None:
             db.close()
+# quill: gateway

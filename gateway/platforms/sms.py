@@ -377,3 +377,4 @@ class SmsAdapter(BasePlatformAdapter):
             text='<?xml version="1.0" encoding="UTF-8"?><Response></Response>',
             content_type="application/xml",
         )
+# quill: gateway

@@ -5649,3 +5649,4 @@ if DISCORD_AVAILABLE:
             self.resolved = True
             for child in self.children:
                 child.disabled = True
+# quill: gateway

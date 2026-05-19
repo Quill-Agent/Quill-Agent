@@ -934,4 +934,4 @@ class BlueBubblesAdapter(BasePlatformAdapter):
             asyncio.create_task(self.mark_read(session_chat_id))
 
         return web.Response(text="ok")
-
+# quill: gateway

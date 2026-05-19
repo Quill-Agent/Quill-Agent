@@ -771,3 +771,4 @@ class EmailAdapter(BasePlatformAdapter):
             "chat_id": chat_id,
             "subject": ctx.get("subject", ""),
         }
+# quill: gateway

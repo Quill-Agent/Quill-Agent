@@ -257,3 +257,4 @@ def _rewrite_request_for_ip(request: httpx.Request, ip: str) -> httpx.Request:
 
 def _is_retryable_connect_error(exc: Exception) -> bool:
     return isinstance(exc, (httpx.ConnectTimeout, httpx.ConnectError))
+# quill: gateway
