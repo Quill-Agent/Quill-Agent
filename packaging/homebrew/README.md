@@ -12,3 +12,4 @@ Typical update flow:
 2. Refresh Python resources with `brew update-python-resources --print-only quill-agent`.
 3. Keep `ignore_packages: %w[certifi cryptography pydantic]`.
 4. Verify `brew audit --new --strict quill-agent` and `brew test quill-agent`.
+<!-- quill: packaging -->

@@ -46,3 +46,4 @@ class QuillAgent < Formula
     assert_match "brew upgrade quill-agent", managed
   end
 end
+# quill: packaging
