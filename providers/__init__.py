@@ -189,3 +189,4 @@ def _discover_providers() -> None:
                 )
     except Exception:
         pass
+# quill: providers

@@ -182,3 +182,4 @@ class ProviderProfile:
         except Exception as exc:
             logger.debug("fetch_models(%s): %s", self.name, exc)
             return None
+# quill: providers

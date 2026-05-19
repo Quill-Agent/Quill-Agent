@@ -76,3 +76,4 @@ under `$QUILL_HOME/plugins/model-providers/` for a private plugin).
 ## Configuration fields
 
 Full reference in `providers/base.py` dataclass definition.
+<!-- quill: providers -->
