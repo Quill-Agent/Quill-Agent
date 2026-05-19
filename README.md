@@ -1,5 +1,9 @@
 <div align="center">
 
+<img src="assets/banner.png" alt="Quill-Agent banner" width="100%" />
+
+<br /><br />
+
 # Quill-Agent ✒️
 
 ### *The self-improving AI agent that writes its own future*
@@ -11,7 +15,7 @@
 
 **Quill-Agent** is a fully open-source, self-improving AI agent that runs on 100% free and open-source AI models. It learns from every conversation, builds skills over time, runs scheduled automations, delegates tasks to subagents, and lives wherever you do — terminal, Telegram, Discord, Slack, and more.
 
-> Based on the architecture of [Quill-Agent/quill-agent](https://github.com/Quill-Agent/quill-agent), rebuilt and rebranded as **Quill-Agent** — a clean, independent fork powered exclusively by open-source models.
+> Fully open-source AI agent — local models, free-tier APIs, and self-hosted endpoints. See **[API access guide](docs/API_ACCESS.md)** for setup.
 
 </div>
 
@@ -221,6 +225,20 @@ quill-agent/
 ├── cli.py              # CLI launcher
 └── run_agent.py        # Agent runner
 ```
+
+---
+
+## 🔑 API access
+
+Quill supports **local Ollama** (no key), **Groq**, **OpenRouter**, **Hugging Face**, and any OpenAI-compatible endpoint.
+
+```bash
+cp .env.example .env    # add keys for cloud providers (optional)
+quill setup             # interactive provider + model picker
+quill model             # switch provider anytime
+```
+
+Full reference: **[docs/API_ACCESS.md](docs/API_ACCESS.md)**
 
 ---
 
