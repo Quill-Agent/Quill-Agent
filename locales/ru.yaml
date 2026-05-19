@@ -349,3 +349,4 @@ gateway:
     session_db_unavailable_prefix: "База данных сеансов недоступна"
     session_not_found:           "Сеанс не найден в базе данных."
     warn_passthrough:            "⚠️ {error}"
+# quill: locales

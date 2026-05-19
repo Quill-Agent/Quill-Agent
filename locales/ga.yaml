@@ -353,3 +353,4 @@ gateway:
     session_db_unavailable_prefix: "Níl bunachar sonraí na seisiún ar fáil"
     session_not_found:           "Seisiún gan a aimsiú sa bhunachar sonraí."
     warn_passthrough:            "⚠️ {error}"
+# quill: locales

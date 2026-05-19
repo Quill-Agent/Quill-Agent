@@ -349,3 +349,4 @@ gateway:
     session_db_unavailable_prefix: "A munkamenet-adatbázis nem érhető el"
     session_not_found:           "A munkamenet nem található az adatbázisban."
     warn_passthrough:            "⚠️ {error}"
+# quill: locales

@@ -349,3 +349,4 @@ gateway:
     session_db_unavailable_prefix: "Sessie-databasis is nie beskikbaar"
     session_not_found:           "Sessie nie in databasis gevind nie."
     warn_passthrough:            "⚠️ {error}"
+# quill: locales

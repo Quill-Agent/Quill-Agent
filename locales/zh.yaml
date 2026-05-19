@@ -349,3 +349,4 @@ gateway:
     session_db_unavailable_prefix: "会话数据库不可用"
     session_not_found:           "数据库中未找到该会话。"
     warn_passthrough:            "⚠️ {error}"
+# quill: locales

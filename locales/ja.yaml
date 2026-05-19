@@ -349,3 +349,4 @@ gateway:
     session_db_unavailable_prefix: "セッションデータベースが利用できません"
     session_not_found:           "データベースにセッションが見つかりません。"
     warn_passthrough:            "⚠️ {error}"
+# quill: locales

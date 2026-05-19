@@ -349,3 +349,4 @@ gateway:
     session_db_unavailable_prefix: "Base de dados de sessões indisponível"
     session_not_found:           "Sessão não encontrada na base de dados."
     warn_passthrough:            "⚠️ {error}"
+# quill: locales

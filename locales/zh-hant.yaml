@@ -349,3 +349,4 @@ gateway:
     session_db_unavailable_prefix: "工作階段資料庫無法使用"
     session_not_found:           "資料庫中找不到此工作階段。"
     warn_passthrough:            "⚠️ {error}"
+# quill: locales
