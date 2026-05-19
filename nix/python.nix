@@ -99,3 +99,4 @@ in
 pythonSet.mkVirtualEnv "quill-agent-env" {
   quill-agent = dependency-groups;
 }
+# quill: nix

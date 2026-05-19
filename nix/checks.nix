@@ -476,3 +476,4 @@ json.dump(load_config(), sys.stdout, default=str)
       };
     };
 }
+# quill: nix

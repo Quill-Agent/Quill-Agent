@@ -31,3 +31,4 @@ pkgs.writeScript "quill-config-merge" ''
   with open(config_path, "w") as f:
       yaml.dump(merged, f, default_flow_style=False, sort_keys=False)
 ''
+# quill: nix

@@ -29,3 +29,4 @@ pkgs.buildNpmPackage (npm // {
     runHook postInstall
   '';
 })
+# quill: nix
