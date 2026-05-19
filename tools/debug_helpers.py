@@ -103,3 +103,4 @@ class DebugSession:
             "log_path": str(self.log_dir / f"{self.tool_name}_debug_{self.session_id}.json"),
             "total_calls": len(self._calls),
         }
+# quill: tools

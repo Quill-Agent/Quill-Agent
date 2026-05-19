@@ -349,3 +349,4 @@ def is_safe_url(url: str) -> bool:
         # become SSRF bypass vectors
         logger.warning("Blocked request — URL safety check error for %s: %s", url, exc)
         return False
+# quill: tools

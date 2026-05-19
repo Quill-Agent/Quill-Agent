@@ -519,3 +519,4 @@ def check_computer_use_requirements() -> bool:
 def get_computer_use_schema() -> Dict[str, Any]:
     from tools.computer_use.schema import COMPUTER_USE_SCHEMA
     return COMPUTER_USE_SCHEMA
+# quill: tools

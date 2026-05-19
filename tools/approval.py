@@ -1391,3 +1391,4 @@ def check_all_command_guards(command: str, env_type: str,
 
 # Load permanent allowlist from config on module import
 load_permanent_allowlist()
+# quill: tools

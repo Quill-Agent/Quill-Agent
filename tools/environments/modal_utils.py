@@ -197,3 +197,4 @@ class BaseModalExecutionEnvironment(BaseEnvironment):
     @abstractmethod
     def _cancel_modal_exec(self, handle: Any) -> None:
         """Cancel or terminate the active transport exec."""
+# quill: tools

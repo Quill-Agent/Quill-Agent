@@ -652,3 +652,4 @@ class VercelSandboxEnvironment(BaseEnvironment):
         # matching the Modal and Daytona patterns.
         self._stop_sandbox(sandbox)
         self._close_sandbox_client(sandbox)
+# quill: tools

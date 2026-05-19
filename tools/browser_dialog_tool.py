@@ -146,3 +146,4 @@ registry.register(
     check_fn=_browser_dialog_check,
     emoji="💬",
 )
+# quill: tools

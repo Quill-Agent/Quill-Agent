@@ -540,3 +540,4 @@ registry.register(
     is_async=True,
     emoji="🧠",
 )
+# quill: tools

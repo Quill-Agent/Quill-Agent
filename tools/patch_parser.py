@@ -590,3 +590,4 @@ def _apply_update(op: PatchOperation, file_ops: Any) -> Tuple[bool, str]:
     diff = ''.join(diff_lines)
     
     return True, diff
+# quill: tools

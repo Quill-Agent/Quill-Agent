@@ -957,3 +957,4 @@ registry.register(
     check_fn=check_discord_tool_requirements,
     requires_env=["DISCORD_BOT_TOKEN"],
 )
+# quill: tools

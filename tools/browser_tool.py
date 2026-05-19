@@ -3794,3 +3794,4 @@ registry.register(
     check_fn=check_browser_requirements,
     emoji="🖥️",
 )
+# quill: tools

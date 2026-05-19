@@ -1096,3 +1096,4 @@ registry.register(
     is_async=False,   # sync fal_client API to avoid "Event loop is closed" in gateway
     emoji="🎨",
 )
+# quill: tools

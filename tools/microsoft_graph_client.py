@@ -406,3 +406,4 @@ class MicrosoftGraphClient:
             retry_after_seconds=retry_after,
             payload=payload,
         )
+# quill: tools

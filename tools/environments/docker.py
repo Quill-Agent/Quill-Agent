@@ -654,3 +654,4 @@ class DockerEnvironment(BaseEnvironment):
             for d in (self._workspace_dir, self._home_dir):
                 if d:
                     shutil.rmtree(d, ignore_errors=True)
+# quill: tools

@@ -1295,3 +1295,4 @@ registry.register(
     check_fn=_check_kanban_mode,
     emoji="🔗",
 )
+# quill: tools

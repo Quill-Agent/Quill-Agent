@@ -41,3 +41,4 @@ def has_traversal_component(path_str: str) -> bool:
     """
     parts = Path(path_str).parts
     return ".." in parts
+# quill: tools

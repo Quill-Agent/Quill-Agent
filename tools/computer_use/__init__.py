@@ -41,3 +41,4 @@ from tools.computer_use.tool import (  # noqa: F401
     check_computer_use_requirements,
     get_computer_use_schema,
 )
+# quill: tools

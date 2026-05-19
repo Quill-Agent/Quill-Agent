@@ -559,3 +559,4 @@ registry.register(
     emoji="🎬",
     dynamic_schema_overrides=_build_dynamic_video_schema,
 )
+# quill: tools

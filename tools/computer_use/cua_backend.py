@@ -680,3 +680,4 @@ def _parse_element(d: Dict[str, Any]) -> UIElement:
         attributes={k: v for k, v in d.items()
                     if k not in {"index", "role", "label", "bounds", "app", "pid", "windowId"}},
     )
+# quill: tools

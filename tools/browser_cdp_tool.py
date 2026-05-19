@@ -567,3 +567,4 @@ registry.register(
     check_fn=_browser_cdp_check,
     emoji="🧪",
 )
+# quill: tools

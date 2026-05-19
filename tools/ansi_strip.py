@@ -42,3 +42,4 @@ def strip_ansi(text: str) -> str:
     if not text or not _HAS_ESCAPE.search(text):
         return text
     return _ANSI_ESCAPE_RE.sub("", text)
+# quill: tools

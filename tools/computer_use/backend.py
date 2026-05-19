@@ -148,3 +148,4 @@ class ComputerUseBackend(ABC):
         import time
         time.sleep(max(0.0, min(seconds, 30.0)))
         return ActionResult(ok=True, action="wait", message=f"waited {seconds:.2f}s")
+# quill: tools

@@ -1549,3 +1549,4 @@ registry.register(
     emoji="📄",
     max_result_size_chars=100_000,
 )
+# quill: tools

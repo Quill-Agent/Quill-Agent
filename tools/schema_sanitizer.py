@@ -443,3 +443,4 @@ def strip_slash_enum(tools: list[dict]) -> tuple[list[dict], int]:
             stripped,
         )
     return tools, stripped
+# quill: tools

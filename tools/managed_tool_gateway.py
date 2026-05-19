@@ -165,3 +165,4 @@ def is_managed_tool_gateway_ready(
         gateway_builder=gateway_builder,
         token_reader=token_reader,
     ) is not None
+# quill: tools

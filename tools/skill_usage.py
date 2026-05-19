@@ -610,3 +610,4 @@ def agent_created_report() -> List[Dict[str, Any]]:
         row["activity_count"] = activity_count(row)
         rows.append(row)
     return rows
+# quill: tools

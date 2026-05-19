@@ -600,3 +600,4 @@ registry.register(
     check_fn=check_session_search_requirements,
     emoji="🔍",
 )
+# quill: tools

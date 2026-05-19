@@ -153,3 +153,4 @@ def _query_osv(
     vulns = result.get("vulns", [])
     # Only malware advisories — ignore regular CVEs
     return [v for v in vulns if v.get("id", "").startswith("MAL-")]
+# quill: tools

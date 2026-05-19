@@ -79,3 +79,4 @@ def resolve_xai_http_credentials() -> Dict[str, str]:
         "api_key": api_key,
         "base_url": base_url,
     }
+# quill: tools

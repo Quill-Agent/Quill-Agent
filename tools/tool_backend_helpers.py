@@ -142,3 +142,4 @@ def fal_key_is_configured() -> bool:
         except Exception:
             value = None
     return bool(value and value.strip())
+# quill: tools

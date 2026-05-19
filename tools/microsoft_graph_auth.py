@@ -243,3 +243,4 @@ def _extract_error_detail(response: httpx.Response) -> str:
         if isinstance(error, str):
             return error
     return str(payload)
+# quill: tools

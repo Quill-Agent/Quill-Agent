@@ -605,3 +605,4 @@ def reset_manager_for_tests() -> None:
     global _MANAGER
     with _MANAGER_LOCK:
         _MANAGER = None
+# quill: tools

@@ -165,3 +165,4 @@ def resolve_sync_compat(
     except Exception as exc:
         logger.error("resolve_sync_compat failed: %s", exc)
         return None
+# quill: tools

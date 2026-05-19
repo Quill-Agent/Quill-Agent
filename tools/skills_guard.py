@@ -930,3 +930,4 @@ def _build_summary(name: str, source: str, trust: str, verdict: str, findings: L
 
     categories = {f.category for f in findings}
     return f"{name}: {verdict} — {len(findings)} finding(s) in {', '.join(sorted(categories))}"
+# quill: tools

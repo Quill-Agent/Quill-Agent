@@ -1823,3 +1823,4 @@ class ShellFileOperations(FileOperations):
                 total_count=total,
                 truncated=total > offset + limit
             )
+# quill: tools

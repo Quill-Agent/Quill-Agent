@@ -45,3 +45,4 @@ def get_camofox_identity(task_id: Optional[str] = None) -> Dict[str, str]:
         "user_id": f"quill_{user_digest}",
         "session_key": f"task_{session_digest}",
     }
+# quill: tools

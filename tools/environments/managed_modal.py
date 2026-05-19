@@ -280,3 +280,4 @@ class ManagedModalEnvironment(BaseModalExecutionEnvironment):
         if text:
             return f"{prefix}: {text}"
         return f"{prefix}: HTTP {response.status_code}"
+# quill: tools

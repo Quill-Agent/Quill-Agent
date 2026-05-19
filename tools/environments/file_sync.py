@@ -400,3 +400,4 @@ class FileSyncManager:
                 suffix = remote_path[len(remote_dir):]
                 return host_dir + suffix
         return None
+# quill: tools

@@ -701,3 +701,4 @@ def format_no_match_hint(error: Optional[str], match_count: int,
     if not hint:
         return ""
     return "\n\nDid you mean one of these sections?\n" + hint
+# quill: tools

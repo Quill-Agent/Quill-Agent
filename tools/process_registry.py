@@ -1539,3 +1539,4 @@ registry.register(
     handler=_handle_process,
     emoji="⚙️",
 )
+# quill: tools

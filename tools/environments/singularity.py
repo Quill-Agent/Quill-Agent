@@ -260,3 +260,4 @@ class SingularityEnvironment(BaseEnvironment):
             snapshots = _load_snapshots()
             snapshots[self._task_id] = str(self._overlay_dir)
             _save_snapshots(snapshots)
+# quill: tools

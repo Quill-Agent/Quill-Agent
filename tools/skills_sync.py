@@ -427,3 +427,4 @@ if __name__ == "__main__":
     if result["cleaned"]:
         parts.append(f"{len(result['cleaned'])} cleaned from manifest")
     print(f"\nDone: {', '.join(parts)}. {result['total_bundled']} total bundled.")
+# quill: tools

@@ -40,3 +40,4 @@ def has_binary_extension(path: str) -> bool:
     if dot == -1:
         return False
     return path[dot:].lower() in BINARY_EXTENSIONS
+# quill: tools

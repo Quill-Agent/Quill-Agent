@@ -2287,3 +2287,4 @@ registry.register(
     check_fn=check_tts_requirements,
     emoji="🔊",
 )
+# quill: tools

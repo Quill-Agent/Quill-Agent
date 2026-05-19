@@ -139,3 +139,4 @@ registry.register(
     check_fn=check_clarify_requirements,
     emoji="❓",
 )
+# quill: tools

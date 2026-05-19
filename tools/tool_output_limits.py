@@ -90,3 +90,4 @@ def get_max_lines() -> int:
 def get_max_line_length() -> int:
     """Shortcut for file-ops callers that only need the per-line cap."""
     return get_tool_output_limits()["max_line_length"]
+# quill: tools

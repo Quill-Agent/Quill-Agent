@@ -1016,3 +1016,4 @@ def cleanup_temp_recordings(max_age_seconds: int = 3600) -> int:
     if deleted:
         logger.debug("Cleaned up %d old voice recordings", deleted)
     return deleted
+# quill: tools

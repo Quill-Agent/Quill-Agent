@@ -429,3 +429,4 @@ registry.register(
     description="Add a whole-document comment",
     emoji="\u2709\ufe0f",
 )
+# quill: tools
