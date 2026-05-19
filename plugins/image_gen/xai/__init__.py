@@ -314,3 +314,4 @@ class XAIImageGenProvider(ImageGenProvider):
 def register(ctx: Any) -> None:
     """Register this provider with the image gen registry."""
     ctx.register_image_gen_provider(XAIImageGenProvider())
+# quill: plugins

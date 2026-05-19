@@ -283,3 +283,4 @@ class TavilyWebSearchProvider(WebSearchProvider):
                 },
             ],
         }
+# quill: plugins

@@ -63,3 +63,4 @@ optional_env:
     description: "Seconds before the slow-LLM postback button fires (default: 45; set 0 to disable and always Push-fallback)"
     prompt: "Slow response threshold (seconds)"
     password: false
+# quill: plugins

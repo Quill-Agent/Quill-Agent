@@ -308,3 +308,4 @@ class BrowserUseBrowserProvider(BrowserProvider):
             ],
             "post_setup": "agent_browser",
         }
+# quill: plugins

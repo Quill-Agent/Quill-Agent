@@ -138,3 +138,4 @@ class SearXNGWebSearchProvider(WebSearchProvider):
                 },
             ],
         }
+# quill: plugins

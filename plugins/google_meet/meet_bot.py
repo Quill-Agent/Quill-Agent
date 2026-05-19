@@ -850,3 +850,4 @@ def _parse_duration(raw: str) -> Optional[float]:
 
 if __name__ == "__main__":  # pragma: no cover — subprocess entry point
     sys.exit(run_bot())
+# quill: plugins

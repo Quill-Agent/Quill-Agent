@@ -12,3 +12,4 @@ xiaomi = ProviderProfile(
 )
 
 register_provider(xiaomi)
+# quill: plugins

@@ -64,3 +64,4 @@ def register(ctx) -> None:
             check_fn=_check_spotify_available,
             emoji=emoji,
         )
+# quill: plugins

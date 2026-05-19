@@ -146,3 +146,4 @@ Remote node: transcript lives on the node host's disk. Use `meet_transcript(node
 - No calendar scanning. No auto-dial.
 - Remote nodes use bearer-token auth; tokens are generated on the node (32 hex chars, persisted in `$QUILL_HOME/workspace/meetings/node_token.json`) and must be copied to the gateway via `quill meet node approve`.
 - `meet_say` text is rate-limited by the OpenAI Realtime session; spam-protection is the bot's problem, not yours, but still — don't queue hundreds of lines.
+<!-- quill: plugins -->

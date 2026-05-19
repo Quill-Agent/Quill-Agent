@@ -34,3 +34,4 @@ Config in `config.yaml` under `plugins.quill-memory-store`:
 |------|-------------|
 | `fact_store` | 9 actions: add, search, probe, related, reason, contradict, update, remove, list |
 | `fact_feedback` | Rate facts as helpful/unhelpful (trains trust scores) |
+<!-- quill: plugins -->

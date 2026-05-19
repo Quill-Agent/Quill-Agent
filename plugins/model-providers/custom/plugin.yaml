@@ -3,3 +3,4 @@ kind: model-provider
 version: 1.0.0
 description: Custom / Ollama / local OpenAI-compatible endpoint
 author: Quill Agent
+# quill: plugins

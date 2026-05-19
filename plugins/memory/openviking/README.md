@@ -38,3 +38,4 @@ All config via environment variables in `.env`:
 | `viking_browse` | Filesystem-style navigation (list/tree/stat) |
 | `viking_remember` | Store a fact for extraction on session commit |
 | `viking_add_resource` | Ingest URLs/docs into the knowledge base |
+<!-- quill: plugins -->

@@ -123,3 +123,4 @@ def node_command(args: argparse.Namespace) -> int:
 
 def _coerce_dict(value: Any) -> dict:
     return value if isinstance(value, dict) else {"result": value}
+# quill: plugins

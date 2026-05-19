@@ -242,3 +242,4 @@ def chrome_fake_audio_flags(bridge_info: dict) -> list[str]:
     if system == "Windows":
         raise RuntimeError("windows not supported in v2")
     raise RuntimeError(f"unsupported platform: {system}")
+# quill: plugins

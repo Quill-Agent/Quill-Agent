@@ -210,3 +210,4 @@ class ExaWebSearchProvider(WebSearchProvider):
                 },
             ],
         }
+# quill: plugins

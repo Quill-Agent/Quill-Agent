@@ -14,3 +14,4 @@ provides_tools:
   - meet_say
 hooks:
   - on_session_end
+# quill: plugins

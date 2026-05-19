@@ -3,3 +3,4 @@ kind: model-provider
 version: 1.0.0
 description: Local Ollama server at localhost:11434 — free, private inference
 author: Quill-Agent
+# quill: plugins

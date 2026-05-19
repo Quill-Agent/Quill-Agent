@@ -3,3 +3,4 @@ kind: model-provider
 version: 1.0.0
 description: Groq OpenAI-compatible API — fast free-tier models
 author: Quill-Agent
+# quill: plugins

@@ -39,3 +39,4 @@ Working directory: `$QUILL_HOME/byterover/` (profile-scoped).
 | `brv_query` | Search the knowledge tree |
 | `brv_curate` | Store facts, decisions, patterns |
 | `brv_status` | CLI version, tree stats, sync state |
+<!-- quill: plugins -->

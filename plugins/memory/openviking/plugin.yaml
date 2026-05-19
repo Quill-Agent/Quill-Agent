@@ -7,3 +7,4 @@ requires_env:
   - OPENVIKING_ENDPOINT
 hooks:
   - on_session_end
+# quill: plugins

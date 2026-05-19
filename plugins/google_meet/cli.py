@@ -476,3 +476,4 @@ if __name__ == "__main__":  # pragma: no cover
     register_cli(parser)
     ns = parser.parse_args()
     sys.exit(meet_command(ns))
+# quill: plugins

@@ -689,3 +689,4 @@ def _render_summary_markdown(payload: TeamsMeetingSummaryPayload) -> str:
         payload.confidence_notes or "",
     ]
     return "\n".join(lines).strip()
+# quill: plugins

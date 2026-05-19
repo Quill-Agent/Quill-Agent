@@ -101,3 +101,4 @@ def register(ctx) -> None:
     )
 
     ctx.register_hook("on_session_end", _on_session_end)
+# quill: plugins

@@ -1755,3 +1755,4 @@ class HindsightMemoryProvider(MemoryProvider):
 def register(ctx) -> None:
     """Register Hindsight as a memory provider plugin."""
     ctx.register_memory_provider(HindsightMemoryProvider())
+# quill: plugins

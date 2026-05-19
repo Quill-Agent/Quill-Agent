@@ -35,3 +35,4 @@ optional_env:
     description: "Human label for the home channel (defaults to the ID)"
     prompt: "Home channel display name (or empty)"
     password: false
+# quill: plugins

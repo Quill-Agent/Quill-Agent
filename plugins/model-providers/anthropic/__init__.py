@@ -50,3 +50,4 @@ anthropic = AnthropicProfile(
 )
 
 register_provider(anthropic)
+# quill: plugins

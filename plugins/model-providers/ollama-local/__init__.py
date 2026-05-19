@@ -15,3 +15,4 @@ ollama_local = ProviderProfile(
 )
 
 register_provider(ollama_local)
+# quill: plugins

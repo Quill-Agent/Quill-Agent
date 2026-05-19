@@ -15,3 +15,4 @@ groq = ProviderProfile(
 )
 
 register_provider(groq)
+# quill: plugins

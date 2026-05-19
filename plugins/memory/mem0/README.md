@@ -36,3 +36,4 @@ Config file: `$QUILL_HOME/mem0.json`
 | `mem0_profile` | All stored memories about the user |
 | `mem0_search` | Semantic search with optional reranking |
 | `mem0_conclude` | Store a fact verbatim (no LLM extraction) |
+<!-- quill: plugins -->

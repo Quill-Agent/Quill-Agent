@@ -371,3 +371,4 @@ class Mem0MemoryProvider(MemoryProvider):
 def register(ctx) -> None:
     """Register Mem0 as a memory provider plugin."""
     ctx.register_memory_provider(Mem0MemoryProvider())
+# quill: plugins

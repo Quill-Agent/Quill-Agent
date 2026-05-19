@@ -13,3 +13,4 @@ from plugins.web.ddgs.provider import DDGSWebSearchProvider
 def register(ctx) -> None:
     """Register the DDGS provider with the plugin context."""
     ctx.register_web_search_provider(DDGSWebSearchProvider())
+# quill: plugins

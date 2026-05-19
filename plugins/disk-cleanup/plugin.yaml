@@ -5,3 +5,4 @@ author: "@LVT382009 (original), YOUR_USERNAME (plugin port)"
 hooks:
   - post_tool_call
   - on_session_end
+# quill: plugins

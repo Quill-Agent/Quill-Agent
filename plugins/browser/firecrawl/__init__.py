@@ -14,3 +14,4 @@ from plugins.browser.firecrawl.provider import FirecrawlBrowserProvider
 def register(ctx) -> None:
     """Register the Firecrawl cloud-browser provider with the plugin context."""
     ctx.register_browser_provider(FirecrawlBrowserProvider())
+# quill: plugins

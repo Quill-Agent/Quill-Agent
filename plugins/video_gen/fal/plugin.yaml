@@ -5,3 +5,4 @@ author: YOUR_USERNAME
 kind: backend
 requires_env:
   - FAL_KEY
+# quill: plugins

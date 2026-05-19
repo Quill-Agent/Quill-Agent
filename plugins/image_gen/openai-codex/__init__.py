@@ -376,3 +376,4 @@ class OpenAICodexImageGenProvider(ImageGenProvider):
 def register(ctx) -> None:
     """Plugin entry point — register the Codex-backed image-gen provider."""
     ctx.register_image_gen_provider(OpenAICodexImageGenProvider())
+# quill: plugins

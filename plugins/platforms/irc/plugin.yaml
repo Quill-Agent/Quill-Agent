@@ -52,3 +52,4 @@ optional_env:
     description: "Channel for cron / notification delivery (defaults to IRC_CHANNEL)"
     prompt: "Home channel (or empty)"
     password: false
+# quill: plugins

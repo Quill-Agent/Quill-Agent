@@ -7,3 +7,4 @@ external_dependencies:
     check: "brv --version"
 hooks:
   - on_pre_compress
+# quill: plugins

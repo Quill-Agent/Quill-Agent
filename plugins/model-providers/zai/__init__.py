@@ -19,3 +19,4 @@ zai = ProviderProfile(
 )
 
 register_provider(zai)
+# quill: plugins

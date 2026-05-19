@@ -47,3 +47,4 @@ QUILL_LANGFUSE_DEBUG=true           # verbose plugin logging
 ```bash
 quill plugins disable observability/langfuse
 ```
+<!-- quill: plugins -->

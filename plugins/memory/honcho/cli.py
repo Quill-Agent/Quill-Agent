@@ -1449,3 +1449,4 @@ def register_cli(subparser) -> None:
     subs.add_parser("sync", help="Sync Honcho config to all existing profiles")
 
     subparser.set_defaults(func=honcho_command)
+# quill: plugins

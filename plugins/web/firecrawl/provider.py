@@ -771,3 +771,4 @@ class FirecrawlWebSearchProvider(WebSearchProvider):
                 },
             ],
         }
+# quill: plugins

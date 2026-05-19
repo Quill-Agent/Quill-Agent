@@ -13,3 +13,4 @@ from plugins.web.exa.provider import ExaWebSearchProvider
 def register(ctx) -> None:
     """Register the Exa provider with the plugin context."""
     ctx.register_web_search_provider(ExaWebSearchProvider())
+# quill: plugins

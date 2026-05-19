@@ -129,3 +129,4 @@ quill meet node ping my-mac
 - **Multi-tenant node sharing** — a node serves one gateway at a time.
 - **Windows** — audio bridging isn't tested; `register()` no-ops on Windows.
 - **System audio input switching on macOS** — user responsibility, not the bot's.
+<!-- quill: plugins -->

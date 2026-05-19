@@ -11,3 +11,4 @@ alibaba = ProviderProfile(
 )
 
 register_provider(alibaba)
+# quill: plugins

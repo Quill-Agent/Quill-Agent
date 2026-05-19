@@ -217,3 +217,4 @@ Record:
 - pre/post `/achievements` timings (cold/warm)
 - whether single-flight dedupe triggered under repeated tab open
 - any behavioral diffs in unlock counts
+<!-- quill: plugins -->

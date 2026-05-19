@@ -781,3 +781,4 @@ def reset_honcho_client() -> None:
     """Reset the Honcho client singleton (useful for testing)."""
     global _honcho_client
     _honcho_client = None
+# quill: plugins

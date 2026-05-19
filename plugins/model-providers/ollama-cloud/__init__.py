@@ -12,3 +12,4 @@ ollama_cloud = ProviderProfile(
 )
 
 register_provider(ollama_cloud)
+# quill: plugins

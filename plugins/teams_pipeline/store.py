@@ -191,3 +191,4 @@ class TeamsPipelineStore:
         with self._lock:
             record = self._state["sink_records"].get(sink_key)
             return deepcopy(record) if isinstance(record, dict) else None
+# quill: plugins

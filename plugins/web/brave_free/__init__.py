@@ -12,3 +12,4 @@ from plugins.web.brave_free.provider import BraveFreeWebSearchProvider
 def register(ctx) -> None:
     """Register the Brave-free provider with the plugin context."""
     ctx.register_web_search_provider(BraveFreeWebSearchProvider())
+# quill: plugins

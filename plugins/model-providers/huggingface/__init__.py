@@ -18,3 +18,4 @@ huggingface = ProviderProfile(
 )
 
 register_provider(huggingface)
+# quill: plugins

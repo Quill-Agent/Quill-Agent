@@ -452,3 +452,4 @@ SPOTIFY_LIBRARY_SCHEMA = {
         "required": ["kind", "action"],
     },
 }
+# quill: plugins

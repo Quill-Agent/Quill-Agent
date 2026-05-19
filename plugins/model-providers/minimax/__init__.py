@@ -43,3 +43,4 @@ minimax_oauth = ProviderProfile(
 register_provider(minimax)
 register_provider(minimax_cn)
 register_provider(minimax_oauth)
+# quill: plugins

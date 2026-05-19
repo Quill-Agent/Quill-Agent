@@ -460,3 +460,4 @@ def _cmd_validate(args) -> None:
     store = TeamsPipelineStore(_store_path(getattr(args, "store_path", None)))
     snapshot = _validate_configuration_snapshot(store)
     print(json.dumps(snapshot, indent=2, sort_keys=True))
+# quill: plugins

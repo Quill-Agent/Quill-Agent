@@ -13,3 +13,4 @@ from plugins.web.tavily.provider import TavilyWebSearchProvider
 def register(ctx) -> None:
     """Register the Tavily provider with the plugin context."""
     ctx.register_web_search_provider(TavilyWebSearchProvider())
+# quill: plugins

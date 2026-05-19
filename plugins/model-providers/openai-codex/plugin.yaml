@@ -3,3 +3,4 @@ kind: model-provider
 version: 1.0.0
 description: OpenAI Codex (Responses API)
 author: Quill Agent
+# quill: plugins

@@ -1326,3 +1326,4 @@ class HonchoMemoryProvider(MemoryProvider):
 def register(ctx) -> None:
     """Register Honcho as a memory provider plugin."""
     ctx.register_memory_provider(HonchoMemoryProvider())
+# quill: plugins

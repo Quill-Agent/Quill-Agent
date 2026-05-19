@@ -295,3 +295,4 @@ class BrowserbaseBrowserProvider(BrowserProvider):
             ],
             "post_setup": "agent_browser",
         }
+# quill: plugins

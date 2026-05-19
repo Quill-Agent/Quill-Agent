@@ -3,3 +3,4 @@ kind: model-provider
 version: 1.0.0
 description: NVIDIA NIM
 author: Quill Agent
+# quill: plugins

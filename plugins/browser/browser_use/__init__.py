@@ -12,3 +12,4 @@ from plugins.browser.browser_use.provider import BrowserUseBrowserProvider
 def register(ctx) -> None:
     """Register the Browser Use provider with the plugin context."""
     ctx.register_browser_provider(BrowserUseBrowserProvider())
+# quill: plugins

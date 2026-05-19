@@ -166,3 +166,4 @@ class FirecrawlBrowserProvider(BrowserProvider):
             ],
             "post_setup": "agent_browser",
         }
+# quill: plugins

@@ -3,3 +3,4 @@ version: 1.0.0
 description: "OpenAI image generation backed by ChatGPT/Codex OAuth (gpt-image-2 via the Responses image_generation tool). Saves generated images to $QUILL_HOME/cache/images/."
 author: YOUR_USERNAME
 kind: backend
+# quill: plugins

@@ -764,3 +764,4 @@ class RetainDBMemoryProvider(MemoryProvider):
 def register(ctx) -> None:
     """Register RetainDB as a memory provider plugin."""
     ctx.register_memory_provider(RetainDBMemoryProvider())
+# quill: plugins

@@ -5,3 +5,4 @@ author: YOUR_USERNAME
 kind: backend
 provides_browser_providers:
   - firecrawl
+# quill: plugins

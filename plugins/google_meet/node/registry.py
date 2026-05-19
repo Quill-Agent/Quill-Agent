@@ -110,3 +110,4 @@ class NodeRegistry:
         if len(nodes) == 1:
             return nodes[0]
         return None
+# quill: plugins

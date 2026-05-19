@@ -133,3 +133,4 @@ def bind_gateway_runtime(gateway: Any) -> bool:
     gateway._teams_pipeline_runtime = runtime
     gateway._teams_pipeline_runtime_error = None
     return True
+# quill: plugins

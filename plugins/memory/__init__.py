@@ -405,3 +405,4 @@ def discover_plugin_cli_commands() -> List[dict]:
         logger.debug("Failed to scan CLI for memory plugin '%s': %s", active_provider, e)
 
     return results
+# quill: plugins

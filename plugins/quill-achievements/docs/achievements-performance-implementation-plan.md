@@ -155,3 +155,4 @@ Rollback: keep old compute path behind temporary feature flag for one release wi
 - No `/overview` endpoint or slot calls remain.
 - Repeated Achievements loads feel immediate after warm cache.
 - Metrics/unlocks remain unchanged versus baseline.
+<!-- quill: plugins -->

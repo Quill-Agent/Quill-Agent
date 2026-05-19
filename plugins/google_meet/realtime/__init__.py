@@ -8,3 +8,4 @@ virtual audio bridge.
 from .openai_client import RealtimeSession, RealtimeSpeaker  # noqa: F401
 
 __all__ = ["RealtimeSession", "RealtimeSpeaker"]
+# quill: plugins

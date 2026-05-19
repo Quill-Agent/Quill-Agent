@@ -406,3 +406,4 @@ def register(ctx) -> None:
     config = _load_plugin_config()
     provider = HolographicMemoryProvider(config=config)
     ctx.register_memory_provider(provider)
+# quill: plugins

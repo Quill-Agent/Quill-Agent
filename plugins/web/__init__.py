@@ -5,3 +5,4 @@
 #
 # They auto-load via kind: backend and register via
 # ctx.register_web_search_provider() into agent.web_search_registry.
+# quill: plugins

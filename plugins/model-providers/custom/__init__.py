@@ -66,3 +66,4 @@ custom = CustomProfile(
 )
 
 register_provider(custom)
+# quill: plugins

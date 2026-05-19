@@ -26,3 +26,4 @@ from plugins.web.firecrawl.provider import FirecrawlWebSearchProvider
 def register(ctx) -> None:
     """Register the Firecrawl provider with the plugin context."""
     ctx.register_web_search_provider(FirecrawlWebSearchProvider())
+# quill: plugins

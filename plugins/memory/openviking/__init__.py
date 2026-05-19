@@ -943,3 +943,4 @@ class OpenVikingMemoryProvider(MemoryProvider):
 def register(ctx) -> None:
     """Register OpenViking as a memory provider plugin."""
     ctx.register_memory_provider(OpenVikingMemoryProvider())
+# quill: plugins

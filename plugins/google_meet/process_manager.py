@@ -321,3 +321,4 @@ def stop(*, reason: str = "requested") -> Dict[str, Any]:
         "meetingId": active.get("meeting_id"),
         "transcriptPath": str(transcript_path) if transcript_path else None,
     }
+# quill: plugins

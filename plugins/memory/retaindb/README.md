@@ -38,3 +38,4 @@ All config via environment variables in `.env`:
 | `retaindb_context` | Task-relevant context |
 | `retaindb_remember` | Store a fact with type + importance |
 | `retaindb_forget` | Delete a memory by ID |
+<!-- quill: plugins -->

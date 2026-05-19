@@ -19,3 +19,4 @@ azure_foundry = ProviderProfile(
 )
 
 register_provider(azure_foundry)
+# quill: plugins

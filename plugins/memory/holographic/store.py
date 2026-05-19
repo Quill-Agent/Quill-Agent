@@ -576,3 +576,4 @@ class MemoryStore:
 
     def __exit__(self, *_: object) -> None:
         self.close()
+# quill: plugins

@@ -5,3 +5,4 @@ pip_dependencies:
   - requests
 requires_env:
   - RETAINDB_API_KEY
+# quill: plugins

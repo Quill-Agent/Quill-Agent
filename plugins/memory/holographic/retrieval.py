@@ -591,3 +591,4 @@ class FactRetriever:
             return math.pow(0.5, age_days / self.half_life)
         except (ValueError, TypeError):
             return 1.0
+# quill: plugins

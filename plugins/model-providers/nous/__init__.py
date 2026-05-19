@@ -52,3 +52,4 @@ nous = NousProfile(
 )
 
 register_provider(nous)
+# quill: plugins

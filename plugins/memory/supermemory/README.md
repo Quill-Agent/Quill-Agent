@@ -97,3 +97,4 @@ When enabled:
 - [Supermemory Discord](https://supermemory.link/discord)
 - [support@supermemory.com](mailto:support@supermemory.com)
 - [supermemory.ai](https://supermemory.ai)
+<!-- quill: plugins -->

@@ -102,3 +102,4 @@ class DDGSWebSearchProvider(WebSearchProvider):
             # so the ddgs Python package gets pip-installed on first selection.
             "post_setup": "ddgs",
         }
+# quill: plugins

@@ -314,3 +314,4 @@ def register(ctx) -> None:
         handler=_handle_slash,
         description="Track and clean up ephemeral Quill session files.",
     )
+# quill: plugins

@@ -135,3 +135,4 @@ class BraveFreeWebSearchProvider(WebSearchProvider):
                 },
             ],
         }
+# quill: plugins

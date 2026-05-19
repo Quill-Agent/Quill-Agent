@@ -330,3 +330,4 @@ class RealtimeSpeaker:
                 self._rewrite_queue(
                     [e for e in latest if e.get("id") != head.get("id")]
                 )
+# quill: plugins

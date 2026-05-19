@@ -37,3 +37,4 @@ optional_env:
     description: "Default space for cron / notification delivery (e.g. spaces/AAAA...)."
     prompt: "Home space ID (or empty)"
     password: false
+# quill: plugins

@@ -98,3 +98,4 @@ deepseek = DeepSeekProfile(
 )
 
 register_provider(deepseek)
+# quill: plugins

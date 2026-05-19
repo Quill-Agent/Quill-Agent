@@ -201,3 +201,4 @@ def snr_estimate(dim: int, n_items: int) -> float:
         )
 
     return snr
+# quill: plugins

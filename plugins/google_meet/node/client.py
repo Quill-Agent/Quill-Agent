@@ -105,3 +105,4 @@ class NodeClient:
 
     def ping(self) -> Dict[str, Any]:
         return self._rpc("ping", {})
+# quill: plugins

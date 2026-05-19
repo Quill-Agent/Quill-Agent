@@ -11,3 +11,4 @@ provides_tools:
   - spotify_playlists
   - spotify_albums
   - spotify_library
+# quill: plugins

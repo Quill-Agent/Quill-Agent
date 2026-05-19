@@ -346,3 +346,4 @@ def handle_meet_say(args: Dict[str, Any], **_kw) -> str:
             return _err(f"remote node say failed: {e}", node=node_name)
     res = pm.enqueue_say(text)
     return _json({"success": bool(res.get("ok")), **res})
+# quill: plugins

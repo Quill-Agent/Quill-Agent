@@ -789,3 +789,4 @@ class SupermemoryMemoryProvider(MemoryProvider):
 
 def register(ctx):
     ctx.register_memory_provider(SupermemoryMemoryProvider())
+# quill: plugins

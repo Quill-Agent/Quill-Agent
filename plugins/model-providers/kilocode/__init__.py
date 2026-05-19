@@ -12,3 +12,4 @@ kilocode = ProviderProfile(
 )
 
 register_provider(kilocode)
+# quill: plugins

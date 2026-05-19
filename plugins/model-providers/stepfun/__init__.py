@@ -12,3 +12,4 @@ stepfun = ProviderProfile(
 )
 
 register_provider(stepfun)
+# quill: plugins

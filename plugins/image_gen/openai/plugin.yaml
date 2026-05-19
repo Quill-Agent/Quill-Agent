@@ -5,3 +5,4 @@ author: YOUR_USERNAME
 kind: backend
 requires_env:
   - OPENAI_API_KEY
+# quill: plugins

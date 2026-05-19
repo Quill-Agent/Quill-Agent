@@ -494,3 +494,4 @@ def guess_category(path: Path) -> Optional[str]:
     if any(name.endswith(sfx) for sfx in _TEST_SUFFIXES):
         return "test"
     return None
+# quill: plugins

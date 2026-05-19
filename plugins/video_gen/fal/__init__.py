@@ -521,3 +521,4 @@ class FALVideoGenProvider(VideoGenProvider):
 def register(ctx) -> None:
     """Plugin entry point — wire ``FALVideoGenProvider`` into the registry."""
     ctx.register_video_gen_provider(FALVideoGenProvider())
+# quill: plugins

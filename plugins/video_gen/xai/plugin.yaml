@@ -5,3 +5,4 @@ author: YOUR_USERNAME
 kind: backend
 requires_env:
   - XAI_API_KEY
+# quill: plugins

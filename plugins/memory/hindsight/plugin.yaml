@@ -6,3 +6,4 @@ pip_dependencies:
 requires_env: []
 hooks:
   - on_session_end
+# quill: plugins

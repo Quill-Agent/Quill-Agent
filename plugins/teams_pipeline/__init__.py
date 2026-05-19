@@ -21,3 +21,4 @@ def register(ctx) -> None:
             "setup, and maintains Graph subscriptions."
         ),
     )
+# quill: plugins

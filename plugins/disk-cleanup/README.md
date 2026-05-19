@@ -49,3 +49,4 @@ Deletion rules (same as the original PR):
 - Backup/restore is scoped to `tracked.json` — the plugin never touches
   agent logs
 - Atomic writes: `.tmp` → backup → rename
+<!-- quill: plugins -->

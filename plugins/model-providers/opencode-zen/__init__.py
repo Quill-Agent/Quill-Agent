@@ -28,3 +28,4 @@ opencode_go = ProviderProfile(
 
 register_provider(opencode_zen)
 register_provider(opencode_go)
+# quill: plugins

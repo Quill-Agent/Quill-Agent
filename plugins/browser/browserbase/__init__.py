@@ -13,3 +13,4 @@ from plugins.browser.browserbase.provider import BrowserbaseBrowserProvider
 def register(ctx) -> None:
     """Register the Browserbase provider with the plugin context."""
     ctx.register_browser_provider(BrowserbaseBrowserProvider())
+# quill: plugins

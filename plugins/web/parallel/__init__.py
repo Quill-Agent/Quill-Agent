@@ -14,3 +14,4 @@ from plugins.web.parallel.provider import ParallelWebSearchProvider
 def register(ctx) -> None:
     """Register the Parallel provider with the plugin context."""
     ctx.register_web_search_provider(ParallelWebSearchProvider())
+# quill: plugins

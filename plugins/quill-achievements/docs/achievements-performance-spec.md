@@ -172,3 +172,4 @@ Files:
 - `state.json` (existing): unlock tracking
 - `scan_snapshot.json` (new): latest materialized achievements payload
 - `scan_checkpoint.json` (new): per-session fingerprints + contributions for incremental refresh
+<!-- quill: plugins -->

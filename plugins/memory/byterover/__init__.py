@@ -381,3 +381,4 @@ class ByteRoverMemoryProvider(MemoryProvider):
 def register(ctx) -> None:
     """Register ByteRover as a memory provider plugin."""
     ctx.register_memory_provider(ByteRoverMemoryProvider())
+# quill: plugins

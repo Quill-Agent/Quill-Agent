@@ -301,3 +301,4 @@ class OpenAIImageGenProvider(ImageGenProvider):
 def register(ctx) -> None:
     """Plugin entry point — wire ``OpenAIImageGenProvider`` into the registry."""
     ctx.register_image_gen_provider(OpenAIImageGenProvider())
+# quill: plugins

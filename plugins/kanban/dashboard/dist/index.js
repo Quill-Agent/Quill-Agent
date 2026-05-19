@@ -3641,3 +3641,4 @@
     window.__QUILL_PLUGINS__.register("kanban", KanbanPage);
   }
 })();
+# quill: plugins

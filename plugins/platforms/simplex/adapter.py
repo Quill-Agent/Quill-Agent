@@ -744,3 +744,4 @@ def register(ctx) -> None:
             "hard message length limit, but keep responses conversational."
         ),
     )
+# quill: plugins

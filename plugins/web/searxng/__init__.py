@@ -13,3 +13,4 @@ from plugins.web.searxng.provider import SearXNGWebSearchProvider
 def register(ctx) -> None:
     """Register the SearXNG provider with the plugin context."""
     ctx.register_web_search_provider(SearXNGWebSearchProvider())
+# quill: plugins

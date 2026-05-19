@@ -11,3 +11,4 @@ arcee = ProviderProfile(
 )
 
 register_provider(arcee)
+# quill: plugins
