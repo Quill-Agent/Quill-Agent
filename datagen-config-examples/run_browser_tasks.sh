@@ -63,3 +63,4 @@ echo "✅ Done. Log: $LOG_FILE"
 #   --providers_allowed="anthropic,google"  Restrict to specific providers
 #   --prefill_messages_file="configs/prefill.json"  Few-shot priming
 # =============================================================================
+# quill: datagen-config-examples

@@ -99,3 +99,4 @@ metrics:
   
   # Metrics file name (saved in output directory)
   output_file: "compression_metrics.json"
+# quill: datagen-config-examples

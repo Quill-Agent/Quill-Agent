@@ -3,3 +3,4 @@
 {"prompt": "Go to https://github.com/trending and find the top 3 trending repositories today. For each repo, get the name, description, language, and star count. Write the results to a file called trending_repos.md."}
 {"prompt": "Visit https://httpbin.org/forms/post and fill out the form with sample data (customer name: Jane Doe, size: Medium, topping: Bacon, delivery time: 12:00). Submit the form and report what the response page shows."}
 {"prompt": "Navigate to https://books.toscrape.com, browse to the Travel category, find the highest-rated book, and extract its title, price, availability, and description."}
+# quill: datagen-config-examples
