@@ -68,3 +68,4 @@ function gatewayLine(
     ? { label: g.running, tone: "text-success" }
     : { label: g.off, tone: "text-muted-foreground" };
 }
+# quill: web

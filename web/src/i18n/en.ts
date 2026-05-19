@@ -702,3 +702,4 @@ export const en: Translations = {
     logAt: ")",
   },
 };
+# quill: web

@@ -181,3 +181,4 @@ interface LanguageSwitcherProps {
 interface LocaleFlagIconProps {
   countryCode: string;
 }
+# quill: web

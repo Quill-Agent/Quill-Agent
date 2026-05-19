@@ -147,3 +147,4 @@ export function exposePluginSDK() {
     useI18n,
   };
 }
+# quill: web

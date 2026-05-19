@@ -38,3 +38,4 @@ interface DeleteConfirmDialogProps {
   open: boolean;
   title: string;
 }
+# quill: web

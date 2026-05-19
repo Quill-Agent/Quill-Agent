@@ -95,3 +95,4 @@ export function PlatformsCard({ platforms }: PlatformsCardProps) {
 interface PlatformsCardProps {
   platforms: [string, PlatformStatus][];
 }
+# quill: web

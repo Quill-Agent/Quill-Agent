@@ -46,3 +46,4 @@ src/
 ├── main.tsx         # React entry point
 └── index.css        # Tailwind imports and theme variables
 ```
+<!-- quill: web -->

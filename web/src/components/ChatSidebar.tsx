@@ -383,3 +383,4 @@ export function ChatSidebar({ channel, className }: ChatSidebarProps) {
     </aside>
   );
 }
+# quill: web

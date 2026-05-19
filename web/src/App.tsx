@@ -836,3 +836,4 @@ interface SystemActionItem {
   runningLabel: string;
   spin: boolean;
 }
+# quill: web

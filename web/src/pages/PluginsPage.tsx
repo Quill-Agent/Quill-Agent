@@ -581,3 +581,4 @@ function PluginRowCard(props: PluginRowCardProps) {
     </Card>
   );
 }
+# quill: web

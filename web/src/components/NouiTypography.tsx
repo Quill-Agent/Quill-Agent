@@ -61,3 +61,4 @@ export const H2 = forwardRef<HTMLHeadingElement, Omit<TypographyProps, "as">>(fu
 ) {
   return <Typography as="h2" className={cn("font-bold", className)} variant={variant} ref={ref} {...props} />;
 });
+# quill: web

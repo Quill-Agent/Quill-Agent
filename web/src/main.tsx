@@ -24,3 +24,4 @@ createRoot(document.getElementById("root")!).render(
     </I18nProvider>
   </BrowserRouter>,
 );
+# quill: web

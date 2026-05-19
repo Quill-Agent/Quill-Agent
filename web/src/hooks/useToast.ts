@@ -13,3 +13,4 @@ export function useToast(duration = 3000) {
 
   return { toast, showToast };
 }
+# quill: web

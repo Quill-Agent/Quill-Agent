@@ -694,3 +694,4 @@ export const hu: Translations = {
     logAt: ")",
   },
 };
+# quill: web

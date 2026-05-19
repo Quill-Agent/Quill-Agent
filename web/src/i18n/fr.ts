@@ -693,3 +693,4 @@ export const fr: Translations = {
     logAt: ")",
   },
 };
+# quill: web

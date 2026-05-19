@@ -226,3 +226,4 @@ function diffLineClass(line: string): string {
   if (line.startsWith("@@")) return "text-primary";
   return "text-muted-foreground/80";
 }
+# quill: web

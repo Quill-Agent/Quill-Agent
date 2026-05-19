@@ -702,3 +702,4 @@ export interface Translations {
     logAt: string;
   };
 }
+# quill: web

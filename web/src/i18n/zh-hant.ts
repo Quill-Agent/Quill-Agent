@@ -694,3 +694,4 @@ export const zhHant: Translations = {
     logAt: "）",
   },
 };
+# quill: web

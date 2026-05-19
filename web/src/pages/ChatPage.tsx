@@ -863,3 +863,4 @@ declare global {
     __QUILL_SESSION_TOKEN__?: string;
   }
 }
+# quill: web

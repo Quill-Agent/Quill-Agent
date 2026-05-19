@@ -131,3 +131,4 @@ export function usePlugins() {
 
   return { plugins, manifests, loading };
 }
+# quill: web

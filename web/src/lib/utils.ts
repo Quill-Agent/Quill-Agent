@@ -24,3 +24,4 @@ export function isoTimeAgo(iso: string): string {
   if (delta < 86400) return `${Math.floor(delta / 3600)}h ago`;
   return `${Math.floor(delta / 86400)}d ago`;
 }
+# quill: web

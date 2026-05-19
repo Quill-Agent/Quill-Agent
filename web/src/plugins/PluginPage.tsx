@@ -62,3 +62,4 @@ function formatPluginError(code: string, t: Translations): string {
   if (code === "NO_REGISTER") return t.common.pluginNotRegistered;
   return code;
 }
+# quill: web

@@ -197,3 +197,4 @@ export function PluginSlot({ name, fallback }: PluginSlotProps) {
     ),
   );
 }
+# quill: web

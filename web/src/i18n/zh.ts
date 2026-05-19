@@ -690,3 +690,4 @@ export const zh: Translations = {
     logAt: "）",
   },
 };
+# quill: web

@@ -694,3 +694,4 @@ export const ko: Translations = {
     logAt: ")",
   },
 };
+# quill: web

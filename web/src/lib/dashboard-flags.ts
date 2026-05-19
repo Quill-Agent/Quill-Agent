@@ -13,3 +13,4 @@ export function isDashboardEmbeddedChatEnabled(): boolean {
   if (window.__QUILL_DASHBOARD_EMBEDDED_CHAT__ === true) return true;
   return window.__QUILL_DASHBOARD_TUI__ === true;
 }
+# quill: web

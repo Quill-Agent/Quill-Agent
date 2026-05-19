@@ -25,3 +25,4 @@ for (const { from, to } of targets) {
   rmSync(to, { recursive: true, force: true });
   cpSync(from, to, { recursive: true });
 }
+# quill: web

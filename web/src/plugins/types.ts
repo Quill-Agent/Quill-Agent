@@ -35,3 +35,4 @@ export interface RegisteredPlugin {
   manifest: PluginManifest;
   component: ComponentType;
 }
+# quill: web

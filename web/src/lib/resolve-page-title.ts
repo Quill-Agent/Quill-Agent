@@ -39,3 +39,4 @@ export function resolvePageTitle(
   }
   return t.app.webUi;
 }
+# quill: web

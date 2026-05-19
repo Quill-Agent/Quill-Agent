@@ -21,3 +21,4 @@ export function setNestedValue(obj: Record<string, unknown>, path: string, value
   cur[parts[parts.length - 1]] = value;
   return clone;
 }
+# quill: web

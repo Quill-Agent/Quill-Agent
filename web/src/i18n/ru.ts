@@ -694,3 +694,4 @@ export const ru: Translations = {
     logAt: ")",
   },
 };
+# quill: web

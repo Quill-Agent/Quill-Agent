@@ -213,3 +213,4 @@ export const BUILTIN_THEMES: Record<string, DashboardTheme> = {
   cyberpunk: cyberpunkTheme,
   rose: roseTheme,
 };
+# quill: web
