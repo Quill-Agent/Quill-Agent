@@ -47,3 +47,4 @@ pixel_art("in.png", "out.png", preset="custom", palette="PICO_8", block=6)
 | `VINTAGE_ROSE` | 10 | Rose mauves |
 | `EARTH_CLAY` | 10 | Terracotta browns |
 | `ELECTRIC_VIOLET` | 10 | Violet gradient |
+<!-- quill: skills -->

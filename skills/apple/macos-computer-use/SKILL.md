@@ -199,3 +199,4 @@ your conversation context.
 - File edits — use `read_file` / `write_file` / `patch`, not `type` into
   an editor window.
 - Shell commands — use `terminal`, not `type` into Terminal.app.
+<!-- quill: skills -->

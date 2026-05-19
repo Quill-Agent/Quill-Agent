@@ -273,3 +273,4 @@ DOF is GPU-heavy. Render at lower res then upscale for performance.
 | Game-style | Phong MAT + 1-2 lights + no IBL + flat ambient (cheap, stylized) |
 | Wireframe + solid | Two render TOPs (one with wireframeMAT, one with PBR), composite via `addTOP` |
 | Orbiting camera | `par.lookat` + expressions on tx/tz using sin/cos |
+<!-- quill: skills -->

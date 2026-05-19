@@ -164,3 +164,4 @@ obliteratus run analysis-study.yaml --preset quick
 ### Via YAML Config
 See the `templates/analysis-study.yaml` template for a complete example.
 Load with: `skill_view(name="obliteratus", file_path="templates/analysis-study.yaml")`
+<!-- quill: skills -->

@@ -306,3 +306,4 @@ What makes Uber's design truly distinctive is its use of full-bleed photography 
 6. Keep layouts compact and information-dense -- Uber is efficient, not airy
 7. Illustrations should be warm and human -- describe "stylized people in warm tones" not abstract shapes
 8. Pair black CTAs with white secondaries for balanced dual-action layouts
+<!-- quill: skills -->

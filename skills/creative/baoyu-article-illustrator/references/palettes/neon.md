@@ -31,3 +31,4 @@ Vibrant neon-on-dark palette. High contrast, immediate visual impact. Do NOT ren
 ## Best For
 
 Gaming, retro tech, 80s/90s nostalgic content, bold editorial, trend and pop culture
+<!-- quill: skills -->

@@ -800,3 +800,4 @@ def log(msg):
     """Print timestamped log message."""
     print(msg, flush=True)
 ```
+<!-- quill: skills -->

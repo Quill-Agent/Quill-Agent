@@ -56,3 +56,4 @@ Clean, minimalist hand-drawn line art with intellectual feel. Simple doodle-styl
 ## Best For
 
 Knowledge sharing, concept explanations, SaaS content, productivity articles, educational posts, how-to guides, professional blogs
+<!-- quill: skills -->

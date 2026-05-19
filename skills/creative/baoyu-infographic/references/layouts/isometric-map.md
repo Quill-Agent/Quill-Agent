@@ -39,3 +39,4 @@
 - `isometric-3d`: Clean technical maps
 - `pixel-art`: Retro game-style maps
 - `lego-brick`: Playful location maps
+<!-- quill: skills -->

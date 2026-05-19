@@ -479,3 +479,4 @@ Datasheet Questions:
 | **ReScience** | Journal dedicated to replications |
 | **TMLR** | Accepts reproductions with analysis |
 | **Workshops** | Reproducibility workshops at major conferences |
+<!-- quill: skills -->

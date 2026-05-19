@@ -321,3 +321,4 @@ What distinguishes Vercel from other monochrome design systems is its shadow-as-
 4. Color is functional, never decorative — workflow colors (Red/Pink/Blue) mark pipeline stages only
 5. The inner `#fafafa` ring in card shadows is what gives Vercel cards their subtle inner glow
 6. Geist Mono uppercase for technical labels, Geist Sans for everything else
+<!-- quill: skills -->

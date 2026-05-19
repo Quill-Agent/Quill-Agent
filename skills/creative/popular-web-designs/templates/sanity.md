@@ -368,3 +368,4 @@ Light Surface:   #ededed / #ffffff (inverted sections)
 5. **Refine spacing**: 8px base unit, 24-32px within sections, 64-120px between sections
 6. **Technical details**: Add IBM Plex Mono uppercase labels for tags and metadata
 7. **Polish**: Ensure all interactive elements hover to `#0052ef`, all buttons are pills or subtle 5px radius, borders are hairline (1px)
+<!-- quill: skills -->

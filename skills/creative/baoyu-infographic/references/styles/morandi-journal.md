@@ -58,3 +58,4 @@ Hand-drawn doodle illustration with warm Morandi color tones and cozy bullet jou
 ## Best For
 
 Product selection guides, lifestyle content, educational overviews, consumer-facing comparison content, Xiaohongshu-style posts
+<!-- quill: skills -->

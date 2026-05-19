@@ -56,3 +56,4 @@ Natural and organic visual approach inspired by the outdoors. Earth tones and na
 ## Best For
 
 Sustainability articles, wellness content, outdoor topics, slow living, environmental issues, health and fitness, gardening, travel nature pieces
+<!-- quill: skills -->

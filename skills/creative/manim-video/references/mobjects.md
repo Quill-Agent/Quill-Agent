@@ -331,3 +331,4 @@ self.play(grid.animate.apply_function(
 ```
 
 **Critical:** Call `prepare_for_nonlinear_transform()` before applying nonlinear functions — without it, the grid has too few sample points and the deformation looks jagged.
+<!-- quill: skills -->

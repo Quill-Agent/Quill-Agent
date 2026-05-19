@@ -169,3 +169,4 @@ Bridge lyrics...
 - Models: https://huggingface.co/HeartMuLa
 - Paper: https://arxiv.org/abs/2601.10547
 - License: Apache-2.0
+<!-- quill: skills -->

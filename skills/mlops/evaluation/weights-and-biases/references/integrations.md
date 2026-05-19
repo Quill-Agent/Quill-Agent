@@ -698,3 +698,4 @@ wb.finish()
 - **PyTorch Lightning**: https://docs.wandb.ai/guides/integrations/lightning
 - **Keras**: https://docs.wandb.ai/guides/integrations/keras
 - **Examples**: https://github.com/wandb/examples
+<!-- quill: skills -->

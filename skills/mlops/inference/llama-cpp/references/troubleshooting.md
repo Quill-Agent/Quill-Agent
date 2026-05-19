@@ -440,3 +440,4 @@ Include:
 - Hardware: CPU/GPU model, RAM, VRAM
 - OS version
 - Minimal reproduction steps
+<!-- quill: skills -->

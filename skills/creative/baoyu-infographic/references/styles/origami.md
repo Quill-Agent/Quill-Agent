@@ -27,3 +27,4 @@ Folded paper forms with geometric precision
 ## Best For
 
 Geometric concepts, transformation topics, Japanese themes, abstract representations
+<!-- quill: skills -->

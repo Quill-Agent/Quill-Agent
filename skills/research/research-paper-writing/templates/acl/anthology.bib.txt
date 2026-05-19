@@ -24,3 +24,4 @@ You can download these directly from Overleaf from New File -> From External URL
 and then adding them to the \bibliography line in acl_latex.tex:
 
     \bibliography{custom,anthology-1,anthology-2}
+# quill: skills

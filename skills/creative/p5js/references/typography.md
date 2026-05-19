@@ -300,3 +300,4 @@ function responsiveTextSize(baseSize, baseWidth = 1920) {
 textSize(responsiveTextSize(48));
 text('Scales with canvas', width/2, height/2);
 ```
+<!-- quill: skills -->

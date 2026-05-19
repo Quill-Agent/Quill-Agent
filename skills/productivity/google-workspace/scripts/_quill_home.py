@@ -40,3 +40,4 @@ except (ModuleNotFoundError, ImportError):
             return "~/" + str(home.relative_to(Path.home()))
         except ValueError:
             return str(home)
+# quill: skills

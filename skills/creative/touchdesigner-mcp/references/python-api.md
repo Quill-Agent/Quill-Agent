@@ -461,3 +461,4 @@ x, y, z = pos[0], pos[1], pos[2]
 dir(sop.points()[0])   # see what attributes actually exist
 dir(sop.points()[0].P) # see Position object interface
 ```
+<!-- quill: skills -->

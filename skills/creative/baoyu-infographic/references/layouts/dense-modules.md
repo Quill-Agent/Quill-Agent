@@ -70,3 +70,4 @@ High-density modular layout with 6-7 typed information modules packed with concr
 - `retro-pop-grid`: 1970s pop art with strict grid cells and bold contrast
 - `corporate-memphis`: Clean business feel for product comparisons
 - `technical-schematic`: Engineering precision for technical product guides
+<!-- quill: skills -->

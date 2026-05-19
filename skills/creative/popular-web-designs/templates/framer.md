@@ -257,3 +257,4 @@ When refining existing screens generated with this design system:
 3. Check that Framer Blue appears ONLY on interactive elements — never as decorative background or text color for non-links
 4. Ensure all buttons are pill-shaped — any squared corner immediately breaks the Framer aesthetic
 5. Test frosted glass surfaces by checking they have exactly `rgba(255, 255, 255, 0.1)` — too opaque looks like a bug, too transparent disappears
+<!-- quill: skills -->

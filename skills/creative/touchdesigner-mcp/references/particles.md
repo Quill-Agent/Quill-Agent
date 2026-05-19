@@ -243,3 +243,4 @@ Use `td_get_perf` to find which op in the POP chain is the bottleneck.
 | Snow/rain | Continuous emission across XZ plane (high y), gravity + small wind, infinite life box-deleted |
 | Sparks | Burst, very short life (0.3s), bright additive render, motion blur via feedback |
 | Audio particles | Birthrate driven by audio envelope, color driven by frequency band |
+<!-- quill: skills -->

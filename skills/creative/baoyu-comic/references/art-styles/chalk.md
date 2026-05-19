@@ -99,3 +99,4 @@ Classic classroom chalkboard aesthetic with hand-drawn chalk illustrations. Nost
 ## Best For
 
 Educational content, tutorials, classroom themes, teaching materials, workshops, informal learning, knowledge sharing
+<!-- quill: skills -->

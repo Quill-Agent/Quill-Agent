@@ -253,3 +253,4 @@ Model browsers:
 - https://huggingface.co/models
 - https://civitai.com (NSFW; requires API token for many)
 - https://comfyworkflows.com (community workflows)
+<!-- quill: skills -->

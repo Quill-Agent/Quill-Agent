@@ -189,3 +189,4 @@ The writing philosophy, citation verification workflow, and conference reference
 | **ML CO2 Impact** | [mlco2.github.io](https://mlco2.github.io/impact/) | Compute carbon footprint calculator |
 | **NeurIPS Broader Impact Guide** | [NeurIPS](https://neurips.cc/public/guides/PaperChecklist) | Official guidance on impact statements |
 | **ACL Ethics Policy** | [ACL](https://www.aclweb.org/portal/content/acl-code-ethics) | Ethics requirements for NLP research |
+<!-- quill: skills -->

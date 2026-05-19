@@ -95,3 +95,4 @@ Traditional Chinese ink brush painting style adapted for comics. Combines callig
 ## Best For
 
 Chinese historical stories, martial arts, traditional tales, contemplative narratives, artistic adaptations
+<!-- quill: skills -->

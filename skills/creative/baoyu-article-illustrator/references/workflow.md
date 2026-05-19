@@ -330,3 +330,4 @@ Positions:
 Failed:
 - NN-zzz.png: [reason]
 ```
+<!-- quill: skills -->

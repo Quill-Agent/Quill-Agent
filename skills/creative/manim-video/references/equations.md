@@ -214,3 +214,4 @@ self.play(TransformMatchingTex(
 ```
 
 Without `matched_keys`, the animation matches the longest common substrings, which can produce unexpected results on complex equations (e.g., "^2 = C^2" matching across terms).
+<!-- quill: skills -->

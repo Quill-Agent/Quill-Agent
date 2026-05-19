@@ -62,3 +62,4 @@ bash skills/creative/p5js/scripts/setup.sh
     ├── render.sh                # Headless render pipeline (HTML → frames → MP4)
     └── export-frames.js         # Puppeteer frame capture (Node.js)
 ```
+<!-- quill: skills -->

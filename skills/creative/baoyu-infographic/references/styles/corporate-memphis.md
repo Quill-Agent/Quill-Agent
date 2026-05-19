@@ -27,3 +27,4 @@ Flat vector people with vibrant geometric fills
 ## Best For
 
 Business presentations, tech products, marketing materials, corporate training
+<!-- quill: skills -->

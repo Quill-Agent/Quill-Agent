@@ -57,3 +57,4 @@ High-quality magazine explainer aesthetic. Clear visual storytelling with struct
 ## Best For
 
 Technology explainers, science communication, research articles, policy analysis, investigative pieces, thought leadership, long-form journalism
+<!-- quill: skills -->

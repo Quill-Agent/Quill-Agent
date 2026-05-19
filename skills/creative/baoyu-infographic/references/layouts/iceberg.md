@@ -39,3 +39,4 @@ Surface vs hidden depths, visible vs underlying factors.
 - `cartoon-hand-drawn`: Friendly metaphor
 - `storybook-watercolor`: Artistic depth
 - `graphic-novel`: Dramatic revelation
+<!-- quill: skills -->

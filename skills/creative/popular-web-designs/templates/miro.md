@@ -119,3 +119,4 @@ Breakpoints: 425px, 576px, 768px, 896px, 1024px, 1200px, 1280px, 1366px, 1700px,
 - Border: `#c7cad5`
 ### Example Component Prompts
 - "Create hero: white background. Roobert PRO Medium 56px, line-height 1.15, letter-spacing -1.68px. Blue CTA (#5b76fe). Outlined secondary (1px solid #c7cad5, 8px radius)."
+<!-- quill: skills -->

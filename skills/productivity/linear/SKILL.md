@@ -378,3 +378,4 @@ Combine filters with `or: [...]` for OR logic (default is AND within a filter ob
 - If `stateId` is omitted when creating issues, Linear defaults to the first backlog state
 - The `description` field supports Markdown
 - Use `python3 -m json.tool` or `jq` to format JSON responses for readability
+<!-- quill: skills -->

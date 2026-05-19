@@ -34,3 +34,4 @@ High-contrast comic style with bold outlines and dramatic visuals.
 ## Best For
 
 Attention-grabbing content, dramatic narratives, pop culture, marketing, high-energy presentations
+<!-- quill: skills -->

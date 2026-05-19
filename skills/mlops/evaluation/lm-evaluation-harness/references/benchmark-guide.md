@@ -486,3 +486,4 @@ lm_eval --model hf \
 - Task list: `lm_eval --tasks list`
 - Task README: `lm_eval/tasks/README.md`
 - Papers: See individual benchmark papers
+<!-- quill: skills -->

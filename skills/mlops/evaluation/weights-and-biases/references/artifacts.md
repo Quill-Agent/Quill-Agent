@@ -582,3 +582,4 @@ metadata_artifact.add_file('metadata.json')  # Small file
 - **Artifacts Documentation**: https://docs.wandb.ai/guides/artifacts
 - **Model Registry**: https://docs.wandb.ai/guides/model-registry
 - **Best Practices**: https://wandb.ai/site/articles/versioning-data-and-models-in-ml
+<!-- quill: skills -->

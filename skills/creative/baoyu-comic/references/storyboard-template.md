@@ -141,3 +141,4 @@ Maintain exact character appearances as defined in character reference.
 - [Character A]: [key identifying features]
 - [Character B]: [key identifying features]
 ```
+<!-- quill: skills -->

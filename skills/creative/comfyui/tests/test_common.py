@@ -445,3 +445,4 @@ class TestVideoWorkflow:
 
     def test_wan_workflow(self, video_workflow):
         assert looks_like_video_workflow(video_workflow) is True
+# quill: skills

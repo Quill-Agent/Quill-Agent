@@ -272,3 +272,4 @@ What makes Mistral distinctive is the complete commitment to a warm color temper
 3. Never add border-radius — sharp corners only
 4. Shadows are always warm: "golden shadow with amber tones"
 5. Font weight is always 400 — describe emphasis through size and color
+<!-- quill: skills -->

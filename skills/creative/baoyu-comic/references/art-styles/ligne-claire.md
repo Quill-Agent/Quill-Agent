@@ -73,3 +73,4 @@ Classic European comic style originating from Hergé's Tintin. Characterized by 
 ## Best For
 
 Educational content, balanced narratives, biography comics, historical stories
+<!-- quill: skills -->

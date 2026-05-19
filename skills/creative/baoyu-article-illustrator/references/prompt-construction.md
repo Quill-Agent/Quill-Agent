@@ -424,3 +424,4 @@ If the user asks for a watermark, append:
 ```
 Include a subtle watermark "[content]" positioned at [position].
 ```
+<!-- quill: skills -->

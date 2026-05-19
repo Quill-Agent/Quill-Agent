@@ -21,3 +21,4 @@ Action sequences, emotional arcs, complex stories
 ## Best Style Pairings
 
 dramatic, vibrant, ohmsha
+<!-- quill: skills -->

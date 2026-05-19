@@ -57,3 +57,4 @@ Academic scientific illustration aesthetic for biological, chemical, and technic
 ## Best For
 
 Biology articles, chemistry explanations, medical content, research summaries, academic writing, technical documentation, process explanations
+<!-- quill: skills -->

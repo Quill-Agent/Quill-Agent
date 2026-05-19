@@ -66,3 +66,4 @@ class TestNodePackageMap:
         safe = re.compile(r"^[A-Za-z0-9][A-Za-z0-9._\-]*$")
         for pkg in NODE_TO_PACKAGE.values():
             assert safe.match(pkg), f"Unsafe package slug: {pkg!r}"
+# quill: skills

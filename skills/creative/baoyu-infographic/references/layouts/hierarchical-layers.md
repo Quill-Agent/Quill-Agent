@@ -46,3 +46,4 @@ Nested layers showing levels of importance, influence, or proximity.
 - `craft-handmade`: Playful layered concepts
 - `corporate-memphis`: Business hierarchies
 - `technical-schematic`: Technical 3D pyramids
+<!-- quill: skills -->

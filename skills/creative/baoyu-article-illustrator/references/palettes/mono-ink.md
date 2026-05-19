@@ -40,3 +40,4 @@ Black ink on white canvas. Accent colors for semantic highlighting only — tota
 ## Best For
 
 Professional visual notes, Before/After essays, tech manifestos, framework analogies, whiteboard-presentation explainers
+<!-- quill: skills -->

@@ -412,3 +412,4 @@ xurl --app staging /2/users/me             # one-off against staging
 - Upstream CLI: https://github.com/xdevplatform/xurl (X developer platform team, Chris Park et al.)
 - Upstream agent skill: https://github.com/openclaw/openclaw/blob/main/skills/xurl/SKILL.md
 - Quill adaptation: reformatted for Quill skill conventions; safety guardrails preserved verbatim.
+<!-- quill: skills -->

@@ -148,3 +148,4 @@ server {
     -m model.gguf \
     --cache-prompt  # Cache processed prompts
 ```
+<!-- quill: skills -->

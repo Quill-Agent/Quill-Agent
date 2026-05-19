@@ -218,3 +218,4 @@ Clone these for inspiration / patterns (all MIT-ish, linked from [pretext.cool](
 - **Alarmy editorial clock** — `github.com/SmisLee/alarmy-pretext-demo`
 
 Official playground: [chenglou.me/pretext](https://chenglou.me/pretext/) — accordion, bubbles, dynamic-layout, editorial-engine, justification-comparison, masonry, markdown-chat, rich-note.
+<!-- quill: skills -->

@@ -278,3 +278,4 @@ What makes Ollama distinctive is the combination of SF Pro Rounded (Apple's roun
 4. Shadows are always zero — never add them
 5. Weight is always 400 or 500 — never bold
 6. If something feels too decorated, remove it — less is always more for Ollama
+<!-- quill: skills -->

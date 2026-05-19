@@ -304,3 +304,4 @@ What distinguishes NVIDIA's design from other dark-background tech sites is the 
 6. Link hover is always `#3860be` (blue) regardless of the link's default color
 7. Line-height 1.25 for headings, 1.50-1.67 for body text -- maintain this contrast for visual hierarchy
 8. Navigation uses uppercase 14px bold -- this hardware-label typography is part of the brand voice
+<!-- quill: skills -->

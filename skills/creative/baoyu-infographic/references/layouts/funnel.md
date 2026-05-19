@@ -39,3 +39,4 @@ Narrowing stages showing conversion, filtering, or refinement process.
 - `corporate-memphis`: Marketing funnels
 - `isometric-3d`: Technical pipelines
 - `cartoon-hand-drawn`: Educational funnels
+<!-- quill: skills -->

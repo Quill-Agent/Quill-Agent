@@ -275,3 +275,4 @@ For tasks that intentionally skip Codex:
 - [ ] Quill ran canonical tests independently.
 - [ ] `kanban_complete.metadata.codex_lane` follows the schema above.
 - [ ] Temporary processes and unnecessary worktrees were cleaned up.
+<!-- quill: skills -->

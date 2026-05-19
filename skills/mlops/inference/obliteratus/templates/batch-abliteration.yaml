@@ -39,3 +39,4 @@ overrides:
     method: "surgical"        # CoT-aware for reasoning models
   "mistralai/Mixtral-8x7B-Instruct-v0.1":
     method: "nuclear"         # Expert-granular for MoE models
+# quill: skills

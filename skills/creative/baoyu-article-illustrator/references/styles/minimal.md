@@ -56,3 +56,4 @@ Note: Accent color is derived from content context. Use sparingly.
 ## Best For
 
 Philosophy articles, minimalism content, focused explanations, meditation and mindfulness, essential concepts, clarity-focused writing
+<!-- quill: skills -->

@@ -253,3 +253,4 @@ self.play(tracker.animate.set_value(10), run_time=5, rate_func=linear)
 3. **Showing notation without meaning.** Never show a symbol without first showing what it represents visually.
 4. **Skipping the motivation.** Jumping straight to "here's our method" without showing why the problem matters. The Problem section is what makes the viewer care.
 5. **Identical pacing throughout.** The hook and key insight need the most visual energy. The method section can be faster. Evidence should land with impact (pause after showing the big number).
+<!-- quill: skills -->

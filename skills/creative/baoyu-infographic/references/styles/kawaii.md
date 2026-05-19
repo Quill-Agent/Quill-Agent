@@ -27,3 +27,4 @@ Japanese cute style with big eyes and pastel colors
 ## Best For
 
 Cute tutorials, children's education, lifestyle content, character-driven explanations
+<!-- quill: skills -->

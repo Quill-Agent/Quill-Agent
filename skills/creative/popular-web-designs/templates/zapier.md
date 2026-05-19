@@ -339,3 +339,4 @@ The brand's signature orange (`#ff4f00`) is unmistakable -- a vivid, saturated r
 6. Tab navigation uses inset box-shadow underlines, not border-bottom
 7. Text is always warm: `#201515` for dark, `#36342e` for body, `#939084` for muted
 8. Uppercase labels at 12-14px with 0.5px letter-spacing for section categorization
+<!-- quill: skills -->

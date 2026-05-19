@@ -173,3 +173,4 @@ Lag CHOP in timeslice mode expands 256-sample spectrum to 1600-2400 samples, ave
 Verified:
 - Without Lag CHOP: bass bins = 5.0-5.4 (strong, usable)
 - With Lag CHOP: ALL bins = 0.000001 (dead)
+<!-- quill: skills -->

@@ -341,3 +341,4 @@ Otherwise → not TDD
 ```
 
 No exceptions without the user's explicit permission.
+<!-- quill: skills -->

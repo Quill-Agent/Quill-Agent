@@ -241,3 +241,4 @@ llama-server --hf-repo <repo> --hf-file <filename.gguf>
 - Higher quantization uses more compute
 - Q8_0 much slower than Q4_K_M
 - Consider speed vs quality trade-off
+<!-- quill: skills -->

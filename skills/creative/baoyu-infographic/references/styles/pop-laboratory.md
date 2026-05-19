@@ -46,3 +46,4 @@ Lab manual precision meets pop art color impact—coordinate systems, technical 
 ## Best For
 
 Technical product guides, specification comparisons, precision-focused data visualization, engineering-adjacent content
+<!-- quill: skills -->

@@ -87,3 +87,4 @@ Full-color realistic manga style using digital painting techniques. Features ana
 ## Best For
 
 Professional topics (wine, food, business), lifestyle content, adult narratives, documentary-style, mature educational guides
+<!-- quill: skills -->

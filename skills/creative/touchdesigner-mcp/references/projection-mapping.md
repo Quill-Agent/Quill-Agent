@@ -209,3 +209,4 @@ When debugging a multi-screen setup:
 | Curved/dome | Subdivided gridSOP with vertex GLSL → `renderTOP` → `windowCOMP` |
 | Edge blend overlap | GLSL fade shader per projector → `windowCOMP` |
 | Calibration mode | `switchTOP` between scene and test patterns, hot-key triggered |
+<!-- quill: skills -->

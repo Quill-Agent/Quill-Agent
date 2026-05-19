@@ -93,3 +93,4 @@ class TestHealthCheckLive:
         assert report["server"]["reachable"] is True
         assert report["checkpoints"]["queryable"] is True
         assert report["checkpoints"]["count"] > 0
+# quill: skills

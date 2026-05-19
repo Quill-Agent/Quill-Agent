@@ -178,3 +178,4 @@ Without unified character definition, AI generates inconsistent appearances. The
 1. Visual anchors for consistent features
 2. Color palettes for consistent coloring
 3. Expression documentation for emotional portrayals
+<!-- quill: skills -->

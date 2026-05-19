@@ -350,3 +350,4 @@ def onDestroy(opDestroyed):
 | Run-once setup | `executeDAT.par.start=True` with logic in `onStart()` |
 | Per-frame metrics | `executeDAT.par.frameend=True` recording values to a CHOP |
 | Auto-name new ops | `opExecuteDAT.par.create=True` enforcing naming conventions |
+<!-- quill: skills -->

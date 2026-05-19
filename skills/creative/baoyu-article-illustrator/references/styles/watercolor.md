@@ -56,3 +56,4 @@ Gentle watercolor aesthetic with visible brush strokes and natural color bleedin
 ## Best For
 
 Lifestyle articles, wellness content, travel pieces, food and cooking, personal stories, creative topics, artistic portfolios, warm educational content
+<!-- quill: skills -->

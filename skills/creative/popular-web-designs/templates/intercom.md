@@ -157,3 +157,4 @@ Breakpoints: 425px, 530px, 600px, 640px, 768px, 896px
 
 ### Example Component Prompts
 - "Create hero: warm cream (#faf9f6) background. Saans 80px weight 400, line-height 1.00, letter-spacing -2.4px, #111111. Dark button (#111111, 4px radius). Hover: scale(1.1), white bg."
+<!-- quill: skills -->

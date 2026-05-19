@@ -97,3 +97,4 @@ Rounded corners are modest — `sm` on interactive elements, `md` on cards.
 - **Don't** introduce colors outside the palette — extend the palette first.
 - **Don't** nest component variants. `button-primary-hover` is a sibling,
   not a child.
+<!-- quill: skills -->

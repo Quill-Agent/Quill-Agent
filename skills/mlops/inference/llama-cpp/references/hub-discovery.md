@@ -166,3 +166,4 @@ Projector:
 - `mmproj` files are projector weights for multimodal models, not the main language model checkpoint.
 - If the HF hardware compatibility panel is missing because the user has no hardware profile configured, or because the fetched page source did not expose it, still use the tree API plus generic quant guidance from `quantization.md`.
 - If the repo already has GGUFs, do not jump straight to conversion workflows.
+<!-- quill: skills -->

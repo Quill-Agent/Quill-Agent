@@ -528,3 +528,4 @@ if __name__ == '__main__':
         print(f"{'='*60}\n")
         if result['content']:
             print(result['content'][:2000])
+# quill: skills

@@ -55,3 +55,4 @@ Academic/technical briefing style with clean 2D or isometric technical illustrat
 ## Best For
 
 Technical explanations, concept breakdowns, academic content, research summaries, bilingual audiences, knowledge documentation
+<!-- quill: skills -->

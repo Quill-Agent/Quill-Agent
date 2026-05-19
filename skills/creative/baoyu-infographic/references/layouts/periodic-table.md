@@ -39,3 +39,4 @@ Grid of categorized elements with consistent cell formatting.
 - `pop-art`: Vibrant element grids
 - `pixel-art`: Retro collection displays
 - `corporate-memphis`: Business tool catalogs
+<!-- quill: skills -->

@@ -139,3 +139,4 @@ Did advanced leave > 10% refusals?
 | MoE model still refuses | Non-expert-aware method | Switch to `nuclear` |
 | Reasoning degraded | CoT directions damaged | Use `surgical` method |
 | OOM during extraction | Insufficient VRAM | Add `--quantization 4bit` and/or `--large-model` |
+<!-- quill: skills -->

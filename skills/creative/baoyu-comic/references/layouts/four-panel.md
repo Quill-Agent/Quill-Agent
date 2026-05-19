@@ -38,3 +38,4 @@ Business allegory, quick-insight education, social media comics, fables, parable
 ## Best Style Pairings
 
 minimalist, ligne-claire, chalk
+<!-- quill: skills -->

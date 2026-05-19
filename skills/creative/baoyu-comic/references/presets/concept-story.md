@@ -119,3 +119,4 @@ Every page MUST have a narrative title:
 Psychology concepts, business/management principles, motivation theory, personal development,
 self-help content, leadership frameworks, coaching narratives, soft skill education,
 abstract concept explanation through character-driven stories
+<!-- quill: skills -->

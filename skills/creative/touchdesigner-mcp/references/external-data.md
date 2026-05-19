@@ -320,3 +320,4 @@ WebSocket server in TD
 | Arduino sensor → visual | `serialDAT` → callback → `constantCHOP` → expression on visual op |
 | TD ↔ phone control | `websocketDAT` server + simple HTML page on phone |
 | MQTT IoT integration | `mqttClientDAT` subscribe → callback dispatches by topic |
+<!-- quill: skills -->

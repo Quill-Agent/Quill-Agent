@@ -181,3 +181,4 @@ Recommended order:
 ```
 
 **Performance note:** Each glslTOP is a full GPU pass. For 1920×1080 at 60fps this stack is comfortably real-time. For 4K, consider downsampling bloom input with `resolutionTOP` first.
+<!-- quill: skills -->

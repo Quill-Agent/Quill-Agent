@@ -323,3 +323,4 @@ What makes Claude's design truly distinctive is its warm neutral palette. Every 
 5. For shadows, use "ring shadow (0px 0px 0px 1px)" or "whisper shadow" — never generic "drop shadow"
 6. Specify the warm background — "on Parchment (#f5f4ed)" or "on Near Black (#141413)"
 7. Keep illustrations organic and conceptual — describe "hand-drawn-feeling" style
+<!-- quill: skills -->

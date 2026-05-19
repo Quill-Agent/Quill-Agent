@@ -185,3 +185,4 @@ Add hourly cron:
 - Check logs: `tail -f ~/minecraft-server/server/logs/latest.log`
 - Look for "Done (Xs)!" in the log = server is ready
 - Test connection: player adds server IP in Multiplayer
+<!-- quill: skills -->

@@ -587,3 +587,4 @@ def generate_dataset(images_dir, output_dir, mask_generator):
 
     return annotations
 ```
+<!-- quill: skills -->

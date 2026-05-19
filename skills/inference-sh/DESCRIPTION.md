@@ -17,3 +17,4 @@ Run 150+ AI applications in the cloud via the [inference.sh](https://inference.s
 - **3D**: Rodin
 - **Social**: Twitter/X automation
 - **Audio**: TTS, voice cloning
+<!-- quill: skills -->

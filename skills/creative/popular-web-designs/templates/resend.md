@@ -314,3 +314,4 @@ What makes Resend distinctive is its icy, blue-tinted border system. Instead of 
 5. Multi-color accents at low opacity (12–42%) for backgrounds, full opacity for text
 6. Pill shape (9999px) for CTAs and badges, standard radius (4px–16px) for containers
 7. No shadows — use frost borders for depth against the void
+<!-- quill: skills -->

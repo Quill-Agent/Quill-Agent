@@ -30,3 +30,4 @@ Create a cartoon-style infographic illustration following these guidelines:
 ---
 
 Generate the illustration based on the content provided below:
+<!-- quill: skills -->

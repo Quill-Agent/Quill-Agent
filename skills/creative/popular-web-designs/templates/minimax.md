@@ -268,3 +268,4 @@ What makes MiniMax distinctive is its pill-button geometry (9999px radius) for n
 4. DM Sans handles 70% of text — Outfit is display-only, Poppins is mid-tier only
 5. Keep weights moderate (500–600 for headings) — the brand tone is confident but approachable
 6. Large radius cards (20–24px) for products, smaller radius (8–13px) for UI elements
+<!-- quill: skills -->

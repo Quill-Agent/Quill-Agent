@@ -315,3 +315,4 @@ What makes Clay truly distinctive is its hover micro-animations: buttons on hove
 5. Hover animations are the signature — rotation + hard shadow, not subtle fades
 6. Generous radius: 24px cards, 40px sections — nothing looks sharp or corporate
 7. Three weights: 600 (headings), 500 (UI), 400 (body) — strict roles
+<!-- quill: skills -->

@@ -92,3 +92,4 @@ Works especially well with:
 - realistic: touching human stories
 - manga: slice-of-life warmth
 - chalk: nostalgic education
+<!-- quill: skills -->

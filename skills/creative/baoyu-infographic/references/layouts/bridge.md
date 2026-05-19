@@ -39,3 +39,4 @@ Gap-crossing structure connecting problem to solution or current to future state
 - `cartoon-hand-drawn`: Friendly journeys
 - `corporate-memphis`: Business transformations
 - `isometric-3d`: Technical transitions
+<!-- quill: skills -->

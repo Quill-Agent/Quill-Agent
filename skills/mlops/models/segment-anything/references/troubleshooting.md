@@ -482,3 +482,4 @@ Include:
 - SAM model type (vit_b/l/h)
 - Full error traceback
 - Minimal reproducible code
+<!-- quill: skills -->

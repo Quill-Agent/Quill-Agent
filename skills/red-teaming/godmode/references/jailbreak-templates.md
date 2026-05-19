@@ -126,3 +126,4 @@ print(result['content'])
 - The system prompt in GODMODE CLASSIC keeps `{QUERY}` as literal text (the variable name is part of the jailbreak frame)
 - Only the user message gets the actual query injected
 - Templates source: [L1B3RT4S repo](https://github.com/elder-plinius/L1B3RT4S) by Pliny the Prompter
+<!-- quill: skills -->

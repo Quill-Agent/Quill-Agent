@@ -202,3 +202,4 @@ If webhooks aren't working:
 4. **Signature mismatch?** Verify the secret in your service matches the one from `quill webhook list`. GitHub sends `X-Hub-Signature-256`, GitLab sends `X-Gitlab-Token`.
 5. **Firewall/NAT?** The webhook URL must be reachable from the service. For local development, use a tunnel (ngrok, cloudflared).
 6. **Wrong event type?** Check `--events` filter matches what the service sends. Use `quill webhook test <name>` to verify the route works.
+<!-- quill: skills -->

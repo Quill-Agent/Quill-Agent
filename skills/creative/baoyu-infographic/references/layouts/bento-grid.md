@@ -39,3 +39,4 @@ Modular grid layout with varied cell sizes, like a bento box.
 - `craft-handmade`: Friendly overviews (default)
 - `corporate-memphis`: Business summaries
 - `pixel-art`: Retro feature grids
+<!-- quill: skills -->

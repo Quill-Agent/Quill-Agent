@@ -57,3 +57,4 @@ Nostalgic vintage aesthetic with aged paper textures and historical document sty
 ## Best For
 
 Historical articles, travel and exploration, biography pieces, heritage stories, scientific discovery narratives, museum-style content, classic literature references
+<!-- quill: skills -->

@@ -289,3 +289,4 @@ The component system uses the `mds` (Markdown Design System) prefix, indicating 
 4. Product colors are sacred — each product owns exactly one color
 5. Focus rings are always 3px solid, color-matched to product context
 6. Uppercase labels are the systematic wayfinding pattern — 13px, 600, 1.3px tracking
+<!-- quill: skills -->

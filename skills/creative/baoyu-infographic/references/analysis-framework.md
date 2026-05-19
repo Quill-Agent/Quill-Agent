@@ -180,3 +180,4 @@ Before proceeding to structured content generation:
 - [ ] Have I identified visual opportunities?
 - [ ] Have I extracted design instructions from user input?
 - [ ] Have I recommended 3 layout×style combinations?
+<!-- quill: skills -->

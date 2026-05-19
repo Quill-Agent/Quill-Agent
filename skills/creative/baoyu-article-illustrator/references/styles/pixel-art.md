@@ -55,3 +55,4 @@ Pixelated retro aesthetic reminiscent of classic 8-bit and 16-bit era games. Chu
 ## Best For
 
 Gaming articles, tech tutorials, nostalgic content, developer topics, retro-themed pieces, creative tech content
+<!-- quill: skills -->

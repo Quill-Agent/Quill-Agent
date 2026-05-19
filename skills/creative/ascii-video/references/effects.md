@@ -1863,3 +1863,4 @@ For every project, create at least one effect that isn't in the catalog:
 - **Use one field to modulate another's parameters**: `vf_spiral(..., tightness=2 + vf_fbm(...) * 5)`
 - **Stack time offsets**: render the same field at `t` and `t - 0.5`, difference-blend for motion trails
 - **Mirror a value field** through an SDF boundary for kaleidoscopic geometry
+<!-- quill: skills -->

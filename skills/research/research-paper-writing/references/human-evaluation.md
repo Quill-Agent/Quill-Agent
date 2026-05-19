@@ -474,3 +474,4 @@ Appendix: Human Evaluation Details
 | Reporting only averages | Hides annotator disagreement | Report distribution and agreement |
 | Not controlling for order/position | Position bias inflates results | Randomize presentation order |
 | Conflating annotator agreement with ground truth | High agreement doesn't mean correct | Validate against expert judgments |
+<!-- quill: skills -->

@@ -61,3 +61,4 @@ Hand-drawn educational infographic with macaron pastel color blocks on warm crea
 ## Best For
 
 Educational diagrams, process explainers, concept maps, knowledge summaries, tutorial walkthroughs, onboarding visuals
+<!-- quill: skills -->

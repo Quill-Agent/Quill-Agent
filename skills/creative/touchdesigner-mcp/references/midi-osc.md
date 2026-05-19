@@ -209,3 +209,4 @@ For reliability over WAN, use `webserverDAT` or `websocketDAT` with an external 
 | Phone slider → master fader | TouchOSC `/master` → `oscinCHOP` → expression on output `level.par.opacity` |
 | TD → Resolume scene trigger | `oscoutCHOP` channel `composition/layers/1/clips/1/connect` → Resolume listening on 7000 |
 | Multi-projector sync | Master TD `oscoutCHOP` broadcast → workers `oscinCHOP` |
+<!-- quill: skills -->

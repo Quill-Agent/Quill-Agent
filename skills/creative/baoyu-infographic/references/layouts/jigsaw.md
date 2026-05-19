@@ -39,3 +39,4 @@ Interlocking puzzle pieces showing how parts fit together.
 - `cartoon-hand-drawn`: Friendly integration concepts
 - `paper-cutout`: Tactile puzzle feel
 - `corporate-memphis`: Business strategy pieces
+<!-- quill: skills -->

@@ -64,3 +64,4 @@ echo "GitHub Auth: $GH_AUTH_METHOD"
 [ "$GH_AUTH_METHOD" = "none" ] && echo "⚠ Not authenticated — see github-auth skill"
 
 export GH_AUTH_METHOD GITHUB_TOKEN GH_USER GH_OWNER GH_REPO GH_OWNER_REPO
+# quill: skills

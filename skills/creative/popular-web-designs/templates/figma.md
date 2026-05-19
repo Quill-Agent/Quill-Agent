@@ -231,3 +231,4 @@ What makes Figma distinctive beyond the variable font is its circle-and-pill geo
 3. Dashed focus outlines, not solid
 4. Letter-spacing is always negative on body, always positive on mono labels
 5. Pill (50px) for buttons/tabs, circle (50%) for icon buttons
+<!-- quill: skills -->

@@ -276,3 +276,4 @@ What makes ElevenLabs distinctive is its multi-layered shadow system. Rather tha
 4. Positive letter-spacing on Inter body (+0.14px to +0.18px) — the airy reading quality
 5. Warm stone CTA is the signature — `rgba(245,242,239,0.8)` with `rgba(78,50,23,0.04)` shadow
 6. Pill (9999px) for buttons, generous radius (16px–24px) for cards
+<!-- quill: skills -->

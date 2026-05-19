@@ -62,3 +62,4 @@ def pytest_collection_modifyitems(config, items):
     for item in items:
         if "cloud" in item.keywords:
             item.add_marker(skip_cloud)
+# quill: skills

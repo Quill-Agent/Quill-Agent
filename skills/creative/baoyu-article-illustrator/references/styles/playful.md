@@ -57,3 +57,4 @@ Whimsical and entertaining visual approach that sparks joy. Pastel colors with b
 ## Best For
 
 Tutorials and guides, beginner-friendly content, casual articles, fun topics, children's content, hobby-related posts, entertaining explanations
+<!-- quill: skills -->

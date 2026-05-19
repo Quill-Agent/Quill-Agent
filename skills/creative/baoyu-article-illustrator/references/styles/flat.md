@@ -57,3 +57,4 @@ Contemporary flat design aesthetic with bold shapes and limited depth. Clean geo
 ## Best For
 
 Modern articles, app and product content, startup stories, digital topics, contemporary business, tech company blogs, social media content
+<!-- quill: skills -->

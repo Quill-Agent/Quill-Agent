@@ -106,3 +106,4 @@ echo ""
 echo "=== Done ==="
 echo "Output: $OUTPUT ($FILE_SIZE)"
 echo "Duration: ${DURATION}s at ${FPS}fps, ${WIDTH}x${HEIGHT}"
+# quill: skills

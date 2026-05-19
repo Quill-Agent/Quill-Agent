@@ -399,3 +399,4 @@ Location: [path]
 **File naming**: `NN-{cover|page}-[slug].png` (e.g., `03-page-enigma-machine.png`)
 - Slugs: kebab-case, unique, derived from content
 - Renumbering: Update NN prefix only, slugs unchanged
+<!-- quill: skills -->

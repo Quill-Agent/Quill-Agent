@@ -133,3 +133,4 @@ class LinearTransformExample(LinearTransformationScene):
 ```
 
 This produces the signature 3Blue1Brown "Essence of Linear Algebra" look — grid lines deforming, basis vectors stretching, determinant visualized through area change.
+<!-- quill: skills -->

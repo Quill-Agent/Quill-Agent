@@ -273,3 +273,4 @@ What makes Sentry distinctive is its embrace of the "dark IDE" aesthetic without
 4. Lime green (#c2ef4e) is the "pop" color — use once per section maximum
 5. Frosted glass for overlaid panels, solid purple for primary surfaces
 6. Rubik handles 90% of typography — Dammit Sans is hero-only
+<!-- quill: skills -->

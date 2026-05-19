@@ -191,3 +191,4 @@ What makes BMW distinctive is its CSS variable-driven theming system. Context-aw
 3. BMW Blue for interactive only — never as background or decoration
 4. Photography carries emotion — the UI is pure precision
 5. Tight line-heights everywhere — 1.15 to 1.30 is the range
+<!-- quill: skills -->

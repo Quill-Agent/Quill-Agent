@@ -256,3 +256,4 @@ Variants: Star Wars crawl (perspective skew per line), wave (sine y-offset), bou
 | Engineering | `14px "IBM Plex Mono", monospace` | neon-green `#7cff7c` on near-black `#0a0a0c` |
 
 Always load the web font explicitly (Google Fonts link tag or `@font-face`) so the canvas measurement matches the CSS render.
+<!-- quill: skills -->

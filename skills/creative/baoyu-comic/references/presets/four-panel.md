@@ -105,3 +105,4 @@ Each panel description should specify:
 ## Best For
 
 Business allegory, management fables, short insights, workplace parables, concept contrasts, social media educational content, quick-read comics
+<!-- quill: skills -->

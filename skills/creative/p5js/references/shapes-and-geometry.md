@@ -298,3 +298,4 @@ erase();
   circle(mouseX, mouseY, 100);  // this area becomes transparent
 noErase();
 ```
+<!-- quill: skills -->

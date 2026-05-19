@@ -292,3 +292,4 @@ The color system is deliberately minimal. The primary palette consists of just t
 6. Three-stage interaction: default → hover (darkened) → active (deeply darkened) for all semantic colors.
 7. Borders use `rgba(15, 0, 0, 0.12)` -- a warm transparent dark, not neutral gray. This ties borders to the warm palette.
 8. Spacing follows an 8px grid: 8, 16, 24, 32, 40, 48, 64, 80, 96px. Use 4px for fine adjustments only.
+<!-- quill: skills -->

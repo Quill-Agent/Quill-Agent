@@ -532,3 +532,4 @@ pdflatex aaai2026-unified-template.tex
 
 🎉 **现在您只需要修改一行代码就可以在两个版本之间切换，同时所有必要的依赖文件都已经准备就绪！**  
 🎉 **Now you only need to modify one line of code to switch between the two versions, with all necessary dependency files ready to use!**
+<!-- quill: skills -->

@@ -82,3 +82,4 @@ Minimalist cartoon illustration characterized by clean black line art on white b
 ## Best For
 
 Business allegory, management fables, short concept illustration, four-panel comic strips, quick-insight education, social media content
+<!-- quill: skills -->

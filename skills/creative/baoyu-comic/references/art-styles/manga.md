@@ -91,3 +91,4 @@ Japanese manga art style characterized by large expressive eyes, dynamic poses, 
 ## Best For
 
 Educational tutorials, romance, action, coming-of-age, technical explanations, youth-oriented content
+<!-- quill: skills -->

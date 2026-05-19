@@ -30,3 +30,4 @@ Warm earth tone palette. Warm-only — no cool colors (no green, blue, purple). 
 ## Best For
 
 Product showcases, team introductions, feature grids, brand content, personal growth, lifestyle
+<!-- quill: skills -->

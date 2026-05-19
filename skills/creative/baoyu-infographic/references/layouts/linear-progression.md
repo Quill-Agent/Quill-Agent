@@ -46,3 +46,4 @@ Sequential progression showing steps, timeline, or chronological events.
 - `ikea-manual`: Clean assembly instructions
 - `corporate-memphis`: Business process flows
 - `aged-academia`: Historical discoveries
+<!-- quill: skills -->

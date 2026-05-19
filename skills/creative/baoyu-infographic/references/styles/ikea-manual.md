@@ -27,3 +27,4 @@ Minimal line art assembly instruction style
 ## Best For
 
 Step-by-step instructions, assembly guides, how-to content, universal communication
+<!-- quill: skills -->

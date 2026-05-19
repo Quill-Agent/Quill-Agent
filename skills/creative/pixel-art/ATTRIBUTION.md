@@ -52,3 +52,4 @@ and in the SKILL.md credits block. No code was relicensed.
 - License: MIT (inherits from quill-agent repo)
 - Original author of the skill shell: dodo-reach
 - Expansion with palettes + video: Quill Agent contributors
+<!-- quill: skills -->

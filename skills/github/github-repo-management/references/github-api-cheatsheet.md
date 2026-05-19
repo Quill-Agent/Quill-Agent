@@ -159,3 +159,4 @@ curl -s -X DELETE \
 # Parse JSON response with python3
 curl -s ... | python3 -c "import sys,json; data=json.load(sys.stdin); print(data['field'])"
 ```
+<!-- quill: skills -->

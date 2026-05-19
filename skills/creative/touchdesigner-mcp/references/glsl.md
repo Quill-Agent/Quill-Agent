@@ -149,3 +149,4 @@ float bayer8(vec2 pos) {
 All use compute shaders. Docked DATs follow naming convention:
 - `glsl1_compute` / `glsladv1_compute`
 - `glslcopy1_ptCompute` / `glslcopy1_vertCompute` / `glslcopy1_primCompute`
+<!-- quill: skills -->

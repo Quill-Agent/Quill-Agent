@@ -59,3 +59,4 @@ Hand-drawn chalk lettering style with visible chalk texture. Imperfect baseline 
 ## Best For
 
 Educational content, tutorials, classroom themes, teaching materials, workshops, informal learning sessions, knowledge sharing
+<!-- quill: skills -->

@@ -104,3 +104,4 @@ feedback.par.resetpulse.pulse()
 - **Wave Simulation** — R=height, G=velocity, black initial state
 - **Cellular Automata** — white=alive, black=dead, random noise initial state
 - **Trail / Motion Blur** — blend current frame with feedback, black initial
+<!-- quill: skills -->

@@ -272,3 +272,4 @@ What makes Replicate distinctive is its community-powered energy. The model gall
 3. Links use dotted underline (#bbbbbb) — never solid
 4. The gradient hero is the visual anchor — make it bold
 5. Use basier-square for body, rb-freigeist-neue for display, JetBrains Mono for code
+<!-- quill: skills -->

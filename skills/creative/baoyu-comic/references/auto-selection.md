@@ -69,3 +69,4 @@ Art Style × Tone combinations work best when matched appropriately:
 1. User-specified options (art / tone / style)
 2. Content signal analysis → auto-selection
 3. Fallback: ligne-claire + neutral + standard
+<!-- quill: skills -->

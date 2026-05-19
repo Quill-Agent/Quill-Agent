@@ -96,3 +96,4 @@ When depicting narrator characters addressing the reader:
 ---
 
 Please generate the comic page based on the content provided below:
+<!-- quill: skills -->

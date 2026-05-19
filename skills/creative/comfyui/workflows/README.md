@@ -84,3 +84,4 @@ The `ckpt_name`, `vae_name`, `lora_name`, `unet_name`, etc. are all exposed
 as controllable parameters by `extract_schema.py` — discover what's installed
 with `comfy model list` (local) or `curl /api/experiment/models/checkpoints`
 (cloud).
+<!-- quill: skills -->

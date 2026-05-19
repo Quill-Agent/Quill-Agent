@@ -91,3 +91,4 @@ Answering these three up front means your skill never hits "what do we do now?" 
 ```
 
 The vocabulary is small on purpose. Every gate in every workflow should fit one of these four. If you find yourself inventing a fifth, it's probably a revision gate with extra branching, or an escalation gate in disguise.
+<!-- quill: skills -->

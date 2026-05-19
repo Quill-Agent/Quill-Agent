@@ -100,3 +100,4 @@ Breakpoints: 425–1664px (23 breakpoints)
 - CTA: Airtable Blue (`#1b61c9`)
 - Background: White (`#ffffff`)
 - Border: `#e0e2e6`
+<!-- quill: skills -->

@@ -107,3 +107,4 @@ Issues with the text, media, or information on the page.
 - Missing content (empty sections)
 - Broken or dead links to external resources
 - Incorrect or misleading labels
+<!-- quill: skills -->

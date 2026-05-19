@@ -548,3 +548,4 @@ if __name__ == '__main__':
         variants = generate_variants(args.query, tier=args.tier, custom_triggers=args.triggers)
         for v in variants:
             print(f"[T{v['tier']} {v['label']:>12s}] {v['text']}")
+# quill: skills

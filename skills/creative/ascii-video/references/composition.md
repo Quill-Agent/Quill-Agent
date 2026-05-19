@@ -890,3 +890,4 @@ for glyph in frame_data['glyphs']:
 ```
 
 Obstacles from the JSON can also be rendered as glowing ASCII shapes (circles, rectangles) to visualize the reflow zones.
+<!-- quill: skills -->

@@ -224,3 +224,4 @@ handles this — pass any of:
 - wrapped: `{"prompt": {"3": {...}}, "client_id": "..."}`
 
 It rejects editor format with a clear error and a re-export instruction.
+<!-- quill: skills -->

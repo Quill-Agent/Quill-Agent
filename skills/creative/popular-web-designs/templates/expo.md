@@ -292,3 +292,4 @@ What makes Expo distinctive is its pill-shaped geometry. Buttons, tabs, video co
 5. Always specify Inter and the exact weight — weight contrast IS the hierarchy
 6. For shadows, specify "whisper shadow" or "standard elevation" from the elevation table
 7. Keep the interface monochrome — let product content be the color
+<!-- quill: skills -->

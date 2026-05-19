@@ -85,3 +85,4 @@ echo "  2. Open in browser: open sketch.html"
 echo "  3. Press 's' to save PNG, 'g' to save GIF"
 echo ""
 echo "Setup check complete."
+# quill: skills

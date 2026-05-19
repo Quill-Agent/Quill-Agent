@@ -174,3 +174,4 @@ Before proceeding to storyboard:
 - [ ] Have I found at least 5 visually powerful moments?
 - [ ] Do I understand what to keep, simplify, expand, and omit?
 - [ ] Have I identified the emotional peaks and valleys?
+<!-- quill: skills -->

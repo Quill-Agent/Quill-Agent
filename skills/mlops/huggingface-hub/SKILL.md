@@ -79,3 +79,4 @@ The `hf` command is the modern command-line interface for interacting with the H
 ### Extensions & Skills
 *   **Extensions:** Extend CLI functionality via GitHub repositories using `hf extensions install REPO_ID`.
 *   **Skills:** Manage AI assistant skills with `hf skills add`.
+<!-- quill: skills -->

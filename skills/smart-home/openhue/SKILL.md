@@ -107,3 +107,4 @@ openhue set room "Living Room" --off
 - Colors only work on color-capable bulbs (not white-only models)
 - Light and room names are case-sensitive — use `openhue get light` to check exact names
 - Works great with cron jobs for scheduled lighting (e.g. dim at bedtime, bright at wake)
+<!-- quill: skills -->

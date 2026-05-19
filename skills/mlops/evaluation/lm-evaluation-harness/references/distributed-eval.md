@@ -517,3 +517,4 @@ lm_eval --model vllm \
 - vLLM docs: https://docs.vllm.ai/
 - NeMo docs: https://docs.nvidia.com/nemo-framework/
 - lm-eval distributed guide: `docs/model_guide.md`
+<!-- quill: skills -->

@@ -21,3 +21,4 @@ Python 3.10+, Manim CE (`pip install manim`), LaTeX, ffmpeg.
 ```bash
 bash skills/creative/manim-video/scripts/setup.sh
 ```
+<!-- quill: skills -->

@@ -55,3 +55,4 @@ Hand-drawn sketch aesthetic that feels authentic and in-progress. Pencil-on-pape
 ## Best For
 
 Ideas in progress, brainstorming articles, thought processes, concept exploration, draft-stage thinking, planning content, problem-solving pieces
+<!-- quill: skills -->

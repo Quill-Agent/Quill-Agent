@@ -502,3 +502,4 @@ Include:
 - Full error traceback
 - Minimal reproducible code
 - Hardware (GPU model, VRAM)
+<!-- quill: skills -->

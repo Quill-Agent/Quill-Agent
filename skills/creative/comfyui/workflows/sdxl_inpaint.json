@@ -57,3 +57,4 @@
     "inputs": {"pixels": ["1", 0], "mask": ["2", 0], "vae": ["4", 2], "grow_mask_by": 6}
   }
 }
+# quill: skills

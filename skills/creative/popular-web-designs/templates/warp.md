@@ -264,3 +264,4 @@ When refining existing screens generated with this design system:
 3. Check that Matter Regular (400) is the default weight — Medium (500) only for emphasis
 4. Confirm uppercase labels have wide letter-spacing (1.4px–2.4px) — tight uppercase feels wrong here
 5. The overall tone should feel warm and calm, like a well-designed magazine — not aggressive or tech-flashy
+<!-- quill: skills -->

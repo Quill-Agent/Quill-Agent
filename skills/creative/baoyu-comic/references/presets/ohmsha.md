@@ -112,3 +112,4 @@ Every panel should show:
 ## Reference
 
 For complete guidelines, see `references/ohmsha-guide.md`
+<!-- quill: skills -->

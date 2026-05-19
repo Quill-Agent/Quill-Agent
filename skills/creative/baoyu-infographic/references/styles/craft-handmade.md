@@ -42,3 +42,4 @@ Hand-drawn and paper craft aesthetic with warm, organic feel.
 ## Best For
 
 Educational content, general explanations, friendly infographics, children's content, playful hierarchies
+<!-- quill: skills -->

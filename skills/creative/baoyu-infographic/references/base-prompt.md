@@ -41,3 +41,4 @@ Generate the infographic based on the content below:
 
 Text labels (in {{LANGUAGE}}):
 {{TEXT_LABELS}}
+<!-- quill: skills -->

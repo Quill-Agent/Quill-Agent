@@ -184,3 +184,4 @@ What distinguishes Wise is its green-on-white-on-black material palette. Lime Gr
 3. Scale animations (1.05 hover, 0.95 active) on all interactive elements
 4. "calt" on everything — contextual alternates are mandatory
 5. Inter 600 for body — confident reading weight
+<!-- quill: skills -->

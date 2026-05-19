@@ -196,3 +196,4 @@ What distinguishes Revolut is its pill-everything button system. Every button us
 2. All buttons are pills (9999px) with generous padding
 3. Zero shadows — flat is the Revolut identity
 4. Near-black + white for marketing, semantic colors for product
+<!-- quill: skills -->

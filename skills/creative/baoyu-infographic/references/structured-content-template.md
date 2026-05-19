@@ -242,3 +242,4 @@ Before finalizing structured content:
 - [ ] Data points are collected and verified
 - [ ] Design instructions are separated
 - [ ] No new information has been added
+<!-- quill: skills -->

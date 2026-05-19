@@ -263,3 +263,4 @@ When refining existing screens generated with this design system:
 3. Ensure buttons use Warm Cream (#e9e5dd) not pure white or gray — the warmth is subtle but critical
 4. Confirm the only accent color is Lavender Glow (#cbb7fb) — no other hues should appear
 5. The overall tone should feel like a luxury product presentation — minimal, confident, with one dramatic color gesture in the hero
+<!-- quill: skills -->

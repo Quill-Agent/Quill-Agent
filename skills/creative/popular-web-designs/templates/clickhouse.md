@@ -292,3 +292,4 @@ What makes ClickHouse distinctive is the electrifying tension between the near-b
 4. Active states use Pale Yellow (#f4f692) — not just opacity changes
 5. All links hover to Neon Volt — consistent interactive feedback
 6. Charcoal borders (rgba(65,65,65,0.8)) are the primary depth mechanism
+<!-- quill: skills -->

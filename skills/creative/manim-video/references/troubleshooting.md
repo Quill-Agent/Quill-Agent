@@ -133,3 +133,4 @@ mob.resume_updating()
 3. Replace `self.play()` with `self.add()` to see final state instantly
 4. Print positions: `print(mob.get_center())`
 5. Clear cache: delete `media/` directory
+<!-- quill: skills -->

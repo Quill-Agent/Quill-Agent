@@ -241,3 +241,4 @@ What distinguishes Pinterest is its generous border-radius system (12px–40px, 
 4. Pin Sans is the only font — compact at 12px for UI, 70px for display
 5. Photography carries the design — the UI stays warm and minimal
 6. Plum black (#211922) for text — warmer than pure black
+<!-- quill: skills -->

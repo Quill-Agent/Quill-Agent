@@ -83,3 +83,4 @@ Ohmsha style typically uses:
 - `mixed` - For varied pacing
 
 Avoid `cinematic` and `splash` for educational content.
+<!-- quill: skills -->

@@ -196,3 +196,4 @@ If you'll only ever build the network once, prefer a Python loop with `td_execut
 | Live-updating clone set | Same as above + `par.recreatemissing = True` |
 | Per-row colored UI | Data table with color cols, `onReplicate` callback sets per-clone colors |
 | List from API response | `webDAT` → `datExecuteDAT` parses JSON → writes to data table → replicator updates |
+<!-- quill: skills -->

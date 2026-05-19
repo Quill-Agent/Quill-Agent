@@ -46,3 +46,4 @@ Side-by-side comparison of two items, states, or concepts.
 - `corporate-memphis`: Business comparisons
 - `bold-graphic`: High-contrast dramatic comparisons
 - `craft-handmade`: Friendly explainers
+<!-- quill: skills -->

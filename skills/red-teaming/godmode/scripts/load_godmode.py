@@ -43,3 +43,4 @@ sys.argv = _gm_old_argv
 for _gm_cleanup in ['_gm_scripts_dir', '_gm_old_argv', '_gm_load', '_gm_ns', '_gm_k',
                      '_gm_v', '_gm_script', '_gm_path', '_gm_cleanup']:
     globals().pop(_gm_cleanup, None)
+# quill: skills

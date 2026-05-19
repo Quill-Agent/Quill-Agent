@@ -267,3 +267,4 @@ When refining existing screens generated with this design system:
 3. Ensure hover states flash PostHog Orange (#F54E00) — if hovering feels bland, you're missing this
 4. Confirm borders use sage-tinted gray (#bfc1b7) not neutral gray — warmth runs through every element
 5. The overall tone should feel like a fun, scrappy startup wiki — never corporate-polished or sterile
+<!-- quill: skills -->

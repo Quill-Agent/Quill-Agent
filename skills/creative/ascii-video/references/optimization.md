@@ -686,3 +686,4 @@ else:
 - Name WAV extracts with `tempfile.mktemp(suffix=".wav")` so they're in the OS temp dir
 - For debugging, set `KEEP_INTERMEDIATES=1` env var to skip cleanup
 - Feature caches (`.npz`) are cheap to store and expensive to recompute — default to keeping them
+<!-- quill: skills -->

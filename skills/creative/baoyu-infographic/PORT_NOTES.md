@@ -41,3 +41,4 @@ diff <(curl -sL https://raw.githubusercontent.com/.../references/layouts/bento-g
 ```
 
 Reference files can be overwritten directly (they're unchanged from upstream). SKILL.md must be manually merged since it contains Quill-specific adaptations.
+<!-- quill: skills -->

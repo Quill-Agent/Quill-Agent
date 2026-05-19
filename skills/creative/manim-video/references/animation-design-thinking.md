@@ -159,3 +159,4 @@ For complex systems:
 4. **Skipping the "why."** Showing HOW a transformation works without WHY it matters. Add a sentence/label explaining the purpose.
 5. **Identical pacing throughout.** Every animation at run_time=1.5, every wait at 1.0. Vary it.
 6. **Forgetting the audience.** A video for high schoolers needs different pacing and complexity than one for PhD students. Decide the audience in the planning phase.
+<!-- quill: skills -->

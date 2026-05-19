@@ -39,3 +39,4 @@ Overlapping circles showing relationships, commonalities, and differences.
 - `cartoon-hand-drawn`: Friendly concept overlaps
 - `corporate-memphis`: Business segment analysis
 - `pop-art`: High-contrast comparisons
+<!-- quill: skills -->

@@ -78,3 +78,4 @@ Use this table during Step 3 to recommend presets based on Step 2 content analys
 - "storytelling preset with timeline type" = timeline type with warm style
 
 Explicit type/style/palette mentions in the user's request always override preset values.
+<!-- quill: skills -->

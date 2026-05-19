@@ -833,3 +833,4 @@ def emit_json(obj: Any, *, indent: int = 2) -> None:
 def log(msg: str) -> None:
     """stderr log with consistent prefix (so JSON stdout stays clean)."""
     print(f"[comfyui-skill] {msg}", file=sys.stderr)
+# quill: skills

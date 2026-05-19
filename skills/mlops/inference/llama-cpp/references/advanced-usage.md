@@ -502,3 +502,4 @@ mkdir build && cd build
 cmake .. -DGGML_CUDA=ON -DCMAKE_BUILD_TYPE=Release
 cmake --build . --config Release -j
 ```
+<!-- quill: skills -->

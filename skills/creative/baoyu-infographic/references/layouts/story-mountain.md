@@ -39,3 +39,4 @@ Plot structure visualization showing rising action, climax, and resolution.
 - `storybook-watercolor`: Narrative journeys
 - `cartoon-hand-drawn`: Educational plot diagrams
 - `graphic-novel`: Dramatic story arcs
+<!-- quill: skills -->

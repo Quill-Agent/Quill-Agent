@@ -268,3 +268,4 @@ The spacing system operates on an 8px base grid with values concentrated at the 
 8. Body text at 16px universalSans with 1.5 line-height for comfortable reading
 9. Generous section padding (48px-96px) -- let content breathe in the darkness
 10. The monochromatic white-on-dark palette is absolute -- resist adding color unless critical for function
+<!-- quill: skills -->

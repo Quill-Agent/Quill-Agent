@@ -378,3 +378,4 @@ The color system is almost entirely achromatic — dark backgrounds with white/g
 5. Brand indigo (`#5e6ad2` / `#7170ff`) is the only chromatic color — everything else is grayscale
 6. Borders are always semi-transparent white, never solid dark colors on dark backgrounds
 7. Berkeley Mono for any code or technical content, Inter Variable for everything else
+<!-- quill: skills -->

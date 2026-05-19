@@ -183,3 +183,4 @@ with self.voiceover(text='This is a <bookmark mark="circle"/>circle.') as tracke
 ```
 
 This is the recommended approach for any video with narration. The manual ffmpeg muxing workflow above is still useful for adding background music or post-production audio mixing.
+<!-- quill: skills -->

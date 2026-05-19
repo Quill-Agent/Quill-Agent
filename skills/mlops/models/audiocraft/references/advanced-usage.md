@@ -664,3 +664,4 @@ bad_prompts = [
 
 # Structure: [mood] [genre] with [instruments] at [tempo/style]
 ```
+<!-- quill: skills -->

@@ -279,3 +279,4 @@ For a touch-screen tablet, use a `windowCOMP` on a second display routed to the 
 | Component settings | Custom params on the component COMP, panel widgets inside drive them |
 | Touch tablet UI | `containerCOMP` with widgets → `windowCOMP` to second display |
 | Status display | `textTOP` rendered into the panel via `selectCOMP` |
+<!-- quill: skills -->

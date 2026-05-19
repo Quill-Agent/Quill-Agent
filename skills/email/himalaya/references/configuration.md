@@ -225,3 +225,4 @@ Set via environment variable:
 ```bash
 export EDITOR="vim"
 ```
+<!-- quill: skills -->

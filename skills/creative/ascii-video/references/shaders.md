@@ -1383,3 +1383,4 @@ def get_terminal_color_depth():
         return 8  # 256 colors
     return 4  # 16 colors basic ANSI
 ```
+<!-- quill: skills -->

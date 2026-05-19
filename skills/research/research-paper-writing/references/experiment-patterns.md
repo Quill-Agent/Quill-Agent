@@ -726,3 +726,4 @@ with plt.style.context(style):
 | Ablation study | Stacked/grouped bar | Highlight removed component |
 | Trajectory/convergence | Line chart over iterations | Show winner per iteration |
 | Per-task breakdown | Heatmap or grouped bar | Show variance across tasks |
+<!-- quill: skills -->

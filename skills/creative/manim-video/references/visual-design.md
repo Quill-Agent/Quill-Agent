@@ -122,3 +122,4 @@ For every frame:
 3. What is structural? (dimmed to 0.15)
 4. Enough empty space? (>15%)
 5. All text readable at phone size?
+<!-- quill: skills -->

@@ -288,3 +288,4 @@ Auto-detects CPU count, RAM, platform, ffmpeg. Adapts worker count, resolution, 
 ✦ Audio-reactive music visualizer. 3.5 min, 8 sections with distinct effects, beat-triggered particles and glitch, cycling palettes.
 
 ✦ TTS narrated testimonial video. 23 quotes, per-quote ElevenLabs voices, background music at 15% wide stereo, per-clip re-rendering for iterative editing.
+<!-- quill: skills -->

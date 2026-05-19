@@ -165,3 +165,4 @@ def build_palette_image(palette_name):
     pal_img = Image.new("P", (1, 1))
     pal_img.putpalette(flat)
     return pal_img
+# quill: skills

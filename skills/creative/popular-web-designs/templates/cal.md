@@ -270,3 +270,4 @@ When refining existing screens generated with this design system:
 3. Ensure card elevation uses the multi-layered shadow stack, not CSS borders
 4. Confirm section spacing is generous (80px+) — if sections feel cramped, add more space
 5. The overall tone should feel like a clean, professional scheduling tool — monochrome confidence without any decorative flourishes
+<!-- quill: skills -->

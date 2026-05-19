@@ -219,3 +219,4 @@ Heavy logic should still be in CHOPs (CPU-cheap, deterministic). Reserve scripts
 | 3D Lissajous orbit | Two LFOs with different freq, drive `tx`/`ty`/`tz` |
 | Random jitter | `noiseCHOP` (low-freq) added to position |
 | Timed scene switch | Timer CHOP → switchTOP/CHOP `index` |
+<!-- quill: skills -->

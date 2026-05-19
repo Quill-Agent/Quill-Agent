@@ -54,3 +54,4 @@ Elegant and refined visual approach with sophisticated color palette. Profession
 ## Best For
 
 Professional articles, thought leadership pieces, business topics, executive communications, corporate blogs, strategy discussions, industry analysis
+<!-- quill: skills -->

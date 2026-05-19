@@ -38,3 +38,4 @@ output:
   directory: "./analysis-results"
   save_plots: true           # Generate matplotlib visualizations
   save_report: true          # Generate markdown report
+# quill: skills

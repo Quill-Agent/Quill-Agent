@@ -242,3 +242,4 @@ rec.par.record = False  # stop
 
 TOP.save() captures same frame when called rapidly. Use MovieFileOut for
 real-time recording. Set project.realTime = False for frame-accurate output.
+<!-- quill: skills -->

@@ -309,3 +309,4 @@ What makes Lovable's visual system distinctive is its opacity-driven depth model
 5. Two weights: 400 (everything except headings) and 600 (headings)
 6. The inset shadow on dark buttons is the signature detail — don't skip it
 7. Camera Plain Variable at weight 480 is for special display moments only
+<!-- quill: skills -->

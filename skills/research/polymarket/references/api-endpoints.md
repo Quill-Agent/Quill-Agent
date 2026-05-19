@@ -218,3 +218,4 @@ To go from a Gamma market to CLOB data:
 2. Parse `clobTokenIds` (JSON string): `["YES_TOKEN", "NO_TOKEN"]`
 3. Use YES_TOKEN with `/price`, `/book`, `/midpoint`, `/spread`
 4. Use `conditionId` with `/prices-history` and Data API endpoints
+<!-- quill: skills -->

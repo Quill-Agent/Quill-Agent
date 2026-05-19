@@ -258,3 +258,4 @@ self.play(a_tracker.animate.set_value(1), run_time=1)
 3. **Forgetting to add to scene:** Updaters only run on mobjects that are in the scene. `always_redraw` creates the mobject but you still need `self.add()`.
 
 4. **Updater creates new mobjects without cleanup:** If your updater creates Text objects every frame, they accumulate. Use `always_redraw` (which handles cleanup) or update properties in-place.
+<!-- quill: skills -->

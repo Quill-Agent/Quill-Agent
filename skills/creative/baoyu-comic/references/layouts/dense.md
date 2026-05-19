@@ -21,3 +21,4 @@ Technical explanations, complex narratives, timelines
 ## Best Style Pairings
 
 ohmsha, vibrant
+<!-- quill: skills -->

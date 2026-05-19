@@ -140,3 +140,4 @@ Breakpoints: 400px, 576px, 640px, 768px, 896px, 1280px, 1440px, 1600px
 ### Example Component Prompts
 - "Create hero: white background. CoinbaseDisplay 80px, line-height 1.00. Pill CTA (#eef0f3, 56px radius). Hover: #578bfa."
 - "Build dark section: #0a0b0d background. CoinbaseDisplay 64px white text. Blue accent link (#0052ff)."
+<!-- quill: skills -->

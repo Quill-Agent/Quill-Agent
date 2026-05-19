@@ -46,3 +46,4 @@ Internal structure visualization with labeled parts or layers.
 - `technical-schematic`: Technical schematics
 - `aged-academia`: Classic anatomical style
 - `craft-handmade`: Friendly breakdowns
+<!-- quill: skills -->

@@ -277,3 +277,4 @@ Color is used with extreme restraint — the interface is almost entirely black-
 4. Interactive elements use Interaction Blue (#1863dc) on hover only
 5. Keep surfaces white with cool gray borders — no warm tones
 6. Purple is for full-width sections, never card backgrounds
+<!-- quill: skills -->

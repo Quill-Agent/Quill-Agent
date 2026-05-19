@@ -104,3 +104,4 @@ Regenerate specific pages only.
 **Page numbering**:
 - `0` = Cover page
 - `1-N` = Content pages
+<!-- quill: skills -->

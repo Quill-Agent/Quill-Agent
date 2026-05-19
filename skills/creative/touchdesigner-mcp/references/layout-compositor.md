@@ -129,3 +129,4 @@ outputs:
 ```
 
 **Key principle:** Elements don't know about each other. The compositor assembles them. Audio bus is referenced by all elements but lives separately.
+<!-- quill: skills -->

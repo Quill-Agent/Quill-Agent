@@ -39,3 +39,4 @@ Central concept with radiating connections to related items.
 - `cartoon-hand-drawn`: Friendly concept maps
 - `corporate-memphis`: Business ecosystems
 - `subway-map`: Network-style connections
+<!-- quill: skills -->

@@ -200,3 +200,4 @@ Annotations should follow a rhythm:
 3. **Disappear** — clear the stage for the next thing (FadeOut)
 
 Never leave annotations on screen indefinitely — they become visual noise once their purpose is served.
+<!-- quill: skills -->

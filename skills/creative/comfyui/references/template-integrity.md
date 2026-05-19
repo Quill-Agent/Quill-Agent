@@ -241,3 +241,4 @@ ffmpeg -y -i a.mp4 -i b.mp4 -i c.mp4 \
 ```
 
 Offset for xfade #N = `(N+1) × duration - N × overlap`.
+<!-- quill: skills -->

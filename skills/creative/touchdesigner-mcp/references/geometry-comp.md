@@ -119,3 +119,4 @@ out.inputConnectors[0].connect(sw.outputConnectors[0])
 
 - `connect()` replaces existing connections — no need to disconnect first
 - `project.name` returns the TOE filename, `project.folder` returns the directory
+<!-- quill: skills -->

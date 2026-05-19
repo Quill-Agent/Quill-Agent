@@ -12,3 +12,4 @@ command -v ffmpeg &>/dev/null && ok "ffmpeg" || { fail "ffmpeg not found"; error
 echo ""
 [ $errors -eq 0 ] && echo -e "${G}All prerequisites satisfied.${N}" || echo -e "${R}$errors prerequisite(s) missing.${N}"
 echo ""
+# quill: skills

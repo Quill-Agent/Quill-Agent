@@ -392,3 +392,4 @@ After reasoning, rank all three. RANKING: [best], [second], [worst]"
 **Cost-quality tradeoff**: Autoreason uses ~6x more compute per pass and typically runs more passes. This is a real tradeoff. The method trades compute for evaluation quality. On constrained tasks with mid-tier models, this tradeoff is strongly positive. On unconstrained tasks with frontier models, it's negative.
 
 **CoT judges reduce cost**: 1 CoT judge provides evaluation quality comparable to 3 standard judges, at ~40% cost savings. Always use CoT judges.
+<!-- quill: skills -->

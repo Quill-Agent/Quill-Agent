@@ -188,3 +188,4 @@ After stitching the final video:
 - [ ] Are transitions between scenes smooth (no black frames, no jarring cuts)?
 - [ ] Is the audio in sync with the visuals (if using voiceover)?
 - [ ] Is the Gibbs-like "first impression" good? The first 5 seconds determine if someone keeps watching
+<!-- quill: skills -->

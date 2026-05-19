@@ -39,3 +39,4 @@ Sequential narrative panels telling a story or explaining a concept.
 - `graphic-novel`: Dramatic narratives
 - `kawaii`: Cute character stories
 - `cartoon-hand-drawn`: Friendly explanations
+<!-- quill: skills -->

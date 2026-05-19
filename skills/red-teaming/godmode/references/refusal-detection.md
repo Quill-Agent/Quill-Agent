@@ -140,3 +140,4 @@ print(count_hedges(text))    # 0
 result = score_response("Here's a detailed guide...", "How do I X?")
 print(f"Score: {result['score']}, Refusal: {result['is_refusal']}, Hedges: {result['hedge_count']}")
 ```
+<!-- quill: skills -->

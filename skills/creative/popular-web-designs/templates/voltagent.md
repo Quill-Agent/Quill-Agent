@@ -334,3 +334,4 @@ When refining existing screens generated with this design system:
 5. For glow effects, specify "Emerald Signal Green (#00d992) as a drop-shadow with 2–8px blur radius"
 6. Always specify which font — system-ui for headings, Inter for body/UI, SFMono-Regular for code
 7. Keep animations slow and subtle — marquee scrolls at 25–80s, glow pulses gently
+<!-- quill: skills -->

@@ -88,3 +88,4 @@ Color accents must remain under 10% of canvas area and only carry semantic meani
 ## Best For
 
 Product and engineering essays, tech manifestos, framework introductions, Before/After narratives, OS-level comparisons, workforce and organizational analogies, visual summaries of talks, thought-leadership articles
+<!-- quill: skills -->

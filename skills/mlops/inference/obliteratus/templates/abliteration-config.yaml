@@ -31,3 +31,4 @@ verify:
   test_prompts: null         # null = use built-in test prompts
   compute_perplexity: true
   compute_kl: true
+# quill: skills

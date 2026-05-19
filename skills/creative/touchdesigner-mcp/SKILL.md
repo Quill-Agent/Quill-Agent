@@ -354,3 +354,4 @@ See `references/network-patterns.md` for complete build scripts + shader code.
 ---
 
 > You're not writing code. You're conducting light.
+<!-- quill: skills -->

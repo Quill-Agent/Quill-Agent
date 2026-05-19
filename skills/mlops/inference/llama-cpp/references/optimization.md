@@ -87,3 +87,4 @@ nvidia-smi dmon
 | 0 (CPU only) | 30 tok/s | 0 GB |
 | 20 (hybrid) | 80 tok/s | 8 GB |
 | 35 (all) | 120 tok/s | 12 GB |
+<!-- quill: skills -->

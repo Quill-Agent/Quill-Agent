@@ -39,3 +39,4 @@ Hierarchical structure branching from root to leaves, showing categories and sub
 - `cartoon-hand-drawn`: Friendly taxonomies
 - `da-vinci-notebook`: Scientific classifications
 - `origami`: Geometric tree structures
+<!-- quill: skills -->

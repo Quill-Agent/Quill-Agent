@@ -114,3 +114,4 @@ Slow down pacing for emotional impact:
 ## Best For
 
 Romance stories, coming-of-age, friendship narratives, school life, emotional drama, love stories
+<!-- quill: skills -->

@@ -310,3 +310,4 @@ curl -X POST "http://127.0.0.1:8188/manager/queue/install_model" \
 | `OOMError` | Out of GPU memory |
 | `InsufficientFundsError` | Account balance too low (partner nodes) |
 | `InactiveSubscriptionError` | Subscription not active |
+<!-- quill: skills -->
