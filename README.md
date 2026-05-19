@@ -1,12 +1,10 @@
 <div align="center">
 
-# The Quill-Agent
-
 <img src="assets/banner.png" alt="Quill-Agent — manga-style portrait banner" width="100%" />
 
 <br /><br />
 
-## Quill-Agent
+# Quill-Agent
 
 ### *The self-improving AI agent that writes its own future*
 
