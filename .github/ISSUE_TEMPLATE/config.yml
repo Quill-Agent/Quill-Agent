@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 💬 Quill Agent Discord
+    url: https://discord.gg/YOUR_USERNAME
+    about: For quick questions, showcasing projects, sharing skills, and community chat.
+  - name: 📖 Documentation
+    url: https://github.com/YOUR_USERNAME/quill-agent/blob/main/README.md
+    about: Check the README and docs before opening an issue.
+  - name: 🤝 Contributing Guide
+    url: https://github.com/YOUR_USERNAME/quill-agent/blob/main/CONTRIBUTING.md
+    about: Read this before submitting a PR.
