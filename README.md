@@ -1,12 +1,16 @@
 <div align="center">
 
+# The Quill-Agent
+
 <img src="assets/banner.png" alt="Quill-Agent — manga-style portrait banner" width="100%" />
 
 <br /><br />
 
-# Quill-Agent ✒️
+## Quill-Agent
 
 ### *The self-improving AI agent that writes its own future*
+
+<br />
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.11+-blue?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
