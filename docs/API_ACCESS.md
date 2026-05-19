@@ -108,3 +108,4 @@ User overrides: `$QUILL_HOME/plugins/model-providers/<name>/`
 | Wrong provider selected | `quill config set provider groq` (or `ollama-local`) |
 
 More: `quill doctor` and [README](../README.md#configuration).
+<!-- quill: docs -->

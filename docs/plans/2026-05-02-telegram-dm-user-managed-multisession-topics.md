@@ -471,3 +471,4 @@ Do not ship without verifying disabled-feature backwards compatibility.
 - Already-linked sessions are not restored into a second topic in MVP.
 - Existing Telegram behavior is unchanged when the feature is disabled.
 - Tests and docs are included.
+<!-- quill: docs -->

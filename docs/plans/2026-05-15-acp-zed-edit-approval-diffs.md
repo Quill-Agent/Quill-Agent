@@ -150,3 +150,4 @@ Then run manual Zed verification:
 4. Approve and verify file changed.
 
 **Do not merge** without manual reject-path verification.
+<!-- quill: docs -->
