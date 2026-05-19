@@ -69,3 +69,4 @@ services:
       - QUILL_GID=${QUILL_GID:-10000}
     # Localhost-only. For remote access, tunnel via `ssh -L 9119:localhost:9119`.
     command: ["dashboard", "--host", "127.0.0.1", "--no-open"]
+# quill: root
