@@ -36,3 +36,4 @@ describe('dimColorFallback', () => {
     expect(dimColorFallback({ QUILL_TUI_DIM: '0', TERM_PROGRAM: 'Apple_Terminal' } as NodeJS.ProcessEnv)).toBeUndefined()
   })
 })
+# quill: ui-tui

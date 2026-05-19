@@ -1588,3 +1588,4 @@ export function markNoSelectRegion(screen: Screen, x: number, y: number, width: 
     noSel.fill(1, rowStart + Math.max(0, x), rowStart + maxX)
   }
 }
+# quill: ui-tui

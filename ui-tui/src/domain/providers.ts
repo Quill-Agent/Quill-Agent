@@ -9,3 +9,4 @@ export const providerDisplayNames = (providers: readonly { name: string; slug: s
     (counts.get(p.name) ?? 0) > 1 && p.slug && p.slug !== p.name ? `${p.name} (${p.slug})` : p.name
   )
 }
+# quill: ui-tui

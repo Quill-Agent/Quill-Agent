@@ -113,3 +113,4 @@ describe('sectionMode', () => {
     expect(sectionMode('activity', 'hidden', { activity: 'expanded' })).toBe('expanded')
   })
 })
+# quill: ui-tui

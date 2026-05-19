@@ -35,3 +35,4 @@ export const HOTKEYS: [string, string][] = [
   ['!<cmd>', 'run a shell command (e.g. !ls, !git status)'],
   ['{!<cmd>}', 'interpolate shell output inline (e.g. "branch is {!git branch --show-current}")']
 ]
+# quill: ui-tui

@@ -16,3 +16,4 @@ describe('stripTrailingPasteNewlines', () => {
     expect(stripTrailingPasteNewlines('\n\n')).toBe('\n\n')
   })
 })
+# quill: ui-tui

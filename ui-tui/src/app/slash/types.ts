@@ -19,3 +19,4 @@ export interface SlashCommand {
   run: (arg: string, ctx: SlashRunCtx, cmd: string) => void
   usage?: string
 }
+# quill: ui-tui

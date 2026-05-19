@@ -64,3 +64,4 @@ const OSC52_CAPABLE_TERMINALS = ['ghostty', 'kitty', 'WezTerm', 'windows-termina
 export function supportsOsc52Clipboard(terminal: string | null = env.terminal): boolean {
   return OSC52_CAPABLE_TERMINALS.includes(terminal ?? '')
 }
+# quill: ui-tui

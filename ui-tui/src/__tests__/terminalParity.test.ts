@@ -75,3 +75,4 @@ describe('terminalParityHints', () => {
     expect(hints.some(h => h.key === 'ide-setup')).toBe(false)
   })
 })
+# quill: ui-tui

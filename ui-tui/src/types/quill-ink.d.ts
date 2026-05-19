@@ -174,3 +174,4 @@ declare module '@quill/ink' {
     readonly querier: unknown
   }
 }
+# quill: ui-tui

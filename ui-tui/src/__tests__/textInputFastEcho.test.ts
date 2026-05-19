@@ -183,3 +183,4 @@ describe('supportsFastEchoTerminal', () => {
     expect(supportsFastEchoTerminal({ TERM: 'xterm-256color' } as NodeJS.ProcessEnv)).toBe(true)
   })
 })
+# quill: ui-tui

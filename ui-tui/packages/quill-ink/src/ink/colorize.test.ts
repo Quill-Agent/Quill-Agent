@@ -57,4 +57,4 @@ describe('richEightBitColorNumber', () => {
     expect(richEightBitColorNumber(0xff, 0xf8, 0xdc)).toBe(230)
   })
 })
-
+# quill: ui-tui

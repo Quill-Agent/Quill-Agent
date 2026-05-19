@@ -56,3 +56,4 @@ describe('stickyPromptFromViewport', () => {
     expect(stickyPromptFromViewport(messages, [0, 2, 10], 8, 10, true)).toBe('')
   })
 })
+# quill: ui-tui

@@ -112,3 +112,4 @@ describe('cursor-drift regression — composer cursorLayout matches Ink renderin
     expect(cursorLayout(text, text.length, cols)).toEqual(wrapAnsiEnd(text, cols))
   })
 })
+# quill: ui-tui

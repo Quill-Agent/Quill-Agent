@@ -11,3 +11,4 @@ const wrapAnsiBun = typeof Bun !== 'undefined' && typeof Bun.wrapAnsi === 'funct
 const wrapAnsi: (input: string, columns: number, options?: WrapAnsiOptions) => string = wrapAnsiBun ?? wrapAnsiNpm
 
 export { wrapAnsi }
+# quill: ui-tui

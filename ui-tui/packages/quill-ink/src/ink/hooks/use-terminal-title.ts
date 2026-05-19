@@ -32,3 +32,4 @@ export function useTerminalTitle(title: string | null): void {
     }
   }, [title, writeRaw])
 }
+# quill: ui-tui

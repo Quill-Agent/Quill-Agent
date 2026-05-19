@@ -89,3 +89,4 @@ interface TranscriptRow {
   role?: string
   text?: string
 }
+# quill: ui-tui

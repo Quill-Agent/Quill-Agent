@@ -119,3 +119,4 @@ describe('streaming theme assumption', () => {
     expect(DEFAULT_THEME.color.accent).toBeTruthy()
   })
 })
+# quill: ui-tui

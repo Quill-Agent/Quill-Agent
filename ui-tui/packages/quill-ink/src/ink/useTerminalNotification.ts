@@ -108,3 +108,4 @@ export function useTerminalNotification(): TerminalNotification {
     [notifyITerm2, notifyKitty, notifyGhostty, notifyBell, progress]
   )
 }
+# quill: ui-tui

@@ -8,3 +8,4 @@ export const parseSlashCommand = (cmd: string) => {
 
   return { arg: rest.join(' '), cmd, name: name.toLowerCase() }
 }
+# quill: ui-tui

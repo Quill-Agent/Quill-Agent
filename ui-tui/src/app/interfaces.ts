@@ -375,3 +375,4 @@ export interface PasteSnippet {
   path?: string
   text: string
 }
+# quill: ui-tui

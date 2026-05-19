@@ -329,3 +329,4 @@ describe('renderTable CJK width alignment', () => {
     expect(qwenCol2).toBe(headerCol2)
   })
 })
+# quill: ui-tui

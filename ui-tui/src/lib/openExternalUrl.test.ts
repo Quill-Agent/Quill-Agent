@@ -215,3 +215,4 @@ describe('openExternalUrl', () => {
     expect(() => child!.emit('error', new Error('ENOENT: xdg-open not found'))).not.toThrow()
   })
 })
+# quill: ui-tui

@@ -25,3 +25,4 @@ describe('rpcErrorMessage', () => {
     expect(rpcErrorMessage({ code: 500 })).toBe('request failed')
   })
 })
+# quill: ui-tui

@@ -52,3 +52,4 @@ export const ENABLE_MOUSE_TRACKING =
   decset(DEC.MOUSE_NORMAL) + decset(DEC.MOUSE_BUTTON) + decset(DEC.MOUSE_ANY) + decset(DEC.MOUSE_SGR)
 export const DISABLE_MOUSE_TRACKING =
   decreset(DEC.MOUSE_SGR) + decreset(DEC.MOUSE_ANY) + decreset(DEC.MOUSE_BUTTON) + decreset(DEC.MOUSE_NORMAL)
+# quill: ui-tui

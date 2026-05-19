@@ -32,3 +32,4 @@ interface MaskedPromptProps {
   sub?: string
   t: Theme
 }
+# quill: ui-tui

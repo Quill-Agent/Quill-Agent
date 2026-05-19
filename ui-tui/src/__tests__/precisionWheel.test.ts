@@ -42,3 +42,4 @@ describe('precisionWheel', () => {
     expect(computePrecisionWheelStep(s, -1, true, 1008).rows).toBe(1)
   })
 })
+# quill: ui-tui

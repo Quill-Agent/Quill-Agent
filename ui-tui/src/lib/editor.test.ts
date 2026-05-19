@@ -72,3 +72,4 @@ describe('resolveEditor', () => {
     expect(resolveEditor({ PATH: dir }, 'win32')).toEqual(['notepad.exe'])
   })
 })
+# quill: ui-tui

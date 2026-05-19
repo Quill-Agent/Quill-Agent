@@ -15,3 +15,4 @@ export const INLINE_MODE = truthy(process.env.QUILL_TUI_INLINE)
 // Live FPS counter overlay, fed by ink's onFrame (real render rate, not a
 // synthetic timer).
 export const SHOW_FPS = truthy(process.env.QUILL_TUI_FPS)
+# quill: ui-tui

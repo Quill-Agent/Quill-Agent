@@ -16,3 +16,4 @@ export class MouseEvent extends Event {
     this.button = button
   }
 }
+# quill: ui-tui

@@ -6,3 +6,4 @@ export const appendTranscriptMessage = (prev: Msg[], msg: Msg): Msg[] => appendT
 
 export const upsert = (prev: Msg[], role: Role, text: string): Msg[] =>
   prev.at(-1)?.role === role ? [...prev.slice(0, -1), { role, text }] : [...prev, { role, text }]
+# quill: ui-tui

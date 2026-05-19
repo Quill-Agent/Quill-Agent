@@ -110,3 +110,4 @@ export function useCompletion(input: string, blocked: boolean, gw: GatewayClient
 
   return { completions, compIdx, setCompIdx, compReplace }
 }
+# quill: ui-tui

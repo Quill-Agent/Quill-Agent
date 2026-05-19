@@ -922,3 +922,4 @@ function createWheelKey(s: string, name: 'wheelup' | 'wheeldown', button: number
     isPasted: false
   }
 }
+# quill: ui-tui

@@ -134,3 +134,4 @@ describe('fragmented SGR mouse recovery', () => {
     expect(key).toMatchObject({ kind: 'key', sequence: '1234;56;78M9;10;11M' })
   })
 })
+# quill: ui-tui

@@ -7,3 +7,4 @@ export function markScrollActivity(): void {}
 export function getIsInteractive(): boolean {
   return !!process.stdin.isTTY && !!process.stdout.isTTY
 }
+# quill: ui-tui

@@ -25,3 +25,4 @@ describe('asCommandDispatch', () => {
     expect(asCommandDispatch({ type: 'send', message: 42 })).toBeNull()
   })
 })
+# quill: ui-tui

@@ -45,3 +45,4 @@ export function setupGracefulExit({ cleanups = [], failsafeMs = 4000, onError, o
   process.on('uncaughtException', err => onError?.('uncaughtException', err))
   process.on('unhandledRejection', reason => onError?.('unhandledRejection', reason))
 }
+# quill: ui-tui

@@ -36,3 +36,4 @@ export function lineWidthCacheSize(): number {
 export function evictLineWidthCache(keepRatio = 0): void {
   lruEvict(cache, keepRatio)
 }
+# quill: ui-tui

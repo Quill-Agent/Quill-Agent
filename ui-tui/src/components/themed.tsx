@@ -28,3 +28,4 @@ export interface FgProps {
   underline?: boolean
   wrap?: 'end' | 'middle' | 'truncate' | 'truncate-end' | 'truncate-middle' | 'truncate-start' | 'wrap' | 'wrap-trim'
 }
+# quill: ui-tui

@@ -57,3 +57,4 @@ describe('looksLikeDroppedPath', () => {
     expect(looksLikeDroppedPath('/etc/hosts')).toBe(true) // has second /
   })
 })
+# quill: ui-tui

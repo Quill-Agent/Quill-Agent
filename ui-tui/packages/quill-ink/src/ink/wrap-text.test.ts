@@ -15,3 +15,4 @@ describe('wrapText wrap-trim', () => {
     expect(wrapText('  indented', 20, 'wrap-trim')).toBe('  indented')
   })
 })
+# quill: ui-tui

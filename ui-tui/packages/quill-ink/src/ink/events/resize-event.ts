@@ -10,3 +10,4 @@ export class ResizeEvent extends TerminalEvent {
     this.rows = rows
   }
 }
+# quill: ui-tui

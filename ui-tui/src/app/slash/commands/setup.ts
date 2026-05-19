@@ -18,3 +18,4 @@ export const setupCommands: SlashCommand[] = [
       })
   }
 ]
+# quill: ui-tui

@@ -309,3 +309,4 @@ describe('fromSkin', () => {
     expect(color.statusGood).toBe('#008000')
   })
 })
+# quill: ui-tui

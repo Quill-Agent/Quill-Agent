@@ -68,3 +68,4 @@ describe('fmtCwdBranch', () => {
     expect(out).toContain(')')
   })
 })
+# quill: ui-tui

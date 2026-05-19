@@ -7,3 +7,4 @@ export const ROLE: Record<Role, (t: Theme) => { body: string; glyph: string; pre
   tool: t => ({ body: t.color.muted, glyph: '⚡', prefix: t.color.muted }),
   user: t => ({ body: t.color.label, glyph: t.brand.prompt, prefix: t.color.label })
 }
+# quill: ui-tui

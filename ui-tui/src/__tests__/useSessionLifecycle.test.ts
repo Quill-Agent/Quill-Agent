@@ -25,3 +25,4 @@ describe('writeActiveSessionFile', () => {
     expect(JSON.parse(readFileSync(path, 'utf8'))).toEqual({ session_id: 'actual_session' })
   })
 })
+# quill: ui-tui

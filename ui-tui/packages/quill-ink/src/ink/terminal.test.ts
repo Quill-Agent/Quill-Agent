@@ -13,3 +13,4 @@ describe('terminal resize quirks', () => {
     expect(needsAltScreenResizeScrollbackClear({ TERM_PROGRAM: 'iTerm.app' })).toBe(false)
   })
 })
+# quill: ui-tui

@@ -26,3 +26,4 @@ export type CursorDeclarationSetter = (declaration: CursorDeclaration | null, cl
 const CursorDeclarationContext = createContext<CursorDeclarationSetter>(() => {})
 
 export default CursorDeclarationContext
+# quill: ui-tui

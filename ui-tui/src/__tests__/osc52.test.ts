@@ -65,3 +65,4 @@ describe('readOsc52Clipboard', () => {
     await expect(readOsc52Clipboard({ flush, send })).resolves.toBeNull()
   })
 })
+# quill: ui-tui

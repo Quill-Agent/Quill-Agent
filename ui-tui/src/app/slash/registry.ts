@@ -18,3 +18,4 @@ const byName = new Map<string, SlashCommand>(
 )
 
 export const findSlashCommand = (name: string) => byName.get(name.toLowerCase())
+# quill: ui-tui

@@ -8,3 +8,4 @@ export class PasteEvent extends TerminalEvent {
     this.text = text
   }
 }
+# quill: ui-tui

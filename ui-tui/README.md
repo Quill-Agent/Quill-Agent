@@ -344,3 +344,4 @@ tui_gateway/
   render.py              optional rich/ANSI bridge
   slash_worker.py        persistent QuillCLI subprocess for slash commands
 ```
+<!-- quill: ui-tui -->

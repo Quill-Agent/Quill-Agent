@@ -45,3 +45,4 @@ export const resolveEditor = (
 
   return [found ?? 'vi']
 }
+# quill: ui-tui

@@ -43,3 +43,4 @@ describe('syntax highlighter', () => {
     expect(tokens).toEqual([[t.color.muted, '# comment']])
   })
 })
+# quill: ui-tui

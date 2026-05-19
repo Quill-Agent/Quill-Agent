@@ -353,3 +353,4 @@ export function peakHotness(tree: readonly SubagentNode[]): number {
 
   return peak
 }
+# quill: ui-tui

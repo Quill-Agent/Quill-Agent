@@ -80,3 +80,4 @@ describe('selection whitespace handling', () => {
     expect(cellAt(screen, 0, 2)?.styleId).toBe(screen.emptyStyleId)
   })
 })
+# quill: ui-tui

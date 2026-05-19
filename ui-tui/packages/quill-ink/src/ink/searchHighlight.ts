@@ -89,3 +89,4 @@ export function applySearchHighlight(screen: Screen, query: string, stylePool: S
 
   return applied
 }
+# quill: ui-tui

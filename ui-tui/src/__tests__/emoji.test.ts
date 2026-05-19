@@ -62,3 +62,4 @@ describe('ensureEmojiPresentation', () => {
     expect(ensureEmojiPresentation('⚠ path: /tmp/x ❤ done')).toBe(`⚠${VS16} path: /tmp/x ❤${VS16} done`)
   })
 })
+# quill: ui-tui

@@ -48,3 +48,4 @@ describe('approvalAction — pure key dispatch for ApprovalPrompt', () => {
     expect(approvalAction(' ', {}, 0)).toEqual({ kind: 'noop' })
   })
 })
+# quill: ui-tui

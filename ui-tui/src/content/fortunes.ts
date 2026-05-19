@@ -28,3 +28,4 @@ const fromScore = (n: number) => {
 
 export const randomFortune = () => fromScore(Math.floor(Math.random() * 0x7fffffff))
 export const dailyFortune = (seed: null | string) => fromScore(hash(`${seed || 'anon'}|${new Date().toDateString()}`))
+# quill: ui-tui

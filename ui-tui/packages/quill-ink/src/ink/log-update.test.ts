@@ -197,3 +197,4 @@ describe('LogUpdate.render diff contract', () => {
     expect(hasDecstbm(stdoutOnly(diff))).toBe(false)
   })
 })
+# quill: ui-tui

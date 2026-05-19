@@ -534,3 +534,4 @@ interface VirtualHistoryOptions {
   onHeightsChange?: (heights: ReadonlyMap<string, number>) => void
   overscan?: number
 }
+# quill: ui-tui

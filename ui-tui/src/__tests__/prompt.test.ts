@@ -17,3 +17,4 @@ describe('composerPromptText', () => {
     expect(composerPromptText('❯')).toBe('❯')
   })
 })
+# quill: ui-tui
