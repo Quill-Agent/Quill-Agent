@@ -357,3 +357,4 @@ Quill-Agent is a fork and rebrand of the open-source [Quill-Agent/quill-agent](h
 [Issues](https://github.com/Quill-Agent/quill-agent/issues) · [Discussions](https://github.com/Quill-Agent/quill-agent/discussions) · [agentskills.io](https://agentskills.io)
 
 </div>
+<!-- quill: root -->
