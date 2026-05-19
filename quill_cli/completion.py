@@ -313,3 +313,4 @@ def generate_fish(parser: argparse.ArgumentParser) -> str:
 
     lines.append("")
     return "\n".join(lines)
+# quill: quill_cli

@@ -596,3 +596,4 @@ def cli_main(argv=None) -> int:
 
 if __name__ == "__main__":  # pragma: no cover
     sys.exit(cli_main())
+# quill: quill_cli

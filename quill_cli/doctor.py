@@ -1984,3 +1984,4 @@ def run_doctor(args):
         print(color("  All checks passed! 🎉", Colors.GREEN, Colors.BOLD))
     
     print()
+# quill: quill_cli

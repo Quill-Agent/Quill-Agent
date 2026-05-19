@@ -189,3 +189,4 @@ class NousPortalAdapter(UpstreamAdapter):
 
 
 __all__ = ["NousPortalAdapter"]
+# quill: quill_cli

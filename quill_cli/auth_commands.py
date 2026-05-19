@@ -795,3 +795,4 @@ def auth_command(args) -> None:
         return
     # No subcommand — launch interactive mode
     _interactive_auth()
+# quill: quill_cli

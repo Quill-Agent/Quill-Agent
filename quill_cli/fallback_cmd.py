@@ -359,3 +359,4 @@ def cmd_fallback(args) -> None:
         print(f"Unknown fallback subcommand: {sub}")
         print("Use one of: list, add, remove, clear")
         raise SystemExit(2)
+# quill: quill_cli

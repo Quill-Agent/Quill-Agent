@@ -291,3 +291,4 @@ def dingtalk_qr_auth() -> Optional[Tuple[str, str]]:
     print_success(f"  Client Secret: {client_secret[:8]}{'*' * (len(client_secret) - 8)}")
 
     return client_id, client_secret
+# quill: quill_cli

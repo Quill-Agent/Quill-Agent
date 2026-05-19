@@ -740,3 +740,4 @@ def restart() -> None:
     # Give Windows a moment to release the listening port.
     time.sleep(1.0)
     start()
+# quill: quill_cli

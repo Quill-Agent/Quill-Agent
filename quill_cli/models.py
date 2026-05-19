@@ -3786,3 +3786,4 @@ def validate_requested_model(
             f"If the service isn't down, this model may not be valid."
         ),
     }
+# quill: quill_cli

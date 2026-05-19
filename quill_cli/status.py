@@ -568,3 +568,4 @@ def show_status(args):
     print(color("  Run 'quill doctor' for detailed diagnostics", Colors.DIM))
     print(color("  Run 'quill setup' to configure", Colors.DIM))
     print()
+# quill: quill_cli

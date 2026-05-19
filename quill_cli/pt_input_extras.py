@@ -81,3 +81,4 @@ def install_ctrl_enter_alias() -> int:
             ANSI_SEQUENCES[seq] = alt_enter
             changed += 1
     return changed
+# quill: quill_cli

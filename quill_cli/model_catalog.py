@@ -327,3 +327,4 @@ def reset_cache() -> None:
     global _catalog_cache, _catalog_cache_source_mtime
     _catalog_cache = None
     _catalog_cache_source_mtime = 0.0
+# quill: quill_cli

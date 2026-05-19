@@ -492,3 +492,4 @@ def _xclip_save(dest: Path) -> bool:
         logger.debug("xclip image extraction failed: %s", e)
         dest.unlink(missing_ok=True)
     return False
+# quill: quill_cli

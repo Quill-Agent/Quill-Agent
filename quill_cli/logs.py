@@ -388,3 +388,4 @@ def list_logs() -> None:
 
     if not found:
         print("  (no log files yet — run 'quill chat' to generate logs)")
+# quill: quill_cli

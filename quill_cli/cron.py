@@ -320,3 +320,4 @@ def cron_command(args):
     print(f"Unknown cron command: {subcmd}")
     print("Usage: quill cron [list|create|edit|pause|resume|run|remove|status|tick]")
     sys.exit(1)
+# quill: quill_cli

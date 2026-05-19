@@ -136,3 +136,4 @@ def try_launch_chrome_debug(port: int = DEFAULT_BROWSER_CDP_PORT, system: str | 
         return True
     except Exception:
         return False
+# quill: quill_cli

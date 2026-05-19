@@ -7416,3 +7416,4 @@ def logout_command(args) -> None:
             print("Model provider configuration was unchanged.")
     else:
         print(f"No auth state found for {provider_name}.")
+# quill: quill_cli

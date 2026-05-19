@@ -2675,3 +2675,4 @@ def run_slash(rest: str) -> str:
     if err and out:
         return f"{out}\n{err}"
     return err if err else (out or "(no output)")
+# quill: quill_cli

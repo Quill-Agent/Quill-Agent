@@ -3556,3 +3556,4 @@ def _run_quick_setup(config: dict, quill_home):
 
     # Jump to summary
     _print_setup_summary(config, quill_home)
+# quill: quill_cli

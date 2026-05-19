@@ -700,3 +700,4 @@ def describe_distribution(profile_name: str) -> Dict[str, Any]:
     if manifest is None:
         return {}
     return manifest.to_dict()
+# quill: quill_cli

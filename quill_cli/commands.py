@@ -1754,3 +1754,4 @@ def _file_size_label(path: str) -> str:
     if size < 1024 * 1024 * 1024:
         return f"{size / (1024 * 1024):.1f}M"
     return f"{size / (1024 * 1024 * 1024):.1f}G"
+# quill: quill_cli

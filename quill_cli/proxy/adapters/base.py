@@ -107,3 +107,4 @@ class UpstreamAdapter(ABC):
 
 
 __all__ = ["UpstreamAdapter", "UpstreamCredential"]
+# quill: quill_cli

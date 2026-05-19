@@ -383,3 +383,4 @@ def _doctor_one(spec, shell_hooks) -> int:
                       f"(exit={rc}, {elapsed}s) — hook is observer-only")
 
     return problems
+# quill: quill_cli

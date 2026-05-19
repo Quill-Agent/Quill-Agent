@@ -1056,3 +1056,4 @@ def severity_of_highest(diagnostics: Iterable[Diagnostic]) -> Optional[str]:
             highest_idx = idx
             highest = d.severity
     return highest
+# quill: quill_cli

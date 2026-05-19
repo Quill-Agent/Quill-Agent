@@ -700,3 +700,4 @@ def build_welcome_banner(console: Console, model: str, cwd: str,
         console.print(_logo)
         console.print()
     console.print(outer_panel)
+# quill: quill_cli

@@ -134,3 +134,4 @@ class XAIGrokAdapter(UpstreamAdapter):
 
 
 __all__ = ["XAIGrokAdapter"]
+# quill: quill_cli

@@ -68,3 +68,4 @@ def describe_vercel_auth() -> VercelAuthStatus:
             "development-only alternative: set VERCEL_OIDC_TOKEN",
         ),
     )
+# quill: quill_cli

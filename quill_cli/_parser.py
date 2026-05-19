@@ -374,3 +374,4 @@ def build_top_level_parser():
     )
 
     return parser, subparsers, chat_parser
+# quill: quill_cli

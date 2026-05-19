@@ -173,3 +173,4 @@ def load_quill_dotenv(
         loaded.append(project_env_path)
 
     return loaded
+# quill: quill_cli

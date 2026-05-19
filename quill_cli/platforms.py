@@ -81,3 +81,4 @@ def get_all_platforms() -> "OrderedDict[str, PlatformInfo]":
     except Exception:
         pass
     return merged
+# quill: quill_cli

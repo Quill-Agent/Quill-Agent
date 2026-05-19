@@ -1794,3 +1794,4 @@ def list_picker_providers(
         filtered.append(p)
 
     return filtered
+# quill: quill_cli

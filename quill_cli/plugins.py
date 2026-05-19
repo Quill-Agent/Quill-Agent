@@ -1591,3 +1591,4 @@ def get_plugin_toolsets() -> List[tuple]:
         result.append((ts_key, label, desc))
 
     return result
+# quill: quill_cli

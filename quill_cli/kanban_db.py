@@ -6178,3 +6178,4 @@ def latest_summaries(
         ids,
     ).fetchall()
     return {r["task_id"]: r["summary"] for r in rows}
+# quill: quill_cli

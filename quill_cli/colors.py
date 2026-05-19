@@ -36,3 +36,4 @@ def color(text: str, *codes) -> str:
     if not should_use_color():
         return text
     return "".join(codes) + text + Colors.RESET
+# quill: quill_cli

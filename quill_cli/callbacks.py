@@ -240,3 +240,4 @@ def approval_callback(cli, command: str, description: str) -> str:
             cli._app.invalidate()
         cprint(f"\n{_DIM}  ⏱ Timeout — denying command{_RST}")
         return "deny"
+# quill: quill_cli

@@ -778,3 +778,4 @@ def mcp_command(args):
         _info("quill mcp configure <name>                   Toggle tools")
         _info("quill mcp login <name>                       Re-authenticate OAuth")
         print()
+# quill: quill_cli

@@ -357,3 +357,4 @@ def _oneshot_clarify_callback(question: str, choices=None) -> str:
         "[oneshot mode: no user available. Make the most reasonable "
         "assumption you can and continue.]"
     )
+# quill: quill_cli

@@ -157,3 +157,4 @@ def slack_manifest_command(args) -> int:
     else:
         sys.stdout.write(payload)
     return 0
+# quill: quill_cli

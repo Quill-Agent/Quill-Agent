@@ -272,3 +272,4 @@ def _cmd_test(args):
     except Exception as e:
         print(f"  Error: {e}")
         print("  Is the gateway running? (quill gateway run)")
+# quill: quill_cli

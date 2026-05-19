@@ -1614,3 +1614,4 @@ def plugins_command(args) -> None:
 
         Console().print(f"[red]Unknown plugins action: {action}[/red]")
         sys.exit(1)
+# quill: quill_cli

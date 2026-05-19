@@ -235,3 +235,4 @@ class PtyBridge:
 
     def __exit__(self, *_exc) -> None:
         self.close()
+# quill: quill_cli

@@ -443,3 +443,4 @@ def register_send_subparser(subparsers) -> argparse.ArgumentParser:
 
 
 __all__ = ["cmd_send", "register_send_subparser"]
+# quill: quill_cli

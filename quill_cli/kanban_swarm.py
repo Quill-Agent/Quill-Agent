@@ -277,3 +277,4 @@ def parse_worker_arg(raw: str) -> SwarmWorkerSpec:
     if len(parts) == 3 and parts[2]:
         skills = [s.strip() for s in parts[2].split(",") if s.strip()]
     return SwarmWorkerSpec(profile=parts[0], title=parts[1], body=parts[1], skills=skills)
+# quill: quill_cli

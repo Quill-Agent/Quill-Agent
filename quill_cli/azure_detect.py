@@ -404,3 +404,4 @@ def lookup_context_length(model: str,
 
 
 __all__ = ["DetectionResult", "detect", "lookup_context_length"]
+# quill: quill_cli

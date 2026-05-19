@@ -242,3 +242,4 @@ def register_cli(parser: argparse.ArgumentParser) -> None:
     p_legacy.add_argument("-f", "--force", action="store_true",
                           help="Skip confirmation prompt")
     p_legacy.set_defaults(func=cmd_clear_legacy)
+# quill: quill_cli

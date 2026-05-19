@@ -5436,3 +5436,4 @@ def _gateway_command_inner(args):
             print("Legacy unit migration only applies to systemd-based Linux hosts.")
             return
         remove_legacy_quill_units(interactive=not yes, dry_run=dry_run)
+# quill: quill_cli

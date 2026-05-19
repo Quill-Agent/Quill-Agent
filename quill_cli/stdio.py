@@ -250,3 +250,4 @@ def _augment_path_with_known_tools() -> None:
 
     if prepend:
         os.environ["PATH"] = os.pathsep.join([*prepend, existing])
+# quill: quill_cli

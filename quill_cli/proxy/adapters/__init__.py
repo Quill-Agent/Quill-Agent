@@ -35,3 +35,4 @@ def get_adapter(name: str) -> UpstreamAdapter:
 
 
 __all__ = ["UpstreamAdapter", "ADAPTERS", "get_adapter"]
+# quill: quill_cli

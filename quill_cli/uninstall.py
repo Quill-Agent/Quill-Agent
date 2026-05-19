@@ -678,3 +678,4 @@ def run_uninstall(args):
     print()
     print("Thank you for using Quill Agent! ⚕")
     print()
+# quill: quill_cli

@@ -744,3 +744,4 @@ def run_debug(args):
         print()
         print("Options (delete):")
         print("  <url> ...    One or more paste URLs to delete")
+# quill: quill_cli

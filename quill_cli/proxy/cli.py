@@ -140,3 +140,4 @@ __all__ = [
     "cmd_proxy_status",
     "cmd_proxy_list_providers",
 ]
+# quill: quill_cli

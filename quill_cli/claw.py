@@ -807,3 +807,4 @@ def _print_migration_report(report: dict, dry_run: bool):
             print()
             print_info("Or add your key manually:")
             print_info("  quill config set OPENROUTER_API_KEY sk-or-v1-...")
+# quill: quill_cli

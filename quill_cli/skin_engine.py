@@ -924,3 +924,4 @@ def get_prompt_toolkit_style_overrides() -> Dict[str, str]:
         "voice-status": f"bg:{voice_bg} {label}",
         "voice-status-recording": f"bg:{voice_bg} {error} bold",
     }
+# quill: quill_cli

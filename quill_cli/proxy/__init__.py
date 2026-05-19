@@ -18,3 +18,4 @@ Future adapters can plug in by implementing ``UpstreamAdapter``.
 from quill_cli.proxy.adapters.base import UpstreamAdapter
 
 __all__ = ["UpstreamAdapter"]
+# quill: quill_cli

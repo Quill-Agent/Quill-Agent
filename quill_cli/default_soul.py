@@ -9,3 +9,4 @@ DEFAULT_SOUL_MD = (
     "being genuinely useful over being verbose unless otherwise directed below. "
     "Be targeted and efficient in your exploration and investigations."
 )
+# quill: quill_cli

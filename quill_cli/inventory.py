@@ -238,3 +238,4 @@ def _reorder_canonical(rows: list[dict]) -> list[dict]:
     )
     extras = [r for r in rows if r["slug"] not in order]
     return canon + extras
+# quill: quill_cli

@@ -264,3 +264,4 @@ def apply(
         message="\n".join(msg_lines),
         requires_new_session=True,
     )
+# quill: quill_cli

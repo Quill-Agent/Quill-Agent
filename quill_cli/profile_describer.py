@@ -297,3 +297,4 @@ def list_describable_profiles(*, missing_only: bool = True) -> list[str]:
             continue
         out.append(p.name)
     return out
+# quill: quill_cli

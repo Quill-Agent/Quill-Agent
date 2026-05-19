@@ -797,3 +797,4 @@ def prompt_enable_tool_gateway(config: Dict[str, object]) -> set[str]:
         if already_managed and not newly_switched:
             print("  (all tools already using Tool Gateway)")
     return changed
+# quill: quill_cli

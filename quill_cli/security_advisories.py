@@ -449,3 +449,4 @@ def gateway_log_message(hits: list[AdvisoryHit]) -> Optional[str]:
     return (f"{len(fresh)} security advisories active "
             f"(IDs: {', '.join(h.advisory.id for h in fresh)}). "
             f"Run `quill doctor` on the gateway host for details.")
+# quill: quill_cli

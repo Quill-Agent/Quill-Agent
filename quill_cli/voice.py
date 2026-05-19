@@ -844,3 +844,4 @@ def speak_text(text: str) -> None:
                         logger.warning(
                             "failed to resume recorder after TTS: %s", e
                         )
+# quill: quill_cli

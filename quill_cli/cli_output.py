@@ -76,3 +76,4 @@ def prompt_yes_no(question: str, default: bool = True) -> bool:
     if not answer:
         return default
     return answer.lower().startswith("y")
+# quill: quill_cli

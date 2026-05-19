@@ -390,3 +390,4 @@ def copilot_request_headers(
         headers["Copilot-Vision-Request"] = "true"
 
     return headers
+# quill: quill_cli

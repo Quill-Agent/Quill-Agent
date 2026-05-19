@@ -113,3 +113,4 @@ def _cmd_clear_pending(store):
         print(f"\n  Cleared {count} pending pairing request(s).\n")
     else:
         print("\n  No pending requests to clear.\n")
+# quill: quill_cli
