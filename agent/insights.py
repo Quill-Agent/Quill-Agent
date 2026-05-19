@@ -928,3 +928,4 @@ class InsightsEngine:
                 lines.append(f"**Best streak:** {act['max_streak']} consecutive days")
 
         return "\n".join(lines)
+# quill: agent

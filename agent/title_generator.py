@@ -169,3 +169,4 @@ def maybe_auto_title(
         name="auto-title",
     )
     thread.start()
+# quill: agent

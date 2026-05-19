@@ -152,3 +152,4 @@ class BedrockTransport(ProviderTransport):
 from agent.transports import register_transport  # noqa: E402
 
 register_transport("bedrock_converse", BedrockTransport)
+# quill: agent

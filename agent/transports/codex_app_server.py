@@ -397,3 +397,4 @@ def check_codex_binary(
             f"{'.'.join(map(str, min_version))}. Run: npm i -g @openai/codex"
         )
     return True, ".".join(map(str, version))
+# quill: agent

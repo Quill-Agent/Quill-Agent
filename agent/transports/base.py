@@ -87,3 +87,4 @@ class ProviderTransport(ABC):
         with different stop reason vocabularies.
         """
         return raw_reason
+# quill: agent

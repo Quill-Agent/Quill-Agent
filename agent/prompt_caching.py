@@ -77,3 +77,4 @@ def apply_anthropic_cache_control(
         _apply_cache_marker(messages[idx], marker, native_anthropic=native_anthropic)
 
     return messages
+# quill: agent

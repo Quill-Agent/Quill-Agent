@@ -408,3 +408,4 @@ def get_bundle(name: str) -> Optional[Dict[str, Any]]:
     """Look up a bundle by name (slug-normalized)."""
     slug = _slugify(name)
     return get_skill_bundles().get(f"/{slug}")
+# quill: agent

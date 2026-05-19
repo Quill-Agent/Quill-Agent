@@ -24,3 +24,4 @@ def file_mutation_result_landed(tool_name: str, result: Any) -> bool:
     if tool_name == "patch":
         return data.get("success") is True
     return False
+# quill: agent

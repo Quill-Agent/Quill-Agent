@@ -160,3 +160,4 @@ def map_finish_reason(reason: str | None, mapping: dict[str, str]) -> str:
     if reason is None:
         return "stop"
     return mapping.get(reason, "stop")
+# quill: agent

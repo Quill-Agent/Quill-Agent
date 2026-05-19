@@ -590,3 +590,4 @@ __all__ = [
     "compress_context",
     "try_shrink_image_parts_in_messages",
 ]
+# quill: agent

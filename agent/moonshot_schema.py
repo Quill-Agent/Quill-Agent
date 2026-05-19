@@ -260,3 +260,4 @@ def is_moonshot_model(model: str | None) -> bool:
     if "moonshot" in bare or "/kimi" in bare or bare.startswith("kimi"):
         return True
     return False
+# quill: agent

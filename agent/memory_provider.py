@@ -277,3 +277,4 @@ class MemoryProvider(ABC):
 
         Use to mirror built-in memory writes to your backend.
         """
+# quill: agent

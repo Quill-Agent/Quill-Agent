@@ -137,3 +137,4 @@ def preprocess_skill_content(
         timeout = int(cfg.get("inline_shell_timeout", 10) or 10)
         content = expand_inline_shell(content, skill_dir, timeout)
     return content
+# quill: agent

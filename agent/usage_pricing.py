@@ -875,3 +875,4 @@ def format_token_count_compact(value: int) -> str:
             return f"{sign}{text}{suffix}"
 
     return f"{value:,}"
+# quill: agent

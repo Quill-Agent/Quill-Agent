@@ -109,3 +109,4 @@ def get_read_block_error(path: str) -> Optional[str]:
             "Use the skills_list or skill_view tools instead."
         )
     return None
+# quill: agent

@@ -684,3 +684,4 @@ class CopilotACPClient:
         process.stdin.write(json.dumps(response) + "\n")
         process.stdin.flush()
         return True
+# quill: agent

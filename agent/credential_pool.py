@@ -1953,3 +1953,4 @@ def load_pool(provider: str) -> CredentialPool:
             [entry.to_dict() for entry in sorted(entries, key=lambda item: item.priority)],
         )
     return CredentialPool(provider, entries)
+# quill: agent

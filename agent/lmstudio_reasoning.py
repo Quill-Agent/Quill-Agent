@@ -46,3 +46,4 @@ def resolve_lmstudio_effort(
         if effort not in allowed:
             return None
     return effort
+# quill: agent

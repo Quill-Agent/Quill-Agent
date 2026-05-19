@@ -907,3 +907,4 @@ def _gemini_http_error(response: httpx.Response) -> CodeAssistError:
             "message": err_message,
         },
     )
+# quill: agent

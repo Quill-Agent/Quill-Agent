@@ -384,3 +384,4 @@ class StreamingThinkScrubber:
                 out.append(text[i])
                 i += 1
         return "".join(out)
+# quill: agent

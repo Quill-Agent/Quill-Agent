@@ -845,3 +845,4 @@ def run_once(
     result = _spawn(spec, stdin_json)
     result["parsed"] = _parse_response(spec.event, result["stdout"])
     return result
+# quill: agent

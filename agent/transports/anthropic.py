@@ -177,3 +177,4 @@ class AnthropicTransport(ProviderTransport):
 from agent.transports import register_transport  # noqa: E402
 
 register_transport("anthropic_messages", AnthropicTransport)
+# quill: agent

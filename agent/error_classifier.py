@@ -1085,3 +1085,4 @@ def _extract_message(error: Exception, body: dict) -> str:
             return msg.strip()[:500]
     # Fallback to str(error)
     return str(error)[:500]
+# quill: agent

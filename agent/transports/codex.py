@@ -281,3 +281,4 @@ class ResponsesApiTransport(ProviderTransport):
 from agent.transports import register_transport  # noqa: E402
 
 register_transport("codex_responses", ResponsesApiTransport)
+# quill: agent

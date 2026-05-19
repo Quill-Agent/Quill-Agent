@@ -97,3 +97,4 @@ def sanitize_gemini_tool_parameters(parameters: Any) -> Dict[str, Any]:
     if not cleaned:
         return {"type": "object", "properties": {}}
     return cleaned
+# quill: agent

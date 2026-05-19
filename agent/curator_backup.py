@@ -691,3 +691,4 @@ def summarize_backups() -> str:
             f"{format_size(int(r.get('archive_bytes', 0))):>8}"
         )
     return "\n".join(lines)
+# quill: agent

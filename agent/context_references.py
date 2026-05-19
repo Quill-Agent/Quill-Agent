@@ -516,3 +516,4 @@ def _code_fence_language(path: Path) -> str:
         ".toml": "toml",
     }
     return mapping.get(path.suffix.lower(), "")
+# quill: agent

@@ -244,3 +244,4 @@ def format_rate_limit_compact(state: RateLimitState) -> str:
         parts.append(f"TPH: {_fmt_count(th.remaining)}/{_fmt_count(th.limit)} (resets {_fmt_seconds(th.remaining_seconds_now)})")
 
     return " | ".join(parts)
+# quill: agent

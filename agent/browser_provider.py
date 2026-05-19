@@ -173,3 +173,4 @@ class BrowserProvider(abc.ABC):
     def provider_name(self) -> str:
         """Backward-compat alias returning :attr:`display_name`."""
         return self.display_name
+# quill: agent

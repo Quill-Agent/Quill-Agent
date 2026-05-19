@@ -54,3 +54,4 @@ def save_trajectory(trajectory: List[Dict[str, Any]], model: str,
         logger.info("Trajectory saved to %s", filename)
     except Exception as e:
         logger.warning("Failed to save trajectory: %s", e)
+# quill: agent

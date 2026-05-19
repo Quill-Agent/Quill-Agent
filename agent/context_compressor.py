@@ -1746,3 +1746,4 @@ The user has requested that this compaction PRIORITISE preserving all informatio
             logger.info("Compression #%d complete", self.compression_count)
 
         return compressed
+# quill: agent

@@ -969,3 +969,4 @@ class AsyncGeminiNativeClient:
 
     async def close(self) -> None:
         await asyncio.to_thread(self._sync.close)
+# quill: agent

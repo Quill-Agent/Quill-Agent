@@ -62,3 +62,4 @@ def nous_portal_tags() -> List[str]:
     (e.g. ``merged_extra.setdefault("tags", []).extend(nous_portal_tags())``).
     """
     return ["product=quill-agent", quill_client_tag()]
+# quill: agent

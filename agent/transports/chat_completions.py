@@ -612,3 +612,4 @@ class ChatCompletionsTransport(ProviderTransport):
 from agent.transports import register_transport  # noqa: E402
 
 register_transport("chat_completions", ChatCompletionsTransport)
+# quill: agent

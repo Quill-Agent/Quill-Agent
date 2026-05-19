@@ -306,3 +306,4 @@ def _backend_warnings() -> list:
             "scoop: shellcheck)."
         )
     return notes
+# quill: agent

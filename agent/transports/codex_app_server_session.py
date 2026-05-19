@@ -808,3 +808,4 @@ def _get_quill_version() -> str:
         return version("quill-agent")
     except Exception:  # pragma: no cover
         return "0.0.0"
+# quill: agent

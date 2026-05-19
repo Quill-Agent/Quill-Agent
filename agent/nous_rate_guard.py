@@ -323,3 +323,4 @@ def _has_exhausted_bucket_in_object(state: Any) -> bool:
         if reset >= _MIN_RESET_FOR_BREAKER_SECONDS:
             return True
     return False
+# quill: agent

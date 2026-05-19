@@ -1825,3 +1825,4 @@ def estimate_request_tokens_rough(
     if tools:
         total += (len(str(tools)) + 3) // 4
     return total
+# quill: agent

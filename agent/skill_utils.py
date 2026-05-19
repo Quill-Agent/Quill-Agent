@@ -509,3 +509,4 @@ def is_valid_namespace(candidate: Optional[str]) -> bool:
     if not candidate:
         return False
     return bool(_NAMESPACE_RE.match(candidate))
+# quill: agent

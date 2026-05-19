@@ -143,3 +143,4 @@ def _reset_for_tests() -> None:
     """Clear the registry. **Test-only.**"""
     with _lock:
         _providers.clear()
+# quill: agent

@@ -374,3 +374,4 @@ __all__ = [
     "detect_status",
     "quill_lsp_bin_dir",
 ]
+# quill: agent

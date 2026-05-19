@@ -209,3 +209,4 @@ class ContextEngine(ABC):
         """
         self.context_length = context_length
         self.threshold_tokens = int(context_length * self.threshold_percent)
+# quill: agent

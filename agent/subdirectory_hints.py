@@ -222,3 +222,4 @@ class SubdirectoryHintTracker:
             [h[0] for h in found_hints],
         )
         return "\n\n".join(sections)
+# quill: agent

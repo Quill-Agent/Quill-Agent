@@ -402,3 +402,4 @@ class RedactingFormatter(logging.Formatter):
     def format(self, record: logging.LogRecord) -> str:
         original = super().format(record)
         return redact_sensitive_text(original)
+# quill: agent

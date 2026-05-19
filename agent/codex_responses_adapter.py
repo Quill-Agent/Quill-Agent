@@ -1082,3 +1082,4 @@ def _normalize_codex_response(response: Any) -> tuple[Any, str]:
     else:
         finish_reason = "stop"
     return assistant_message, finish_reason
+# quill: agent

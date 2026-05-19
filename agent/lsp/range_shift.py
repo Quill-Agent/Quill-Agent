@@ -147,3 +147,4 @@ def shift_baseline(baseline: List[Dict[str, Any]],
 
 
 __all__ = ["build_line_shift", "shift_diagnostic_range", "shift_baseline"]
+# quill: agent
