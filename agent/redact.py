@@ -98,6 +98,8 @@ _PREFIX_PATTERNS = [
     r"tvly-[A-Za-z0-9]{10,}",           # Tavily search API key
     r"exa_[A-Za-z0-9]{10,}",            # Exa search API key
     r"gsk_[A-Za-z0-9]{10,}",            # Groq Cloud API key
+    r"sk-or-v1-[A-Za-z0-9_-]{10,}",     # OpenRouter API key (explicit; also matches sk-)
+    r"together_[A-Za-z0-9]{10,}",       # Together AI API key
     r"syt_[A-Za-z0-9]{10,}",            # Matrix access token
     r"retaindb_[A-Za-z0-9]{10,}",       # RetainDB API key
     r"hsk-[A-Za-z0-9]{10,}",            # Hindsight API key
@@ -119,9 +121,15 @@ _JSON_FIELD_RE = re.compile(
     re.IGNORECASE,
 )
 
-# Authorization headers
+# Authorization headers (Bearer and Basic)
 _AUTH_HEADER_RE = re.compile(
-    r"(Authorization:\s*Bearer\s+)(\S+)",
+    r"(Authorization:\s*(?:Bearer|Basic)\s+)(\S+)",
+    re.IGNORECASE,
+)
+
+# Vendor-specific API key headers (Anthropic, Google, etc.)
+_API_KEY_HEADER_RE = re.compile(
+    r"((?:x-api-key|api-key):\s*)(\S+)",
     re.IGNORECASE,
 )
 
@@ -313,7 +321,7 @@ def redact_sensitive_text(text: str, *, force: bool = False, code_file: bool = F
     """Apply all redaction patterns to a block of text.
 
     Safe to call on any string -- non-matching text passes through unchanged.
-    Disabled by default — enable via security.redact_secrets: true in config.yaml.
+    Enabled by default — disable via security.redact_secrets: false in config.yaml.
     Set force=True for safety boundaries that must never return raw secrets
     regardless of the user's global logging redaction preference.
 
@@ -349,6 +357,12 @@ def redact_sensitive_text(text: str, *, force: bool = False, code_file: bool = F
 
     # Authorization headers
     text = _AUTH_HEADER_RE.sub(
+        lambda m: m.group(1) + _mask_token(m.group(2)),
+        text,
+    )
+
+    # x-api-key / api-key headers
+    text = _API_KEY_HEADER_RE.sub(
         lambda m: m.group(1) + _mask_token(m.group(2)),
         text,
     )

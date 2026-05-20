@@ -90,11 +90,22 @@ User overrides: `$QUILL_HOME/plugins/model-providers/<name>/`
 
 ---
 
-## Security
+## Security & privacy
 
-- Never commit `.env` or API keys to Git.
-- Rotate keys if they were exposed in chat or logs.
+- Never commit `.env` or API keys to Git — keep secrets in `~/.quill/.env` only.
+- **Log redaction is on by default** — API keys, Bearer/Basic auth, `x-api-key` headers, and JWTs are masked in `agent.log`, `errors.log`, and verbose output. Disable only for debugging: `security.redact_secrets: false` in `config.yaml`.
+- **Local-first** — Ollama and self-hosted endpoints keep prompts on your machine; cloud keys are loaded from env and never echoed in chat.
+- Rotate keys if they were exposed; run `quill doctor` to verify redaction and provider config.
 - Use `quill config set command_approval always` for safer shell access.
+
+---
+
+## Performance tips
+
+- **Local models** — Ollama/LM Studio avoid network latency; best for privacy and steady throughput.
+- **Cloud free tier** — Groq and OpenRouter `:free` models trade a small network hop for faster GPUs on weak hardware.
+- **Context** — Use `/compress` in long sessions to reduce tokens and speed up replies.
+- **Gateway** — Run `quill gateway` once; it reuses agents across messages instead of cold-starting each time.
 
 ---
 

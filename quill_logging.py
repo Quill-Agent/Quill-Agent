@@ -23,6 +23,7 @@ Session context:
     that thread will include ``[session_id]`` for filtering/correlation.
 """
 
+import functools
 import logging
 import os
 import threading
@@ -366,10 +367,12 @@ def _add_rotating_handler(
     logger.addHandler(handler)
 
 
+@functools.lru_cache(maxsize=1)
 def _read_logging_config():
     """Best-effort read of ``logging.*`` from config.yaml.
 
     Returns ``(level, max_size_mb, backup_count)`` — any may be ``None``.
+    Cached for the process lifetime — logging config is read once at startup.
     """
     try:
         import yaml

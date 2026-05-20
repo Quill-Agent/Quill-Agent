@@ -687,6 +687,22 @@ def run_doctor(args):
 
         except Exception as e:
             check_warn("Could not validate model/provider config", f"({e})")
+
+        # Privacy: secret redaction for logs and tool output
+        try:
+            sec = (cfg.get("security") or {}) if isinstance(cfg, dict) else {}
+            redact_cfg = sec.get("redact_secrets")
+            env_redact = os.getenv("QUILL_REDACT_SECRETS", "").strip().lower()
+            if redact_cfg is False or env_redact in {"0", "false", "no", "off"}:
+                check_warn(
+                    "Secret redaction disabled",
+                    "(API keys may appear in logs — set security.redact_secrets: true)",
+                )
+                issues.append("Enable security.redact_secrets in config.yaml for safer logging")
+            else:
+                check_ok("Secret redaction enabled for logs and tool output")
+        except Exception:
+            pass
     else:
         fallback_config = PROJECT_ROOT / 'cli-config.yaml'
         if fallback_config.exists():

@@ -14,7 +14,13 @@ from utils import atomic_replace
 # only env vars whose values we sanitize on load — we must not silently
 # alter arbitrary user env vars, but credentials are known to require
 # pure ASCII (they become HTTP header values).
-_CREDENTIAL_SUFFIXES = ("_API_KEY", "_TOKEN", "_SECRET", "_KEY")
+_CREDENTIAL_SUFFIXES = ("_API_KEY", "_TOKEN", "_SECRET", "_KEY", "_PASSWORD", "_CREDENTIAL")
+
+
+def is_credential_env(name: str) -> bool:
+    """Return True if *name* looks like an env var that holds a secret value."""
+    upper = name.upper()
+    return any(upper.endswith(suffix) for suffix in _CREDENTIAL_SUFFIXES)
 
 # Names we've already warned about during this process, so repeated
 # load_quill_dotenv() calls (user env + project env, gateway hot-reload,
@@ -50,7 +56,7 @@ def _sanitize_loaded_credentials() -> None:
     provider-side "invalid API key" errors (see #6843).
     """
     for key, value in list(os.environ.items()):
-        if not any(key.endswith(suffix) for suffix in _CREDENTIAL_SUFFIXES):
+        if not is_credential_env(key):
             continue
         try:
             value.encode("ascii")

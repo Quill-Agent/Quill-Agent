@@ -19,6 +19,12 @@
 
 > Fully open-source AI agent — local models, free-tier APIs, and self-hosted endpoints. See **[API access guide](docs/API_ACCESS.md)** for setup.
 
+### What's new
+
+- **More free open-source models** — Expanded OpenRouter, Hugging Face, and Groq coverage; easier switching with `quill model` and clearer free-tier defaults in setup.
+- **Cloud use upgrade** — Smoother cloud provider setup (OpenRouter, Groq, Together, HF), improved env/key handling, and better remote shell backends (SSH, Modal, Docker).
+- **Performance upgrade** — Faster agent loop, leaner context handling, and snappier TUI/gateway responses under load.
+
 </div>
 
 ---
@@ -28,7 +34,9 @@
 | Feature | Description |
 |---|---|
 | **Closed Learning Loop** | Quill creates skills from experience, improves them during use, nudges itself to persist knowledge, and searches its own past conversations. It grows smarter with every session. |
-| **100% Open-Source Models** | Works with Ollama, LM Studio, OpenRouter (200+ free/open models), Hugging Face Inference, and any OpenAI-compatible endpoint. No paid API required. |
+| **100% Open-Source Models** | Works with Ollama, LM Studio, OpenRouter (250+ free/open models), Hugging Face Inference, Groq, Together, and any OpenAI-compatible endpoint. No paid API required. |
+| **Cloud-ready** | First-class cloud providers with guided setup, key rotation via `.env`, and remote execution on SSH, Modal, or Docker. |
+| **Performance** | Faster turns, smarter context compression, and lower latency on gateway and TUI sessions. |
 | **Lives Where You Do** | Telegram, Discord, Slack, WhatsApp, Signal, and CLI — all from a single gateway process. Voice memo transcription included. |
 | **Runs Anywhere** | Local, Docker, SSH, Modal, or a $5 VPS. The agent hibernates when idle; wake it from your phone. |
 | **Scheduled Automations** | Built-in cron scheduler with delivery to any platform. Daily reports, nightly backups, weekly summaries — all in natural language. |
@@ -46,7 +54,7 @@ Quill-Agent is designed to work **entirely for free** using open-source and free
 |---|---|---|
 | [Ollama](https://ollama.com) | Llama 3, Mistral, Qwen, Phi, Gemma, DeepSeek, and 100+ more | Free (local) |
 | [LM Studio](https://lmstudio.ai) | Any GGUF model from Hugging Face | Free (local) |
-| [OpenRouter](https://openrouter.ai) | Llama 3.3 70B, Mistral 7B, Qwen 2.5, DeepSeek R1, and 50+ free-tier models | Free tier available |
+| [OpenRouter](https://openrouter.ai) | Llama 3.3 70B, Mistral 7B, Qwen 2.5/3, DeepSeek R1/V3, Gemma 3, and 80+ free-tier models | Free tier available |
 | [Hugging Face](https://huggingface.co) | Serverless Inference API (hundreds of open models) | Free tier available |
 | [Groq](https://groq.com) | Llama 3, Mixtral, Gemma (ultra-fast inference) | Free tier available |
 | [Together AI](https://together.ai) | Llama, Mistral, Qwen | Free credits |
@@ -232,12 +240,12 @@ quill-agent/
 
 ## 🔑 API access
 
-Quill supports **local Ollama** (no key), **Groq**, **OpenRouter**, **Hugging Face**, and any OpenAI-compatible endpoint.
+Quill supports **local Ollama** (no key), **Groq**, **OpenRouter**, **Hugging Face**, **Together**, and any OpenAI-compatible endpoint. Cloud setup is one command: copy env template, run `quill setup`, pick a free model — keys stay in `~/.quill` or `.env`, never in chat logs.
 
 ```bash
 cp .env.example .env    # add keys for cloud providers (optional)
-quill setup             # interactive provider + model picker
-quill model             # switch provider anytime
+quill setup             # interactive provider + model picker (free-tier models highlighted)
+quill model             # switch provider anytime — no restart required
 ```
 
 Full reference: **[docs/API_ACCESS.md](docs/API_ACCESS.md)**
