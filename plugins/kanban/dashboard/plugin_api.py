@@ -1859,6 +1859,8 @@ def switch_board(slug: str):
 # the simplest and most robust approach; it adds a fraction of a percent
 # of CPU and has no shared state to synchronize across workers.
 _EVENT_POLL_SECONDS = 0.3
+_EVENT_POLL_IDLE_SECONDS = 1.5
+_EVENT_IDLE_POLLS_BEFORE_BACKOFF = 5
 
 
 # ---------------------------------------------------------------------------
@@ -2195,11 +2197,21 @@ async def stream_events(ws: WebSocket):
             finally:
                 conn.close()
 
+        idle_polls = 0
         while True:
             cursor, events = await asyncio.to_thread(_fetch_new, cursor)
             if events:
+                idle_polls = 0
                 await ws.send_json({"events": events, "cursor": cursor})
-            await asyncio.sleep(_EVENT_POLL_SECONDS)
+                await asyncio.sleep(_EVENT_POLL_SECONDS)
+            else:
+                idle_polls += 1
+                delay = (
+                    _EVENT_POLL_IDLE_SECONDS
+                    if idle_polls >= _EVENT_IDLE_POLLS_BEFORE_BACKOFF
+                    else _EVENT_POLL_SECONDS
+                )
+                await asyncio.sleep(delay)
     except WebSocketDisconnect:
         return
     except asyncio.CancelledError:

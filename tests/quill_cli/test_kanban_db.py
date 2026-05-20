@@ -963,6 +963,26 @@ def test_has_spawnable_ready_false_on_empty_queue(kanban_home):
         assert kb.has_spawnable_ready(conn) is False
 
 
+def test_has_spawnable_work_combines_ready_and_review(kanban_home, monkeypatch):
+    """``has_spawnable_work`` is true when either ready or review is spawnable."""
+    monkeypatch.setattr(
+        "quill_cli.profiles.profile_exists",
+        lambda name: name in {"alice", "bob"},
+    )
+    with kb.connect() as conn:
+        t = kb.create_task(conn, title="review me", assignee="bob")
+        _set_task_status(conn, t, "review")
+        assert kb.has_spawnable_work(conn) is True
+        assert kb.has_spawnable_ready(conn) is False
+
+
+def test_running_task_count(kanban_home, all_assignees_spawnable):
+    with kb.connect() as conn:
+        t = kb.create_task(conn, title="run", assignee="alice")
+        _set_task_status(conn, t, "running")
+        assert kb.running_task_count(conn) == 1
+
+
 def test_dispatch_promotes_ready_and_spawns(kanban_home, all_assignees_spawnable):
     spawns = []
 

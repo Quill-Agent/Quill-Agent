@@ -5166,6 +5166,14 @@ class GatewayRunner:
                     except Exception:
                         pass
 
+        def _enumerate_active_boards() -> list:
+            try:
+                return _kb.list_boards(include_archived=False)
+            except Exception:
+                return [_kb.read_board_metadata(_kb.DEFAULT_BOARD)]
+
+        boards_this_tick: list = []
+
         def _tick_once() -> "list[tuple[str, Optional[object]]]":
             """Run one dispatch_once per board. Returns (slug, result) pairs.
 
@@ -5173,10 +5181,7 @@ class GatewayRunner:
             when users create a new board mid-run: no restart required,
             the next tick picks it up automatically.
             """
-            try:
-                boards = _kb.list_boards(include_archived=False)
-            except Exception:
-                boards = [_kb.read_board_metadata(_kb.DEFAULT_BOARD)]
+            boards = boards_this_tick or _enumerate_active_boards()
             out: list[tuple[str, "Optional[object]"]] = []
             for b in boards:
                 slug = b.get("slug") or _kb.DEFAULT_BOARD
@@ -5195,18 +5200,13 @@ class GatewayRunner:
             here keeps the stuck-warn fire only on real failures (broken
             PATH, missing venv, credential loss for a real Quill profile).
             """
-            try:
-                boards = _kb.list_boards(include_archived=False)
-            except Exception:
-                boards = [_kb.read_board_metadata(_kb.DEFAULT_BOARD)]
+            boards = boards_this_tick or _enumerate_active_boards()
             for b in boards:
                 slug = b.get("slug") or _kb.DEFAULT_BOARD
                 conn = None
                 try:
                     conn = _kb.connect(board=slug)
-                    if _kb.has_spawnable_ready(conn):
-                        return True
-                    if _kb.has_spawnable_review(conn):
+                    if _kb.has_spawnable_work(conn):
                         return True
                 except Exception:
                     continue
@@ -5246,10 +5246,7 @@ class GatewayRunner:
                     "kanban auto-decompose: import failed (%s); skipping", exc,
                 )
                 return 0
-            try:
-                boards = _kb.list_boards(include_archived=False)
-            except Exception:
-                boards = [_kb.read_board_metadata(_kb.DEFAULT_BOARD)]
+            boards = boards_this_tick or _enumerate_active_boards()
             attempted = 0
             successes = 0
             for b in boards:
@@ -5311,15 +5308,21 @@ class GatewayRunner:
                         os.environ["QUILL_KANBAN_BOARD"] = prev_env
             return successes
 
+        fast_interval = min(15.0, interval)
         logger.info(
-            "kanban dispatcher: embedded in gateway (interval=%.1fs)", interval
+            "kanban dispatcher: embedded in gateway "
+            "(interval=%.1fs, fast=%.1fs when work is queued)",
+            interval,
+            fast_interval,
         )
         while self._running:
+            any_spawned = False
+            ready_pending = False
             try:
+                boards_this_tick = await asyncio.to_thread(_enumerate_active_boards)
                 if auto_decompose_enabled:
                     await asyncio.to_thread(_auto_decompose_tick)
                 results = await asyncio.to_thread(_tick_once)
-                any_spawned = False
                 for slug, res in (results or []):
                     if res is not None and getattr(res, "spawned", None):
                         any_spawned = True
@@ -5359,11 +5362,17 @@ class GatewayRunner:
             except Exception:
                 logger.exception("kanban dispatcher: unexpected watcher error")
 
+            # Adaptive interval: poll faster when work is queued or workers
+            # were just spawned; back off to the configured interval when idle.
+            _sleep_interval = (
+                fast_interval if (ready_pending or any_spawned) else interval
+            )
+
             # Sleep in 1s slices so shutdown is snappy — otherwise a stop()
-            # waits up to `interval` seconds for the current sleep to finish.
+            # waits up to `_sleep_interval` seconds for the current sleep to finish.
             slept = 0.0
-            while slept < interval and self._running:
-                await asyncio.sleep(min(1.0, interval - slept))
+            while slept < _sleep_interval and self._running:
+                await asyncio.sleep(min(1.0, _sleep_interval - slept))
                 slept += 1.0
 
     async def _platform_reconnect_watcher(self) -> None:

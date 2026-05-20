@@ -4588,6 +4588,38 @@ def has_spawnable_review(conn: sqlite3.Connection) -> bool:
     return False
 
 
+def has_spawnable_work(conn: sqlite3.Connection) -> bool:
+    """Return True if the board has spawnable ready or review work.
+
+    Single-query probe for gateway health telemetry — avoids opening two
+    connections per board per tick when checking ready + review queues.
+    """
+    rows = conn.execute(
+        "SELECT DISTINCT assignee FROM tasks "
+        "WHERE status IN ('ready', 'review') AND assignee IS NOT NULL "
+        "    AND claim_lock IS NULL"
+    ).fetchall()
+    if not rows:
+        return False
+    try:
+        from quill_cli.profiles import profile_exists  # local import: avoids cycle
+    except Exception:
+        return True
+    for row in rows:
+        if profile_exists(row["assignee"]):
+            return True
+    return False
+
+
+def running_task_count(conn: sqlite3.Connection) -> int:
+    """Count tasks currently in ``running`` status (shared by dispatch caps)."""
+    return int(
+        conn.execute(
+            "SELECT COUNT(*) FROM tasks WHERE status = 'running'"
+        ).fetchone()[0]
+    )
+
+
 def dispatch_once(
     conn: sqlite3.Connection,
     *,
@@ -4685,13 +4717,7 @@ def dispatch_once(
     # board, since "running" tasks aren't reclaimed by completion alone —
     # they sit in status='running' until the worker calls
     # kanban_complete/kanban_block (or the dispatcher TTL-reclaims them).
-    running_count = 0
-    if max_spawn is not None:
-        running_count = int(
-            conn.execute(
-                "SELECT COUNT(*) FROM tasks WHERE status = 'running'"
-            ).fetchone()[0]
-        )
+    running_count = running_task_count(conn) if max_spawn is not None else 0
 
     ready_rows = conn.execute(
         "SELECT id, assignee FROM tasks "
@@ -4703,9 +4729,7 @@ def dispatch_once(
     # resource-constrained hosts) can finish what they have before more tasks
     # pile up and time out.
     if max_in_progress is not None and ready_rows:
-        in_progress = conn.execute(
-            "SELECT COUNT(*) FROM tasks WHERE status = 'running'"
-        ).fetchone()[0]
+        in_progress = running_task_count(conn)
         if in_progress >= max_in_progress:
             return result
         # Only spawn enough to reach the cap, respecting max_spawn too.

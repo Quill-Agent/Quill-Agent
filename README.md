@@ -24,6 +24,7 @@
 - **More free open-source models** — Expanded OpenRouter, Hugging Face, and Groq coverage; easier switching with `quill model` and clearer free-tier defaults in setup.
 - **Cloud use upgrade** — Smoother cloud provider setup (OpenRouter, Groq, Together, HF), improved env/key handling, and better remote shell backends (SSH, Modal, Docker).
 - **Performance upgrade** — Faster agent loop, leaner context handling, and snappier TUI/gateway responses under load.
+- **Multi-agent Kanban** — Coordinate parallel agents on a shared board: assign tasks by profile, auto-decompose triage, and track collaboration in the live dashboard.
 
 </div>
 
@@ -41,6 +42,7 @@
 | **Runs Anywhere** | Local, Docker, SSH, Modal, or a $5 VPS. The agent hibernates when idle; wake it from your phone. |
 | **Scheduled Automations** | Built-in cron scheduler with delivery to any platform. Daily reports, nightly backups, weekly summaries — all in natural language. |
 | **Delegates and Parallelizes** | Spawn isolated subagents for parallel workstreams. Collapse multi-step pipelines into zero-context-cost turns. |
+| **Multi-agent Kanban** | Shared SQLite board coordinates multiple Quill profiles: triage → decompose → parallel workers, parent/child task links, live dashboard, and gateway dispatch. Use `quill kanban create` or `/kanban` in chat. |
 | **MCP Integration** | Connect any Model Context Protocol server for extended tools and capabilities. |
 | **Research-Ready** | Batch trajectory generation and trajectory compression for training next-generation tool-calling models. |
 
