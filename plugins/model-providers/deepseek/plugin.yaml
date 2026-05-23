@@ -1,6 +1,6 @@
 name: deepseek-provider
 kind: model-provider
 version: 1.0.0
-description: DeepSeek
+description: DeepSeek V4 Pro & Flash (1M context, thinking mode)
 author: Quill Agent
 # quill: plugins

@@ -212,6 +212,13 @@ def test_deepseek_v4_pro_pricing_entry_exists():
     assert float(entry.cache_read_cost_per_million) == 0.0145
 
 
+def test_deepseek_v4_flash_pricing_entry_exists():
+    entry = get_pricing_entry("deepseek-v4-flash", provider="deepseek")
+    assert entry is not None
+    assert float(entry.input_cost_per_million) == 0.55
+    assert float(entry.output_cost_per_million) == 2.19
+
+
 def test_deepseek_v4_pro_estimate_usage_cost():
     """Ensure deepseek-v4-pro sessions get a dollar estimate, not unknown."""
     result = estimate_usage_cost(

@@ -84,17 +84,21 @@ class DeepSeekProfile(ProviderProfile):
 
 deepseek = DeepSeekProfile(
     name="deepseek",
-    aliases=("deepseek-chat",),
+    aliases=("deepseek-chat", "ds-pro", "v4-pro"),
     env_vars=("DEEPSEEK_API_KEY",),
     display_name="DeepSeek",
-    description="DeepSeek — native DeepSeek API",
+    description=(
+        "DeepSeek — native API (V4 Pro 1M context, V4 Flash, legacy V3/R1)"
+    ),
     signup_url="https://platform.deepseek.com/",
     fallback_models=(
+        "deepseek-v4-pro",
+        "deepseek-v4-flash",
         "deepseek-chat",
         "deepseek-reasoner",
     ),
     base_url="https://api.deepseek.com/v1",
-    default_aux_model="deepseek-chat",
+    default_aux_model="deepseek-v4-flash",
 )
 
 register_provider(deepseek)

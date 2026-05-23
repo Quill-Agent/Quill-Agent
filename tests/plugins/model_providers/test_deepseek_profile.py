@@ -33,6 +33,22 @@ def deepseek_profile():
     return profile
 
 
+class TestDeepSeekProfileDefaults:
+    """V4 Pro is the primary model; shortcuts and aux defaults are wired."""
+
+    def test_v4_pro_is_first_fallback(self, deepseek_profile):
+        assert deepseek_profile.fallback_models[0] == "deepseek-v4-pro"
+        assert "deepseek-v4-flash" in deepseek_profile.fallback_models
+
+    def test_shortcut_aliases_registered(self, deepseek_profile):
+        aliases = {a.lower() for a in deepseek_profile.aliases}
+        assert "ds-pro" in aliases
+        assert "v4-pro" in aliases
+
+    def test_aux_model_uses_v4_flash(self, deepseek_profile):
+        assert deepseek_profile.default_aux_model == "deepseek-v4-flash"
+
+
 class TestDeepSeekThinkingWireShape:
     """``build_api_kwargs_extras`` produces DeepSeek's exact wire format."""
 

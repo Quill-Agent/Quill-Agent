@@ -42,6 +42,36 @@ OPENROUTER_API_KEY=sk-or-v1-your_key_here
 
 3. Use models tagged `:free` in the picker, e.g. `meta-llama/llama-3.3-70b-instruct:free`.
 
+### Option D — DeepSeek V4 Pro (frontier coding, 1M context)
+
+1. Create a key at [platform.deepseek.com](https://platform.deepseek.com/api_keys)
+2. Add to `~/.quill/.env` or project `.env`:
+
+```bash
+DEEPSEEK_API_KEY=sk-...
+```
+
+3. Select provider **deepseek** and model **`deepseek-v4-pro`**:
+
+```bash
+quill setup
+# or:
+quill config set provider deepseek
+quill config set model deepseek-v4-pro
+quill model
+```
+
+**Models:** `deepseek-v4-pro` (frontier, 1M context), `deepseek-v4-flash` (fast default), `deepseek-chat` / `deepseek-reasoner` (legacy aliases, deprecated July 2026).
+
+**Thinking mode:** Enabled by default on V4 models. Disable in config:
+
+```yaml
+reasoning:
+  enabled: false
+```
+
+**Shortcuts:** `quill model deepseek-v4-pro`, `/model deepseek:deepseek-v4-pro`, or aliases `ds-pro` / `v4-pro`.
+
 ---
 
 ## Environment variables
@@ -58,6 +88,7 @@ cp .env.example .env
 | Ollama Cloud | `OLLAMA_API_KEY` | `OLLAMA_BASE_URL=https://ollama.com/v1` |
 | Groq | `GROQ_API_KEY` | `GROQ_BASE_URL=https://api.groq.com/openai/v1` |
 | OpenRouter | `OPENROUTER_API_KEY` | (built-in) |
+| DeepSeek | `DEEPSEEK_API_KEY` | `DEEPSEEK_BASE_URL=https://api.deepseek.com/v1` |
 | Hugging Face | `HF_TOKEN` | (built-in) |
 | Custom / vLLM / LM Studio | `CUSTOM_API_BASE` | your endpoint `/v1` |
 
@@ -84,6 +115,7 @@ Built-in profiles live under `plugins/model-providers/`. Each registers env vars
 | `ollama-cloud` | `ollama_cloud` | Hosted Ollama models |
 | `groq` | `groq` | Fast inference, free tier |
 | `openrouter` | `or` | 200+ models, free tier available |
+| `deepseek` | `ds-pro`, `v4-pro` | V4 Pro & Flash — 1M context, thinking mode |
 | `custom` | `ollama`, `vllm`, `local` | Any OpenAI-compatible URL |
 
 User overrides: `$QUILL_HOME/plugins/model-providers/<name>/`

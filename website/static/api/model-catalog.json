@@ -114,7 +114,7 @@
         },
         {
           "id": "deepseek/deepseek-v4-pro",
-          "description": ""
+          "description": "1M context, thinking"
         },
         {
           "id": "openrouter/elephant-alpha",

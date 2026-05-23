@@ -25,6 +25,7 @@
 - **Cloud use upgrade** — Smoother cloud provider setup (OpenRouter, Groq, Together, HF), improved env/key handling, and better remote shell backends (SSH, Modal, Docker).
 - **Performance upgrade** — Faster agent loop, leaner context handling, and snappier TUI/gateway responses under load.
 - **Multi-agent Kanban** — Coordinate parallel agents on a shared board: assign tasks by profile, auto-decompose triage, and track collaboration in the live dashboard.
+- **DeepSeek V4 Pro** — First-class `deepseek-v4-pro` support (1M context, thinking mode, native API + OpenRouter).
 
 </div>
 
@@ -56,7 +57,8 @@ Quill-Agent is designed to work **entirely for free** using open-source and free
 |---|---|---|
 | [Ollama](https://ollama.com) | Llama 3, Mistral, Qwen, Phi, Gemma, DeepSeek, and 100+ more | Free (local) |
 | [LM Studio](https://lmstudio.ai) | Any GGUF model from Hugging Face | Free (local) |
-| [OpenRouter](https://openrouter.ai) | Llama 3.3 70B, Mistral 7B, Qwen 2.5/3, DeepSeek R1/V3, Gemma 3, and 80+ free-tier models | Free tier available |
+| [OpenRouter](https://openrouter.ai) | Llama 3.3 70B, Mistral 7B, Qwen 2.5/3, DeepSeek V4 Pro/Flash, Gemma 3, and 80+ free-tier models | Free tier available |
+| [DeepSeek](https://platform.deepseek.com) | **V4 Pro** (1M context), V4 Flash, legacy V3/R1 — direct API | Pay-per-use |
 | [Hugging Face](https://huggingface.co) | Serverless Inference API (hundreds of open models) | Free tier available |
 | [Groq](https://groq.com) | Llama 3, Mixtral, Gemma (ultra-fast inference) | Free tier available |
 | [Together AI](https://together.ai) | Llama, Mistral, Qwen | Free credits |
@@ -242,7 +244,7 @@ quill-agent/
 
 ## 🔑 API access
 
-Quill supports **local Ollama** (no key), **Groq**, **OpenRouter**, **Hugging Face**, **Together**, and any OpenAI-compatible endpoint. Cloud setup is one command: copy env template, run `quill setup`, pick a free model — keys stay in `~/.quill` or `.env`, never in chat logs.
+Quill supports **local Ollama** (no key), **Groq**, **OpenRouter**, **DeepSeek V4 Pro**, **Hugging Face**, **Together**, and any OpenAI-compatible endpoint. Cloud setup is one command: copy env template, run `quill setup`, pick a model — keys stay in `~/.quill` or `.env`, never in chat logs.
 
 ```bash
 cp .env.example .env    # add keys for cloud providers (optional)
@@ -260,8 +262,8 @@ Quill is configured via `~/.quill/config.yaml`. Key settings:
 
 ```yaml
 # Model provider
-provider: ollama          # ollama | openrouter | huggingface | groq | together | custom
-model: llama3.2           # Any model supported by your provider
+provider: ollama          # ollama | deepseek | openrouter | huggingface | groq | together | custom
+model: llama3.2           # e.g. deepseek-v4-pro, llama3.2, meta-llama/llama-3.3-70b-instruct:free
 
 # Provider API keys (leave blank for local models)
 openrouter_api_key: ""
