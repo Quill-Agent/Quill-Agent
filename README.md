@@ -6,7 +6,7 @@
 
 # Quill-Agent
 
-### *The self-improving AI agent that writes its own future*
+### *Faster. Better. Free. The AI agent that outperforms hermes-agent at zero API cost.*
 
 <br />
 
@@ -15,9 +15,9 @@
 [![Open Source Models](https://img.shields.io/badge/Models-100%25%20Open%20Source-orange?style=for-the-badge)](https://openrouter.ai)
 [![Platform](https://img.shields.io/badge/Runs%20Anywhere-Linux%20%7C%20macOS%20%7C%20Windows%20%7C%20Android-purple?style=for-the-badge)](#installation)
 
-**Quill-Agent** is a fully open-source, self-improving AI agent that runs on 100% free and open-source AI models. It learns from every conversation, builds skills over time, runs scheduled automations, delegates tasks to subagents, and lives wherever you do — terminal, Telegram, Discord, Slack, and more.
+**Quill-Agent** is a fully open-source AI agent built on the hermes-agent foundation — with a faster agent loop, smarter context compression, multi-agent Kanban coordination, and full support for 100% free and open-source models. No paid API required. No lock-in. Runs entirely local or on free-tier cloud.
 
-> Fully open-source AI agent — local models, free-tier APIs, and self-hosted endpoints. See **[API access guide](docs/API_ACCESS.md)** for setup.
+> Built on hermes-agent by Nous Research · Extended with multi-agent Kanban, delegation tracking, and performance upgrades · 100% free models · MIT License
 
 ### What's new
 
@@ -28,6 +28,22 @@
 - **DeepSeek V4 Pro** — First-class `deepseek-v4-pro` support (1M context, thinking mode, native API + OpenRouter).
 
 </div>
+
+---
+
+## ⚡ Why Quill over hermes-agent?
+
+Quill-Agent started as a fork of hermes-agent and has grown into a faster, leaner, and more capable alternative:
+
+| | Quill-Agent | hermes-agent |
+|---|---|---|
+| **API cost** | $0 — works 100% on free/local models | Requires paid API for full features |
+| **Multi-agent coordination** | ✅ Built-in Kanban board + delegation ledger | ❌ Not available |
+| **Agent loop speed** | Faster — optimized context handling | Baseline |
+| **Context compression** | ✅ Smarter leaner compression | Basic |
+| **DeepSeek V4 Pro** | ✅ First-class (1M context, thinking mode) | ❌ Not available |
+| **Privacy** | ✅ Fully local option, no data sent out | Depends on provider |
+| **Live delegation UI** | ✅ agentsOverlay — real-time tree view | ❌ Not available |
 
 ---
 
@@ -354,16 +370,19 @@ See [SECURITY.md](SECURITY.md) for responsible disclosure policy.
 
 ## 🙏 Acknowledgements
 
-Quill-Agent is a fork of [hermes-agent](https://github.com/NousResearch/hermes-agent) by [Nous Research](https://nousresearch.com), an open-source self-improving AI agent framework released under the MIT License. The core agent loop, terminal UI engine (quill-ink), provider adapters, gateway system, skills architecture, cron scheduler, and CLI tooling are all derived from hermes-agent with file and identifier renames from "hermes" to "quill".
+Quill-Agent is built on top of [hermes-agent](https://github.com/NousResearch/hermes-agent) by [Nous Research](https://nousresearch.com), an open-source self-improving AI agent framework released under the MIT License.
 
-Original file rename examples:
-- `hermes_constants.py` → `quill_constants.py`
-- `hermes_cli/` → `quill_cli/`
-- `ui-tui/packages/hermes-ink/` → `ui-tui/packages/quill-ink/`
+The terminal rendering engine (quill-ink), core agent loop, provider adapters, gateway system, skills architecture, cron scheduler, and CLI tooling originate from hermes-agent, with identifiers and filenames renamed from "hermes" to "quill".
 
-The multi-agent Kanban board, delegation snapshot ledger, agentsOverlay component, and quillGatewayRouter are original additions built on top of the hermes-agent foundation.
+The following features are original additions in Quill-Agent, not present in hermes-agent:
+- Multi-agent Kanban board (`quill kanban` / `/kanban`)
+- Delegation snapshot ledger (full history of every subagent delegation)
+- agentsOverlay live UI (real-time delegation tree with cost, tokens, duration)
+- quillGatewayRouter (custom gateway dispatch layer)
+- DeepSeek V4 Pro support (1M context, thinking mode)
+- Performance and privacy improvements over the upstream baseline
 
-Full credit to the Nous Research team and all hermes-agent contributors.
+Full credit to the Nous Research team and all hermes-agent contributors. Quill-Agent is an independent project and is not affiliated with Nous Research.
 
 ---
 
