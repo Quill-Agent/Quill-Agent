@@ -1,8 +1,8 @@
 /**
- * Derived from hermes-agent (hermes-ink package)
+ * Derived from hermes-agent by Nous Research
  * Original file: parse-keypress.ts
- * Source: https://github.com/ljbudgie/hermes-agent
- * License: see NOTICE.md
+ * Source: https://github.com/NousResearch/hermes-agent
+ * License: MIT
  */
 /**
  * @quill/ink — Quill-Agent terminal keypress parser.

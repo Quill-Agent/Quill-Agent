@@ -354,14 +354,16 @@ See [SECURITY.md](SECURITY.md) for responsible disclosure policy.
 
 ## 🙏 Acknowledgements
 
-Quill-Agent is built on the shoulders of excellent open-source terminal UI work:
+Quill-Agent is a fork of [hermes-agent](https://github.com/NousResearch/hermes-agent) by [Nous Research](https://nousresearch.com), an open-source self-improving AI agent framework released under the MIT License. The core agent loop, terminal UI engine (quill-ink), provider adapters, gateway system, skills architecture, cron scheduler, and CLI tooling are all derived from hermes-agent with file and identifier renames from "hermes" to "quill".
 
-- **[hermes-agent](https://github.com/ljbudgie/hermes-agent)** — The terminal rendering engine in `ui-tui/packages/quill-ink/` (the `quill-ink` package) is derived from the upstream **hermes-ink** package. File names were adapted for this project (for example, `render-border.ts` → `quill-border.ts`). See [NOTICE.md](NOTICE.md) for the full mapping.
-- **claude-code community forks** — Portions of terminal diff and rendering utilities are derived from community-maintained forks and collections, including [chauncygu/collection-claude-code-source-code](https://github.com/chauncygu/collection-claude-code-source-code). Details are in [NOTICE.md](NOTICE.md).
+Original file rename examples:
+- `hermes_constants.py` → `quill_constants.py`
+- `hermes_cli/` → `quill_cli/`
+- `ui-tui/packages/hermes-ink/` → `ui-tui/packages/quill-ink/`
 
-On top of these rendering primitives, Quill-Agent adds an **original multi-agent collaboration layer**: delegation snapshot ledger, `quillGatewayRouter`, `agentsOverlay`, Kanban board coordination, and related application orchestration.
+The multi-agent Kanban board, delegation snapshot ledger, agentsOverlay component, and quillGatewayRouter are original additions built on top of the hermes-agent foundation.
 
-Third-party components are used under their respective open-source licenses. This project’s own code is licensed under MIT — see [LICENSE](LICENSE).
+Full credit to the Nous Research team and all hermes-agent contributors.
 
 ---
 

@@ -1,4 +1,10 @@
 /**
+ * Derived from hermes-agent by Nous Research
+ * Original file: useComposerState.ts
+ * Source: https://github.com/NousResearch/hermes-agent
+ * License: MIT
+ */
+/**
  * Quill TUI — composer draft, paste handling, queue editing, and external editor launch.
  */
 import { spawnSync } from 'node:child_process'

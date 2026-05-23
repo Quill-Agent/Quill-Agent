@@ -1,8 +1,8 @@
 /**
- * Derived from hermes-agent (hermes-ink package)
+ * Derived from hermes-agent by Nous Research
  * Original file: render-to-screen.ts
- * Source: https://github.com/ljbudgie/hermes-agent
- * License: see NOTICE.md
+ * Source: https://github.com/NousResearch/hermes-agent
+ * License: MIT
  */
 /** @quill/ink — Quill-Agent React tree → terminal frame renderer. */
 import noop from 'lodash-es/noop.js'

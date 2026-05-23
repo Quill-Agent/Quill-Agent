@@ -1,11 +1,10 @@
 /**
- * Derived from hermes-agent (hermes-ink package)
+ * Derived from hermes-agent by Nous Research
  * Original file: log-update.ts
- * Source: https://github.com/ljbudgie/hermes-agent
- * License: see NOTICE.md
+ * Source: https://github.com/NousResearch/hermes-agent
+ * License: MIT
  */
 /**
- * Portions also derived from claude-code community forks — see NOTICE.md.
  * @quill/ink — incremental terminal diff engine (Quill-Agent).
  * Computes minimal ANSI patches between frames for TTY output.
  */
