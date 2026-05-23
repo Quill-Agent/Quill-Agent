@@ -1,4 +1,10 @@
 /**
+ * Derived from hermes-agent (hermes-ink package)
+ * Original file: parse-keypress.ts
+ * Source: https://github.com/ljbudgie/hermes-agent
+ * License: see NOTICE.md
+ */
+/**
  * @quill/ink — Quill-Agent terminal keypress parser.
  * Converts raw TTY input to structured key events via the termio tokenizer.
  */

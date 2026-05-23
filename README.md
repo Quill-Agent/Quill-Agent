@@ -352,15 +352,22 @@ See [SECURITY.md](SECURITY.md) for responsible disclosure policy.
 
 ---
 
-## 📄 License
+## 🙏 Acknowledgements
 
-MIT — see [LICENSE](LICENSE). Free to use, fork, and modify.
+Quill-Agent is built on the shoulders of excellent open-source terminal UI work:
+
+- **[hermes-agent](https://github.com/ljbudgie/hermes-agent)** — The terminal rendering engine in `ui-tui/packages/quill-ink/` (the `quill-ink` package) is derived from the upstream **hermes-ink** package. File names were adapted for this project (for example, `render-border.ts` → `quill-border.ts`). See [NOTICE.md](NOTICE.md) for the full mapping.
+- **claude-code community forks** — Portions of terminal diff and rendering utilities are derived from community-maintained forks and collections, including [chauncygu/collection-claude-code-source-code](https://github.com/chauncygu/collection-claude-code-source-code). Details are in [NOTICE.md](NOTICE.md).
+
+On top of these rendering primitives, Quill-Agent adds an **original multi-agent collaboration layer**: delegation snapshot ledger, `quillGatewayRouter`, `agentsOverlay`, Kanban board coordination, and related application orchestration.
+
+Third-party components are used under their respective open-source licenses. This project’s own code is licensed under MIT — see [LICENSE](LICENSE).
 
 ---
 
-## 🙏 Acknowledgements
+## 📄 License
 
-Quill-Agent is a fork and rebrand of the open-source [Quill-Agent/quill-agent](https://github.com/Quill-Agent/quill-agent) project. Full credit to the Quill Agent team and all contributors for building the foundation this project is built on.
+MIT — see [LICENSE](LICENSE). Free to use, fork, and modify. Third-party attributions: [NOTICE.md](NOTICE.md).
 
 ---
 

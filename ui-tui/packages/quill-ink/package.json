@@ -2,6 +2,9 @@
   "name": "@quill/ink",
   "version": "0.0.1",
   "private": true,
+  "license": "MIT",
+  "repository": "https://github.com/Quill-Agent/Quill-Agent",
+  "acknowledgements": "../../NOTICE.md",
   "type": "module",
   "scripts": {
     "build": "esbuild src/entry-exports.ts --bundle --platform=node --format=esm --packages=external --outdir=dist"
@@ -52,4 +55,3 @@
     "esbuild": "^0.25.0"
   }
 }
-# quill: ui-tui

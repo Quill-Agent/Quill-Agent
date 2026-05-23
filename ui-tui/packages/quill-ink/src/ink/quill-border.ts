@@ -1,3 +1,9 @@
+/**
+ * Derived from hermes-agent (hermes-ink package)
+ * Original file: render-border.ts
+ * Source: https://github.com/ljbudgie/hermes-agent
+ * License: see NOTICE.md
+ */
 /** @quill/ink — Quill-Agent border and box drawing for terminal UI. */
 import chalk from 'chalk'
 import cliBoxes, { type Boxes, type BoxStyle } from 'cli-boxes'
