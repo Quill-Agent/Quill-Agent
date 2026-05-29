@@ -212,6 +212,13 @@ def test_deepseek_v4_pro_pricing_entry_exists():
     assert float(entry.cache_read_cost_per_million) == 0.0145
 
 
+def test_grok_build_0_1_pricing_entry_exists():
+    entry = get_pricing_entry("grok-build-0.1", provider="xai")
+    assert entry is not None
+    assert float(entry.input_cost_per_million) == 1.00
+    assert float(entry.output_cost_per_million) == 2.00
+
+
 def test_deepseek_v4_flash_pricing_entry_exists():
     entry = get_pricing_entry("deepseek-v4-flash", provider="deepseek")
     assert entry is not None

@@ -72,6 +72,24 @@ reasoning:
 
 **Shortcuts:** `quill model deepseek-v4-pro`, `/model deepseek:deepseek-v4-pro`, or aliases `ds-pro` / `v4-pro`.
 
+### Option E — xAI Grok Build 0.1 (fast agentic coding)
+
+1. Create a key at [console.x.ai](https://console.x.ai/)
+2. Add to `.env`:
+
+```bash
+XAI_API_KEY=xai-...
+```
+
+3. Select provider **xai** and model **`grok-build-0.1`**:
+
+```bash
+quill config set provider xai
+quill config set model grok-build-0.1
+```
+
+**Notes:** 256K context, optimized for tool use and multi-step coding. Uses the xAI Responses API (`codex_responses` transport). Shortcuts: `grok-build`, `build`.
+
 ---
 
 ## Environment variables
@@ -89,6 +107,7 @@ cp .env.example .env
 | Groq | `GROQ_API_KEY` | `GROQ_BASE_URL=https://api.groq.com/openai/v1` |
 | OpenRouter | `OPENROUTER_API_KEY` | (built-in) |
 | DeepSeek | `DEEPSEEK_API_KEY` | `DEEPSEEK_BASE_URL=https://api.deepseek.com/v1` |
+| xAI Grok | `XAI_API_KEY` | `XAI_BASE_URL=https://api.x.ai/v1` |
 | Hugging Face | `HF_TOKEN` | (built-in) |
 | Custom / vLLM / LM Studio | `CUSTOM_API_BASE` | your endpoint `/v1` |
 

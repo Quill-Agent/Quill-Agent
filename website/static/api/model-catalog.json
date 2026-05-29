@@ -117,6 +117,10 @@
           "description": "1M context, thinking"
         },
         {
+          "id": "x-ai/grok-build-0.1",
+          "description": "coding, 256K"
+        },
+        {
           "id": "openrouter/elephant-alpha",
           "description": "free"
         },

@@ -160,6 +160,7 @@ class TestDefaultContextLengths:
         # DEFAULT_CONTEXT_LENGTHS must cover the Grok family explicitly.
         # Values sourced from models.dev (2026-04).
         expected = {
+            "grok-build-0.1": 256000,
             "grok-4.20": 2000000,
             "grok-4-1-fast": 2000000,
             "grok-4-fast": 2000000,

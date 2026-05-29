@@ -127,6 +127,8 @@ MODEL_ALIASES: dict[str, ModelIdentity] = {
 
     # X.AI
     "grok":      ModelIdentity("x-ai", "grok"),
+    "grok-build": ModelIdentity("xai", "grok-build-0.1"),
+    "build":     ModelIdentity("xai", "grok-build-0.1"),
 
     # Meta
     "llama":     ModelIdentity("meta-llama", "llama"),

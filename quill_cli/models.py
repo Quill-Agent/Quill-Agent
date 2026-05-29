@@ -7,6 +7,7 @@ Add, remove, or reorder entries here — both `quill setup` and
 
 from __future__ import annotations
 
+import functools
 import json
 import os
 import urllib.request
@@ -54,6 +55,7 @@ OPENROUTER_MODELS: list[tuple[str, str]] = [
     ("stepfun/step-3.5-flash",                 ""),
     ("minimax/minimax-m2.7",                   ""),
     ("z-ai/glm-5.1",                           ""),
+    ("x-ai/grok-build-0.1",                    "coding"),
     ("x-ai/grok-4.20",                         ""),
     ("x-ai/grok-4.3",                          ""),
     ("nvidia/nemotron-3-super-120b-a12b",      ""),
@@ -116,6 +118,7 @@ def _codex_curated_models() -> list[str]:
 # (grok-4, grok-4-0709, grok-4-fast{,-reasoning,-non-reasoning},
 #  grok-4-1-fast{,-reasoning,-non-reasoning}, grok-code-fast-1 → grok-4.3).
 _XAI_STATIC_FALLBACK: list[str] = [
+    "grok-build-0.1",
     "grok-4.3",
     "grok-4.20-0309-reasoning",
     "grok-4.20-0309-non-reasoning",
@@ -133,7 +136,8 @@ def _xai_promote_top(ids: list[str]) -> list[str]:
     return ids
 
 
-def _xai_curated_models() -> list[str]:
+@functools.lru_cache(maxsize=1)
+def _xai_curated_models() -> tuple[str, ...]:
     """Derive the xAI-direct curated list from models.dev disk cache.
 
     Reads $QUILL_HOME/models_dev_cache.json directly (no network) so this
@@ -143,6 +147,7 @@ def _xai_curated_models() -> list[str]:
     xAI renames models.
 
     Mirrors ``_codex_curated_models()``'s role for openai-codex.
+    Cached per process to avoid re-parsing the disk registry on every picker open.
     """
     try:
         from agent.models_dev import _load_disk_cache
@@ -152,12 +157,12 @@ def _xai_curated_models() -> list[str]:
         if isinstance(models, dict) and models:
             ids = [mid for mid in models.keys() if isinstance(mid, str)]
             if ids:
-                return _xai_promote_top(sorted(ids))
+                return tuple(_xai_promote_top(sorted(ids)))
     except Exception:
         # Any failure (missing file, malformed JSON, import error)
         # falls through to the static list.
         pass
-    return list(_XAI_STATIC_FALLBACK)
+    return tuple(_XAI_STATIC_FALLBACK)
 
 
 _PROVIDER_MODELS: dict[str, list[str]] = {
@@ -200,7 +205,7 @@ _PROVIDER_MODELS: dict[str, list[str]] = {
         "gpt-4o-mini",
     ],
     "openai-codex": _codex_curated_models(),
-    "xai-oauth": _xai_curated_models(),
+    "xai-oauth": list(_xai_curated_models()),
     "copilot-acp": [
         "copilot-acp",
     ],
@@ -242,7 +247,7 @@ _PROVIDER_MODELS: dict[str, list[str]] = {
         "glm-4.5",
         "glm-4.5-flash",
     ],
-    "xai": _xai_curated_models(),
+    "xai": list(_xai_curated_models()),
     "nvidia": [
         # NVIDIA flagship reasoning models
         "nvidia/nemotron-3-super-120b-a12b",
@@ -939,7 +944,7 @@ CANONICAL_PROVIDERS: list[ProviderEntry] = [
     ProviderEntry("gemini",         "Google AI Studio",         "Google AI Studio (Gemini models — native Gemini API)"),
     ProviderEntry("google-gemini-cli", "Google Gemini (OAuth)",   "Google Gemini via OAuth + Code Assist (free tier supported; no API key needed)"),
     ProviderEntry("deepseek",       "DeepSeek",                 "DeepSeek V4 Pro & Flash (1M context — direct API)"),
-    ProviderEntry("xai",            "xAI",                      "xAI (Grok models — direct API)"),
+    ProviderEntry("xai",            "xAI",                      "xAI Grok — Build 0.1 coding + Grok 4.3 (direct API)"),
     ProviderEntry("zai",            "Z.AI / GLM",               "Z.AI / GLM (Zhipu AI direct API)"),
     ProviderEntry("kimi-coding",    "Kimi / Kimi Coding Plan",  "Kimi Coding Plan (api.kimi.com) & Moonshot API"),
     ProviderEntry("kimi-coding-cn", "Kimi / Moonshot (China)",  "Kimi / Moonshot China (Moonshot CN direct API)"),

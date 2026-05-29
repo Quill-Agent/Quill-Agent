@@ -26,6 +26,7 @@
 - **Performance upgrade** — Faster agent loop, leaner context handling, and snappier TUI/gateway responses under load.
 - **Multi-agent Kanban** — Coordinate parallel agents on a shared board: assign tasks by profile, auto-decompose triage, and track collaboration in the live dashboard.
 - **DeepSeek V4 Pro** — First-class `deepseek-v4-pro` support (1M context, thinking mode, native API + OpenRouter).
+- **Grok Build 0.1** — xAI’s fast agentic coding model (`grok-build-0.1`, 256K context, Responses API).
 
 </div>
 
@@ -42,6 +43,7 @@ Quill-Agent started as a fork of hermes-agent and has grown into a faster, leane
 | **Agent loop speed** | Faster — optimized context handling | Baseline |
 | **Context compression** | ✅ Smarter leaner compression | Basic |
 | **DeepSeek V4 Pro** | ✅ First-class (1M context, thinking mode) | ❌ Not available |
+| **Grok Build 0.1** | ✅ Agentic coding model (256K, 100+ tok/s) | ❌ Not available |
 | **Privacy** | ✅ Fully local option, no data sent out | Depends on provider |
 | **Live delegation UI** | ✅ agentsOverlay — real-time tree view | ❌ Not available |
 
@@ -75,6 +77,7 @@ Quill-Agent is designed to work **entirely for free** using open-source and free
 | [LM Studio](https://lmstudio.ai) | Any GGUF model from Hugging Face | Free (local) |
 | [OpenRouter](https://openrouter.ai) | Llama 3.3 70B, Mistral 7B, Qwen 2.5/3, DeepSeek V4 Pro/Flash, Gemma 3, and 80+ free-tier models | Free tier available |
 | [DeepSeek](https://platform.deepseek.com) | **V4 Pro** (1M context), V4 Flash, legacy V3/R1 — direct API | Pay-per-use |
+| [xAI Grok](https://x.ai/api) | **Grok Build 0.1** (coding), Grok 4.3 — direct API | Pay-per-use |
 | [Hugging Face](https://huggingface.co) | Serverless Inference API (hundreds of open models) | Free tier available |
 | [Groq](https://groq.com) | Llama 3, Mixtral, Gemma (ultra-fast inference) | Free tier available |
 | [Together AI](https://together.ai) | Llama, Mistral, Qwen | Free credits |
@@ -380,6 +383,7 @@ The following features are original additions in Quill-Agent, not present in her
 - agentsOverlay live UI (real-time delegation tree with cost, tokens, duration)
 - quillGatewayRouter (custom gateway dispatch layer)
 - DeepSeek V4 Pro support (1M context, thinking mode)
+- Grok Build 0.1 support (xAI agentic coding model)
 - Performance and privacy improvements over the upstream baseline
 
 Full credit to the Nous Research team and all hermes-agent contributors. Quill-Agent is an independent project and is not affiliated with Nous Research.

@@ -392,6 +392,26 @@ _OFFICIAL_DOCS_PRICING: Dict[tuple[str, str], PricingEntry] = {
         source_url="https://api-docs.deepseek.com/quick_start/pricing",
         pricing_version="deepseek-pricing-2026-05-12",
     ),
+    (
+        "xai",
+        "grok-build-0.1",
+    ): PricingEntry(
+        input_cost_per_million=Decimal("1.00"),
+        output_cost_per_million=Decimal("2.00"),
+        source="official_docs_snapshot",
+        source_url="https://docs.x.ai/developers/models",
+        pricing_version="xai-pricing-2026-05-28",
+    ),
+    (
+        "x-ai",
+        "grok-build-0.1",
+    ): PricingEntry(
+        input_cost_per_million=Decimal("1.00"),
+        output_cost_per_million=Decimal("2.00"),
+        source="official_docs_snapshot",
+        source_url="https://docs.x.ai/developers/models",
+        pricing_version="xai-pricing-2026-05-28",
+    ),
     # Google Gemini
     (
         "google",
