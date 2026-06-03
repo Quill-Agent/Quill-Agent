@@ -373,20 +373,7 @@ See [SECURITY.md](SECURITY.md) for responsible disclosure policy.
 
 ## 🙏 Acknowledgements
 
-Quill-Agent is built on top of [hermes-agent](https://github.com/NousResearch/hermes-agent) by [Nous Research](https://nousresearch.com), an open-source self-improving AI agent framework released under the MIT License.
-
-The terminal rendering engine (quill-ink), core agent loop, provider adapters, gateway system, skills architecture, cron scheduler, and CLI tooling originate from hermes-agent, with identifiers and filenames renamed from "hermes" to "quill".
-
-The following features are original additions in Quill-Agent, not present in hermes-agent:
-- Multi-agent Kanban board (`quill kanban` / `/kanban`)
-- Delegation snapshot ledger (full history of every subagent delegation)
-- agentsOverlay live UI (real-time delegation tree with cost, tokens, duration)
-- quillGatewayRouter (custom gateway dispatch layer)
-- DeepSeek V4 Pro support (1M context, thinking mode)
-- Grok Build 0.1 support (xAI agentic coding model)
-- Performance and privacy improvements over the upstream baseline
-
-Full credit to the Nous Research team and all hermes-agent contributors. Quill-Agent is an independent project and is not affiliated with Nous Research.
+Quill-Agent is built on top of [hermes-agent](https://github.com/NousResearch/hermes-agent) by [Nous Research](https://nousresearch.com), an open-source self-improving AI agent framework released under the MIT License. The terminal rendering engine (quill-ink), core agent loop, provider adapters, gateway system, skills architecture, cron scheduler, and CLI tooling originate from hermes-agent, with identifiers and filenames renamed from "hermes" to "quill". The multi-agent Kanban board, delegation snapshot ledger, agentsOverlay UI, quillGatewayRouter, and DeepSeek V4 Pro support are original additions not present in hermes-agent. Full credit to the Nous Research team and all hermes-agent contributors. Quill-Agent is an independent project and is not affiliated with Nous Research.
 
 ---
 
@@ -400,7 +387,7 @@ MIT — see [LICENSE](LICENSE). Free to use, fork, and modify. Third-party attri
 
 **Built for everyone. Powered by open models. Owned by you.**
 
-[Issues](https://github.com/Quill-Agent/quill-agent/issues) · [Discussions](https://github.com/Quill-Agent/quill-agent/discussions) · [agentskills.io](https://agentskills.io)
+[Issues](https://github.com/Quill-Agent/Quill-Agent/issues) · [Discussions](https://github.com/Quill-Agent/Quill-Agent/discussions) · [agentskills.io](https://agentskills.io)
 
 </div>
 <!-- quill: root -->
