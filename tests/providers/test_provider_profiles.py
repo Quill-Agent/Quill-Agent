@@ -21,6 +21,12 @@ class TestRegistry:
         assert groq is not None
         assert "groq.com" in groq.base_url
         assert "GROQ_API_KEY" in groq.env_vars
+        assert len(groq.fallback_models) >= 3
+
+    def test_groq_catalog_in_provider_models(self):
+        from quill_cli.models import _PROVIDER_MODELS
+        assert "groq" in _PROVIDER_MODELS
+        assert "llama-3.3-70b-versatile" in _PROVIDER_MODELS["groq"]
 
     def test_alias_lookup(self):
         assert get_provider_profile("kimi").name == "kimi-coding"
@@ -303,4 +309,3 @@ class TestBaseProfile:
         eb, tl = p.build_api_kwargs_extras()
         assert eb == {}
         assert tl == {}
-# quill: tests

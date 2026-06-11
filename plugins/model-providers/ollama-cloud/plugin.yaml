@@ -1,6 +1,6 @@
 name: ollama-cloud-provider
 kind: model-provider
-version: 1.0.0
+version: 1.0.1
+license: MIT
 description: Ollama Cloud
 author: Quill Agent
-# quill: plugins

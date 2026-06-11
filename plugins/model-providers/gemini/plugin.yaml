@@ -1,6 +1,6 @@
 name: gemini-provider
 kind: model-provider
-version: 1.0.0
+version: 1.0.1
+license: MIT
 description: Google Gemini (API key + Cloud Code OAuth)
 author: Quill Agent
-# quill: plugins

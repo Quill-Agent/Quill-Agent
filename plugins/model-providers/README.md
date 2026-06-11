@@ -56,7 +56,8 @@ bundled plugins of the same name — last-writer-wins in
    ```yaml
    name: your-provider-profile
    kind: model-provider
-   version: 1.0.0
+   version: 1.0.1
+   license: MIT
    description: Short sentence about the provider
    author: Your Name
    ```
@@ -72,4 +73,3 @@ quirks — see `plugins/model-providers/openrouter/__init__.py` for
 `build_extra_body` and `build_api_kwargs_extras` examples, and
 `plugins/model-providers/gemini/__init__.py` for `thinking_config`
 translation.
-<!-- quill: plugins -->

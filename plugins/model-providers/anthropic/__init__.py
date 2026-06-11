@@ -47,7 +47,14 @@ anthropic = AnthropicProfile(
     base_url="https://api.anthropic.com",
     auth_type="api_key",
     default_aux_model="claude-haiku-4-5-20251001",
+    display_name="Anthropic",
+    description="Claude models via native Anthropic API",
+    signup_url="https://console.anthropic.com/",
+    fallback_models=(
+        "claude-sonnet-4-6",
+        "claude-opus-4-6",
+        "claude-haiku-4-5-20251001",
+    ),
 )
 
 register_provider(anthropic)
-# quill: plugins

@@ -29,4 +29,3 @@ gmi = ProviderProfile(
 )
 
 register_provider(gmi)
-# quill: plugins

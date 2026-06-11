@@ -69,4 +69,3 @@ kimi_cn = KimiProfile(
 
 register_provider(kimi)
 register_provider(kimi_cn)
-# quill: plugins

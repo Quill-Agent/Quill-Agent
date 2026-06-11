@@ -1,6 +1,6 @@
 name: groq-profile
 kind: model-provider
-version: 1.0.0
-description: Groq OpenAI-compatible API — fast free-tier models
+version: 1.0.1
+license: MIT
+description: Groq — ultra-fast Llama, Mixtral, Gemma (free tier)
 author: Quill-Agent
-# quill: plugins

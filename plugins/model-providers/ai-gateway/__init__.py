@@ -41,4 +41,3 @@ vercel = VercelAIGatewayProfile(
 )
 
 register_provider(vercel)
-# quill: plugins

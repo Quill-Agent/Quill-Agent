@@ -8,7 +8,10 @@ arcee = ProviderProfile(
     aliases=("arcee-ai", "arceeai"),
     env_vars=("ARCEEAI_API_KEY",),
     base_url="https://api.arcee.ai/api/v1",
+    fallback_models=(
+        "arcee-spark",
+        "arcee-nova",
+    ),
 )
 
 register_provider(arcee)
-# quill: plugins

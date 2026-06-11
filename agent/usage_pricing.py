@@ -412,6 +412,27 @@ _OFFICIAL_DOCS_PRICING: Dict[tuple[str, str], PricingEntry] = {
         source_url="https://docs.x.ai/developers/models",
         pricing_version="xai-pricing-2026-05-28",
     ),
+    # Groq — free tier (Llama chat; Whisper STT priced separately)
+    (
+        "groq",
+        "llama-3.3-70b-versatile",
+    ): PricingEntry(
+        input_cost_per_million=_ZERO,
+        output_cost_per_million=_ZERO,
+        source="official_docs_snapshot",
+        source_url="https://console.groq.com/docs/models",
+        pricing_version="groq-free-tier-2026-05",
+    ),
+    (
+        "groq",
+        "llama-3.1-8b-instant",
+    ): PricingEntry(
+        input_cost_per_million=_ZERO,
+        output_cost_per_million=_ZERO,
+        source="official_docs_snapshot",
+        source_url="https://console.groq.com/docs/models",
+        pricing_version="groq-free-tier-2026-05",
+    ),
     # Google Gemini
     (
         "google",

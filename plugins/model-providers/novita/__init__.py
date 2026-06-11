@@ -25,4 +25,3 @@ novita = ProviderProfile(
 )
 
 register_provider(novita)
-# quill: plugins

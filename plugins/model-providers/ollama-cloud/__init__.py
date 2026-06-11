@@ -9,7 +9,11 @@ ollama_cloud = ProviderProfile(
     default_aux_model="nemotron-3-nano:30b",
     env_vars=("OLLAMA_API_KEY",),
     base_url="https://ollama.com/v1",
+    fallback_models=(
+        "llama3.3",
+        "qwen2.5",
+        "mistral",
+    ),
 )
 
 register_provider(ollama_cloud)
-# quill: plugins

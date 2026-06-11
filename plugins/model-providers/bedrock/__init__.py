@@ -27,4 +27,3 @@ bedrock = BedrockProfile(
 )
 
 register_provider(bedrock)
-# quill: plugins

@@ -23,4 +23,3 @@ xai = ProviderProfile(
 )
 
 register_provider(xai)
-# quill: plugins

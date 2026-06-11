@@ -1,6 +1,6 @@
 name: kimi-coding-provider
 kind: model-provider
-version: 1.0.0
+version: 1.0.1
+license: MIT
 description: Moonshot Kimi Coding (global + China)
 author: Quill Agent
-# quill: plugins

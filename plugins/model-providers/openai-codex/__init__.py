@@ -13,4 +13,3 @@ openai_codex = ProviderProfile(
 )
 
 register_provider(openai_codex)
-# quill: plugins

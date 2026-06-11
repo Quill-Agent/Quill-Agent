@@ -113,4 +113,3 @@ openrouter = OpenRouterProfile(
 )
 
 register_provider(openrouter)
-# quill: plugins

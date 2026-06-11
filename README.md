@@ -21,7 +21,7 @@
 
 ### What's new
 
-- **More free open-source models** — Expanded OpenRouter, Hugging Face, and Groq coverage; easier switching with `quill model` and clearer free-tier defaults in setup.
+- **More free open-source models** — Expanded OpenRouter, Hugging Face, and Groq catalogs (Llama 3.3, Gemma, Mixtral, DeepSeek R1 distill); `quill model` picker loads faster with cached provider lists.
 - **Cloud use upgrade** — Smoother cloud provider setup (OpenRouter, Groq, Together, HF), improved env/key handling, and better remote shell backends (SSH, Modal, Docker).
 - **Performance upgrade** — Faster agent loop, leaner context handling, and snappier TUI/gateway responses under load.
 - **Multi-agent Kanban** — Coordinate parallel agents on a shared board: assign tasks by profile, auto-decompose triage, and track collaboration in the live dashboard.

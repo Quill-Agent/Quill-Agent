@@ -1,6 +1,6 @@
 name: kilocode-provider
 kind: model-provider
-version: 1.0.0
+version: 1.0.1
+license: MIT
 description: Kilo Code
 author: Quill Agent
-# quill: plugins

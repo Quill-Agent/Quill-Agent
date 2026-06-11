@@ -19,4 +19,3 @@ alibaba_coding_plan = ProviderProfile(
 )
 
 register_provider(alibaba_coding_plan)
-# quill: plugins

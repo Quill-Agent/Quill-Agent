@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-05-11T16:41:16Z",
+  "updated_at": "2026-05-19T12:00:00Z",
   "metadata": {
     "source": "quill-agent repo",
     "docs": "https://quill-agent.example.com/docs/reference/model-catalog"
@@ -139,6 +139,70 @@
         {
           "id": "inclusionai/ring-2.6-1t:free",
           "description": "free"
+        },
+        {
+          "id": "meta-llama/llama-3.3-70b-instruct:free",
+          "description": "free"
+        },
+        {
+          "id": "google/gemma-3-27b-it:free",
+          "description": "free"
+        },
+        {
+          "id": "qwen/qwen-2.5-72b-instruct:free",
+          "description": "free"
+        }
+      ]
+    },
+    "groq": {
+      "metadata": {
+        "display_name": "Groq",
+        "note": "Free tier — ultra-fast Llama, Mixtral, Gemma inference"
+      },
+      "models": [
+        {
+          "id": "llama-3.3-70b-versatile",
+          "description": "recommended"
+        },
+        {
+          "id": "llama-3.1-8b-instant",
+          "description": "fast"
+        },
+        {
+          "id": "mixtral-8x7b-32768",
+          "description": ""
+        },
+        {
+          "id": "gemma2-9b-it",
+          "description": ""
+        },
+        {
+          "id": "deepseek-r1-distill-llama-70b",
+          "description": "reasoning"
+        }
+      ]
+    },
+    "huggingface": {
+      "metadata": {
+        "display_name": "Hugging Face",
+        "note": "Inference API — open models"
+      },
+      "models": [
+        {
+          "id": "moonshotai/Kimi-K2.6",
+          "description": "recommended"
+        },
+        {
+          "id": "Qwen/Qwen3.5-72B-Instruct",
+          "description": ""
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-V3.2",
+          "description": ""
+        },
+        {
+          "id": "meta-llama/Llama-3.3-70B-Instruct",
+          "description": ""
         }
       ]
     },
@@ -224,4 +288,3 @@
     }
   }
 }
-# quill: website

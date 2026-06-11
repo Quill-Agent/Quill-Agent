@@ -15,6 +15,11 @@ minimax = ProviderProfile(
     base_url="https://api.minimax.io/anthropic",
     auth_type="api_key",
     default_aux_model="MiniMax-M2.7",
+    fallback_models=(
+        "MiniMax-M2.5",
+        "MiniMax-M2.1",
+        "MiniMax-M2",
+    ),
 )
 
 minimax_cn = ProviderProfile(
@@ -43,4 +48,3 @@ minimax_oauth = ProviderProfile(
 register_provider(minimax)
 register_provider(minimax_cn)
 register_provider(minimax_oauth)
-# quill: plugins

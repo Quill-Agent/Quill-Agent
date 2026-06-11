@@ -70,4 +70,3 @@ google_gemini_cli = GeminiProfile(
 
 register_provider(gemini)
 register_provider(google_gemini_cli)
-# quill: plugins

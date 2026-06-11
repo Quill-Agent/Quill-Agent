@@ -32,4 +32,3 @@ copilot_acp = CopilotACPProfile(
 )
 
 register_provider(copilot_acp)
-# quill: plugins

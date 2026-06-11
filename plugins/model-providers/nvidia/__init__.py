@@ -19,4 +19,3 @@ nvidia = ProviderProfile(
 )
 
 register_provider(nvidia)
-# quill: plugins

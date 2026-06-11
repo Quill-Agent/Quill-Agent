@@ -1,6 +1,6 @@
 name: opencode-zen-provider
 kind: model-provider
-version: 1.0.0
+version: 1.0.1
+license: MIT
 description: OpenCode (Zen + Go)
 author: Quill Agent
-# quill: plugins

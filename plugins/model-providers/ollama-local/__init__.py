@@ -12,7 +12,13 @@ ollama_local = ProviderProfile(
     env_vars=("OLLAMA_BASE_URL",),
     base_url="http://localhost:11434/v1",
     default_aux_model="llama3.2",
+    fallback_models=(
+        "llama3.2",
+        "llama3.3",
+        "mistral",
+        "qwen2.5",
+        "gemma3",
+    ),
 )
 
 register_provider(ollama_local)
-# quill: plugins

@@ -56,4 +56,3 @@ copilot = CopilotProfile(
 )
 
 register_provider(copilot)
-# quill: plugins

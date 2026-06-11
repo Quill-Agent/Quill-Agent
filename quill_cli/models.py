@@ -66,6 +66,10 @@ OPENROUTER_MODELS: list[tuple[str, str]] = [
     ("tencent/hy3-preview:free",               "free"),
     ("nvidia/nemotron-3-super-120b-a12b:free", "free"),
     ("inclusionai/ring-2.6-1t:free",           "free"),
+    ("meta-llama/llama-3.3-70b-instruct:free", "free"),
+    ("google/gemma-3-27b-it:free",             "free"),
+    ("mistralai/mistral-small-3.1-24b-instruct:free", "free"),
+    ("qwen/qwen-2.5-72b-instruct:free",        "free"),
 ]
 
 _openrouter_catalog_cache: list[tuple[str, str]] | None = None
@@ -96,15 +100,17 @@ VERCEL_AI_GATEWAY_MODELS: list[tuple[str, str]] = [
 _ai_gateway_catalog_cache: list[tuple[str, str]] | None = None
 
 
-def _codex_curated_models() -> list[str]:
+@functools.lru_cache(maxsize=1)
+def _codex_curated_models() -> tuple[str, ...]:
     """Derive the openai-codex curated list from codex_models.py.
 
     Single source of truth: DEFAULT_CODEX_MODELS + forward-compat synthesis.
     This keeps the gateway /model picker in sync with the CLI `quill model`
     flow without maintaining a separate static list.
+    Cached per process for faster model picker loads.
     """
     from quill_cli.codex_models import DEFAULT_CODEX_MODELS, _add_forward_compat_models
-    return _add_forward_compat_models(list(DEFAULT_CODEX_MODELS))
+    return tuple(_add_forward_compat_models(list(DEFAULT_CODEX_MODELS)))
 
 
 # Static fallback for xAI when the models.dev disk cache is empty (fresh
@@ -204,7 +210,7 @@ _PROVIDER_MODELS: dict[str, list[str]] = {
         "gpt-4o",
         "gpt-4o-mini",
     ],
-    "openai-codex": _codex_curated_models(),
+    "openai-codex": list(_codex_curated_models()),
     "xai-oauth": list(_xai_curated_models()),
     "copilot-acp": [
         "copilot-acp",
@@ -321,6 +327,14 @@ _PROVIDER_MODELS: dict[str, list[str]] = {
         "deepseek-chat",
         "deepseek-reasoner",
     ],
+    "groq": [
+        "llama-3.3-70b-versatile",
+        "llama-3.1-8b-instant",
+        "llama-3.3-70b-specdec",
+        "mixtral-8x7b-32768",
+        "gemma2-9b-it",
+        "deepseek-r1-distill-llama-70b",
+    ],
     "xiaomi": [
         "mimo-v2.5-pro",
         "mimo-v2.5",
@@ -432,15 +446,18 @@ _PROVIDER_MODELS: dict[str, list[str]] = {
     ],
     # Curated HF model list — only agentic models that map to OpenRouter defaults.
     "huggingface": [
+        "moonshotai/Kimi-K2.6",
         "moonshotai/Kimi-K2.5",
         "Qwen/Qwen3.5-397B-A17B",
+        "Qwen/Qwen3.5-72B-Instruct",
         "Qwen/Qwen3.5-35B-A3B",
         "deepseek-ai/DeepSeek-V3.2",
+        "deepseek-ai/DeepSeek-R1",
         "MiniMaxAI/MiniMax-M2.5",
         "zai-org/GLM-5",
         "XiaomiMiMo/MiMo-V2-Flash",
         "moonshotai/Kimi-K2-Thinking",
-        "moonshotai/Kimi-K2.6",
+        "meta-llama/Llama-3.3-70B-Instruct",
     ],
     # AWS Bedrock — static fallback list used when dynamic discovery is
     # unavailable (no boto3, no credentials, or API error).  The agent

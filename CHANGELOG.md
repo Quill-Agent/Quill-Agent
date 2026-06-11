@@ -10,10 +10,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Grok Build 0.1 (`grok-build-0.1`) — first-class xAI coding model via Responses API
+- Groq catalog in `quill model` — Llama 3.3, Mixtral, Gemma, DeepSeek R1 distill
+- Expanded Hugging Face and OpenRouter free-tier model lists
+- Provider plugin manifests bumped to v1.0.1 with `fallback_models` on more profiles
 
 ### Performance
 
-- Cache xAI model catalog lookups per process (faster `quill model` picker)
+- Cache xAI and OpenAI Codex model catalog lookups per process (faster `quill model` picker)
 
 ## [0.1.0] - 2026-05-19
 

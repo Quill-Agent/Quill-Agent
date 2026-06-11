@@ -80,4 +80,3 @@ qwen = QwenProfile(
 )
 
 register_provider(qwen)
-# quill: plugins

@@ -61,9 +61,11 @@ custom = CustomProfile(
         "llama.cpp",
         "llama-cpp",
     ),
+    display_name="Custom endpoint",
+    description="Any OpenAI-compatible URL — Ollama, vLLM, LM Studio",
     env_vars=(),  # No fixed key — custom endpoint
     base_url="",  # User-configured
+    fallback_models=("llama3.2", "qwen2.5", "mistral"),
 )
 
 register_provider(custom)
-# quill: plugins

@@ -9,7 +9,10 @@ xiaomi = ProviderProfile(
     env_vars=("XIAOMI_API_KEY",),
     base_url="https://api.xiaomimimo.com/v1",
     supports_health_check=False,  # /v1/models returns 401 even with valid key
+    default_aux_model="mimo-v2-flash",
+    fallback_models=(
+        "mimo-v2-flash",
+    ),
 )
 
 register_provider(xiaomi)
-# quill: plugins

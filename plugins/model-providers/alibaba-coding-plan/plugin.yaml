@@ -1,6 +1,6 @@
 name: alibaba-coding-plan-provider
 kind: model-provider
-version: 1.0.0
+version: 1.0.1
+license: MIT
 description: Alibaba Cloud Coding Plan
 author: Quill Agent
-# quill: plugins
