@@ -1,9 +1,9 @@
 {
-  "version": 1,
-  "updated_at": "2026-05-19T12:00:00Z",
+  "version": 2,
+  "updated_at": "2026-06-11T20:26:35Z",
   "metadata": {
     "source": "quill-agent repo",
-    "docs": "https://quill-agent.example.com/docs/reference/model-catalog"
+    "docs": "https://github.com/Quill-Agent/Quill-Agent/blob/main/website/static/api/model-catalog.json"
   },
   "providers": {
     "openrouter": {
@@ -12,6 +12,10 @@
         "note": "Descriptions drive picker badges. Live /api/v1/models filters curated ids by tool-calling support and free pricing."
       },
       "models": [
+        {
+          "id": "anthropic/claude-fable-5",
+          "description": "1M \u00b7 Quill 25% efficiency layer"
+        },
         {
           "id": "anthropic/claude-opus-4.7",
           "description": ""
@@ -101,6 +105,10 @@
           "description": ""
         },
         {
+          "id": "x-ai/grok-build-0.1",
+          "description": "coding"
+        },
+        {
           "id": "x-ai/grok-4.20",
           "description": ""
         },
@@ -114,11 +122,7 @@
         },
         {
           "id": "deepseek/deepseek-v4-pro",
-          "description": "1M context, thinking"
-        },
-        {
-          "id": "x-ai/grok-build-0.1",
-          "description": "coding, 256K"
+          "description": ""
         },
         {
           "id": "openrouter/elephant-alpha",
@@ -149,60 +153,12 @@
           "description": "free"
         },
         {
+          "id": "mistralai/mistral-small-3.1-24b-instruct:free",
+          "description": "free"
+        },
+        {
           "id": "qwen/qwen-2.5-72b-instruct:free",
           "description": "free"
-        }
-      ]
-    },
-    "groq": {
-      "metadata": {
-        "display_name": "Groq",
-        "note": "Free tier — ultra-fast Llama, Mixtral, Gemma inference"
-      },
-      "models": [
-        {
-          "id": "llama-3.3-70b-versatile",
-          "description": "recommended"
-        },
-        {
-          "id": "llama-3.1-8b-instant",
-          "description": "fast"
-        },
-        {
-          "id": "mixtral-8x7b-32768",
-          "description": ""
-        },
-        {
-          "id": "gemma2-9b-it",
-          "description": ""
-        },
-        {
-          "id": "deepseek-r1-distill-llama-70b",
-          "description": "reasoning"
-        }
-      ]
-    },
-    "huggingface": {
-      "metadata": {
-        "display_name": "Hugging Face",
-        "note": "Inference API — open models"
-      },
-      "models": [
-        {
-          "id": "moonshotai/Kimi-K2.6",
-          "description": "recommended"
-        },
-        {
-          "id": "Qwen/Qwen3.5-72B-Instruct",
-          "description": ""
-        },
-        {
-          "id": "deepseek-ai/DeepSeek-V3.2",
-          "description": ""
-        },
-        {
-          "id": "meta-llama/Llama-3.3-70B-Instruct",
-          "description": ""
         }
       ]
     },
@@ -212,6 +168,9 @@
         "note": "Free-tier gating is determined live via Portal pricing (partition_nous_models_by_tier), not this manifest."
       },
       "models": [
+        {
+          "id": "anthropic/claude-fable-5"
+        },
         {
           "id": "anthropic/claude-opus-4.7"
         },
@@ -283,6 +242,146 @@
         },
         {
           "id": "deepseek/deepseek-v4-pro"
+        }
+      ]
+    },
+    "groq": {
+      "metadata": {
+        "display_name": "Groq",
+        "note": "Free tier \u2014 ultra-fast Llama, Mixtral, Gemma inference"
+      },
+      "models": [
+        {
+          "id": "llama-3.3-70b-versatile",
+          "description": "recommended"
+        },
+        {
+          "id": "llama-3.1-8b-instant",
+          "description": ""
+        },
+        {
+          "id": "llama-3.3-70b-specdec",
+          "description": ""
+        },
+        {
+          "id": "mixtral-8x7b-32768",
+          "description": ""
+        },
+        {
+          "id": "gemma2-9b-it",
+          "description": ""
+        },
+        {
+          "id": "deepseek-r1-distill-llama-70b",
+          "description": ""
+        }
+      ]
+    },
+    "huggingface": {
+      "metadata": {
+        "display_name": "Hugging Face",
+        "note": "Inference API \u2014 open models"
+      },
+      "models": [
+        {
+          "id": "moonshotai/Kimi-K2.6",
+          "description": "recommended"
+        },
+        {
+          "id": "moonshotai/Kimi-K2.5",
+          "description": ""
+        },
+        {
+          "id": "Qwen/Qwen3.5-397B-A17B",
+          "description": ""
+        },
+        {
+          "id": "Qwen/Qwen3.5-72B-Instruct",
+          "description": ""
+        },
+        {
+          "id": "Qwen/Qwen3.5-35B-A3B",
+          "description": ""
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-V3.2",
+          "description": ""
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-R1",
+          "description": ""
+        },
+        {
+          "id": "MiniMaxAI/MiniMax-M2.5",
+          "description": ""
+        },
+        {
+          "id": "zai-org/GLM-5",
+          "description": ""
+        },
+        {
+          "id": "XiaomiMiMo/MiMo-V2-Flash",
+          "description": ""
+        },
+        {
+          "id": "moonshotai/Kimi-K2-Thinking",
+          "description": ""
+        },
+        {
+          "id": "meta-llama/Llama-3.3-70B-Instruct",
+          "description": ""
+        }
+      ]
+    },
+    "deepseek": {
+      "metadata": {
+        "display_name": "DeepSeek",
+        "note": "V4 Pro (1M context) and Flash"
+      },
+      "models": [
+        {
+          "id": "deepseek-v4-pro",
+          "description": "recommended"
+        },
+        {
+          "id": "deepseek-v4-flash",
+          "description": ""
+        },
+        {
+          "id": "deepseek-chat",
+          "description": ""
+        },
+        {
+          "id": "deepseek-reasoner",
+          "description": ""
+        }
+      ]
+    },
+    "xai": {
+      "metadata": {
+        "display_name": "xAI",
+        "note": "Grok Build 0.1 coding + Grok 4.x"
+      },
+      "models": [
+        {
+          "id": "grok-build-0.1",
+          "description": "recommended"
+        },
+        {
+          "id": "grok-4.3",
+          "description": ""
+        },
+        {
+          "id": "grok-4.20-0309-reasoning",
+          "description": ""
+        },
+        {
+          "id": "grok-4.20-0309-non-reasoning",
+          "description": ""
+        },
+        {
+          "id": "grok-4.20-multi-agent-0309",
+          "description": ""
         }
       ]
     }

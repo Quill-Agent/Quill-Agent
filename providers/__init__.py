@@ -30,6 +30,7 @@ Usage::
 
 from __future__ import annotations
 
+import functools
 import importlib
 import importlib.util
 import logging
@@ -60,6 +61,7 @@ def register_provider(profile: ProviderProfile) -> None:
     _REGISTRY[profile.name] = profile
     for alias in profile.aliases:
         _ALIASES[alias] = profile.name
+    _sorted_provider_list.cache_clear()
 
 
 def get_provider_profile(name: str) -> ProviderProfile | None:
@@ -73,11 +75,9 @@ def get_provider_profile(name: str) -> ProviderProfile | None:
     return _REGISTRY.get(canonical)
 
 
-def list_providers() -> list[ProviderProfile]:
-    """Return all registered provider profiles (one per canonical name)."""
-    if not _discovered:
-        _discover_providers()
-    # Deduplicate: _REGISTRY has canonical names; _ALIASES points to same objects
+@functools.lru_cache(maxsize=1)
+def _sorted_provider_list() -> tuple[ProviderProfile, ...]:
+    """Cached provider list — invalidated only by process restart."""
     seen: set[int] = set()
     result: list[ProviderProfile] = []
     for profile in _REGISTRY.values():
@@ -85,7 +85,22 @@ def list_providers() -> list[ProviderProfile]:
         if pid not in seen:
             seen.add(pid)
             result.append(profile)
-    return result
+    result.sort(key=lambda p: p.name)
+    return tuple(result)
+
+
+def list_providers() -> list[ProviderProfile]:
+    """Return all registered provider profiles (one per canonical name)."""
+    if not _discovered:
+        _discover_providers()
+    return list(_sorted_provider_list())
+
+
+def list_provider_names() -> list[str]:
+    """Return sorted canonical provider names (cheap after first discovery)."""
+    if not _discovered:
+        _discover_providers()
+    return [p.name for p in _sorted_provider_list()]
 
 
 def _user_plugins_dir() -> Path | None:
@@ -189,4 +204,4 @@ def _discover_providers() -> None:
                 )
     except Exception:
         pass
-# quill: providers
+

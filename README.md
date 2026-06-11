@@ -27,6 +27,7 @@
 - **Multi-agent Kanban** — Coordinate parallel agents on a shared board: assign tasks by profile, auto-decompose triage, and track collaboration in the live dashboard.
 - **DeepSeek V4 Pro** — First-class `deepseek-v4-pro` support (1M context, thinking mode, native API + OpenRouter).
 - **Grok Build 0.1** — xAI’s fast agentic coding model (`grok-build-0.1`, 256K context, Responses API).
+- **Claude Fable 5** — Anthropic’s frontier Mythos-class model (`claude-fable-5`, 1M context) with **Quill-exclusive efficiency prompt** (~25% lower token consumption vs default Fable clients).
 
 </div>
 
@@ -44,6 +45,7 @@ Quill-Agent started as a fork of hermes-agent and has grown into a faster, leane
 | **Context compression** | ✅ Smarter leaner compression | Basic |
 | **DeepSeek V4 Pro** | ✅ First-class (1M context, thinking mode) | ❌ Not available |
 | **Grok Build 0.1** | ✅ Agentic coding model (256K, 100+ tok/s) | ❌ Not available |
+| **Claude Fable 5 + efficiency layer** | ✅ 1M context + Quill-only ~25% token savings | ❌ Not available |
 | **Privacy** | ✅ Fully local option, no data sent out | Depends on provider |
 | **Live delegation UI** | ✅ agentsOverlay — real-time tree view | ❌ Not available |
 

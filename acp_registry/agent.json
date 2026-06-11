@@ -2,9 +2,9 @@
   "id": "quill-agent",
   "name": "Quill Agent",
   "version": "0.14.0",
-  "description": "Self-improving open-source AI agent by Quill Agent with ACP editor integration, persistent memory, skills, and rich tool support.",
-  "repository": "https://github.com/YOUR_USERNAME/quill-agent",
-  "website": "https://quill-agent.example.com/docs/user-guide/features/acp",
+  "description": "Self-improving open-source AI agent with ACP editor integration, persistent memory, skills, and rich tool support.",
+  "repository": "https://github.com/Quill-Agent/Quill-Agent",
+  "website": "https://github.com/Quill-Agent/Quill-Agent#readme",
   "authors": ["Quill Agent"],
   "license": "MIT",
   "distribution": {
@@ -14,4 +14,3 @@
     }
   }
 }
-# quill: acp_registry

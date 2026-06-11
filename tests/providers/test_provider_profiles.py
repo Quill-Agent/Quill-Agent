@@ -28,6 +28,18 @@ class TestRegistry:
         assert "groq" in _PROVIDER_MODELS
         assert "llama-3.3-70b-versatile" in _PROVIDER_MODELS["groq"]
 
+    def test_fable5_in_anthropic_catalog(self):
+        from quill_cli.models import _PROVIDER_MODELS, OPENROUTER_MODELS
+        assert "claude-fable-5" in _PROVIDER_MODELS["anthropic"]
+        or_ids = [mid for mid, _ in OPENROUTER_MODELS]
+        assert "anthropic/claude-fable-5" in or_ids
+
+    def test_list_provider_names_sorted(self):
+        from providers import list_provider_names
+        names = list_provider_names()
+        assert names == sorted(names)
+        assert "groq" in names
+
     def test_alias_lookup(self):
         assert get_provider_profile("kimi").name == "kimi-coding"
         assert get_provider_profile("moonshot").name == "kimi-coding"

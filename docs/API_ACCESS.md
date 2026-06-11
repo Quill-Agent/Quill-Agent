@@ -42,7 +42,24 @@ OPENROUTER_API_KEY=sk-or-v1-your_key_here
 
 3. Use models tagged `:free` in the picker, e.g. `meta-llama/llama-3.3-70b-instruct:free`.
 
-### Option D — DeepSeek V4 Pro (frontier coding, 1M context)
+### Option D — Claude Fable 5 (frontier agentic, 1M context)
+
+Anthropic’s generally available Mythos-class model for long-horizon agent work.
+
+1. API key at [console.anthropic.com](https://console.anthropic.com/) or OpenRouter
+2. Add to `.env`:
+
+```bash
+ANTHROPIC_API_KEY=sk-ant-...
+# or
+OPENROUTER_API_KEY=sk-or-v1-...
+```
+
+3. Select **`claude-fable-5`** (native) or **`anthropic/claude-fable-5`** (OpenRouter)
+
+**Quill-exclusive:** When you run Fable through Quill-Agent, we inject the **Fable Efficiency Layer** — a system-prompt profile that cuts output-token consumption by ~25% compared to other clients. Only Quill ships this layer.
+
+### Option E — DeepSeek V4 Pro (frontier coding, 1M context)
 
 1. Create a key at [platform.deepseek.com](https://platform.deepseek.com/api_keys)
 2. Add to `~/.quill/.env` or project `.env`:
@@ -132,9 +149,11 @@ Built-in profiles live under `plugins/model-providers/`. Each registers env vars
 |--------|-------|-------|
 | `ollama-local` | `ollama-local` | Local Ollama at `localhost:11434` |
 | `ollama-cloud` | `ollama_cloud` | Hosted Ollama models |
-| `groq` | `groq` | Fast inference, free tier |
-| `openrouter` | `or` | 200+ models, free tier available |
+| `groq` | `groq` | Llama 3.3, Mixtral, Gemma — free tier, fast |
+| `openrouter` | `or` | 250+ models, `:free` tier available |
+| `huggingface` | `hf` | Kimi K2.6, Qwen 3.5, DeepSeek V3.2, Llama 3.3 |
 | `deepseek` | `ds-pro`, `v4-pro` | V4 Pro & Flash — 1M context, thinking mode |
+| `xai` | `grok` | Grok Build 0.1 coding, Grok 4.x |
 | `custom` | `ollama`, `vllm`, `local` | Any OpenAI-compatible URL |
 
 User overrides: `$QUILL_HOME/plugins/model-providers/<name>/`
@@ -154,7 +173,8 @@ User overrides: `$QUILL_HOME/plugins/model-providers/<name>/`
 ## Performance tips
 
 - **Local models** — Ollama/LM Studio avoid network latency; best for privacy and steady throughput.
-- **Cloud free tier** — Groq and OpenRouter `:free` models trade a small network hop for faster GPUs on weak hardware.
+- **Cloud free tier** — Groq, Hugging Face Inference, and OpenRouter `:free` models trade a small network hop for faster GPUs on weak hardware.
+- **Model picker** — `quill model` caches provider catalogs per process; run `python scripts/build_model_catalog.py` to refresh the website manifest.
 - **Context** — Use `/compress` in long sessions to reduce tokens and speed up replies.
 - **Gateway** — Run `quill gateway` once; it reuses agents across messages instead of cold-starting each time.
 

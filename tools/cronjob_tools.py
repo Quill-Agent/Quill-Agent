@@ -3,6 +3,9 @@ Cron job management tools for Quill Agent.
 
 Expose a single compressed action-oriented tool to avoid schema/context bloat.
 Compatibility wrappers remain for direct Python callers and legacy tests.
+
+Jobs may pin ``model`` and ``provider`` (cron schema v2) so scheduled runs
+use a fixed model even when the gateway default changes.
 """
 
 import json

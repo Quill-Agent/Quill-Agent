@@ -12,7 +12,7 @@ body:
         - Run `quill debug share` and paste the links in the Debug Report section below
         - If you're in a chat session, you can use `/debug` instead — it does the same thing
         - Try `quill update` to get the latest version
-        - Check the [README troubleshooting section](https://github.com/YOUR_USERNAME/quill-agent#troubleshooting)
+        - Check the [README troubleshooting section](https://github.com/Quill-Agent/Quill-Agent#troubleshooting)
         - For general questions, consider the [Quill Agent Discord](https://discord.gg/YOUR_USERNAME) for faster help
 
   - type: textarea

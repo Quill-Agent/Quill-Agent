@@ -160,26 +160,33 @@ class ProviderProfile:
                 return None
             url = self.base_url.rstrip("/") + "/models"
 
-        import json
-        import urllib.request
-
-        req = urllib.request.Request(url)
+        headers = {
+            "Accept": "application/json",
+            "User-Agent": _profile_user_agent(),
+            **self.default_headers,
+        }
         if api_key:
-            req.add_header("Authorization", f"Bearer {api_key}")
-        req.add_header("Accept", "application/json")
-        # Some providers (e.g. OpenCode Zen) sit behind a WAF that blocks
-        # the default ``Python-urllib/<ver>`` User-Agent.  Set a generic
-        # quill-cli UA so the catalog endpoint is reachable.
-        req.add_header("User-Agent", _profile_user_agent())
-        for k, v in self.default_headers.items():
-            req.add_header(k, v)
+            headers["Authorization"] = f"Bearer {api_key}"
 
         try:
-            with urllib.request.urlopen(req, timeout=timeout) as resp:
-                data = json.loads(resp.read().decode())
-            items = data if isinstance(data, list) else data.get("data", [])
-            return [m["id"] for m in items if isinstance(m, dict) and "id" in m]
-        except Exception as exc:
-            logger.debug("fetch_models(%s): %s", self.name, exc)
-            return None
-# quill: providers
+            import httpx
+
+            with httpx.Client(timeout=timeout) as client:
+                resp = client.get(url, headers=headers)
+                resp.raise_for_status()
+                data = resp.json()
+        except Exception:
+            # Fallback when httpx is unavailable or the provider blocks it.
+            import json
+            import urllib.request
+
+            req = urllib.request.Request(url, headers=headers)
+            try:
+                with urllib.request.urlopen(req, timeout=timeout) as resp:
+                    data = json.loads(resp.read().decode())
+            except Exception as exc:
+                logger.debug("fetch_models(%s): %s", self.name, exc)
+                return None
+
+        items = data if isinstance(data, list) else data.get("data", [])
+        return [m["id"] for m in items if isinstance(m, dict) and "id" in m]

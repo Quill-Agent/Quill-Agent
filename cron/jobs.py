@@ -44,6 +44,7 @@ JOBS_FILE = CRON_DIR / "jobs.json"
 _jobs_file_lock = threading.Lock()
 OUTPUT_DIR = CRON_DIR / "output"
 ONESHOT_GRACE_SECONDS = 120
+JOBS_SCHEMA_VERSION = 2
 
 
 def _normalize_skill_list(skill: Optional[str] = None, skills: Optional[Any] = None) -> List[str]:
@@ -401,6 +402,20 @@ def compute_next_run(schedule: Dict[str, Any], last_run_at: Optional[str] = None
 # Job CRUD Operations
 # =============================================================================
 
+def _migrate_jobs_schema(jobs: List[Dict[str, Any]], version: int) -> List[Dict[str, Any]]:
+    """Upgrade on-disk jobs to the current schema."""
+    if version >= JOBS_SCHEMA_VERSION:
+        return jobs
+    migrated: List[Dict[str, Any]] = []
+    for job in jobs:
+        row = copy.deepcopy(job)
+        # v2: explicit model/provider override fields for scheduled runs
+        row.setdefault("model", None)
+        row.setdefault("provider", None)
+        migrated.append(row)
+    return migrated
+
+
 def load_jobs() -> List[Dict[str, Any]]:
     """Load all jobs from storage."""
     ensure_dirs()
@@ -410,13 +425,18 @@ def load_jobs() -> List[Dict[str, Any]]:
     try:
         with open(JOBS_FILE, 'r', encoding='utf-8') as f:
             data = json.load(f)
-            return data.get("jobs", [])
+            version = int(data.get("schema_version", 1))
+            jobs = _migrate_jobs_schema(data.get("jobs", []), version)
+            if jobs and version < JOBS_SCHEMA_VERSION:
+                save_jobs(jobs)
+            return jobs
     except json.JSONDecodeError:
         # Retry with strict=False to handle bare control chars in string values
         try:
             with open(JOBS_FILE, 'r', encoding='utf-8') as f:
                 data = json.loads(f.read(), strict=False)
-                jobs = data.get("jobs", [])
+                version = int(data.get("schema_version", 1))
+                jobs = _migrate_jobs_schema(data.get("jobs", []), version)
                 if jobs:
                     # Auto-repair: rewrite with proper escaping
                     save_jobs(jobs)
@@ -436,7 +456,15 @@ def save_jobs(jobs: List[Dict[str, Any]]):
     fd, tmp_path = tempfile.mkstemp(dir=str(JOBS_FILE.parent), suffix='.tmp', prefix='.jobs_')
     try:
         with os.fdopen(fd, 'w', encoding='utf-8') as f:
-            json.dump({"jobs": jobs, "updated_at": _quill_now().isoformat()}, f, indent=2)
+            json.dump(
+                {
+                    "schema_version": JOBS_SCHEMA_VERSION,
+                    "jobs": jobs,
+                    "updated_at": _quill_now().isoformat(),
+                },
+                f,
+                indent=2,
+            )
             f.flush()
             os.fsync(f.fileno())
         atomic_replace(tmp_path, JOBS_FILE)

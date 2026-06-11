@@ -2,5 +2,5 @@ name: anthropic-provider
 kind: model-provider
 version: 1.0.1
 license: MIT
-description: Anthropic (Claude)
+description: Anthropic Claude — Fable 5, Opus, Sonnet (Quill efficiency layer on Fable)
 author: Quill Agent

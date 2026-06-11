@@ -203,7 +203,7 @@ stdenv.mkDerivation {
 
   meta = with lib; {
     description = "AI agent with advanced tool-calling capabilities";
-    homepage = "https://github.com/YOUR_USERNAME/quill-agent";
+    homepage = "https://github.com/Quill-Agent/Quill-Agent";
     mainProgram = "quill";
     license = licenses.mit;
     platforms = platforms.unix;

@@ -9,6 +9,8 @@ on:
       - 'website/**'
       - 'skills/**'
       - 'optional-skills/**'
+      - 'quill_cli/models.py'
+      - 'scripts/build_model_catalog.py'
       - '.github/workflows/deploy-site.yml'
   workflow_dispatch:
 
@@ -29,7 +31,7 @@ jobs:
         run: curl -X POST "${{ secrets.VERCEL_DEPLOY_HOOK }}"
 
   deploy-docs:
-    if: github.repository == 'YOUR_USERNAME/quill-agent'
+    if: github.repository == 'Quill-Agent/Quill-Agent'
     runs-on: ubuntu-latest
     environment:
       name: github-pages

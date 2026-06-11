@@ -21,6 +21,26 @@ from utils import is_truthy_value
 
 logger = logging.getLogger(__name__)
 
+_config_cache: Optional["GatewayConfig"] = None
+_config_cache_mtime: tuple[float, ...] = ()
+
+
+def invalidate_gateway_config_cache() -> None:
+    """Clear the in-process gateway config cache (for tests and hot reload)."""
+    global _config_cache, _config_cache_mtime
+    _config_cache = None
+    _config_cache_mtime = ()
+
+
+def _gateway_config_mtime_key() -> tuple[float, ...]:
+    """File mtimes that invalidate the gateway config cache."""
+    _home = get_quill_home()
+    parts: list[float] = []
+    for name in ("config.yaml", "gateway.json"):
+        path = _home / name
+        parts.append(path.stat().st_mtime if path.exists() else 0.0)
+    return tuple(parts)
+
 
 def _coerce_bool(value: Any, default: bool = True) -> bool:
     """Coerce bool-ish config values, preserving a caller-provided default."""
@@ -688,7 +708,15 @@ def load_gateway_config() -> GatewayConfig:
     2. ~/.quill/config.yaml (primary user-facing config)
     3. ~/.quill/gateway.json (legacy — provides defaults under config.yaml)
     4. Built-in defaults
+
+    Parsed config is cached per process until ``config.yaml`` or
+    ``gateway.json`` changes on disk (see ``invalidate_gateway_config_cache``).
     """
+    global _config_cache, _config_cache_mtime
+    mtime_key = _gateway_config_mtime_key()
+    if _config_cache is not None and mtime_key == _config_cache_mtime:
+        return _config_cache
+
     _home = get_quill_home()
     gw_data: dict = {}
 
@@ -1208,6 +1236,8 @@ def load_gateway_config() -> GatewayConfig:
     # --- Validate loaded values ---
     _validate_gateway_config(config)
 
+    _config_cache = config
+    _config_cache_mtime = mtime_key
     return config
 
 

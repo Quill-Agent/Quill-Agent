@@ -9,7 +9,7 @@ body:
         Thanks for reporting a bug! Please fill out the sections below so we can reproduce and fix it quickly.
 
         **Before submitting**, please:
-        - [ ] Search [existing issues](https://github.com/YOUR_USERNAME/quill-agent/issues) to avoid duplicates
+        - [ ] Search [existing issues](https://github.com/Quill-Agent/Quill-Agent/issues) to avoid duplicates
         - [ ] Update to the latest version (`quill update`) and confirm the bug still exists
         - [ ] Run `quill debug share` and paste the links below (see Debug Report section)
 

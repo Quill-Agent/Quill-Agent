@@ -8,8 +8,11 @@ Key choices:
 - The wrapper exports `QUILL_BUNDLED_SKILLS`, `QUILL_OPTIONAL_SKILLS`, and `QUILL_MANAGED=homebrew` so packaged installs keep runtime assets and defer upgrades to Homebrew.
 
 Typical update flow:
-1. Bump the formula `url`, `version`, and `sha256`.
+1. Bump the formula `url`, `version`, and `sha256` (current: **0.14.0**).
 2. Refresh Python resources with `brew update-python-resources --print-only quill-agent`.
 3. Keep `ignore_packages: %w[certifi cryptography pydantic]`.
 4. Verify `brew audit --new --strict quill-agent` and `brew test quill-agent`.
-<!-- quill: packaging -->
+
+Release assets follow CalVer tags from `scripts/release.py`; the formula `url`
+should point at the semver sdist (`quill_agent-X.Y.Z.tar.gz`) on GitHub Releases.
+

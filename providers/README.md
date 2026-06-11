@@ -69,11 +69,23 @@ under `$QUILL_HOME/plugins/model-providers/` for a private plugin).
 | `prepare_messages(msgs)` | Provider-specific message preprocessing (Qwen normalises to list-of-parts, injects `cache_control`). |
 | `build_extra_body(**ctx)` | Provider-specific `extra_body` (OpenRouter provider prefs, Gemini `thinking_config`). |
 | `build_api_kwargs_extras(**ctx)` | `(extra_body_additions, top_level_kwargs)` — Kimi puts reasoning_effort top-level, Qwen splits `enable_thinking`/`thinking_budget`. |
-| `fetch_models(*, api_key)` | Live catalog fetch — default hits `{models_url or base_url}/models` with Bearer auth. Override for no-REST providers (Bedrock), OAuth catalogs (Anthropic), or public catalogs (OpenRouter). |
+| `fetch_models(*, api_key)` | Live catalog fetch — default hits `{models_url or base_url}/models` with Bearer auth via httpx (urllib fallback). Override for no-REST providers (Bedrock), OAuth catalogs (Anthropic), or public catalogs (OpenRouter). |
+
+---
+
+## `fallback_models`
+
+Each `ProviderProfile` may declare `fallback_models` — a curated tuple shown in
+`quill model` when live catalog fetch fails. Bundled plugins under
+`plugins/model-providers/` set these per provider (Groq, Hugging Face,
+OpenRouter free tier, etc.). User plugins can override any bundled profile.
+
+`list_providers()` and `list_provider_names()` cache the sorted registry per
+process after the first discovery pass.
 
 ---
 
 ## Configuration fields
 
 Full reference in `providers/base.py` dataclass definition.
-<!-- quill: providers -->
+

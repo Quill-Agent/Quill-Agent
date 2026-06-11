@@ -31,6 +31,7 @@ from agent.prompt_builder import (
     DEFAULT_AGENT_IDENTITY,
     GOOGLE_MODEL_OPERATIONAL_GUIDANCE,
     QUILL_AGENT_HELP_GUIDANCE,
+    QUILL_FABLE_EFFICIENCY_GUIDANCE,
     KANBAN_GUIDANCE,
     MEMORY_GUIDANCE,
     OPENAI_MODEL_EXECUTION_GUIDANCE,
@@ -189,6 +190,11 @@ def build_system_prompt_parts(agent: Any, system_message: Optional[str] = None) 
     # so the agent can correctly report which model it is (workaround for API bug).
     # Stable for the lifetime of an agent instance — model and provider are fixed
     # at construction time.
+    # Claude Fable 5 — Quill-exclusive efficiency layer (~25% lower output tokens).
+    _model_lower = (agent.model or "").lower()
+    if "fable" in _model_lower:
+        stable_parts.append(QUILL_FABLE_EFFICIENCY_GUIDANCE)
+
     if agent.provider == "alibaba":
         _model_short = agent.model.split("/")[-1] if "/" in agent.model else agent.model
         stable_parts.append(

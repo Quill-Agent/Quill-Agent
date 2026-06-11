@@ -104,6 +104,8 @@ class ModelIdentity(NamedTuple):
 
 MODEL_ALIASES: dict[str, ModelIdentity] = {
     # Anthropic
+    "fable":     ModelIdentity("anthropic", "claude-fable"),
+    "fable5":    ModelIdentity("anthropic", "claude-fable"),
     "sonnet":    ModelIdentity("anthropic", "claude-sonnet"),
     "opus":      ModelIdentity("anthropic", "claude-opus"),
     "haiku":     ModelIdentity("anthropic", "claude-haiku"),

@@ -2,10 +2,10 @@ class QuillAgent < Formula
   include Language::Python::Virtualenv
 
   desc "Self-improving AI agent that creates skills from experience"
-  homepage "https://quill-agent.quill-agent.com"
+  homepage "https://github.com/Quill-Agent/Quill-Agent"
   # Stable source should point at the semver-named sdist asset attached by
   # scripts/release.py, not the CalVer tag tarball.
-  url "https://github.com/Quill-Agent/Quill-Agent/releases/download/v2026.3.30/quill_agent-0.6.0.tar.gz"
+  url "https://github.com/Quill-Agent/Quill-Agent/releases/download/v0.14.0/quill_agent-0.14.0.tar.gz"
   sha256 "<replace-with-release-asset-sha256>"
   license "MIT"
 
@@ -46,4 +46,3 @@ class QuillAgent < Formula
     assert_match "brew upgrade quill-agent", managed
   end
 end
-# quill: packaging

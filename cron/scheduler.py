@@ -2,7 +2,10 @@
 Cron job scheduler - executes due jobs.
 
 Provides tick() which checks for due jobs and runs them. The gateway
-calls this every 60 seconds from a background thread.
+calls this on a background thread (default ~60s; adaptive when idle).
+
+Scheduled jobs may set optional ``model`` and ``provider`` fields (schema v2)
+to override the gateway default for that run.
 
 Uses a file-based lock (~/.quill/cron/.tick.lock) so only one tick
 runs at a time if multiple processes overlap.
